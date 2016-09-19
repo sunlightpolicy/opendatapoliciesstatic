@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Data Policies2
+title: Open Data Policies
 ---
 
 {% include base.html %}
