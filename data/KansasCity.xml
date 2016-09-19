@@ -1,0 +1,37 @@
+<!-- Kansas City, City, 2014 -->
+<!-- Open Data Policies for Sunlight Foundation -->
+<!-- StateDecoded XML Examples: http://docs.statedecoded.com/xml-format.html-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<law>
+    <structure>
+        <unit label="section" identifier="kansascitymo" level="1">Kansas City, MO</unit>
+    </structure>
+    <section_number>KansasCityMO(2014)</section_number> <!--citystateyear, no spaces-->
+    <catch_line>Ordinance (2014)</catch_line>
+    <text>
+<!--insert text of the policy below this line  -->
+
+<p>ORDINANCE NO. 140443</p> <p>Amending Chapter 2, Code of Ordinances, by enacting a new Article XVI entitled “Open Data Policy,” consisting of Sections 2-2130 through 2-2135.</p> <p>WHEREAS, the Mayor and City Council adopted Resolution No. 140392 to declare its support for open data of public information for Kansas City; and</p> <p>WHEREAS, the Mayor and City Council remain committed to promoting a culture of open data; and</p> <p>WHEREAS, openness and transparency in government is in the best interest of all; and</p> <p>WHEREAS, the Mayor and City Council desire to formally adopt an “Open Data Policy” by enacting it into the Code of Ordinances; NOW, THEREFORE,</p> <p>BE IT RESOLVED BY THE COUNCIL OF KANSAS CITY, MISSOURI:</p> <p>Section 1. That Chapter 2, Code of Ordinances, is hereby amended by enacting a new Article XVI entitled “Open Data Policy,” consisting of Sections 2-2130 through 2-2135, said Article to read as follows:</p> <p>Article XVI. Open Data Policy.</p> <p>Section 2-2130. Open Data Policy Declared.</p> <p>It is the policy of the City of Kansas City, Missouri that public data, whenever feasible, will be open and freely available to all online in a machine-readable, open format that can be easily retrieved, downloaded and reused utilizing readily-available and free Web search applications and software.</p> <p>Section 2-2131. Definitions.</p> <p>As used in this open data policy, these terms shall have the following meanings unless it is apparent from the context that a different meaning is intended:</p> <p>Open Data or Information means public data or information made readily available online, utilizing best practice structures and formats when possible.</p> <p>Open Data Officer means the staff person designated by the City Manager to coordinate and implement the City’s Open Data program and policy.</p> <p>Open Data Portal means the Internet site established and maintained by or on behalf of the City, located at data.kcmo.org or its successor website.</p> <p>Open Format means any widely accepted, nonproprietary, searchable, platform-independent, machine-readable method for formatting data.</p> <p>Public Data or Information means any data or information generated or received by the City of Kansas City that can be made public to the extent such action is lawful and prudent.</p> <p>Sec. 2-2132. Procurement, Processes and Publishing of Open Data.</p> <p>(a)    Whenever possible, technology shall be procured and efficient processes shall be used in a way that advances the policy of making public data and information open and available through the use of open data standards and formats.</p> <p>(b)   To the extent prudent and practical, public data shall be published online and made freely available to all in a machine-readable open format, in both its raw and processed form, including a description of the source and quality of the data, all of which can be easily retrieved, downloaded, indexed, sorted, searched, analyzed and reused utilizing readily-available and free web search applications and software.</p> <p>Section 2-2133. Open Data Portal.</p> <p>The City established an Open Data Portal at data.kcmo.org in January of 2013. The Open Data Portal shall continue to be maintained by or on behalf of the City, shall be administered by the Open Data Officer or his or her successor. The Open Data Portal shall be located at data.kcmo.org or a successor website. In the event a successor website is used, the Open Data Officer shall notify the City Council and shall provide notice to the public on the main City website.</p> <p>Section 2-2134. Open Data Officer.</p> <p>The City Manager shall designate a staff person as the Open Data Officer who shall oversee the implementation and management of the Open Data Portal, its policies and its infrastructure. The Open Data Officer shall coordinate the publication of public data from City departments and commissions on the Open Data Portal.</p> <p>Section 2-2135. Departmental Open Data Liaisons.</p> 
+
+<p>The head of each City department and certain commissions (so notified by the Open Data Officer) shall designate from within the department or commission one or more open data liaisons to:</p> <p>(1)               identify and communicate to the Open Data Officer the public data that can be but is not being published online;</p> <p>(2)               identify and recommend which public data should not be published online taking into account issues such as confidentiality, intellectual property rights, financial and security risk to the City and the protection of the privacy of individuals;</p> <p>(3)               maintain written justification for why certain information is not published online when the recommendation is that the data not be published online;</p> <p>(4)               establish timelines with the Open Data Officer for publishing the public data on the Open Data Portal; and</p> <p>(5)               assist the Open Data Officer with publication of the public data when needed.</p> <p>Secs. 2-2136—2-2149. Reserved.</p> <p></p> 
+
+</text>
+
+<history>
+<!-- put Notes/resolution/executive order/refernces history in this area. (Adopted on, council votes, date passed etc) --> 
+
+Enacted: 2014; Link: http://cityclerk.kcmo.org/LiveWeb/Documents/Document.aspx?q=ZbIEEaWPo6OIEpZdlWPeDYolPDlZVDM%2fobeKL6dsBwK1tuYkgMQbXlyBecUa6zWX;
+Means: Ordinance 
+</history>
+    <!--<metadata></metadata>-->
+    <tags>
+        <!-- Tag if this juristiction is a city state, etc --> 
+        <tag>city</tag>
+        <!-- <tag>state</tag> --> 
+        <!-- <tag>county</tag> -->
+        <!-- <tag>executive order</tag> --> 
+        
+    </tags>
+    </text>
+</law>

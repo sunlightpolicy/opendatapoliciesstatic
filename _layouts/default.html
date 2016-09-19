@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if IE 7]>  <html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="{{ site.lang | default: page.lang | default: 'en' }}"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{browser_title}}</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="home" title="Home" href="/" />
+
+  {% include head.html %}
+</head>
+<body class="preload
+{% unless page.url == '/' %}
+inside
+{% endunless %}
+{{ page.title | slugify }}-page
+">
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+  <div id="container"><!-- Hack for footer lock -->
+  <header id="page_header">
+    <div class="nest">
+      <a href="/" class="noprint">
+        <div id="place_logo">
+          <h1>{{site.title}}</h1>
+          <h2>{{site.subtitle}}</h2>
+        </div>
+      </a>
+      <section id="search-form" class="search">
+        <form id="search_form" method="get" action="/search/">
+          <div class="form_field text_field_container">
+            <label for="search">Search the code by keyword, phrase, or title</label>
+            <input type="search" name="q" value="{{search_terms}}" id="search" placeholder="Search the Laws">
+          </div>
+          <div class="form_field">
+            {{edition_select}}
+          </div>
+          <div class="form_field">
+            <input type="submit" name="" value="Search" id="submit" class="btn btn-success">
+          </div>
+          <!--a class="advanced" href="#">Advanced</a-->
+        </form>
+      </section> <!-- // #search -->
+    </div> <!-- // .nest -->
+    <nav id="main_navigation" role="navigation">
+      <div class="nest">
+        <ul>
+          <li>
+            <a href="/browse/" id="browse">Browse</a>
+          </li>
+          <li>
+            <a href="/about/" id="about">About Us</a>
+          </li>
+          <li>
+            <a href="/downloads/" id="downloads">Downloads</a>
+          </li>
+        </ul>
+      </div> <!-- // .nest -->
+    </nav> <!-- // #main_navigation -->
+  </header> <!-- // #page_header -->
+
+  <section id="main_content" role="main">
+    {% unless page.url == '/' %}
+    <div class="nest narrow">
+    {% else %}
+    <div class="nest">
+    {% endunless %}
+      <header>
+        <h2>{{ page.title }}</h2>
+      </header>
+
+      <section class="primary-content">
+        {{ content }}
+      </section>
+
+      <aside id="sidebar" class="secondary-content">
+        {{ sidebar }}
+      </aside>
+    </div>
+
+  </section> <!-- // #page -->
+
+    <footer id="page_footer">
+      <div class="nest">
+        <p class="legalese">
+          {{ site.legalnotice }}
+        </p>
+        <p class="credits">
+          {{ site.credits }}
+        </p>
+      </div> <!-- // .nest -->
+    </footer> <!-- // #page_footer -->
+  </div> <!-- // #container -->
+
+</body>
+</html>

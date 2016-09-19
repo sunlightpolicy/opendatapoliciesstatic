@@ -1,0 +1,65 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Open Data Policies
+subtitle: Decoded
+
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+legalnotice: >
+  All user-contributed content is owned by its authors. The laws are owned by the
+  people and, consequently, are not governed by copyright—so do whatever you want
+  with them. This website does not constitute legal advice. While every effort is made to keep all information
+  up-to-date and accurate, no guarantee is made as to its accuracy. Our <a href=" http://sunlightfoundation.com/legal/privacy/">privacy policy</a>details how personally identfiable information that is collected on our websites is handled. Read our <a href=" http://sunlightfoundation.com/legal/terms/">terms of service.</a>
+
+credits: > 
+  Powered by <a href="http://www.statedecoded.com/">The State Decoded</a><br />
+  This work by Sunlight Foundation, unless otherwise noted, is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a>
+  Design by <a href="http://www.meticulous.com">Meticulous</a>
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://opendatapoliciesdecoded.sunlightfoundation.com" # the base hostname & protocol for your site
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Sass settings
+sass:
+  add_charset: true
+  sass_dir: assets/sass
+  style: :compressed
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - CNAME
+  - node_modules
+  - templates
+
+collections:
+  documents:
+    output: true
+
+# Plugin settings
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# APIs
+
+# Google custom search will generate some code with a cx variable, put it's value here.
+google_search_code: "016815729111879890803:suyx7g6exsw"
