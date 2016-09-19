@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /detroitmi/Detroit,MI(2015)
+permalink: /detroitmi/Detroit,MI(2015)/
 title: Detroit,MI(2015)  Executive Order(2015)
 history: >
   ('Enacted: 2015; \nLink: City of Detroit Open Data Policy: Executive Order 2015-2;\nMeans: Executive Order',)

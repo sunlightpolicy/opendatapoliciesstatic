@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /tacomawa/Tacoma,WA(2016)
+permalink: /tacomawa/Tacoma,WA(2016)/
 title: Tacoma,WA(2016) Council Resolution  (2016)
 history: >
   ('Enacted: 2016; \nLink: https://cityoftacoma.legistar.com/LegislationDetail.aspx?ID=2558873=754BE35D-0C23-421D-8CA0-62D244FD2368==; \nMeans: Council Resolution',)

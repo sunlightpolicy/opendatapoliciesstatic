@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /louisvilleky/Louisville, KY (2013)
+permalink: /louisvilleky/Louisville, KY (2013)/
 title: Louisville, KY (2013) Executive Order (2013)
 history: >
   ('Enacted: 2013; \nLink: http://louisvilleky.gov/government/mayor-greg-fischer/read-open-data-executive-order; \nMeans: Executive Order',)

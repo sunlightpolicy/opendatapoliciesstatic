@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /philadelphiapa/Philadelphia, PA (2012)
+permalink: /philadelphiapa/Philadelphia, PA (2012)/
 title: Philadelphia, PA (2012) Executive Order  (2012)
 history: >
   ('Enacted: 2012; \nLink: http://www.phila.gov/data/executive-order/; \nMeans: Executive Order',)

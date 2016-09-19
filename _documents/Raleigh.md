@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /raleighnc/Raleigh,NC(2012)
+permalink: /raleighnc/Raleigh,NC(2012)/
 title: Raleigh,NC(2012) Legislation (2012)
 history: >
   ('Enacted: 2012; \nLink: http://www.raleighnc.gov/content/ITechAdmin/Documents/OpenSourceSystemsResolution.pdf; \nMeans: Legislation',)

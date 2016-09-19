@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /bloomingtonil/Bloomington, IL (2014)
+permalink: /bloomingtonil/Bloomington, IL (2014)/
 title: Bloomington, IL (2014) Legislation (2014)
 history: >
   ('Enacted: 2014; \nLink: http://www.cityblm.org/Modules/ShowDocument.aspx?documentid=7183; \nMeans: Legislation',)

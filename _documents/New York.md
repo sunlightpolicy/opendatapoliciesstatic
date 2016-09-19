@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /newyorkny/New York,NY(2013)
+permalink: /newyorkny/New York,NY(2013)/
 title: New York,NY(2013) Executive Order (2013)
 history: >
   ('Enacted: 2013; Link: http://www.governor.ny.gov/executiveorder/95; Means: Executive Order',)

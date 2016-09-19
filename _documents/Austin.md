@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /austintx/Austin,TX(2013)
+permalink: /austintx/Austin,TX(2013)/
 title: Austin,TX(2013) Administrative Memo (2013)
 history: >
   ('Enacted: 2013; Link: http://www.open-austin.org/wp-content/uploads/2013/09/Memo-to-Mayor-and-Council-with-attached-Open-Government-Directive.pdf; Means: Administrative Memo',)

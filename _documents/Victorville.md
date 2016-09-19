@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /victorvilleca/Victorville, CA(2016)
+permalink: /victorvilleca/Victorville, CA(2016)/
 title: Victorville, CA(2016) City Council(2016)
 history: >
   ('Enacted:2016; \nLink: http://www.victorvilleca.gov/uploadedFiles/CityServices/Open%20Data%20Policy.pdf; \nMeans: City Council',)

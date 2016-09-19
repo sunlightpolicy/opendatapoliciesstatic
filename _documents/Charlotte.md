@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /charlottenc/Charlotte, NC (2015)
+permalink: /charlottenc/Charlotte, NC (2015)/
 title: Charlotte, NC (2015) IT Policy (2015)
 history: >
   ('Enacted: 2015; Link: http://charmeck.org/maps/Documents/OpenDataPolicy.pdf; Means: IT Policy',)

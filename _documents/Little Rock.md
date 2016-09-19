@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /littlerockAR/Little Rock,AR(2005)
+permalink: /littlerockAR/Little Rock,AR(2005)/
 title: Little Rock,AR(2005) Board of Commisioners Resolution(05)
 history: >
   ('Enacted: 05; Link: http://www.littlerock.org/BoardOfDirectors/MeetingAgendas/Agendas/AGENDA%20-%20WEB%20-%205-3-2016/R%20-%20Open%20Data%20Policy.pdf; Means: Board of Commisioners Resolution',)

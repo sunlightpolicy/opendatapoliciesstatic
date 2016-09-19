@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /jacksonms/Jackson, MS (2014)
+permalink: /jacksonms/Jackson, MS (2014)/
 title: Jackson, MS (2014) Legislation (2014)
 history: >
   ('Enacted: 2014; Link: http://www.openjackson.org/policy; Means: Legislation',)

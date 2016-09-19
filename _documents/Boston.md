@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /bostonma/Boston, MA (2014)
+permalink: /bostonma/Boston, MA (2014)/
 title: Boston, MA (2014) Executive Order (2014)
 history: >
   ('Enacted: 2014; Link: http://www.cityofboston.gov/news/uploads/32476_53_8_5.pdf // http://www.cityofboston.gov/news/default.aspx?id=6589; Means: Executive Order',)

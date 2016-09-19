@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /wacotx/Waco,TX(2015)
+permalink: /wacotx/Waco,TX(2015)/
 title: Waco,TX(2015) Council Resolution (2015)
 history: >
   ('Enacted: 2015;\nLink: http://wacocitytx.iqm2.com/Citizens/FileOpen.aspx?Type=4=6970=1466;\nMeans: Council Resolution',)

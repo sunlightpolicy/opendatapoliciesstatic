@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /pittsburghpa/Pittsburgh,PA(2014)
+permalink: /pittsburghpa/Pittsburgh,PA(2014)/
 title: Pittsburgh,PA(2014) Legislation  (2014)
 history: >
   ('Enacted:\n2014; Link: https://pittsburgh.legistar.com/LegislationDetail.aspx?ID=1632976=C476BBD1-7CD9-4ED2-8A16-B7ECA89F4D40=ID%7CText%7C=open+data=1; \nMeans: Legislation',)

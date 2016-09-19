@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /cambridgema/Cambridge, MA (15)
+permalink: /cambridgema/Cambridge, MA (15)/
 title: Cambridge, MA (15) Legislation (15)
 history: >
   ('In City Council September 21, 2015. Passed to be ordained as amended by a yea and nay vote:- Yeas 9; Nays 0; Absent 0; Present 0. Attest:- Donna P. Lopez, City Clerk.\n\nEnacted: 15; \nLink: https://data.cambridgema.gov/General-Government/Cambridge-Open-Data-Ordinance-092115/tf4d-q3qs; Means: Legislation',)

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /southbendIN/South Bend,IN (2013)
+permalink: /southbendIN/South Bend,IN (2013)/
 title: South Bend,IN (2013) Executive Order (2013)
 history: >
   ('Enacted:2013; \nLink: https://gist.github.com/rebeccawilliams/6311204; \nMeans: Executive Order',)

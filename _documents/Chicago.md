@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /chicagoil/Chicago, IL (2012)
+permalink: /chicagoil/Chicago, IL (2012)/
 title: Chicago, IL (2012) Executive Order  (2012)
 history: >
   ('Enacted: 2012; Link: http://www.cityofchicago.org/city/en/narr/foia/open_data_executiveorder.html; Means: Executive Order',)

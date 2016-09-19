@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /oaklandca/Oakland, CA (2013)
+permalink: /oaklandca/Oakland, CA (2013)/
 title: Oakland, CA (2013) Legislation (2013)
 history: >
   ('Enacted: 2013; \nLink: http://www.scribd.com/doc/171673962/Resolution-Establishing-An-Open-Data-Policy-For-The-City-Of-Oakland-For-Making-Public-Data-Available-In-Machine-Readable-Formats-Using-Open-Data-Stand; \nMeans: Legislation',)

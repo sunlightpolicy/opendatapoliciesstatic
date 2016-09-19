@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /mesaaz/Mesa,AZ(2015)
+permalink: /mesaaz/Mesa,AZ(2015)/
 title: Mesa,AZ(2015) Managment Policy (2015)
 history: >
   ('Enacted: 2015; \nLink: http://www.mesaaz.gov/home/showdocument?id=16678; \nMeans: Managment Policy',)

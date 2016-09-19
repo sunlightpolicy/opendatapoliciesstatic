@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /minneapolismn/Minneapolis,MN(2014)
+permalink: /minneapolismn/Minneapolis,MN(2014)/
 title: Minneapolis,MN(2014) Legislation (2014)
 history: >
   ('Enacted: 2014; Link: http://www.minneapolismn.gov/www/groups/public/@clerk/documents/webcontent/wcms1p-128978.pdf; Means: Legislation',)

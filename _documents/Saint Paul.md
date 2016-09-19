@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /saintpaulmn/Saint Paul,MN(2016)
+permalink: /saintpaulmn/Saint Paul,MN(2016)/
 title: Saint Paul,MN(2016) Council Resolution (2016)
 history: >
   ('Enacted:  2016; \nLink: https://stpaul.legistar.com/LegislationDetail.aspx?ID=2694471=B20D0CAD-629F-432E-8396-250E17D0A04B=1; \nMeans: Council Resolution',)

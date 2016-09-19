@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /sandiegoca/San Diego,CA(2014)
+permalink: /sandiegoca/San Diego,CA(2014)/
 title: San Diego,CA(2014) Legislation (2014)
 history: >
   ('Enacted: 2014; \nLink: http://dockets.sandiego.gov/sirepub/cache/2/uvtar0ykejtwts01fzscjias/75784608132015051534700.PDF; \nMeans: Legislation',)

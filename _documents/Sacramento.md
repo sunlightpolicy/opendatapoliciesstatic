@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /sacramentoca/Sacramento,CA(2013)
+permalink: /sacramentoca/Sacramento,CA(2013)/
 title: Sacramento,CA(2013) Internal policy (2013)
 history: >
   ('Enacted: 2013;\nLink: http://portal.cityofsacramento.org/OpenData; \nMeans: Internal policy',)

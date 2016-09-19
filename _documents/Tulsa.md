@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /tulsaok/Tulsa, OK(2015)
+permalink: /tulsaok/Tulsa, OK(2015)/
 title: Tulsa, OK(2015) Executive Order(2015)
 history: >
   ('Enacted: 2015; \nLink: https://www.cityoftulsa.org/media/448223/2015-07.pdf;\nMeans: Executive Order;',)

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /sanjoseca/San Jose,CA(2016)
+permalink: /sanjoseca/San Jose,CA(2016)/
 title: San Jose,CA(2016) Resolution (2016)
 history: >
   ('Enacted: 2016; \nLink: http://sanjose.granicus.com/MetaViewer.php?view_id==2130=565140; \nMeans: Resolution',)

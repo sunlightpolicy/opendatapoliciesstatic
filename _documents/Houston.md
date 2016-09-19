@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /houstontx/Houston,TX(2014)
+permalink: /houstontx/Houston,TX(2014)/
 title: Houston,TX(2014) Administrative Policy (2014)
 history: >
   ('Enacted:2014;\nLink: http://www.houstontx.gov/adminpolicies/8-7.html;\nMeans: Administrative Policy',)

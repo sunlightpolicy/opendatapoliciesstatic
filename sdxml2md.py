@@ -38,7 +38,7 @@ for current_file in files:
 
     for structure in law['structure']:
         law['permalink'] += '/' + structure['identifier']
-    law['permalink'] += '/' + law['section_number']
+    law['permalink'] += '/' + law['section_number'] + '/'
 
     env = Environment(loader=FileSystemLoader(THIS_DIR), trim_blocks=True)
     new_content = env.get_template('templates/template.md').render(law)

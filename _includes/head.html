@@ -5,21 +5,21 @@
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-<link rel="stylesheet" href="{{ "/assets/css/application.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{base}}/assets/css/application.css">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.js"></script>
-<script src="/assets/js/vendor/modernizr.min.js"></script>
-<script src="/assets/js/vendor/jquery.slideto.min.js"></script>
-<script src="/assets/js/vendor/jquery.color-2.1.1.min.js"></script>
-<script src="/assets/js/vendor/mousetrap.min.js"></script>
-<script src="/assets/js/vendor/jquery.zclip.min.js"></script>
-<script src="/assets/js/vendor/jquery.inview.min.js"></script>
-<script src="/assets/js/vendor/js-webshim/minified/polyfiller.js"></script>
-<script src="/assets/js/vendor/masonry.pkgd.min.js"></script>
-<script src="/assets/js/vendor/functions.js"></script>
+<script src="{{base}}/assets/js/vendor/modernizr.min.js"></script>
+<script src="{{base}}/assets/js/vendor/jquery.slideto.min.js"></script>
+<script src="{{base}}/assets/js/vendor/jquery.color-2.1.1.min.js"></script>
+<script src="{{base}}/assets/js/vendor/mousetrap.min.js"></script>
+<script src="{{base}}/assets/js/vendor/jquery.zclip.min.js"></script>
+<script src="{{base}}/assets/js/vendor/jquery.inview.min.js"></script>
+<script src="{{base}}/assets/js/vendor/js-webshim/minified/polyfiller.js"></script>
+<script src="{{base}}/assets/js/vendor/masonry.pkgd.min.js"></script>
+<script src="{{base}}/assets/js/vendor/functions.js"></script>
 
 {% feed_meta %}

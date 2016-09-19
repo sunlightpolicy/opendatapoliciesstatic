@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /providenceri/Providence, RI (2012)
+permalink: /providenceri/Providence, RI (2012)/
 title: Providence, RI (2012) Legislation (2012)
 history: >
   ('Enacted: 2012; \nLink: http://www.gcpvd.org/2012/03/19/open-providence-commission-for-transparency-and-accountability-meeting-today-march-19/; \nMeans: Legislation [plan for a plan]',)

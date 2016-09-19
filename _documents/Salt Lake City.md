@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /saltlakecityUT/Salt Lake City,UT(2014)
+permalink: /saltlakecityUT/Salt Lake City,UT(2014)/
 title: Salt Lake City,UT(2014) Legislation (2014)
 history: >
   ('Enacted: 2014; \nLink: http://www.slcinfobase.com/PPAREO/#!WordDocuments/opendataportalprocedures.htm;\nMeans: Legislation',)

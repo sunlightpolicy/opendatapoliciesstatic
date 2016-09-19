@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /portlandor/Portland, OR (2009)
+permalink: /portlandor/Portland, OR (2009)/
 title: Portland, OR (2009) Legislation (2009)
 history: >
   ('Enacted: 2009; Link: http://www.portlandonline.com/shared/cfm/image.cfm?id=275696; Means: Legislation',)

@@ -4,13 +4,15 @@
 <!--[if IE 7]>  <html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->
 <!--[if IE 8]>  <html class="no-js lt-ie9 ie8"> <![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="{{ site.lang | default: page.lang | default: 'en' }}"> <!--<![endif]-->
+{% include base.html %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{{browser_title}}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
-  <link rel="home" title="Home" href="/" />
+
+  <link rel="home" title="Home" href="{{base}}/" />
 
   {% include head.html %}
 </head>
@@ -26,7 +28,7 @@ inside
   <div id="container"><!-- Hack for footer lock -->
   <header id="page_header">
     <div class="nest">
-      <a href="/" class="noprint">
+      <a href="{{base}}" class="noprint">
         <div id="place_logo">
           <h1>{{site.title}}</h1>
           <h2>{{site.subtitle}}</h2>
@@ -52,13 +54,13 @@ inside
       <div class="nest">
         <ul>
           <li>
-            <a href="/browse/" id="browse">Browse</a>
+            <a href="{{base}}/browse/" id="browse">Browse</a>
           </li>
           <li>
-            <a href="/about/" id="about">About Us</a>
+            <a href="{{base}}/about/" id="about">About Us</a>
           </li>
           <li>
-            <a href="/downloads/" id="downloads">Downloads</a>
+            <a href="{{base}}/downloads/" id="downloads">Downloads</a>
           </li>
         </ul>
       </div> <!-- // .nest -->

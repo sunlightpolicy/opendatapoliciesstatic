@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /memphistn/Memphis,TN(2009)
+permalink: /memphistn/Memphis,TN(2009)/
 title: Memphis,TN(2009) Executive Order (2009)
 history: >
   ('Enacted:2009; \nLink: http://www.memphistn.gov/portals/0/pdf_forms/MayorsTransparencyExecutiveOrder.pdf; \nMeans: Executive Order',)

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /honoluluhi/Honolulu,HI(2013)
+permalink: /honoluluhi/Honolulu,HI(2013)/
 title: Honolulu,HI(2013) Legislation  (2013)
 history: >
   ('Enacted: 2013;\nLink: http://www.slideshare.net/Bytemarks/bill-53-fd1; \nMeans: Legislation',)

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /amherstny/Amherst,NY(2014)
+permalink: /amherstny/Amherst,NY(2014)/
 title: Amherst,NY(2014) Legislation (2014)
 history: >
   ('Enacted: 2014; \nLink: http://amherstny.iqm2.com/Citizens/FileOpen.aspx?Type=12=1239=True;\nMeans: Legislation',)

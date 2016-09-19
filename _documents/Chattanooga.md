@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /chattanoogatn/Chattanooga, TN (2014)
+permalink: /chattanoogatn/Chattanooga, TN (2014)/
 title: Chattanooga, TN (2014) Executive Order (2014)
 history: >
   ('Enacted: 2014; \nLink: https://github.com/cityofchattanooga/Chattanooga-Open-Data-Policy/blob/master/Open%20Data%20Policy.md;\nMeans: Executive Order',)

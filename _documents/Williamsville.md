@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /williamsvilleny/Williamsville, NY (2014)
+permalink: /williamsvilleny/Williamsville, NY (2014)/
 title: Williamsville, NY (2014) Legislation (2014)
 history: >
   ('Enacted: 2014; \nLink: http://nebula.wsimg.com/f3f47c94e13554f3b53e45220d02c783?AccessKeyId=EB836F96604CFAA85CBF=0=1; \nMeans: Legislation',)

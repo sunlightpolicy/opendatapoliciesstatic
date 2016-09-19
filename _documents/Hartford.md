@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /hartfordct/Hartford,CT(2014)
+permalink: /hartfordct/Hartford,CT(2014)/
 title: Hartford,CT(2014) Executive Order (2014)
 history: >
   ('Enacted: 2014; Link: http://www.hartford.gov/images/mayors/executive_order_open_data.pdf; Means: Executive Order',)

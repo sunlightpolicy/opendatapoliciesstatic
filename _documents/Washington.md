@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /washingtondc/Washington,DC(2014)
+permalink: /washingtondc/Washington,DC(2014)/
 title: Washington,DC(2014) Executive Directive (2006 - Admin Memo, 2011 - Mayoral Memo) (2014)
 history: >
   

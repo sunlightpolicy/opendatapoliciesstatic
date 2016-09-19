@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /losangelesca/Los Angeles,CA (2013)
+permalink: /losangelesca/Los Angeles,CA (2013)/
 title: Los Angeles,CA (2013) Executive Directive 2013)
 history: >
   ('Enacted: 2013; Link: http://www.lamayor.org/garcetti_directs_city_departments_to_collect_data_for_open_data_initiative; Means: Executive Directive',)

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /cincinnatioh/Cincinnati,OH(2014)
+permalink: /cincinnatioh/Cincinnati,OH(2014)/
 title: Cincinnati,OH(2014) Administrative Regulation (2014)
 history: >
   ('Enacted: 2014; \nLink: http://city-egov.cincinnati-oh.gov/Webtop/ws/fyi/public/fyi_docs/Blob/3227.pdf?rpp=-10=1=doc_no%3D%272728%27; \nMeans: Administrative Regulation',)

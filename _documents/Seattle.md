@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /seattlewa/Seattle,WA(2016)
+permalink: /seattlewa/Seattle,WA(2016)/
 title: Seattle,WA(2016) Executive Order(2016)
 history: >
   ('Enacted: 2016; \nLink: http://www.seattle.gov/Documents/Departments/SeattleGovPortals/CityServices/OpenDataPolicyV1.pdf;\nMeans: Executive Order',)

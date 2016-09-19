@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /madisonwi/Madison, WI (2012)
+permalink: /madisonwi/Madison, WI (2012)/
 title: Madison, WI (2012) Legislation (2012)
 history: >
   ('Enacted: 2012; Link: http://madison.legistar.com/ViewReport.ashx?M=R=Text=205=1201083=2EC21911-798D-4499-BFAF-96BDACBCD8C7=Legislation+Text; Means: Legislation',)

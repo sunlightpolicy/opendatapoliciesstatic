@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /lasvegasnv/Las Vegas,NV(2016)
+permalink: /lasvegasnv/Las Vegas,NV(2016)/
 title: Las Vegas,NV(2016) Legislation (2016)
 history: >
   ('Enacted: 2016; Link: http://www.lasvegasnevada.gov/cs/groups/public/documents/document/chjk/mda5/~edisp/prd009912.pdf; Means: Legislation',)

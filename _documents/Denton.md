@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /dentontx/Denton, TX (2015)
+permalink: /dentontx/Denton, TX (2015)/
 title: Denton, TX (2015) Administrative Directive (2015)
 history: >
   ('POLICY/ADMINISTRATIVE PROCEDURE/ADMINISTRATIVE DIRECTIVE \nTITLE: OPEN DATA REFERENCE NUMBER: 506.08 506.08 OPEN DATA\nEnacted: 2015; \nLink: http://www.cityofdenton.com/home/showdocument?id=22099;\nMeans: Administrative Directive;',)
