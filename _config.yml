@@ -27,7 +27,7 @@ credits: >
 
 baseurl: "" 
 # url: "https://krues8dr.github.io" # the base hostname & protocol for your site
-permalink: ":title/"
+permalink: "doc/:title/"
 
 # Markdown settings
 markdown: kramdown
