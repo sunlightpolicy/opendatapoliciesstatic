@@ -55,6 +55,9 @@ collections:
   documents:
     output: true
     permalink: /doc/:path/
+  states:
+    output: true
+    permalink: /state/:path/
 
 # Plugin settings
 gems:
