@@ -27,7 +27,7 @@ credits: >
 
 baseurl: "" 
 # url: "https://krues8dr.github.io" # the base hostname & protocol for your site
-permalink: "doc/:title/"
+permalink: ":title/"
 
 # Markdown settings
 markdown: kramdown
@@ -54,6 +54,7 @@ exclude:
 collections:
   documents:
     output: true
+    permalink: /doc/:path/
 
 # Plugin settings
 gems:
