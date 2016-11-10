@@ -64,3 +64,6 @@ gems:
 
 # Google custom search will generate some code with a cx variable, put it's value here.
 google_search_code: "016815729111879890803:suyx7g6exsw"
+
+# Google services
+google_analytics: UA-48789618-3

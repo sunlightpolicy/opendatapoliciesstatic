@@ -15,6 +15,11 @@
   <link rel="home" title="Home" href="{{base}}/" />
 
   {% include head.html %}
+
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+  
 </head>
 <body class="preload
 {% unless page.url == '/' %}
