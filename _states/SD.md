@@ -1,4 +1,4 @@
 ---
 state_code: SD
-state_name: South Dakota
+title: South Dakota
 ---

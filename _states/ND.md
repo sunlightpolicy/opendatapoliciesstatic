@@ -1,4 +1,4 @@
 ---
 state_code: ND
-state_name: North Dakota
+title: North Dakota
 ---

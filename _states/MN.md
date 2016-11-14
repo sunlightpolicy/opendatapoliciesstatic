@@ -1,4 +1,4 @@
 ---
 state_code: MN
-state_name: Minnesota
+title: Minnesota
 ---

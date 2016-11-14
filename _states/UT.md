@@ -1,4 +1,4 @@
 ---
 state_code: UT
-state_name: Utah
+title: Utah
 ---

@@ -1,4 +1,4 @@
 ---
 state_code: MP
-state_name: Northern Mariana Islands
+title: Northern Mariana Islands
 ---

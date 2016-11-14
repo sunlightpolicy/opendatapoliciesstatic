@@ -1,4 +1,4 @@
 ---
 state_code: MA
-state_name: Massachusetts
+title: Massachusetts
 ---

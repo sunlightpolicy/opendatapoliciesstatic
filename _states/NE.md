@@ -1,4 +1,4 @@
 ---
 state_code: NE
-state_name: Nebraska
+title: Nebraska
 ---

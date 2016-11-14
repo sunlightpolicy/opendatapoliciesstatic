@@ -1,6 +1,4 @@
 ---
 state_code: RI
-state_name: Rhode Island
+title: Rhode Island
 ---
-
-State: Rhode Island

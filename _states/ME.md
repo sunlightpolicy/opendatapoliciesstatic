@@ -1,4 +1,4 @@
 ---
 state_code: ME
-state_name: Maine
+title: Maine
 ---

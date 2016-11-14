@@ -1,4 +1,4 @@
 ---
 state_code: MT
-state_name: Montana
+title: Montana
 ---

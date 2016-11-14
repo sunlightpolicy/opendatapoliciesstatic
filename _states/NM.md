@@ -1,4 +1,4 @@
 ---
 state_code: NM
-state_name: New Mexico
+title: New Mexico
 ---
