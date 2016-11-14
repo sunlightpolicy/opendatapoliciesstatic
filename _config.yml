@@ -56,9 +56,11 @@ collections:
   documents:
     output: true
     permalink: /doc/:path/
+    layout: default
   states:
     output: true
     permalink: /state/:path/
+    layout: default
   places:
     output: false
 
