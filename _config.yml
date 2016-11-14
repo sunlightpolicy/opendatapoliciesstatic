@@ -60,7 +60,7 @@ collections:
   states:
     output: true
     permalink: /state/:path/
-    layout: default
+    layout: state
   places:
     output: false
 
