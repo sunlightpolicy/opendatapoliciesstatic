@@ -51,6 +51,7 @@ exclude:
   - node_modules
   - templates
 
+# Jekyll collections
 collections:
   documents:
     output: true
@@ -58,6 +59,8 @@ collections:
   states:
     output: true
     permalink: /state/:path/
+  places:
+    output: false
 
 # Plugin settings
 gems:
