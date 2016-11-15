@@ -11,7 +11,8 @@ title: Open Data Policies
     <a href="{{ doc.url }}">{{ site.places[{{doc.place}}].title }} ({{ doc.year }})</a>
     2: {{ doc.place }}
     {% assign docplace = doc.place %}
-    3: {{ site.places[docplace] }}
+    3: {{ docplace }}
+    4: {{ site.places[docplace] }}
   </li>
 {% endfor %}
 </ul>
