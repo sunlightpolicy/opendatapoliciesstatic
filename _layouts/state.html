@@ -2,10 +2,13 @@
 layout: default
 ---
 
-<ul>
 {% for place in site.places %}
     {% if place.states contains page.state_code %}
-        <li>{{ place.title }}</li>
+        <h3>{{ place.title }}</h3>
+        <ul>
+        {% for doc in site.documents | where: "place", place.place %}
+            <li><a href="{{ doc.url }}">{{ doc.legal_custom }} ({{ doc.year }})</a></li>
+        {% endfor %}
+        </ul>
     {% endif %}
 {% endfor %}
-</ul>
