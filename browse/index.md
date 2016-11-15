@@ -13,6 +13,8 @@ title: Open Data Policies
     {% assign docplace = doc.place %}
     3: {{ docplace }}
     4: {{ site.places[docplace] }}
+    5: {{ site.places['austin-tx'] }}
+    6: {{ site.places['austin-tx'].title }}
   </li>
 {% endfor %}
 </ul>
