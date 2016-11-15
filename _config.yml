@@ -56,7 +56,6 @@ collections:
   documents:
     output: true
     permalink: /doc/:path/
-    layout: default
   states:
     output: true
     permalink: /state/:path/
@@ -66,6 +65,11 @@ collections:
 
 # Default settings
 defaults:
+  - scope:
+      path: ""
+      type: documents
+    values:
+      layout: default
   - scope:
       path: ""
       type: states
