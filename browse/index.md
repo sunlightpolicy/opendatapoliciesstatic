@@ -4,6 +4,15 @@ title: Open Data Policies
 ---
 
 {% include base.html %}
+
+{% for state in site.states %}
+	{% assign state_places = site.places | place.states contains state %}
+	{% if state_places.size > 0 %}
+		<h3><a href="state.url">{{ state.title }} ({{ state_places.size }})</a></h3>
+	{% endif %}
+{% endfor %}
+
+
 <ul>
 {% for doc in site.documents %}
   <li>
