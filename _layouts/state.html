@@ -6,7 +6,8 @@ layout: default
     {% if place.states contains page.state_code %}
         <h3>{{ place.title }}</h3>
         <ul>
-        {% for doc in site.documents | where: "place", place.place %}
+        {% assign place_docs = site.documents | where: "place", place.place %}
+        {% for doc in place_docs %}
             <li><a href="{{ doc.url }}">{{ doc.legal_custom }} ({{ doc.year }})</a></li>
         {% endfor %}
         </ul>
