@@ -3,7 +3,7 @@ layout: default
 permalink: /sanfranciscoca/San Francisco,CA(2013)/
 title: San Francisco,CA(2013) Legislation (2013)
 history: >
-  ('Enacted: 2013 [newest]; \nLink: http://sfbos.org/ftp/uploadedfiles/bdsupvrs/committees/materials/gao_032813_121017.pdf; \nMeans: Legislation (first version was an EO)',)
+  ('Enacted: 2013; \nLink: http://sfbos.org/ftp/uploadedfiles/bdsupvrs/committees/materials/gao_032813_121017.pdf; \nMeans: Legislation (first version was an EO)',)
 ---
 
 <p>Ordinance amending the Administrative Code to modify open data standards and set deadlines for releasing open data.</p>
