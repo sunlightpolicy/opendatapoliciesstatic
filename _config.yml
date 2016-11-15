@@ -61,7 +61,8 @@ collections:
     output: true
     permalink: /state/:path/
   places:
-    output: false
+    output: true
+    permalink: /place/:path/
 
 # Default settings
 defaults:
@@ -70,6 +71,11 @@ defaults:
       type: states
     values:
       layout: state
+  - scope:
+      path: ""
+      type: places
+    values:
+      layout: default
 
 # Plugin settings
 gems:
