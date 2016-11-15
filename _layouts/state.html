@@ -1,3 +1,11 @@
 ---
 layout: default
 ---
+
+<ul>
+{% for place in site.places %}
+    {% if place.states contains page.state_code %}
+        <li>{{ place.title }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
