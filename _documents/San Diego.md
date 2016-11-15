@@ -3,7 +3,7 @@ layout: default
 permalink: /sandiegoca/San Diego,CA(2014)/
 title: San Diego,CA(2014) Legislation (2014)
 history: >
-  ('Enacted: 2014; \nLink: http://dockets.sandiego.gov/sirepub/cache/2/uvtar0ykejtwts01fzscjias/75784608132015051534700.PDF; \nMeans: Legislation',)
+  ('Enacted: 2014; \nLink: http://dockets.sandiego.gov/sirepub/cache/2/zg52ge0afupuzkuxnhixqp5b/75784611152016115353696.PDF; \nMeans: Legislation',)
 ---
 
 <p>City of San Diego Open Data Policy</p>
