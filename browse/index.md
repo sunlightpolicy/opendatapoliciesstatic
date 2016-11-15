@@ -12,7 +12,6 @@ title: Open Data Policies
     2: {{ doc.place }}
     {% assign docplace = doc.place %}
     3: {{ site.places[docplace] }}
-    4: {{ site.places }}
   </li>
 {% endfor %}
 </ul>
