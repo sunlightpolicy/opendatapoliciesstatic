@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /kansascitymo/KansasCityMO(2014)/
-title: KansasCityMO(2014) Ordinance (2014)
+title: Kansas City, MO(2014) Ordinance (2014)
 history: >
   ('Enacted: 2014; Link: http://cityclerk.kcmo.org/LiveWeb/Documents/Document.aspx?q=ZbIEEaWPo6OIEpZdlWPeDYolPDlZVDM%2fobeKL6dsBwK1tuYkgMQbXlyBecUa6zWX;\nMeans: Ordinance',)
 ---

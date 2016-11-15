@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /lexfaycountyKY/LexFytCounty,KY(2011)/
-title: LexFytCounty,KY(2011) Resolution(2011)
+title: Lexington, KY(2011) Resolution(2011)
 history: >
   ('Enacted: 2011; \nLink: http://www.lexingtonky.gov/Modules/ShowDocument.aspx?documentid=16343; \nMeans: Resolution',)
 ---

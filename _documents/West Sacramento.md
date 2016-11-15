@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /westsacramentoca/WSacramentoCA2013/
-title: WSacramentoCA2013 Internal policy (2013)
+title: West Sacramento, CA(2013) Internal policy (2013)
 history: >
   ('Enacted: 2013; \nLink: http://www.cityofwestsacramento.org/civica/filebank/blobdload.asp?BlobID=9779; \nMeans: Internal policy',)
 ---
