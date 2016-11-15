@@ -3,7 +3,7 @@ layout: default
 permalink: /tacomawa/Tacoma,WA(2016)/
 title: Tacoma,WA(2016) Council Resolution  (2016)
 history: >
-  ('Enacted: 2016; \nLink: https://cityoftacoma.legistar.com/LegislationDetail.aspx?ID=2558873=754BE35D-0C23-421D-8CA0-62D244FD2368==; \nMeans: Council Resolution',)
+  ('Enacted: 2016; \nLink: https://cityoftacoma.legistar.com/LegislationDetail.aspx?ID=2558873&GUID=754BE35D-0C23-421D-8CA0-62D244FD2368&Options=&Search=; \nMeans: Council Resolution',)
 ---
 
 <p>SUMMARY: The Information Technology Department (lTD) recommends that Council approve an open data resolution to affirm the City's commitment to proactively publish data related to City operations and performance. The basis for this recommendation is that open data initiatives improve transparency, deepen trust between government and citizens, and lead to improved use of data for both private and public sector stakeholders. </p>
