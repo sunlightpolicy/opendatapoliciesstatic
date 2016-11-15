@@ -3,7 +3,7 @@ layout: default
 permalink: /washingtondc/Washington,DC(2014)/
 title: Washington,DC(2014) Executive Directive (2006 - Admin Memo, 2011 - Mayoral Memo) (2014)
 history: >
-  ('Enacted: 2014; \nLink: http://dc.gov/page/transparency-open-government-and-open-data-directive; Means:\nExecutive Directive (2006 - Admin Memo, 2011 - Mayoral Memo)',)
+  ('Enacted: 2014; \nLink: http://dc.gov/page/transparency-open-government-and-open-data-directive; Means: Executive Directive (2006 - Admin Memo, 2011 - Mayoral Memo)',)
 ---
 
 <p>Mayor's Order 2014-170</p>
