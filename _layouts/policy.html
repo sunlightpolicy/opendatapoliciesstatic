@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<h1>{{ page.place }}</h1>
+{% assign the_place = site.places | where: "place", page.place | first %}
+<h1>{{ the_place.title }}, {{ the_place.states | join: '-' }}</h1>
 <h2>{{ page.legal_custom }} ({{ page.year }})</h2>
 <a href="{{ page.policy_url }}">View original policy</a>
 
 <br>
+<hr>
 <br>
 
 {{ content }}
