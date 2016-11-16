@@ -4,6 +4,8 @@ title: Locations
 ---
 {% include base.html %}
 
+update 1
+
 <script>
 
 var data = [];
