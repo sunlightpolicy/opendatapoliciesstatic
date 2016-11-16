@@ -4,14 +4,14 @@ title: Locations
 ---
 {% include base.html %}
 
-update 1
+update 2
 
 <script>
 
 var data = [];
 
 {% for document in site.documents %}
-  {% if document.map %}
+  {% if document.x && document.y %}
     data.push({
       properties: {
         'Date': '{{document.year}}',
