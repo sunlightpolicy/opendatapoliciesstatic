@@ -12,7 +12,7 @@ title: Open Data Policies
   {% assign counter = 0 %}
   {% for place in site.places %}
     {% place.states %}
-    {% if place.states contains state %}
+    {% if place.states contains state.state_code %}
       {% assign counter = counter | plus: 1 %}
       {{ counter }}
     {% endif %}
