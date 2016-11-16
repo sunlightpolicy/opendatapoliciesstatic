@@ -5,19 +5,14 @@ title: Open Data Policies
 
 {% include base.html %}
 
-{{ site.states | first }}
 <ul>
 {% for state in site.states %}
-  2: {{ state.path }}
   {% assign counter = 0 %}
   {% for place in site.places %}
-    {{ place.states }}
     {% if place.states contains state.state_code %}
       {% assign counter = counter | plus: 1 %}
-      {{ counter }}
     {% endif %}
   {% endfor %}
-  <p>Final: {{ counter }}</p>
   {% if counter > 0 %}
     <li>
       <a href="{{ state.url }}">{{ state.title }} ({{ counter }})</a>
