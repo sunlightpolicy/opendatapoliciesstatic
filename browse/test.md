@@ -8,10 +8,10 @@ title: Open Data Policies
 {{ site.states | first }}
 <ul>
 {% for state in site.states %}
-  1: {{ state | first }}
   2: {{ state.path }}
   {% assign counter = 0 %}
   {% for place in site.places %}
+    {% place.states %}
     {% if place.states contains state %}
       {% assign counter = counter | plus: 1 %}
       {{ counter }}
