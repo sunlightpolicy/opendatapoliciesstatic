@@ -7,7 +7,7 @@ title: Open Data Policies
 
 <ul>
 {% for state in site.states %}
-  {{ state }}
+  {{ state[0] }}
   {% assign counter = 0 %}
   {% for place in site.places %}
     {% if place.states contains state %}
