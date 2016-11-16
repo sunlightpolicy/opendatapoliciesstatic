@@ -5,10 +5,10 @@ title: Open Data Policies
 
 {% include base.html %}
 
-{{ site.states.files }}
+{{ site.states | first }}
 <ul>
 {% for state in site.states %}
-  1: {{ state[0] }}
+  1: {{ state | first }}
   2: {{ state.path }}
   {% assign counter = 0 %}
   {% for place in site.places %}
