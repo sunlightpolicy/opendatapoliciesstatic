@@ -12,19 +12,20 @@ var data = [];
   {% if document.map %}
     data.push({
       properties: {
-        'Date': '{{document.map.properties.date}}',
-        'Legal Means': '{{document.map.properties.means}}',
-        'Policy URL': '{{document.map.properties.url}}',
-        'State': '{{document.map.properties.state}}',
-        'State Name': '{{document.map.properties.statename}}',
-        'City': '{{document.map.properties.city}}',
-        'WWC': {{document.map.properties.wwc}}
+        'Date': '{{document.year}}',
+        'Legal Means': '{{document.legal_custom}}',
+        'Policy URL': '{{document.policy_url}}',
+        'State': '',  // Temporary
+        // 'State': '{{document.map.properties.state}}',
+        // 'State Name': '{{document.map.properties.statename}}',
+        'City': '{{document.place}}',  // Temporary
+        'WWC': '{{document.wwc}}'
       },
       geometry: {
         type: 'Point',
         coordinates: [
-          {{document.map.geometry.coordinates.lat}},
-          {{document.map.geometry.coordinates.lng}}
+          {{document.y}},
+          {{document.x}}
         ]
       }
     });
