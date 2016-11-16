@@ -69,7 +69,7 @@ defaults:
       path: ""
       type: documents
     values:
-      layout: default
+      layout: policy
   - scope:
       path: ""
       type: states
