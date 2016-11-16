@@ -5,9 +5,11 @@ title: Open Data Policies
 
 {% include base.html %}
 
+{{ site.states.files }}
 <ul>
 {% for state in site.states %}
-  {{ state[0] }}
+  1: {{ state[0] }}
+  2: {{ state.path }}
   {% assign counter = 0 %}
   {% for place in site.places %}
     {% if place.states contains state %}
