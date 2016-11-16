@@ -13,9 +13,14 @@ title: Open Data Policies
 {% endfor %} -->
 
 {% for state in site.states %}
-	{% assign state_places = site.places | where: "state", place.states %}
-	{% if state_places.size > 0 %}
-		<h3><a href="state.url">{{ state.title }} ({{ state_places.size }})</a></h3>
+	{% assign state_places = 0 %}
+	{% for place in site.places %}
+		{% if place.states contains state %}
+			{% state_places = state_places + 1 %}
+		{% endif %}
+	{% endfor %}
+	{% if state_places > 0 %}
+		<h3><a href="state.url">{{ state.title }} ({{ state_places }})</a></h3>
 	{% endif %}
 {% endfor %}
 
