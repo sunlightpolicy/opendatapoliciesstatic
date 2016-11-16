@@ -20,12 +20,3 @@ title: Open Data Policies
   {% endif %}
 {% endfor %}
 </ul>
-
-<!-- <ul>
-{% for doc in site.documents %}
-  <li>
-    {% assign the_place = site.places | where: "place", doc.place | first %}
-    <a href="{{ doc.url }}">{{ the_place.title }} ({{ doc.year }})</a>
-  </li>
-{% endfor %}
-</ul> -->
