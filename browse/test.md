@@ -11,7 +11,7 @@ title: Open Data Policies
   2: {{ state.path }}
   {% assign counter = 0 %}
   {% for place in site.places %}
-    {% place.states %}
+    {{ place.states }}
     {% if place.states contains state.state_code %}
       {% assign counter = counter | plus: 1 %}
       {{ counter }}
