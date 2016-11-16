@@ -12,7 +12,7 @@ title: Open Data Policies
 	{% endif %}
 {% endfor %} -->
 
-{% for state in site.states %}
+<!-- {% for state in site.states %}
 	{% assign state_places = 0 %}
 	{% for place in site.places %}
 		{% if place.states contains state %}
@@ -23,6 +23,7 @@ title: Open Data Policies
 		<h3><a href="state.url">{{ state.title }} ({{ state_places }})</a></h3>
 	{% endif %}
 {% endfor %}
+{% endfor %} -->
 
 <ul>
 {% for doc in site.documents %}
