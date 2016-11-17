@@ -5,7 +5,7 @@ title: Locations
 
 {% include base.html %}
 
-update 8
+update 9
 
 <script>
 
@@ -109,7 +109,7 @@ function show_map(data) {
 
     // create marker at specified coordinates (swapped to convert lat/lng to x/y) and add popup on click.
     // var marker = L.marker([coords[1], coords[0]], {icon: icon}).bindPopup('<a href="' + locations[i]['properties']['Policy URL'] + '">Policy Link</a>').addTo(map);
-    var marker = L.marker([coords[0], coords[1]], {icon: icon}).bindPopup(mapPinContent).addTo(map);
+    var marker = L.marker([coords[1], coords[0]], {icon: icon}).bindPopup(mapPinContent).addTo(map);
   }
 }
 
