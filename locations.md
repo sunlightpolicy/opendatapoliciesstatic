@@ -5,22 +5,22 @@ title: Locations
 
 {% include base.html %}
 
-update 4
+update 6
 
 <script>
 
 var docs = {};
 {% for doc in site.documents%}
   {% assign docplace = doc.place %}
-  if (!(docplace in docs)) {
-    docs.docplace = [];
+  if (!({{docplace}} in docs)) {
+    docs.{{docplace}} = [];
   }
   var doc_vars = {
     'year': '{{doc.year}}',
     'means': '{{doc.legal_custom}}',
     'url': '{{doc.path}}'
   };
-  docs[docplace].push(doc_vars);
+  docs[{{docplace}}].push(doc_vars);
 {% endfor %}
 
 console.log(docs);
