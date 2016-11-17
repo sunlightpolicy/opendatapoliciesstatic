@@ -16,9 +16,9 @@ var docs = {};
     docs.docplace = [];
   }
   var doc_vars = {
-    'year': {{doc.year}},
-    'means': {{doc.legal_custom}},
-    'url': {{doc.path}}
+    'year': '{{doc.year}}',
+    'means': '{{doc.legal_custom}}',
+    'url': '{{doc.path}}'
   };
   docs[docplace].push(doc_vars);
 {% endfor %}
