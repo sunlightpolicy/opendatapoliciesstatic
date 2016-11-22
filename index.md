@@ -30,9 +30,9 @@ layout: default
         right now.</p>
         <p>This site is powered by <a href="http://www.statedecoded.com/">The State
         Decoded</a>. Check out this project
-        <a href="https://github.com/sunlightlabs/opendatapoliciesdecoded">on GitHub</a> and
-        feel free to <a href="https://github.com/sunlightlabs/opendatapoliciesdecoded/issues">
-        open an issue</a> or <a href="https://github.com/sunlightlabs/opendatapoliciesdecoded/pulls">
+        <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic">on GitHub</a> and
+        feel free to <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/issues">
+        open an issue</a> or <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/pulls">
         submit a pull request</a>!</p>
       </section> <!-- // .feature -->
       <section class="secondary-content">
