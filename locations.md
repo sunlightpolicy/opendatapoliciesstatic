@@ -33,7 +33,7 @@ var data = [];
     data.push({
       properties: {
         'title': '{{place.title}}',
-        'states': '{{place.states}}',  // May break for multi-state agencies... we'll see!
+        'states': '{{place.states | join: '-' }}',
         'docs': docs['{{place.place}}'],
         'place_url': '{{place.path}}'
         // 'Year': '{{document.year}}',
