@@ -5,7 +5,7 @@ title: Locations
 
 {% include base.html %}
 
-update 12
+update 13
 
 <script>
 
@@ -13,7 +13,7 @@ update 12
 // It was adapted from a past version
 
 var docs = {};
-{% for doc in site.documents%}
+{% for doc in site.documents %}
   {% assign docplace = doc.place %}
   if (!('{{docplace}}' in docs)) {
     docs['{{docplace}}'] = [];
@@ -116,7 +116,7 @@ function show_map(data) {
   }
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
 /*
   // url to get geoJSON from
   var jsonURL = "{{base}}/assets/js/locations.geojson";
