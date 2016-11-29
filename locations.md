@@ -18,7 +18,7 @@ var docs = {};
   var doc_vars = {
     'year': '{{doc.year}}',
     'means': '{{doc.legal_custom}}',
-    'url': '{{doc.path}}'
+    'url': '{{doc.policy_url}}'
   };
   docs['{{docplace}}'].push(doc_vars);
 {% endfor %}
@@ -35,7 +35,7 @@ var data = [];
         'title': '{{place.title}}',
         'states': '{{place.states | join: '-' }}',
         'docs': docs['{{place.place}}'],
-        'place_url': '{{place.path}}'
+        'place_url': '{{place.url}}'
         // 'Year': '{{document.year}}',
         // 'Legal Means': '{{place.legal_custom}}',
         // 'Policy URL': '{{place.policy_url}}',
