@@ -93,7 +93,7 @@ function show_map(data) {
     // var mapPinDate = locations[i]['properties']['Year'];
     var mapPinDate = 'year';  // placeholder
     // var mapPinLinkPolicyURL = "<a class=\"ref-map\" target=\"_blank\" href=\"" + locations[i]['properties']['Policy URL'] + "\">" + locations[i]['properties']['Legal Means'] + " <img class=\"ref-map-link\" src=\"{{base}}/assets//images/arrow-right-redx020.png\" alt=\"Go to WWC Reference Document\" /></a>";
-    var mapPinLinkPolicyURL = 'url';  // placeholder
+    var mapPinLinkPolicyURL = locations[i].properties.place_url;  // placeholder
     // var mapPinH1 = "<h1 class=\"map-pin-h1\">" + locations[i]['properties']['City'] + ", " + locations[i]['properties']['State'] + "</h1>";
     var mapPinH1 = '<h1 class="map-pin-h1">' + locations[i].properties.title + ', ' + locations[i].properties.states + '</h1>';
 
@@ -101,7 +101,7 @@ function show_map(data) {
     var mapPinList01 = "<ul class=\"xoxo map-pin-list\">";
     var mapPinList02 = "<li>" + mapPinH1 + "</li>";
     var mapPinList03 = "<li>" + mapPinDate + "</li>";
-    var mapPinList04 = "<li>" + mapPinLinkPolicyURL + "</li>";
+    var mapPinList04 = "<li><a href='" + mapPinLinkPolicyURL + "'Link</a></li>";
     // var mapPinList05 = "<li><b>Legal Means</b>: " + locations[i]['properties']['Legal Means'] + "</li>";
     var mapPinListClose = "</ul>";
     var mapPinListContent = mapPinList01 + mapPinList02 + mapPinList03 + mapPinList04 + mapPinListClose;
