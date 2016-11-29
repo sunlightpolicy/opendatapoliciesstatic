@@ -5,7 +5,7 @@ title: Locations
 
 {% include base.html %}
 
-update 9
+update 11
 
 <script>
 
@@ -95,7 +95,7 @@ function show_map(data) {
     // var mapPinLinkPolicyURL = "<a class=\"ref-map\" target=\"_blank\" href=\"" + locations[i]['properties']['Policy URL'] + "\">" + locations[i]['properties']['Legal Means'] + " <img class=\"ref-map-link\" src=\"{{base}}/assets//images/arrow-right-redx020.png\" alt=\"Go to WWC Reference Document\" /></a>";
     var mapPinLinkPolicyURL = 'url';  // placeholder
     // var mapPinH1 = "<h1 class=\"map-pin-h1\">" + locations[i]['properties']['City'] + ", " + locations[i]['properties']['State'] + "</h1>";
-    var mapPinH1 = '<h1 class="map-pin-h1">' + locations[i].properties.title + '</h1>';
+    var mapPinH1 = '<h1 class="map-pin-h1">' + locations[i].properties.title + ', ' + locations[i].properties.states + '</h1>';
 
     // var mapPinList01 = "<ul class\"xoxo map-pin-list\">";
     var mapPinList01 = "<ul class=\"xoxo map-pin-list\">";
