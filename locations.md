@@ -5,9 +5,12 @@ title: Locations
 
 {% include base.html %}
 
-update 11
+update 12
 
 <script>
+
+// This code is generally a mess and needs cleanup
+// It was adapted from a past version
 
 var docs = {};
 {% for doc in site.documents%}
