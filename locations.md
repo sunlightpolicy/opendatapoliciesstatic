@@ -101,7 +101,7 @@ function show_map(data) {
     var mapPinList01 = "<ul class=\"xoxo map-pin-list\">";
     var mapPinList02 = "<li>" + mapPinH1 + "</li>";
     var mapPinList03 = "<li>" + mapPinDate + "</li>";
-    var mapPinList04 = "<li><a href='" + mapPinLinkPolicyURL + "'Link</a></li>";
+    var mapPinList04 = "<li><a href='" + mapPinLinkPolicyURL + "'>Link</a></li>";
     // var mapPinList05 = "<li><b>Legal Means</b>: " + locations[i]['properties']['Legal Means'] + "</li>";
     var mapPinListClose = "</ul>";
     var mapPinListContent = mapPinList01 + mapPinList02 + mapPinList03 + mapPinList04 + mapPinListClose;
