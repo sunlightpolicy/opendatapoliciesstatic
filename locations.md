@@ -5,7 +5,7 @@ title: Locations
 
 {% include base.html %}
 
-update 13
+update 14
 
 <script>
 
@@ -21,7 +21,8 @@ var docs = {};
   var doc_vars = {
     'year': '{{doc.year}}',
     'means': '{{doc.legal_custom}}',
-    'url': '{{doc.policy_url}}'
+    'doc_page_url': '{{doc.url}}',
+    'external_url': '{{doc.policy_url}}'
   };
   docs['{{docplace}}'].push(doc_vars);
 {% endfor %}
@@ -94,25 +95,26 @@ function show_map(data) {
     var coords = locations[i]['geometry']['coordinates'];
     // var mapPinDate = "<time class=\"leaflet-map-date\" datatime=\"" + locations[i]['properties']['Date'] + "\">" + locations[i]['properties']['Date'] + "</time>";
     // var mapPinDate = locations[i]['properties']['Year'];
-    var mapPinDate = 'year';  // placeholder
     // var mapPinLinkPolicyURL = "<a class=\"ref-map\" target=\"_blank\" href=\"" + locations[i]['properties']['Policy URL'] + "\">" + locations[i]['properties']['Legal Means'] + " <img class=\"ref-map-link\" src=\"{{base}}/assets//images/arrow-right-redx020.png\" alt=\"Go to WWC Reference Document\" /></a>";
-    var mapPinLinkPolicyURL = locations[i].properties.place_url;  // placeholder
-    // var mapPinH1 = "<h1 class=\"map-pin-h1\">" + locations[i]['properties']['City'] + ", " + locations[i]['properties']['State'] + "</h1>";
-    var mapPinH1 = '<h1 class="map-pin-h1">' + locations[i].properties.title + ', ' + locations[i].properties.states + '</h1>';
 
-    // var mapPinList01 = "<ul class\"xoxo map-pin-list\">";
-    var mapPinList01 = "<h3>" + mapPinH1 + "</h3>";
-    var mapPinList02 = "<ul class=\"xoxo map-pin-list\">";
-    var mapPinList03 = "<li>" + mapPinDate + "</li>";
-    var mapPinList04 = "<li><a href='" + mapPinLinkPolicyURL + "'>Link</a></li>";
-    // var mapPinList05 = "<li><b>Legal Means</b>: " + locations[i]['properties']['Legal Means'] + "</li>";
-    var mapPinListClose = "</ul>";
-    var mapPinListContent = mapPinList01 + mapPinList02 + mapPinList03 + mapPinList04 + mapPinListClose;
-    var mapPinContent = "<div class=\"map-pin-content\">" + mapPinListContent + "</div>";
+    // List of documents for this place
+    var place_docs = locations[i].properties.docs;
+    place_docs.sort(function (a, b) {
+      return b.year - a.year;
+    });
+
+    // Generate title and list of docs (and links) for this place's pop-up box
+    var pin_title = '<h1 class="map-pin-h1">' + locations[i].properties.title + ', ' + locations[i].properties.states + '</h1>';
+    var pin_list = '';
+    for (var j = 0; j < place_docs.length; j++) {
+      var doc = place_docs[j];
+      pin_list += ('<p><a href="' + doc.doc_page_url + '">' + doc.means + ' (' + doc.year + ')</a></p>');
+    }
+    var pin_content = "<div class=\"map-pin-content\">" + pin_title + pin_list + "</div>";
 
     // create marker at specified coordinates (swapped to convert lat/lng to x/y) and add popup on click.
     // var marker = L.marker([coords[1], coords[0]], {icon: icon}).bindPopup('<a href="' + locations[i]['properties']['Policy URL'] + '">Policy Link</a>').addTo(map);
-    var marker = L.marker([coords[1], coords[0]], {icon: icon}).bindPopup(mapPinContent).addTo(map);
+    var marker = L.marker([coords[1], coords[0]], {icon: icon}).bindPopup(pin_content).addTo(map);
   }
 }
 
