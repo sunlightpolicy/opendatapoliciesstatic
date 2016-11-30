@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Open Data Policies
+title: Browse by state
 ---
 
 {% include base.html %}
+
+Browse the open-data policies listed by state:
 
 <ul>
 {% for state in site.states %}
@@ -20,3 +22,4 @@ title: Open Data Policies
   {% endif %}
 {% endfor %}
 </ul>
+<!-- The counter is really a counter of places, not docs. Doesn't matter now but could change in the future. -->
