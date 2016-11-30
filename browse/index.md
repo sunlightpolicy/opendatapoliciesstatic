@@ -128,6 +128,6 @@ show_map(data);
 </script>
 <div style="padding:0 25px;"><div id="mapid" style="border:1px solid #fff; width:100%; height:500px;"></div></div>
 
-You can also [browse by states](/states/) or see a [list of all the policies](/all/).
+You can also [browse by state](/browse/states/) or see a [list of all the policies](/browse/all/).
 
 Do you know of an open-data policy that's not listed here? Let us know! [Open an issue](https://github.com/sunlightpolicy/opendatapoliciesstatic/issues) on our GitHub repository or [send us an email](mailto:opendatadecoded@gmail.com).
