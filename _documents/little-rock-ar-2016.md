@@ -1,6 +1,7 @@
 ---
 place: little-rock-ar
-year: 2005
+year: 2016
+date: 2016-03-15
 legal_custom: Board of Commisioners Resolution
 policy_url: https://data.littlerock.org/Government/City-of-Little-Rock-Open-Data-Policy/inn5-pknq/
 ---
