@@ -59,7 +59,7 @@ collections:
     output: true
     permalink: /state/:path/
   places:
-    output: true
+    output: false
     permalink: /place/:path/
 
 # Default settings
