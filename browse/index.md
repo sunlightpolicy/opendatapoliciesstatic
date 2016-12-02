@@ -131,3 +131,5 @@ show_map(data);
 You can also [browse by state](/browse/states/) or see a [list of all the policies](/browse/all/).
 
 Do you know of an open-data policy that's not listed here? Let us know! [Open an issue](https://github.com/sunlightpolicy/opendatapoliciesstatic/issues) on our GitHub repository or [send us an email](mailto:opendatadecoded@gmail.com).
+
+Are you interested in writing your own open-data policy? Check out some of our resources [here](/write-your-own/).
