@@ -68,6 +68,7 @@ defaults:
       type: documents
     values:
       layout: policy
+      comments: true
   - scope:
       path: ""
       type: states
