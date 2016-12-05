@@ -17,23 +17,19 @@ layout: default
     <div class="nest">
       <section class="feature-content">
         <hgroup>
-          <h1>Discover Open Data Policies</h1>
-          <h2>Open Data Policies, for non-lawyers.</h2>
+          <h1>Discover open-data policies</h1>
         </hgroup>
-        <p>Open Data Policies Decoded provides the open data policies from many jurisidictions on 
-        one friendly website. 
-        <!-- Inline definitions, cross-references, bulk downloads, a modern API, and all of the 
-        niceties of modern website design. --> 
-        It’s like the expensive software lawyers use, but free and wonderful.</p>
-        <p>This is a public beta test of Open Data Policies Decoded, which is to say that everything
-        is under development. Things are funny looking, broken, and generally unreliable
-        right now.</p>
-        <p>This site is powered by <a href="http://www.statedecoded.com/">The State
-        Decoded</a>. Check out this project
-        <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic">on GitHub</a> and
+        <p>{{ site.description }}</p>
+        <p>This is a public beta test, which means everything is under development. Some parts of the site are 
+        funny-looking or under development.</p>
+        <p>Check out this project <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic">on GitHub</a> and
         feel free to <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/issues">
         open an issue</a> or <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/pulls">
         submit a pull request</a>!</p>
+        <img src="/assets/images/wwc-resource-stamp.png" align="left" alt="What Works Cities resource stamp" width="100">
+        <p>This site was developed by the <a href="http://www.sunlightfoundation.com">Sunlight Foundation</a> with support 
+        from the <a href="http://whatworkscities.bloomberg.org/">What Works Cities</a> project of 
+        <a href="http://www.bloomberg.org/">Bloomberg Philanthropies</a>.</p>
       </section> <!-- // .feature -->
       <section class="secondary-content">
         <!--article class="abstract">
