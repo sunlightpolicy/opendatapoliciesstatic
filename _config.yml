@@ -92,3 +92,6 @@ google_search_code: "016815729111879890803:suyx7g6exsw"
 
 # Google services
 google_analytics: UA-48789618-3
+
+# Disqus post comments
+disqus_shortname: opendatapolicies
