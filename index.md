@@ -20,9 +20,8 @@ layout: default
           <h1>Discover open-data policies</h1>
         </hgroup>
         <p>{{ site.description }}</p>
-        <p>This is a public beta test, which means everything is under development. Some parts of the site are 
-        funny-looking or under development.</p>
-        <p>Check out this project <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic">on GitHub</a> and
+        <p>This is a public beta test, so everything is under development and some parts may look odd. 
+        Check out this project <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic">on GitHub</a> and
         feel free to <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/issues">
         open an issue</a> or <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/pulls">
         submit a pull request</a>!</p>
