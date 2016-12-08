@@ -1,8 +1,10 @@
 (function() {
   function displaySearchResults(results, store) {
+    Console.log(1);
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
+      Console.log(2);
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
@@ -13,11 +15,13 @@
 
       searchResults.innerHTML = appendString;
     } else {
+      Console.log(3);
       searchResults.innerHTML = '<li>No results found</li>';
     }
   }
 
   function getQueryVariable(variable) {
+    Console.log(4);
     var query = window.location.search.substring(1);
     var vars = query.split('&');
 
@@ -33,6 +37,7 @@
   var searchTerm = getQueryVariable('query');
 
   if (searchTerm) {
+    Console.log(5);
     document.getElementById('search-box').setAttribute("value", searchTerm);
 
     // Initalize lunr with the fields it will be searching on. I've given title
