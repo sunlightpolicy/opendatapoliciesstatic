@@ -20,7 +20,7 @@ layout: default
           <h1>Discover open-data policies</h1>
         </hgroup>
         <p>{{ site.description }}</p>
-        <p>This is a public beta test, so everything is under development and some parts may look odd. 
+        <p>We are continuously improving this site. 
         Check out this project <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic">on GitHub</a> and
         feel free to <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/issues">
         open an issue</a> or <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/pulls">
