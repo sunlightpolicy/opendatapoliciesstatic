@@ -13,7 +13,7 @@ layout: default
       </div>
     </div>
   </div>--> <!-- // .nest -->
-  <section class="homepage" role="main">
+  <section class="homepage" role="main" style="padding-left:30px">
     <div class="nest">
       <section class="feature-content">
         <hgroup>
