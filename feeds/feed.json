@@ -37,7 +37,6 @@ layout: null
             "title": {{page.title | jsonify}},
             "content": {{page.content | strip_html | jsonify}},
             "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
-            "date": {{ page.date | jsonify }},
             "excerpt": {{ page.description | jsonify }},
             "search_omit": "{{ page.search_omit }}"
         }
