@@ -26,7 +26,7 @@ layout: default
         open an issue</a> or <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/pulls">
         submit a pull request</a>!</p>
         <img src="/assets/images/wwc-resource-stamp.png" align="left" alt="What Works Cities resource stamp" width="100" 
-        style="margin-left:20px,margin-right:20px">
+        style="margin-left:20px;margin-right:20px">
         <p>This site was developed by the <a href="http://www.sunlightfoundation.com">Sunlight Foundation</a> with support 
         from the <a href="http://whatworkscities.bloomberg.org/">What Works Cities</a> project of 
         <a href="http://www.bloomberg.org/">Bloomberg Philanthropies</a>.</p>
