@@ -4,7 +4,6 @@ year: 2016
 date: 2016-07-14
 legal_custom: Council Resolution
 policy_url: http://city.milwaukee.gov/ImageLibrary/Groups/cityOpenData/MilwaukeeOpenDataPolicy.pdf
-wwc: true
 ---
 
 Open Data Policy
