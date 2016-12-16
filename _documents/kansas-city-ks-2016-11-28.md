@@ -7,6 +7,7 @@ policy_url: https://ago-item-storage.s3-external-1.amazonaws.com/ad51020991e34ce
 ---
 
 Administrative Order
+
 Subject: Open Data Requirements and Implementation Plan
 
 OBJECTIVE
@@ -52,6 +53,7 @@ b.     New and existing signals of interest from the public (such as frequency o
 c.     Cost
 
 REPORT AND REVIEW
+
 Within one year of the effective date of this Administrative Regulation the Chief Knowledge Officer shall submit to the Commission of the Unified Government an annual report on the Unified Government’s progress toward the goals laid out in Resolution 31-13. The report shall also include a list of datasets currently available on the UG Open Data site, a description and publication timeline for datasets envisioned to be published on the portal in the following year, and recommended changes to the open data program.
 
 DEFINITIONS
