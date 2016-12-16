@@ -1,7 +1,7 @@
 ---
 place: denton-tx
 year: 2015
-legal_custom: Administrative Directive;
+legal_custom: Administrative Directive
 policy_url: http://www.cityofdenton.com/home/showdocument?id=22099
 ---
 
