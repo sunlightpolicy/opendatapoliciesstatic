@@ -1,7 +1,7 @@
 ---
 place: tulsa-ok
 year: 2015
-legal_custom: Executive Order;
+legal_custom: Executive Order
 policy_url: https://www.cityoftulsa.org/media/448223/2015-07.pdf
 ---
 
