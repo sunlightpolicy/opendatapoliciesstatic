@@ -1,7 +1,8 @@
 ---
 place: washington-dc
 year: 2014
-legal_custom: Executive Directive (2006 - Admin Memo, 2011 - Mayoral Memo)
+date: 2014-07-21
+legal_custom: Executive Directive
 policy_url: http://dc.gov/page/transparency-open-government-and-open-data-directive
 ---
 
