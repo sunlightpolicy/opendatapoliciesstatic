@@ -1,7 +1,7 @@
 ---
 place: san-francisco-ca
 year: 2013
-legal_custom: Legislation (first version was an EO)
+legal_custom: Legislation
 policy_url: http://sfbos.org/ftp/uploadedfiles/bdsupvrs/committees/materials/gao_032813_121017.pdf
 ---
 
