@@ -1,18 +1,11 @@
 ---
 place: providence-ri
 year: 2012
-legal_custom: Legislation [plan for a plan]
+date: 2012-03-19
+legal_custom: Resolution
 policy_url: http://www.gcpvd.org/2012/03/19/open-providence-commission-for-transparency-and-accountability-meeting-today-march-19/
 ---
 
-<p>Open Providence Commission for Transparency and Accountability
- <p>March 19, 2012 – 5:30pm
- <p>The Conference Room, Third Floor, City Hall, 25 Dorrance Street, Providence, RI 02903
- <p>Welcome and overview of City Council Resolution creating commission from John Marion, Chairman.
- <p>Election of Vice Chairperson
- <p>Discussion relative to upcoming meetings and schedule.
- <p>
-<p>Legislation passed by the City Council:
  <p>RESOLUTION CREATING THE OPEN PROVIDENCE COMMISSION FOR TRANSPARENCY AND ACCOUNTABILITY
  <p>WHEREAS, the Providence City Council and the Mayor of Providence are united in their belief that open and transparent government is essential for citizens to make informed decisions and hold officials accountable for the conduct of the people’s business; and
  <p>WHEREAS, the policies and practices of the City of Providence should adhere to high standards which instill trust and confidence of local government in its citizens; and
@@ -33,23 +26,3 @@ policy_url: http://www.gcpvd.org/2012/03/19/open-providence-commission-for-trans
  <p>BE IT FURTHER RESOLVED that the Commission shall work to identify sources of funding to support the changes needed to make the City of Providence more open and accountable to its constituency, as laid out in this Resolution.
  <p>BE IT FURTHER RESOLVED that the Commission shall organize a public hearing, engage relevant community, business and labor stakeholders, and invite appropriate administrative staff to provide important internal and external information.
  <p>BE IT FURTHER RESOLVED that ninety (90) days from the date of the passage of this Resolution, the Commission shall report its findings and recommendations to establish in the City of Providence an open and accountable government.
-
-</p>
-<history>
- 
-
-Enacted: 2012; 
-Link: http://www.gcpvd.org/2012/03/19/open-providence-commission-for-transparency-and-accountability-meeting-today-march-19/; 
-Means: Legislation [plan for a plan]
-
-</history>
-
-<tags>
-
-<tag>city</tag>
-
-
-
-</tags>
-</p>
-</p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p>
