@@ -99,90 +99,168 @@ The city manager shall hold each department head responsible for the preservatio
 (a)     The head of any city department is authorized to destroy or otherwise dispose of any record under his charge according to the following schedule:
 
 (1)     To be retained permanently:
-a.      General ledgers, general journals and cash books.
-b.      Bond and interest ledgers and records of bonds and interest coupons destroyed.
-c.      Tax rolls and special assessment ledgers.
-d.      Property ledgers.
-e.      Deeds and other title papers.
-f.      Records of tax liens, foreclosures and sales.
-g.      Records of securities owned or held in trust.
-h.      Records of employee earnings and payroll deductions.
-i.      Memoranda relating to outstanding warrants or checks not presented for payment, issue of duplicate checks.
-j.      Reports which include general ledger balance sheets, trial balances, payroll summaries and analyses of operating figures for a period longer than one (1) year.
-k.      Annual reports and summaries.
-l.      Correspondence, reports and memoranda of a policy nature.
-m.      Auditor's reports.
-n.      Charts of accounts and manuals of instruction.
-o.      Birth and death certificates, burial permits, communicable disease records, immunization records, positive tests for syphilis.
-p.      Maps, records and plans of new construction or improvements and tracings of systems.
-q.      Clipping file.
-r.      Minutes of commissions, boards, councils, committees and other official groups.
-s.      Negative photographs.
-t.      Reference materials produced by in-house officials.
-u.      Assessment rolls, real and personal property.
-v.      Contracts and leases.
-w.      Agreements and contracts.
-x.      Plats and plat books.
-y.      Valuation records.
-z.      Deeds, land contracts, title abstracts.
-aa.     Annual budget and financial statement.
-bb.     Answered alarm register.
-cc.     Fire violation notices.
-dd.     Legal opinions.
-ee.     Annexation and zoning data.
-ff.     Master plan reports.
-gg.     Urban renewal data.
-hh.     Surveyor field notebook.
-ii.     Job descriptions and salary schedules.
-jj.     Service hydrant and meter records.
-kk.     Police and district court records (unless otherwise provided by law).
+
+a. General ledgers, general journals and cash books.
+
+b. Bond and interest ledgers and records of bonds and interest coupons destroyed.
+
+c. Tax rolls and special assessment ledgers.
+
+d. Property ledgers.
+
+e. Deeds and other title papers.
+
+f. Records of tax liens, foreclosures and sales.
+
+g. Records of securities owned or held in trust.
+
+h. Records of employee earnings and payroll deductions.
+
+i. Memoranda relating to outstanding warrants or checks not presented for payment, issue of duplicate checks.
+
+j. Reports which include general ledger balance sheets, trial balances, payroll summaries and analyses of operating figures for a period longer than one (1) year.
+
+k. Annual reports and summaries.
+
+l. Correspondence, reports and memoranda of a policy nature.
+
+m. Auditor's reports.
+
+n. Charts of accounts and manuals of instruction.
+
+o. Birth and death certificates, burial permits, communicable disease records, immunization records, positive tests for syphilis.
+
+p. Maps, records and plans of new construction or improvements and tracings of systems.
+
+q. Clipping file.
+
+r. Minutes of commissions, boards, councils, committees and other official groups.
+
+s. Negative photographs.
+
+t. Reference materials produced by in-house officials.
+
+u. Assessment rolls, real and personal property.
+
+v. Contracts and leases.
+
+w. Agreements and contracts.
+
+x. Plats and plat books.
+
+y. Valuation records.
+
+z. Deeds, land contracts, title abstracts.
+
+aa. Annual budget and financial statement.
+
+bb. Answered alarm register.
+
+cc. Fire violation notices.
+
+dd. Legal opinions.
+
+ee. Annexation and zoning data.
+
+ff. Master plan reports.
+
+gg. Urban renewal data.
+
+hh. Surveyor field notebook.
+
+ii. Job descriptions and salary schedules.
+
+jj. Service hydrant and meter records.
+
+kk. Police and district court records (unless otherwise provided by law).
 
 (2)     To be retained for fifteen (15) years:
-a.      Subsidiary ledgers, including revenue ledgers, appropriation expenditure ledgers, store ledgers, miscellaneous accounts and receivable ledgers.
-b.      Cost and work ledgers and records.
-c.      Journal vouchers.
-d.      Books of original entry (other than general journals and cash books) including voucher, warrant and check registers, daily summaries of receipts and their distribution, journal proof types from machine posting of subsidiary ledgers.
-e.      Paid or cancelled checks.
-f.      Surety bonds, officers and employees (fidelity bonds).
-g.      Fire investigation reports, fire training records.
-h.      Water department daily log sheets.
+
+a. Subsidiary ledgers, including revenue ledgers, appropriation expenditure ledgers, store ledgers, miscellaneous accounts and receivable ledgers.
+
+b. Cost and work ledgers and records.
+
+c. Journal vouchers.
+
+d. Books of original entry (other than general journals and cash books) including voucher, warrant and check registers, daily summaries of receipts and their distribution, journal proof types from machine posting of subsidiary ledgers.
+
+e. Paid or cancelled checks.
+
+f. Surety bonds, officers and employees (fidelity bonds).
+
+g. Fire investigation reports, fire training records.
+
+h. Water department daily log sheets.
 
 (3)     To be retained for seven (7) years:
-a.      City property appraisals.
-b.      Duplicate receipts for taxes, special assessments, licenses, permits and registrations and building permit applications.
-c.      Bank deposit books and record stubs.
-d.      Paid or cancelled expenditure vouchers.
-e.      Records of formal bids and advertising for bids on contracts and purchases where such procedure is required.
-f.      Redeemed bonds and interest coupons (certificate of their destruction must be kept).
-g.      Bond and interest register (bond and interest ledger shall be kept permanently).
-h.      Insurance policies and records relating to claims.
-i.      Records of collateral pledged by depositories.
-j.      Memoranda relating to physical inventories.
-k.      Correspondence, special subjects.
-l.      Petitions.
-m.      Income tax withholdings.
-n.      Employee folders, and accident reports.
-o.      Fire monthly summary, uniform allowance records.
-p.      Parks and recreation attendance reports.
-q.      Tree removals.
-r.      Maintenance reports, state highway department.
-s.      Vouchers with attached invoices.
-t.      Recreation season and senior citizen programs.
+
+a. City property appraisals.
+
+b. Duplicate receipts for taxes, special assessments, licenses, permits and registrations and building permit applications.
+
+c. Bank deposit books and record stubs.
+
+d. Paid or cancelled expenditure vouchers.
+
+e. Records of formal bids and advertising for bids on contracts and purchases where such procedure is required.
+
+f. Redeemed bonds and interest coupons (certificate of their destruction must be kept).
+
+g. Bond and interest register (bond and interest ledger shall be kept permanently).
+
+h. Insurance policies and records relating to claims.
+
+i. Records of collateral pledged by depositories.
+
+j. Memoranda relating to physical inventories.
+
+k. Correspondence, special subjects.
+
+l. Petitions.
+
+m. Income tax withholdings.
+
+n. Employee folders, and accident reports.
+
+o. Fire monthly summary, uniform allowance records.
+
+p. Parks and recreation attendance reports.
+
+q. Tree removals.
+
+r. Maintenance reports, state highway department.
+
+s. Vouchers with attached invoices.
+
+t. Recreation season and senior citizen programs.
 
 (4)     To be retained for three (3) years:
-a.      Requisitions.
-b.      Purchase orders.
-c.      Shipping notices and bills of lading.
-d.      Records of material received.
-e.      Register of requisitions.
-f.      Time tickets.
-g.      Assignments, attachments and garnishments.
-h.      Bank deposit slips and detailed records of items deposited.
-i.      Negative laboratory reports.
-j.      Property transfer slips.
-k.      Tax statements.
-l.      Departmental transfers.
-m.      Tree plantings.
+
+a. Requisitions.
+
+b. Purchase orders.
+
+c. Shipping notices and bills of lading.
+
+d. Records of material received.
+
+e. Register of requisitions.
+
+f. Time tickets.
+
+g. Assignments, attachments and garnishments.
+
+h. Bank deposit slips and detailed records of items deposited.
+
+i. Negative laboratory reports.
+
+j. Property transfer slips.
+
+k. Tax statements.
+
+l. Departmental transfers.
+
+m. Tree plantings.
 
 (5)     [Other records not listed.] All other records not appearing in the above schedules will be reviewed by the city attorney's office for the proper period of retention, but in no event shall the retention period be less than a year.
 
