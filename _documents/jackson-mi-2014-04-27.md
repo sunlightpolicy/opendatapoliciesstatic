@@ -1,5 +1,5 @@
 ---
-place: city-of jackson-mi
+place: jackson-mi
 year: 2014
 date: 2014-04-27
 legal_custom: Legislation
