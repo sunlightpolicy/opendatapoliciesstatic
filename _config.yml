@@ -79,6 +79,7 @@ defaults:
       type: places
     values:
       layout: default
+      type: local
 
 # Plugin settings
 gems:
