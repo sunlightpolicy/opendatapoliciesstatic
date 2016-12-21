@@ -8,7 +8,7 @@ title: List of all open-data policies
 These are all the open-data policies we have on this site:
 
 <ul>
-{% assign docs = site.documents | sort %}
+{% assign docs = site.documents | sort: "place" %}
 {% for doc in docs %}
   {% assign the_place = site.places | where: "place", doc.place | first %}
   <li>
