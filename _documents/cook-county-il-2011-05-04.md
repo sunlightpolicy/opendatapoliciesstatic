@@ -41,6 +41,7 @@ NOW, THEREFORE, BE IT ORDAINED, by the Cook County Board of Commissioners, that 
 (e) Within 120 days, each County Agency shall create a catalog of its public information. The catalog shall be accessible through this Open Cook County Initiative Website.
 
 (f) The catalog shall indicate:
+
 1. If the information is publicly accessible; and
 2. The date of when the information was made publicly accessible; and
 3. The date the information was last updated; and
@@ -60,12 +61,14 @@ NOW, THEREFORE, BE IT ORDAINED, by the Cook County Board of Commissioners, that 
 (l) Within 120 days, each County Agency shall develop and publish an Open Government Plan ("Plan") that shall describe how each department will enhance and develop transparency, public participation, and collaboration. The Open Government Plan shall describe steps the County Agency will take to conduct its work more openly and to publish its information online. The Plan shall describe how the County Agency is currently meeting its legal information dissemination obligations under FOIA and how the County Agency plans to create more access to information and opportunities for public participation.
 
 (m) The Open Government Plan shall describe steps the County shall take to enhance and expand its practices to further cooperation among County Agencies, other governmental agencies, the public, and nonprofit and private entities in fulfilling the goals and objectives of the County. The Plan shall include specific details about:
+
 1. Proposed changes to internal management and administrative policies to improve collaboration; and
 2. Proposals to use technology platforms to improve collaboration among employees and the public; and
 3. Descriptions of and links to appropriate websites where the public can learn about existing collaboration efforts; and
 4. Innovative methods, such as prizes and competitions, to obtain ideas from, and to increase collaboration with, the public, as well as those in the private sector, nonprofit, and academic communities.
 
 (n) Within 45 days, the President shall establish a working group that focuses on transparency, accountability, public participation, and collaboration within County government. This group, with senior level representation from other County Agencies, shall serve several critical functions, including:
+
 1. <em>Transparency Forum.</em> The working group shall provide a forum to share best practices on innovative ideas to promote transparency. This shall include system and process solutions for information collection, aggregation, validation, and dissemination; and
 2. <em>Participation and Collaboration Forum.</em> The working group shall provide a forum to share best practices on innovative ideas to promote participation and collaboration, including how to experiment with new technologies, take advantage of the expertise and insight of people both inside and outside of County government, and form high-impact collaborations with researchers, the private sector, and the public; and
 3. <em>Public Input Forum.</em> The working group shall provide a forum for developing resolutions to issues in accordance with Section 2-5(h) herein.
