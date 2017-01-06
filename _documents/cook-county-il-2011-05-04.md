@@ -6,7 +6,29 @@ legal_custom: Ordinance
 policy_url: http://legacy.cookcountygov.com/secretary/NEW%20ITEMS%20and%20CONSENT/new%20items%2004-20-113.pdf
 ---
 
-<em>Note: The original version of the policy (linked to above) was passed on May 4, 2011. (You can also find an annotated plain-text version <a href="http://genius.com/Cook-county-cook-county-open-government-ordinance-annotated">here</a>.) On Dec 4, 2013, that policy was modified to remove a single word. See amendment <a href="https://cook-county.legistar.com/LegislationDetail.aspx?ID=1526439&GUID=D6FA0EDA-DAEB-4FB4-8EFD-22DE71782D79&Options=&Search=&FullText=1">here</a>. The current version — with the modification but without the "Whereas" clauses — can be found <a href="https://www.municode.com/library/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH2AD_ARTIINGE_S2-5OPGOPL">here</a>.</em><br>
+<em>Note: The original version of the policy (linked to above) was passed on May 4, 2011. (You can also find an annotated plain-text version <a href="http://genius.com/Cook-county-cook-county-open-government-ordinance-annotated">here</a>.) On Dec 4, 2013, that policy was modified to remove a single word. See amendment <a href="https://cook-county.legistar.com/LegislationDetail.aspx?ID=1526439&GUID=D6FA0EDA-DAEB-4FB4-8EFD-22DE71782D79&Options=&Search=&FullText=1">here</a>. The current version — with the modification but without the "Whereas" clauses — can be found <a href="https://www.municode.com/library/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH2AD_ARTIINGE_S2-5OPGOPL">here</a>.</em><br><br>
+
+ESTABLISHMENT OF THE COOK COUNTY OPEN GOVERNMENT PLAN
+
+WHEREAS, Cook County is committed to creating an unprecedented level of openness in County government; and
+
+WHEREAS, it is the desire and intention of the Cook County Board of Commissioners to have County officials work together with the public to ensure open and effective government; and
+
+WHEREAS, through the establishment of an Open Government Plan, Cook County will institute a system of transparency, public participation, collaboration and accountability; and
+
+WHEREAS, such public participation and involvement will engage more minds, which in turn shall generate dynamic feedback and innovative ideas; and
+
+WHEREAS, the online provision of public data in an accessible format would be instrumental in helping to encourage cooperation and technological advancement; and
+
+WHEREAS, it is in the best interest of Cook County to pursue efficiency through the Open Government Plan so as to create economic opportunities, increase transparency, use new technologies to the County’s advantage, and eliminate wasteful redundancy; and
+
+WHEREAS, within 90 days, the County shall issue, through separate guidance or as part of, or in collaboration with, any planned comprehensive management guidance, a framework for how the County can use challenges, prizes, and other incentive-backed strategies to find innovative or cost-effective solutions to utilizing or improving open government; and
+
+WHEREAS, these objectives all work towards the overarching goal of ensuring that taxpayer dollars are spent efficiently and Cook County government fosters public trust.
+
+NOW, THEREFORE, BE IT ORDAINED, by the Cook County Board of Commissioners, that Chapter 2, Article 1, Sec. 2-5 of the Cook County Code is hereby enacted as follows:
+
+## Sec. 2-5. Open Government Plan
 
 (a) Purpose. In order to increase transparency, accountability, and informed public participation, and to create economic development opportunities, Cook County ("County") departments and agencies, including the offices of the separately elected County officials ("County Officials" or "County Agency") shall expand access to information, by making certain information available online in a machine-readable, open format, that can be retrieved, downloaded, indexed, sorted, searched, and reused by commonly used Web search applications and commonly used open format software that facilitate access to, and the reuse of, such information.
 
