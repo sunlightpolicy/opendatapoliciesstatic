@@ -5,6 +5,10 @@ legal_custom: Policy
 policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk/75784601092017011449522.PDF
 ---
 
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
+
 <p>City of San Diego Open Data Policy</p>
 <p>EFFECTIVE DATE: January 1, 2015</p>
 <h1>BACKGROUND:</h1>
@@ -23,14 +27,14 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 <p>1.7  <em>IT Department</em> means the City Department responsible for information technology and whose responsibilities are described in San Diego Municipal Code sections 22.1601 through 22.1602.</p>
 <p>1.8  <em>Public Data Set</em> means, except as otherwise provided herein, a Data Set that is available for inspection by the public in accordance with any provision of law and is maintained on a computer system by, or on behalf of, a City Department. Public Data Set does not include:</p>
 <ol type="a">
-<li>a. any portion of a data set to which the City may deny access under applicable federal, state or local law, rule or regulation;</li>
-<li>b. any data set that contains a significant amount of data to which the City may deny access under any other provision of a federal or state law, rule or regulation, or local law and where removing the data would impose undue financial or administrative burden;</li>
-<li>c. data that reflects the internal deliberative process of the City, including negotiating positions, future procurements, or pending or reasonably anticipated legal or administrative proceedings;</li>
-<li>d. data stored solely on a City-owned personal computing device, or data stored on a portion of a network that has been exclusively assigned to a single City employee or a single City-owned or -controlled computing device;</li>
-<li>e. materials subject to copyright, patent, trademark, confidentiality agreements, or trade secret protection;</li>
-<li>f. proprietary applications, computer code, software, operating systems, or similar materials;</li>
-<li>g. employment records and internal employee-related directories; and</li>
-<li>h. archival or historical material that is not digitized and would need to be converted to a digital, machine readable format.</li>
+<li>any portion of a data set to which the City may deny access under applicable federal, state or local law, rule or regulation;</li>
+<li>any data set that contains a significant amount of data to which the City may deny access under any other provision of a federal or state law, rule or regulation, or local law and where removing the data would impose undue financial or administrative burden;</li>
+<li>data that reflects the internal deliberative process of the City, including negotiating positions, future procurements, or pending or reasonably anticipated legal or administrative proceedings;</li>
+<li>data stored solely on a City-owned personal computing device, or data stored on a portion of a network that has been exclusively assigned to a single City employee or a single City-owned or -controlled computing device;</li>
+<li>materials subject to copyright, patent, trademark, confidentiality agreements, or trade secret protection;</li>
+<li>proprietary applications, computer code, software, operating systems, or similar materials;</li>
+<li>employment records and internal employee-related directories; and</li>
+<li>archival or historical material that is not digitized and would need to be converted to a digital, machine readable format.</li>
 </ol>
 <p>1.9 <em>Voluntary Compliance Standards</em> shall have the meaning described in Office of Management and Budget (OMB) Circular A-119 Revised, as modified from time to time, which currently includes standards developed or adopted by domestic and international organizations, including provisions that require owners of relevant intellectual property to agree to make that intellectual property available on a non-discriminatory, royalty-free or reasonable royalty basis to all interested parties.</p>
 <p>1.10 <em>Web Portal</em> means a collection of web services, accessible from a single web site, which brings information together from diverse sources in a uniform way.</p>
@@ -41,9 +45,9 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 <p>2.4  No later than 180 days from the Effective Date of this Policy, the Chief Data Officer shall submit a written report to the Mayor and the Council on the status of implementation of this Policy and publish the report on the City web site.</p>
 <p>2.5  No later than 18 months from the Effective Date of this Policy, and annually thereafter, the Chief Data Officer shall provide a Compliance Plan to the Mayor and the Council and publish the Compliance Plan on the City web site. City Departments shall cooperate with the Chief Data Officer in its preparation of the Compliance Plan. The Compliance Plan shall include:</p>
 <ol type="a">
-<li>a. a data inventory and a summary description of Public Data Sets under the control of each City Department;</li>
-<li>b. a timeline for publication to the Web Portal of high value existing Public Data Sets, as determined by the Chief Data Officer after soliciting public input, with all high value Public Data Sets being published within five years of the Effective Date of this Policy; and</li>
-<li>c. for any high value Public Data Set that cannot be made available on the Web Portal within the specified time, a statement of the reasons why the high value Public Data Set cannot be made available and, to the extent practicable, the date by which the City Department believes that it will be available on the Web Portal.</li>
+<li>a data inventory and a summary description of Public Data Sets under the control of each City Department;</li>
+<li>a timeline for publication to the Web Portal of high value existing Public Data Sets, as determined by the Chief Data Officer after soliciting public input, with all high value Public Data Sets being published within five years of the Effective Date of this Policy; and</li>
+<li>for any high value Public Data Set that cannot be made available on the Web Portal within the specified time, a statement of the reasons why the high value Public Data Set cannot be made available and, to the extent practicable, the date by which the City Department believes that it will be available on the Web Portal.</li>
 </ol>
 <p>2.6  The annual updates to the Compliance Plan shall include the specific measures undertaken to make additional Public Data Sets available on the Web Portal since the immediately preceding update, specific measures that will be undertaken prior to the next update, an update to the inventory of Public Data Sets, and, if necessary, any changes to the prioritization of Public Data Sets and an update to the timeline for the inclusion of Public Data Sets on the Web Portal. If a Public Data Set cannot be made available on the Web Portal on or before the Compliance Plan update, the update shall state the reasons it cannot and, to the extent practicable, the date by which the City believes the Public Data Set will be available on the Web Portal.</p>
 <p>2.7  The Chief Data Officer shall ensure that an appropriate disclaimer and terms of use are placed on the City web site which shall include, but not be limited to, the following: (a) Public Data Sets are provided for informational purposes only; (b) the City does not warranty the completeness, accuracy, content, or fitness for any particular purpose or use of any Public Data Set made available on the Web Portal, nor are any such warranties to be implied or inferred with respect to the Public Data Sets furnished therein; and (c) the City is not liable for any deficiencies in the completeness, accuracy, content, or fitness for any particular purpose or use of any Public Data Set, or application utilizing such data set. This open data policy shall not be construed to create a private right of action to enforce its provisions, and failure to comply with this policy shall not result in liability to the City. For purposes of clarity, nothing in Section 2.7 prevents Public Data Sets from being used for any lawful purpose, including use of the Public Data Sets to develop commercial applications.</p>
