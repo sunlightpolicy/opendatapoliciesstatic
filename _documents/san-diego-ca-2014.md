@@ -7,12 +7,12 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 
 <p>City of San Diego Open Data Policy</p>
 <p>EFFECTIVE DATE: January 1, 2015</p>
-<p>BACKGROUND:</p>
+<h1>BACKGROUND:</h1>
 <p>The City of San Diego is committed to the principles of open, accessible, efficient, and transparent government, and the use of technology to help put those principles into practice. On December 17, 2013, the San Diego City Council approved San Diego Resolution R-308684 (Jan. 2, 2014) in support of creating an open data policy.</p>
-<p>PURPOSE:</p>
+<h1>PURPOSE:</h1>
 <p>This policy creates a process for making City data available online using open standards. The City will devote its best efforts to making its data publicly available online, while recognizing that it has numerous data sets and limited resources to dedicate to a new open data program. The City recognizes that making data available online in this manner will promote civic engagement, improve service delivery, allow for more effective communication with the public, and increase opportunities for economic development. This Policy is also intended to make the operation of City government more transparent, effective, and accountable to the public, and to allow the public to assist in identifying efficient solutions for government.</p>
-<p>POLICY:</p>
-<p>Section 1. Definitions: </p>
+<h1>POLICY:</h1>
+<h2>Section 1. Definitions: </h2>
 <p>As used in this Policy:</p>
 <p>1.1  Chief Data Officer means an individual designated by the Mayor to oversee implementation of this Policy.</p>
 <p>1.2  City Department shall mean every mayoral and independent City Department and each City Council District.</p>
@@ -35,7 +35,7 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 <p>1.9 Voluntary Compliance Standards shall have the meaning described in Office of Management and Budget (OMB) Circular A-119 Revised, as modified from time to time, which currently includes standards developed or adopted by domestic and international organizations, including provisions that require owners of relevant intellectual property to agree to make that intellectual property available on a non-discriminatory, royalty-free or reasonable royalty basis to all interested parties.</p>
 <p>1.10 Web Portal means a collection of web services, accessible from a single web site, which brings information together from diverse sources in a uniform way.</p>
 <p/>
-<p>Section 2. Chief Data Officer: Role, Responsibilities and Timeline for Actions:</p>
+<h2>Section 2. Chief Data Officer: Role, Responsibilities and Timeline for Actions:</h2>
 <p>2.1  The Chief Data Officer, or other Mayoral designee, shall provide written guidelines describing how to prepare an inventory of Data Sets owned or managed by the City which is subject to this Policy and will publish the guidelines on the City’s web site in accordance with the Implementation Plan.</p>
 <p>2.2  The Chief Data Officer, or other Mayoral designee, shall publish the initial City</p>
 <p>Department inventories of Public Data Sets on the City’s web site.</p>
@@ -51,17 +51,17 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 <p>2.7  The Chief Data Officer shall ensure that an appropriate disclaimer and terms of use are placed on the City web site which shall include, but not be limited to, the following: (a) Public Data Sets are provided for informational purposes only; (b) the City does not warranty the completeness, accuracy, content, or fitness for any particular purpose or use of any Public Data Set made available on the Web Portal, nor are any such warranties to be implied or inferred with respect to the Public Data Sets furnished therein; and (c) the City is not liable for any deficiencies in the completeness, accuracy, content, or fitness for any particular purpose or use of any Public Data Set, or application utilizing such data set. This open data policy shall not be construed to create a private right of action to enforce its provisions, and failure to comply with this policy shall not result in liability to the City. For purposes of clarity, nothing in Section 2.7 prevents Public Data Sets from being used for any lawful purpose, including use of the Public Data Sets to develop commercial applications.</p>
 <p>2.8  The Chief Data Officer shall review this Policy within one year of its Effective Date and annually thereafter and propose amendments or revisions as needed.</p>
 <p/>
-<p>Section 3. City Departments: Roles, Responsibilities:</p>
+<h2>Section 3. City Departments: Roles, Responsibilities:</h2>
 <p>3.1  All City Departments shall provide to the Chief Data Officer an inventory of Data Sets that they own or manage, consistent with the Implementation Plan.</p>
 <p>3.2  Within 18 months of the Effective Date of this Policy, the City will begin publishing to the Web Portal high value Public Data Sets, in accordance with the publication schedule set forth in the Compliance Plan.</p>
 <p>3.3  City Departments shall make Public Data Sets available in accordance with technical guidelines in the form of a process narrative published by the Chief Data Officer and in a Voluntary Compliance Standard format that permits automated processing and shall make use of appropriate technology to notify the public of all updates.</p>
 <p>3.4  City Departments shall update Data Sets as close as possible to the time of data collection to preserve the integrity and usefulness of the data sets, as determined by the City Department.</p>
 <p>3.5  Public Data Sets shall be made available without any registration requirement, license requirement, or restrictions on their lawful use. Registration requirements, license requirements, or restrictions as used in this section shall not include measures required to ensure access to Public Data Sets, to protect the Web Portal housing Public Data Sets from unlawful abuse, or attempts to damage or impair use of the web site, or to analyze the types of data being used to improve service delivery.</p>
 <p>3.6  To the greatest extent possible, Public Data Sets shall be accessible to external search capabilities using open and commonly used standards and formats as described in the technical guidelines.</p>
-<p>Section 4.</p>
+<h2>Section 4.</h2>
 <p>4.0 Nothing in this policy is intended to modify the City’s record retention policies or</p>
 <p>requirements.</p>
 <p>4.1 Nothing in this policy is intended to preclude the City from entering into agreements with other agencies for the provision of their data through the City’s Web Portal.</p>
-<p>HISTORY:</p>
+<h1>HISTORY:</h1>
 <p>‟Open Data Program”</p>
 <p>Adopted by Resolution R-______ - xx/xx/2014 </p>
