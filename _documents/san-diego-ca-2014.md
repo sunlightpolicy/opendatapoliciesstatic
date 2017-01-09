@@ -2,7 +2,7 @@
 place: san-diego-ca
 year: 2014
 legal_custom: Legislation
-policy_url: http://dockets.sandiego.gov/sirepub/cache/2/zg52ge0afupuzkuxnhixqp5b/75784611152016115353696.PDF
+policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk/75784601092017011449522.PDF
 ---
 
 <p>City of San Diego Open Data Policy</p>
