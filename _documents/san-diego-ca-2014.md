@@ -14,14 +14,14 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 <h1>POLICY:</h1>
 <h2>Section 1. Definitions: </h2>
 <p>As used in this Policy:</p>
-<p>1.1  Chief Data Officer means an individual designated by the Mayor to oversee implementation of this Policy.</p>
-<p>1.2  City Department shall mean every mayoral and independent City Department and each City Council District.</p>
-<p>1.3  Compliance Plan means the document prepared by the Chief Data Officer under Section 2.5 of this Policy.</p>
-<p>1.4  Data or Data Set means statistical or factual information in digital form which: (a) is reflected in a list, table, graph, chart, map, or database that can be digitally transmitted or processed; and (b) is regularly created or maintained and controlled by the City and is a “record” as defined in San Diego Municipal Code section 22.2602. This Policy does not prohibit the City from voluntarily disclosing information not otherwise defined as “Data Set” or “Data” in this subdivision, nor does it prohibit the City from making voluntarily disclosed information accessible through the single Web Portal described in Section 2 of this Policy.</p>
-<p>1.5  Effective Date means the later of the date upon which the Resolution authorizing this policy takes effect in accordance with the City Charter, or January 1, 2015.</p>
-<p>1.6  Implementation Plan means the plan prepared by the Mayor or his designee and administered by the Chief Data Officer for implementation of this Policy.</p>
-<p>1.7  IT Department means the City Department responsible for information technology and whose responsibilities are described in San Diego Municipal Code sections 22.1601 through 22.1602.</p>
-<p>1.8  Public Data Set means, except as otherwise provided herein, a Data Set that is available for inspection by the public in accordance with any provision of law and is maintained on a computer system by, or on behalf of, a City Department. Public Data Set does not include:</p>
+<p>1.1  <em>Chief Data Officer</em> means an individual designated by the Mayor to oversee implementation of this Policy.</p>
+<p>1.2  <em>City Department</em> shall mean every mayoral and independent City Department and each City Council District.</p>
+<p>1.3  <em>Compliance Plan</em> means the document prepared by the Chief Data Officer under Section 2.5 of this Policy.</p>
+<p>1.4  <em>Data or Data Set</em> means statistical or factual information in digital form which: (a) is reflected in a list, table, graph, chart, map, or database that can be digitally transmitted or processed; and (b) is regularly created or maintained and controlled by the City and is a “record” as defined in San Diego Municipal Code section 22.2602. This Policy does not prohibit the City from voluntarily disclosing information not otherwise defined as “Data Set” or “Data” in this subdivision, nor does it prohibit the City from making voluntarily disclosed information accessible through the single Web Portal described in Section 2 of this Policy.</p>
+<p>1.5  <em>Effective Date</em> means the later of the date upon which the Resolution authorizing this policy takes effect in accordance with the City Charter, or January 1, 2015.</p>
+<p>1.6  <em>Implementation Plan</em> means the plan prepared by the Mayor or his designee and administered by the Chief Data Officer for implementation of this Policy.</p>
+<p>1.7  <em>IT Department</em> means the City Department responsible for information technology and whose responsibilities are described in San Diego Municipal Code sections 22.1601 through 22.1602.</p>
+<p>1.8  <em>Public Data Set</em> means, except as otherwise provided herein, a Data Set that is available for inspection by the public in accordance with any provision of law and is maintained on a computer system by, or on behalf of, a City Department. Public Data Set does not include:</p>
 <p>a. any portion of a data set to which the City may deny access under applicable federal, state or local law, rule or regulation;</p>
 <p>b. any data set that contains a significant amount of data to which the City may deny access under any other provision of a federal or state law, rule or regulation, or local law and where removing the data would impose undue financial or administrative burden;</p>
 <p>c. data that reflects the internal deliberative process of the City, including negotiating positions, future procurements, or pending or reasonably anticipated legal or administrative proceedings;</p>
@@ -32,8 +32,8 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 <p>g. employment records and internal employee-related directories; and</p>
 <p>h. archival or historical material that is not digitized and would need to be converted</p>
 <p>to a digital, machine readable format.</p>
-<p>1.9 Voluntary Compliance Standards shall have the meaning described in Office of Management and Budget (OMB) Circular A-119 Revised, as modified from time to time, which currently includes standards developed or adopted by domestic and international organizations, including provisions that require owners of relevant intellectual property to agree to make that intellectual property available on a non-discriminatory, royalty-free or reasonable royalty basis to all interested parties.</p>
-<p>1.10 Web Portal means a collection of web services, accessible from a single web site, which brings information together from diverse sources in a uniform way.</p>
+<p>1.9 <em>Voluntary Compliance Standards</em> shall have the meaning described in Office of Management and Budget (OMB) Circular A-119 Revised, as modified from time to time, which currently includes standards developed or adopted by domestic and international organizations, including provisions that require owners of relevant intellectual property to agree to make that intellectual property available on a non-discriminatory, royalty-free or reasonable royalty basis to all interested parties.</p>
+<p>1.10 <em>Web Portal</em> means a collection of web services, accessible from a single web site, which brings information together from diverse sources in a uniform way.</p>
 <p/>
 <h2>Section 2. Chief Data Officer: Role, Responsibilities and Timeline for Actions:</h2>
 <p>2.1  The Chief Data Officer, or other Mayoral designee, shall provide written guidelines describing how to prepare an inventory of Data Sets owned or managed by the City which is subject to this Policy and will publish the guidelines on the City’s web site in accordance with the Implementation Plan.</p>
@@ -62,6 +62,6 @@ policy_url: http://dockets.sandiego.gov/sirepub/cache/2/f2ynf5p52fwsi4xdppnxslmk
 <p>4.0 Nothing in this policy is intended to modify the City’s record retention policies or</p>
 <p>requirements.</p>
 <p>4.1 Nothing in this policy is intended to preclude the City from entering into agreements with other agencies for the provision of their data through the City’s Web Portal.</p>
-<h1>HISTORY:</h1>
+<h2>HISTORY:</h2>
 <p>‟Open Data Program”</p>
 <p>Adopted by Resolution R-______ - xx/xx/2014 </p>
