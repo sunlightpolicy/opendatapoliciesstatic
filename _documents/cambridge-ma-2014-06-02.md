@@ -31,7 +31,7 @@ Nothing in this document will be deemed to prohibit the City from voluntarily di
  
 <strong>“ITD”</strong> means the City’s Information Technology Department.
 
-<strong>“Machine Readable” means in a format that is reasonably structured to allow for automated processing, including but not limited to application programming interface (“API”) or to comma separated values (“CSV”</strong>).
+<strong>“Machine Readable”</strong> means in a format that is reasonably structured to allow for automated processing, including but not limited to application programming interface (“API”) or to comma separated values (“CSV”).
 
 <strong>“Massachusetts Public Records Law”</strong> will mean M.G.L. c. 4, § 7(26), M.G.L. c. 66, § 10, and 950 CMR 32.
 
