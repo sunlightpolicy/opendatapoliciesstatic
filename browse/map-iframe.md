@@ -125,4 +125,4 @@ show_map(data);
 });
 
 </script>
-<div style="padding:0 25px;"><div id="mapid" style="border:1px solid #fff; width:100%; height:500px;"></div></div>
+<div id="mapid" style="border:1px solid #fff; width:100%; height:500px;"></div>
