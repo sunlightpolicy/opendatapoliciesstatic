@@ -132,4 +132,4 @@ You can also [browse by state](/browse/states/) or see a [list of all the polici
 
 Do you know of an open-data policy that's not listed here? [Let us know here](/add-a-policy/)!
 
-Are you interested in writing your own open-data policy? Check out some of our resources [here](/write-your-own/).
+Are you interested in writing your own open-data policy? Check out some of our resources [here](http://whatworkscities.sunlightfoundation.com/#section-h2-05).
