@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <script>
 
 // This code is generally a mess and needs cleanup
