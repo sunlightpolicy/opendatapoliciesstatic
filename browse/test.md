@@ -3,12 +3,4 @@ layout: default
 title: Open Data Policies
 ---
 
-{% include base.html %}
-
-<ul>
-{% for page in site.pages %}
-  <li>
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+<iframe src="http://www.opendatapolicies.org/browse/map-iframe/index.html"></iframe>
