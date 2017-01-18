@@ -73,8 +73,8 @@ function show_map(data) {
   }).addTo(map);
 
   // set up icons for markers
-  var wwcIcon = L.icon({ iconUrl: '{{base}}/assets/images/pin-wwc.png', iconSize: [24, 38] });
-  var odpIcon = L.icon({ iconUrl: '{{base}}/assets/images/pin.png', iconSize: [24, 38]});
+  var wwcIcon = L.icon({ iconUrl: 'http://www.opendatapolicies.org/assets/images/pin-wwc.png', iconSize: [24, 38] });
+  var odpIcon = L.icon({ iconUrl: 'http://www.opendatapolicies.org/assets/images/pin.png', iconSize: [24, 38]});
 
   // iterate over locations in geoJSON which have cities (previously extracted above) and create markers
   // on the map. The coordinates are flipped because of translation from lat/lng to x/y coordinates.
