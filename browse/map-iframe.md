@@ -2,6 +2,8 @@
 layout: null
 ---
 
+{% include head.html %}
+
 <script>
 
 // This code is generally a mess and needs cleanup
