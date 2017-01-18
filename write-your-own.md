@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Write your own!
+redirect_to:
+- http://whatworkscities.sunlightfoundation.com/index.html#section-h2-05
 ---
 
 Are you a government official or interested citizen who wants to draft an open-data policy for your own place or agency? You have come to the right place!
