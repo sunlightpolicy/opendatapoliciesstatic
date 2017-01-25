@@ -6,8 +6,9 @@ legal_custom: Administrative Regulation
 policy_url: http://city-egov.cincinnati-oh.gov/Webtop/ws/fyi/public/fyi_docs/Blob/3227.pdf?rpp=-10&m=1&w=doc_no%3D%272728%27
 ---
 
-<p>Administrative Regulation_No. 61</p>
-<p>City of Cincinnati Date: May 29, 2014</p>
+<p>Administrative Regulation No. 61</p>
+<p>City of Cincinnati</p>
+<p>Date: May 29, 2014</p>
 <p>Office of the City Manager</p>
 <br>
 <p>OPEN DATA REQUIREMENTS AND IMPLEMENTATION PLAN</p>
@@ -68,71 +69,70 @@ policy_url: http://city-egov.cincinnati-oh.gov/Webtop/ws/fyi/public/fyi_docs/Blo
 <p>Nothing in this Administrative Regulation shall be construed to supersede existing requirements for review and clearance of information exempt from disclosure under the Ohio Public Records Act and other applicable laws, regulations, or judicial orders.</p>
 <h2>OPEN DATA IMPLEMENTATION PLAN</h2>
 <p>This Open Data Implementation Plan takes effect upon the City Manager’s signing of the corresponding Administrative Regulation.</p>
-<br>
 <p>Within 30 days:
-	<ol>
+	<ul>
 		<li>ETS Director identifies Chief Data Officer and members of Executive Committee</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 60 days:
-	<ol>
+	<ul>
 		<li>Chief Data Officer selects departmental Open Data Coordinators</li>
 		<li>Chief Data Officer provides first summary update to Executive Committee</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 90 days:
-	<ol>
+	<ul>
 		<li>Joint meeting of ETS Director, Executive Committee and Open Data Working Group</li>
 		<li>Departments work with Chief Data Officer to identify one dataset to publish in accordance with the open data principles outlined in the Directive of the Administrative Regulation</li>
 		<li>Chief Data Officer hosts open session to engage private citizens and solicit feedback</li>
 		<li>Chief Data Officer provides second summary update to Executive Committee</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 120 days:
-	<ol>
-		<p>Chief Data Officer provides third summary update to Executive Committee</p>
-	</ol>
+	<ul>
+		<li>Chief Data Officer provides third summary update to Executive Committee</li>
+	</ul>
 </p>
 <p>Within 150 days:
-	<ol>
+	<ul>
 		<li>Chief Data Officer has identified necessary resources and infrastructure to publish one dataset per department in accordance with the open data principles outlined in the Directive of the Administrative Regulation</li>
 		<li>Chief Data Officer provides fourth summary update to Executive Committee</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 180 days:
-	<ol>
+	<ul>
 		<li>Chief Data Officer hosts open session to engage private citizens and solicit feedback</li>
 		<li>Chief Data Officer provides fifth summary update to Executive Committee</li>
 		<li>Meeting of the Open Data Working Group</li>
 		<li>Meeting of Executive Committee</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 210 days:
-	<ol>
+	<ul>
 		<li>Chief Data Officer has secured necessary resources and infrastructure to publish one dataset per department in accordance with the open data principles outlined in the Directive of the Administrative Regulation</li>
 		<li>Chief Data Officer provides sixth summary update to Executive Committee</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 240 days:
-	<ol>
+	<ul>
 		<li>Chief Data Officer provides seventh summary update to Executive Committee</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 270 days:
-	<ol>
+	<ul>
 		<li>One dataset as identified above is published in accordance with the principles outlined in the Directive of the Administrative Regulation</li>
 		<li>Meeting of the Open Data Working Group</li>
 		<li>Meeting of Executive Committee</li>
 		<li>Chief Data Officer hosts open session to engage private citizens and solicit feedback</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 300 days:
-	<ol>
+	<ul>
 		<li>Chief Data Officer prepares Phase 1 Progress Report on activities of Open Data Working Group and makes recommendations for updates or revisions to the Administrative Regulation, ongoing funding and support needs, implementation plan</li>
-	</ol>
+	</ul>
 </p>
 <p>Within 4 years:
-	<ol>
+	<ul>
 		<li>All City datasets publicly available online in open format</li>
-	</ol>
+	</ul>
 </p>
