@@ -1,6 +1,7 @@
 ---
 place: bloomington-il
 year: 2014
+date: 2014-08-25
 legal_custom: Ordinance
 policy_url: http://www.cityblm.org/Modules/ShowDocument.aspx?documentid=7183#page=190
 ---
