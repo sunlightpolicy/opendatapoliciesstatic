@@ -1,6 +1,7 @@
 ---
 place: cincinnati-oh
 year: 2014
+date: 2014-05-29
 legal_custom: Administrative Regulation
 policy_url: http://city-egov.cincinnati-oh.gov/Webtop/ws/fyi/public/fyi_docs/Blob/3227.pdf?rpp=-10&m=1&w=doc_no%3D%272728%27
 ---
