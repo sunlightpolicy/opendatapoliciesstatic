@@ -2,7 +2,7 @@
 place: cincinnati-oh
 year: 2014
 legal_custom: Administrative Regulation
-policy_url: http://city-egov.cincinnati-oh.gov/Webtop/ws/fyi/public/fyi_docs/Blob/3227.pdf?rpp=-10=1=doc_no%3D%272728%27
+policy_url: http://city-egov.cincinnati-oh.gov/Webtop/ws/fyi/public/fyi_docs/Blob/3227.pdf?rpp=-10&m=1&w=doc_no%3D%272728%27
 ---
 
 <p>Administrative Regulation_No. 61</p>
