@@ -35,14 +35,12 @@ In commitment to the spirit of Open Government, the District will consider publi
 ## Section 2: Open Data Initiative
 
 1. Constant with this resolution and the goals specified herein, the District will develop and implement practices that allow it to:
-
-a. Release publishable, non-private, District data, making that data freely available in open formats, making it fully accessible to the broadest range of users;
-b. Publish high quality, updated data with documentation (including metadata and a summary of the processes that were used to create specific data sets);
-c. Establish and maintain an open data web portal that provides a central location for public review of published District data;
-d. Employ open source software solutions whenever possible and share open source code in public repositories;
-e. Provide broad disclosure of public information while appropriately safeguarding protected and sensitive information; and
-f. Encourage innovative uses of the District’s publishable data by agencies, the public, and other partners.
-
+    a. Release publishable, non-private, District data, making that data freely available in open formats, making it fully accessible to the broadest range of users;
+    b. Publish high quality, updated data with documentation (including metadata and a summary of the processes that were used to create specific data sets);
+    c. Establish and maintain an open data web portal that provides a central location for public review of published District data;
+    d. Employ open source software solutions whenever possible and share open source code in public repositories;
+    e. Provide broad disclosure of public information while appropriately safeguarding protected and sensitive information; and
+    f. Encourage innovative uses of the District’s publishable data by agencies, the public, and other partners.
 2. The development and implementation of these practices shall be the responsibility of the Office of the Chief Information Officer.
 3. This resolution and the goals specified herein shall apply to any District department, office, administrative unit, board, advisory committee and any other divisions of the District (“department”).
 
@@ -50,17 +48,15 @@ f. Encourage innovative uses of the District’s publishable data by agencies, t
 
 1. Implementation of this Open Data Initiative Resolution will be overseen by the Office of the Chief Information Officer.
 2. The Office of the Chief Information Officer shall work with all departments within the District to:
-
-a. Identify a lead open data coordinator within each department. The coordinator will be responsible for oversight and management of that department's participation in the Open Data Initiative, including requests for budget or resources to support that participation;
-b. Develop a comprehensive inventory of datasets held by each District department;
-c. Develop and implement a process for determining whether information is private, sensitive or otherwise protected and establish whether the information may be published; the relative level of risk and public benefit associated with potentially sensitive, non-protected information so as to make a determination about whether and how to publish it;
-d. Work with the Office of the General Counsel to determine if the information identified by the departments may, legally, be made publically available;
-e. Develop and implement a process for prioritizing the release of datasets to the Open Data Portal, including historic and archival material, which takes into account new and existing signals of interest from the public (such as the frequency of Public Information Act requests), the District's programmatic priorities, existing opportunities for data use in the public interest, and cost;
-f. Establish processes for publishing datasets to the Open Data Portal, including processes for ensuring that datasets are reviewed for use-appropriate formats, quality, timeliness, and exclusion of protected and sensitive information;
-g. Optimize the quality and timeliness of data collection to avoid the inefficiencies created by paper-based systems and allow structured data to be created in the natural course of business;
-h. Develop and oversee a routinely updated, public timeline for new dataset publication; and
-i. Ensure that published datasets are available for bulk download or via APIs, or Application Programming Interfaces, to enable search and retrieval.
-
+    a. Identify a lead open data coordinator within each department. The coordinator will be responsible for oversight and management of that department's participation in the Open Data Initiative, including requests for budget or resources to support that participation;
+    b. Develop a comprehensive inventory of datasets held by each District department;
+    c. Develop and implement a process for determining whether information is private, sensitive or otherwise protected and establish whether the information may be published; the relative level of risk and public benefit associated with potentially sensitive, non-protected information so as to make a determination about whether and how to publish it;
+    d. Work with the Office of the General Counsel to determine if the information identified by the departments may, legally, be made publically available;
+    e. Develop and implement a process for prioritizing the release of datasets to the Open Data Portal, including historic and archival material, which takes into account new and existing signals of interest from the public (such as the frequency of Public Information Act requests), the District's programmatic priorities, existing opportunities for data use in the public interest, and cost;
+    f. Establish processes for publishing datasets to the Open Data Portal, including processes for ensuring that datasets are reviewed for use-appropriate formats, quality, timeliness, and exclusion of protected and sensitive information;
+    g. Optimize the quality and timeliness of data collection to avoid the inefficiencies created by paper-based systems and allow structured data to be created in the natural course of business;
+    h. Develop and oversee a routinely updated, public timeline for new dataset publication; and
+    i. Ensure that published datasets are available for bulk download or via APIs, or Application Programming Interfaces, to enable search and retrieval.
 3. To ensure that the commitments and goals as set forth in this Resolution are met, the Office of the Chief Information Officer will actively encourage department and public participation by providing regular opportunities for feedback and collaboration.
 
 ## Section 4: Central Online Location for Published Data
