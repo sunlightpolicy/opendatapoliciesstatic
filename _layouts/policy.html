@@ -6,9 +6,9 @@ title: ''
 {% assign the_place = site.places | where: "place", page.place | first %}
 <h1>{{ the_place.title }}, {{ the_place.states | join: '-' }}</h1>
 <h2>{{ page.legal_custom }} ({{ page.year }})</h2>
-<a href="{{ page.policy_url }}">View original policy</a>
+<p><a href="{{ page.policy_url }}">View original policy</a></p>
 {% if page.press_url %}
-  <a href="{{ page.press_url }}">View press release</a>
+  <p><a href="{{ page.press_url }}">View press release</a></p>
 {% endif %}
 
 <br>
