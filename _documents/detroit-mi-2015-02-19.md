@@ -4,6 +4,7 @@ year: 2015
 date: 2015-02-19
 legal_custom: Executive Order
 policy_url: https://data.detroitmi.gov/about
+press_url: http://www.detroitmi.gov/News/ArticleID/39/Mayor-Duggan-announces-new-Open-Data-Initiative-to-give-public-greater-access-to-city-data-and-information
 ---
 
 <p>City of Detroit Open Data Policy: Executive Order 2015-2</p>
