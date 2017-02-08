@@ -2,7 +2,7 @@
 place: sacramento-ca
 year: 2013
 legal_custom: Internal policy
-policy_url: http://portal.cityofsacramento.org/OpenData
+policy_url: http://web.archive.org/web/20140214033915/http://portal.cityofsacramento.org/OpenData
 ---
 
 <p>Title: Open Data </p>
