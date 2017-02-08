@@ -4,6 +4,7 @@ year: 2015
 date: 2015-10-13
 legal_custom: Council Resolution
 policy_url: http://coablog.ashevillenc.gov/wp-content/uploads/2016/02/Resolution-No.-15-189.pdf
+press_url: http://coablog.ashevillenc.gov/2016/02/municipal-data-evolves-to-next-gen-in-asheville-open-data/
 ---
 
 RESOLUTION NO. 15-189
