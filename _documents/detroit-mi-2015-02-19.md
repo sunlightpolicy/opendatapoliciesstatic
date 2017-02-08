@@ -28,7 +28,7 @@ press_url: http://www.detroitmi.gov/News/ArticleID/39/Mayor-Duggan-announces-new
       <li>which information will be presented to the public; and</li>
       <li>the best method to present it in a high quality fashion that is accessible and searchable.</li>
     </ol>
-    <p>The Chief Information Officer shall convene the first meeting of the Task Force within thirty (30) days from the effective date of this Order.</p>
+    <li>The Chief Information Officer shall convene the first meeting of the Task Force within thirty (30) days from the effective date of this Order.</li>
   </ol>
   <li>Advisory Commission. An eleven (11) member Advisory Commission is created, in accordance with Sec. 7-103 of the Charter, to advise the Task Force in developing and implementing Detroit GO DATA. In order to assure consideration of the perspectives of various users and subjects of data, the Advisory Commission may include non-Detroit residents who are representative of the business, academic, or non-profit communities, members of the media, or any other individual with relevant expertise or skill. Advisory Commission members shall be appointed to an initial term ending February 14, 2017 and may be re-appointed to 2-year terms.</li>
   <ol type="a">
