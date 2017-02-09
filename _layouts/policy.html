@@ -19,7 +19,8 @@ title: ''
     {% endfor %}
     <p>View this place's data portals: {{ portal_list | join: ', ' }}</p>
   {% else %}
-    <p><a href="{{ the_place.portal_urls[0][1] }}">View this place's data portal</a></p>
+    {% assign the_portal = the_place.portal_urls | first %}
+    <p><a href="{{ the_portal[1] }}">View this place's data portal</a></p>
   {% endif %}
 {% endif %}
 
