@@ -4,7 +4,7 @@ title: ''
 ---
 
 {% assign the_place = site.places | where: "place", page.place | first %}
-{% if the_place.type = 'state' %}
+{% if the_place.type == 'state' %}
   <h1>{{ the_place.title }} (state)</h1>
 {% else %}
   <h1>{{ the_place.title }}, {{ the_place.states | join: '-' }}</h1>
