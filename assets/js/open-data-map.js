@@ -24,7 +24,7 @@ console.log(docs);
 var data = [];
 
 {% for place in site.places %}
-  {% if place.x && place.y && (place.type === 'local') %}
+  {% if place.x && place.y %}
     data.push({
       properties: {
         'title': '{{place.title}}',
