@@ -29,7 +29,7 @@ var data = [];
       properties: {
         'title': '{{place.title}}',
         'states': '{{place.states | join: '-' }}',
-        'docs': docs['{{place.place}}'] || [],
+        'docs': docs['{{place.place}}'],
         'place_url': '{{place.url}}'
         // 'Year': '{{document.year}}',
         // 'Legal Means': '{{place.legal_custom}}',
@@ -89,7 +89,7 @@ function show_map(data) {
     // var mapPinLinkPolicyURL = "<a class=\"ref-map\" target=\"_blank\" href=\"" + locations[i]['properties']['Policy URL'] + "\">" + locations[i]['properties']['Legal Means'] + " <img class=\"ref-map-link\" src=\"{{base}}/assets//images/arrow-right-redx020.png\" alt=\"Go to WWC Reference Document\" /></a>";
 
     // List of documents for this place
-    var place_docs = locations[i].properties.docs;
+    var place_docs = locations[i].properties.docs || [];
     if (place_docs.length > 0) {
       place_docs.sort(function (a, b) {
         return b.year - a.year;
