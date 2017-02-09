@@ -10,6 +10,20 @@ title: ''
 {% if page.press_url %}
   <p><a href="{{ page.press_url }}">View press release</a></p>
 {% endif %}
+{% if the_place.portal_urls %}
+  {% if the_place.portal_urls.size > 1 %}
+    {% assign portal_list = [] %}
+    {% for portal in the_place.portal_urls %}
+      {% assign new_item = '<a href="{{ portal[1] }}">{{ portal[0] }}</a>' %}
+      {% assign portal_list = portal_list | concat: new_item %}
+    {% endfor %}
+    <p>View this place's data portals: {{ portal_list | join: ', ' }}</p>
+  {% else %}
+    <p><a href="{{ the_place.portal_urls }}">View this place's data portal</a></p>
+  {% endif %}
+{% endif %}
+
+
 
 <br>
 <hr>
