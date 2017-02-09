@@ -90,9 +90,11 @@ function show_map(data) {
 
     // List of documents for this place
     var place_docs = locations[i].properties.docs;
-    place_docs.sort(function (a, b) {
-      return b.year - a.year;
-    });
+    if (place_docs.length > 0) {
+      place_docs.sort(function (a, b) {
+        return b.year - a.year;
+      });
+    }
 
     // Generate title and list of docs (and links) for this place's pop-up box
     var pin_title = '<h1 class="map-pin-h1">' + locations[i].properties.title + ', ' + locations[i].properties.states + '</h1>';
