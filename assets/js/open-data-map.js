@@ -29,7 +29,7 @@ var data = [];
       properties: {
         'title': '{{place.title}}',
         'states': '{{place.states | join: '-' }}',
-        'docs': docs['{{place.place}}'],
+        'docs': docs['{{place.place}}'] || [],
         'place_url': '{{place.url}}'
         // 'Year': '{{document.year}}',
         // 'Legal Means': '{{place.legal_custom}}',
