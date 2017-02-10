@@ -1,11 +1,13 @@
 ---
 place: arlington-county-va
 year: 2016
-date: 2016-02
+date: 2016-02-01
 legal_custom: Internal Policy
 policy_url: https://topics.arlingtonva.us/open-government-resources/policy/
 ---
 
+<p><em>Note: Exact date within Feb 2016 unknown.</em></p>
+<br>
 <p>Open Data Policy</p>
 <h2>Overview</h2>
 <p>Arlington Data is the County’s formal open data program that provides direct access to and easy use of County government data.  The County uses Application Programming Interfaces (API) that allow for users to access and consume data in a convenient, consistent, secure and orderly fashion. The County is constantly expanding its publication of datasets to further its goals of transparency and accountability.  These open data sets will create opportunities to visualize the data from many perspectives and for various innovative purposes.</p>
