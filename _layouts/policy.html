@@ -16,12 +16,11 @@ title: ''
 {% endif %}
 {% if the_place.portal_urls %}
   {% if the_place.portal_urls.size > 1 %}
-    {% assign portal_list = [] %}
+    <p>View data portals: 
     {% for portal in the_place.portal_urls %}
-      {% assign new_item = '<a href="{{ portal[1] }}">{{ portal[0] }}</a>' %}
-      {% assign portal_list = portal_list | concat: new_item %}
+      <a href="{{ portal[1] }}">{{ portal[0] }}</a> 
     {% endfor %}
-    <p>View data portals: {{ portal_list | join: ', ' }}</p>
+    </p>
   {% else %}
     {% assign the_portal = the_place.portal_urls | first %}
     <p><a href="{{ the_portal[1] }}">View data portal</a></p>
