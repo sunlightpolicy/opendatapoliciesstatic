@@ -18,7 +18,11 @@ title: ''
   {% if the_place.portal_urls.size > 1 %}
     <p>View data portals: 
     {% for portal in the_place.portal_urls %}
-      <a href="{{ portal[1] }}">{{ portal[0] }}</a> 
+      {% if forloop.first == true %}
+      <a href="{{ portal[1] }}">{{ portal[0] }}</a>
+      {% else %}
+      , <a href="{{ portal[1] }}">{{ portal[0] }}</a>
+      {% endif %}
     {% endfor %}
     </p>
   {% else %}
