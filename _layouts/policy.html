@@ -44,6 +44,11 @@ title: ''
 <hr>
 <br>
 
+{% if page.note %}
+  <p><em>{{ page.note }}</em></p>
+  <br><hr><br>
+{% endif %}
+
 {{ content }}
 
 <br>
