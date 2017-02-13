@@ -80,6 +80,7 @@ defaults:
     values:
       layout: default
       type: local
+      no_text: false
 
 # Plugin settings
 gems:

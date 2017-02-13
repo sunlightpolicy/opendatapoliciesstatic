@@ -47,7 +47,11 @@ title: ''
   <hr>
 {% endif %}
 <br>
-{{ content }}
+{% if page.no_text == true %}
+  <p><em>We do not have an HTML version of this policy available, but you can still access the text using the "View original policy" link above.</em></p>
+{% else %}
+  {{ content }}
+{% endif %}
 <br>
 <hr>
 <p>
