@@ -10,7 +10,7 @@ title: Open Data Policies
 subtitle: Decoded
 
 description: >
-  OpenDataPolicies.org provides the open-data policies for cities and states 
+  OpenDataPolicies.org provides the open-data policies for cities and states
   all over the United States on one website.
 
 legalnotice: >
@@ -19,11 +19,11 @@ legalnotice: >
   with them. This website does not constitute legal advice. While every effort is made to keep all information
   up-to-date and accurate, no guarantee is made as to its accuracy. Our <a href=" http://sunlightfoundation.com/legal/privacy/">privacy policy</a> details how personally identfiable information that is collected on our websites is handled. Read our <a href=" http://sunlightfoundation.com/legal/terms/">terms of service.</a>
 
-credits: > 
+credits: >
   This work by the Sunlight Foundation, unless otherwise noted, is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a>.
   <br>Design by <a href="http://www.meticulous.com">Meticulous</a>.
 
-baseurl: "" 
+baseurl: ""
 # url: "https://krues8dr.github.io" # the base hostname & protocol for your site
 permalink: ":title/"
 
