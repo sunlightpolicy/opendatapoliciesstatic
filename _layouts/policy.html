@@ -3,17 +3,26 @@ layout: default
 title: ''
 ---
 
+<!-- Title -->
 {% assign the_place = site.places | where: "place", page.place | first %}
 {% if the_place.type == 'state' %}
   <h1>{{ the_place.title }} (state)</h1>
 {% else %}
   <h1>{{ the_place.title }}, {{ the_place.states | join: '-' }}</h1>
 {% endif %}
+
+<!-- Legal means -->
 <h2>{{ page.legal_custom }} ({{ page.year }})</h2>
+
+<!-- Original policy -->
 <p><a href="{{ page.policy_url }}">View original policy</a></p>
+
+<!-- Press release -->
 {% if page.press_url %}
   <p><a href="{{ page.press_url }}">View press release</a></p>
 {% endif %}
+
+<!-- Data portal(s) -->
 {% if the_place.portal_urls %}
   {% if the_place.portal_urls.size > 1 %}
     <p>View data portals: 
@@ -29,7 +38,6 @@ title: ''
     <p><a href="{{ the_portal[1] }}">View data portal</a></p>
   {% endif %}
 {% endif %}
-
 
 
 <br>
@@ -48,6 +56,7 @@ title: ''
 <hr>
 <br>
 
+<!-- Comments -->
 {% if site.disqus_shortname %}
   {% include disqus_comments.html %}
 {% endif %}
