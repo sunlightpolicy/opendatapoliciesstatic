@@ -3,17 +3,6 @@ layout: default
 title: ''
 ---
 
-<!-- Title -->
-{% assign the_place = site.places | where: "place", page.place | first %}
-{% if the_place.type == 'state' %}
-  <h1>{{ the_place.title }} (state)</h1>
-{% else %}
-  <h1>{{ the_place.title }}, {{ the_place.states | join: '-' }}</h1>
-{% endif %}
-
-<!-- Subtitle: legal means and year -->
-<h2>{{ page.legal_custom }} ({{ page.year }})</h2>
-
 <!-- Original policy -->
 {% if page.policy_url %}
   <p><a href="{{ page.policy_url }}">View original policy</a></p>
