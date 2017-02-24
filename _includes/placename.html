@@ -1,0 +1,6 @@
+{% assign the_place = site.places | where: "place", includes.doc_page.place | first %}
+{% if the_place.type == 'state' %}
+  {{ the_place.title }} (state)
+{% else %}
+  {{ the_place.title }}, {{ the_place.states | join: '-' }}
+{% endif %}
