@@ -3,7 +3,7 @@ place: lexington-ky
 year: 2011
 date: 2011-06-07
 legal_custom: Resolution
-policy_url:
+policy_urls:
   PDF: http://web.archive.org/web/20140227121556/http://www.lexingtonky.gov/Modules/ShowDocument.aspx?documentid=16343
 ---
 
