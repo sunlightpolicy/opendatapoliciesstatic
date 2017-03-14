@@ -1,6 +1,7 @@
 ---
 place: montreal-qc
 year: 2015
+date: 2015-12-09
 legal_custom: Policy
 policy_urls:
   English HTML: http://donnees.ville.montreal.qc.ca/portail/city-of-montreal-open-data-policy/
