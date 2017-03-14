@@ -5,7 +5,7 @@ title: Browse open-data policies by date
 
 {% include base.html %}
 
-These are all the open-data policies we have on this site:
+These are all the open-data policies we have on this site, listed from oldest to newest:
 
 <ul>
 {% assign docs = site.documents | sort: "date" %}
