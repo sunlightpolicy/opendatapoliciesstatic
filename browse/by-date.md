@@ -12,7 +12,7 @@ These are all the open-data policies we have on this site:
 {% for doc in docs %}
   {% assign the_place = site.places | where: "place", doc.place | first %}
   <li>
-    <a href="{{ doc.url }}">{{ the_place.title }}, {{ the_place.states | join: '-' }} — {{ doc.legal_custom }} ({{ doc.date }})</a>
+    <a href="{{ doc.url }}">{{ the_place.title }}, {{ the_place.states | join: '-' }} — {{ doc.legal_custom }} ({{ doc.date | date: "%b %d, %y" }})</a>
   </li>
 {% endfor %}
 </ul>
