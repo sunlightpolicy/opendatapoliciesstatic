@@ -1,6 +1,7 @@
 ---
 place: los-angeles-ca
 year: 2013
+date: 2013-12-18
 legal_custom: Executive Directive
 policy_url: http://www.lamayor.org/garcetti_directs_city_departments_to_collect_data_for_open_data_initiative
 ---
