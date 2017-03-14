@@ -1,6 +1,7 @@
 ---
 place: houston-tx
 year: 2014
+date: 2014-09-18
 legal_custom: Administrative Policy
 policy_url: http://www.houstontx.gov/adminpolicies/8-7.html
 ---
