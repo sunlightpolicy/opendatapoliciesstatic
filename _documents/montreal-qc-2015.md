@@ -2,11 +2,13 @@
 place: montreal-qc
 year: 2015
 legal_custom: Policy
-policy_url: http://donnees.ville.montreal.qc.ca/portail/city-of-montreal-open-data-policy/
+policy_urls:
+  English HTML: http://donnees.ville.montreal.qc.ca/portail/city-of-montreal-open-data-policy/
+  French HTML: http://donnees.ville.montreal.qc.ca/portail/politique-de-donnees-ouvertes/
+  French PDF: http://donnees.ville.montreal.qc.ca/portail/wp-content/uploads/2015/10/Politique-de-donn%C3%A9es-ouvertes.pdf
+note: |
+  This document sets out Montréal’s official policy with respect to open data. Should any discrepancy occur between the French and English versions of this document, the <a href="http://donnees.ville.montreal.qc.ca/portail/politique-de-donnees-ouvertes/">French version</a> shall prevail.
 ---
-
-<p>This document sets out Montréal’s official policy with respect to open data. Should any discrepancy occur between the French and English versions of this document, the <a href="http://donnees.ville.montreal.qc.ca/portail/politique-de-donnees-ouvertes/">French version</a> shall prevail.</p>
-
 
 <p>Introduction</p>
 <p>On behalf of citizens, the  city collects and manages data, in particular for its internal operations. These data represent information assets that are important both to the city and to citizens.</p>
