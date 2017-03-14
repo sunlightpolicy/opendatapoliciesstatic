@@ -1,9 +1,15 @@
 ---
 place: pittsburgh-pa
 year: 2014
+date: 2014-03-19
 legal_custom: Legislation
-policy_url: https://pittsburgh.legistar.com/LegislationDetail.aspx?ID=1632976=C476BBD1-7CD9-4ED2-8A16-B7ECA89F4D40=ID%7CText%7C=open+data=1
+policy_urls:
+  HTML: https://www.municode.com/library/pa/pittsburgh/codes/code_of_ordinances?nodeId=COOR_TITONEAD_ARTVIIPR_CH162OPDASE
+  HTML (marked-up): https://pittsburgh.legistar.com/LegislationDetail.aspx?ID=1632976&GUID=C476BBD1-7CD9-4ED2-8A16-B7ECA89F4D40&Options=ID%7CText%7C&Search=open+data+sets&FullText=1
+  DOCX (marked-up): https://pittsburgh.legistar.com/View.ashx?M=F&ID=2930493&GUID=E7B4A24D-361B-4471-B8C9-8C6EC0348613
 ---
+
+Ord. No. 8-2014
 
 <p>Ordinance supplementing the Pittsburgh Code of Ordinances, Title I, Administrative, Article VII, Procedures, by adding a new Chapter, “Chapter 162: Open Data Sets”</p>
 <p>WHEREAS, the government of the City of Pittsburgh seeks to provide its citizens with safe and vibrant neighborhoods, great jobs, a strong system of education and innovation, and a high quality of life; and</p>
