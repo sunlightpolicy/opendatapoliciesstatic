@@ -1,6 +1,7 @@
 ---
 place: victorville-ca
 year: 2016
+date: 2016-04-05
 legal_custom: City Council
 policy_url: http://www.victorvilleca.gov/uploadedFiles/CityServices/Open%20Data%20Policy.pdf
 ---
