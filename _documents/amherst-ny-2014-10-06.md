@@ -1,6 +1,7 @@
 ---
 place: amherst-ny
 year: 2014
+date: 2014-10-06
 legal_custom: Legislation
 policy_url: http://amherstny.iqm2.com/Citizens/FileOpen.aspx?Type=12=1239=True
 ---
