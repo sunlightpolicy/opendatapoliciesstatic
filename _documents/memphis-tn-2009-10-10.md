@@ -1,6 +1,7 @@
 ---
 place: memphis-tn
 year: 2009
+date: 2009-10-10
 legal_custom: Executive Order
 policy_url: http://www.memphistn.gov/portals/0/pdf_forms/MayorsTransparencyExecutiveOrder.pdf
 ---
