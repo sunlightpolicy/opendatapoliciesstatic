@@ -1,6 +1,7 @@
 ---
 place: chattanooga-tn
 year: 2014
+date: 2014-05-31
 legal_custom: Executive Order
 policy_url: https://github.com/cityofchattanooga/Chattanooga-Open-Data-Policy/blob/master/Open%20Data%20Policy.md
 ---
