@@ -1,8 +1,11 @@
 ---
 place: madison-wi
 year: 2012
+date: 2012-08-15
 legal_custom: Legislation
-policy_url: https://madison.legistar.com/View.ashx?M=F&ID=2050407&GUID=8E6DB4A7-54C0-4697-A3E2-1C6675984328
+policy_urls:
+  Adopted PDF: https://www.municode.com/library/wi/madison/codes/code_of_ordinances?nodeId=Chapter%203%20Officials,%20Boards,%20Employees%20and%20Public%20Records
+  Original PDF: https://madison.legistar.com/View.ashx?M=F&ID=2050407&GUID=8E6DB4A7-54C0-4697-A3E2-1C6675984328
 press_url: https://www.cityofmadison.com/news/new-city-of-madison-open-data-ordinance
 ---
 
