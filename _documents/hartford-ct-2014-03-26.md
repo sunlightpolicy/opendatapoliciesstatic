@@ -1,6 +1,7 @@
 ---
 place: hartford-ct
 year: 2014
+date: 2014-03-26
 legal_custom: Executive Order
 policy_url: http://www.hartford.gov/images/mayors/executive_order_open_data.pdf
 ---
