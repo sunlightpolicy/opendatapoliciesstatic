@@ -1,11 +1,12 @@
 ---
 place: portland-or
 year: 2009
+date: 2009-09-30
 legal_custom: Legislation
-policy_url: http://www.portlandonline.com/shared/cfm/image.cfm?id=275696
+policy_urls:
+  PDF: http://www.portlandonline.com/shared/cfm/image.cfm?id=275696
 ---
 
-<p>See government hosted document here.</p>
 <p>Resolution No. 36735</p>
 <p>Mobilize and expand the regional technology community of software, hardware and service professionals by promoting open and transparent government, open data, and partnership opportunities between the public, private and nonprofit sectors, academia and labor (Resolution).</p>
 <p>WHEREAS, the City of Portland is committed to engaging the community by working with citizens, soliciting their ideas, input, and creative energy; and</p>
