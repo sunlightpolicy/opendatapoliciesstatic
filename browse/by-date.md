@@ -9,7 +9,7 @@ These are all the open-data policies we have on this site, listed from oldest to
 <br>
 {% assign docs_by_year = site.documents | group_by: "year" %}
 {% for year in docs_by_year %}
-  <h2>{{ year.name }}</h2>
+  <h2>{{ year.name }} ({{ year | size }} policies)</h2>
   {% assign year_docs = year.items | sort: "date" %}
   <ul>
   {% for doc in year_docs %}
