@@ -1,1 +1,1 @@
-{% include placename.html doc_page=include.doc_page %} — {{ include.doc_page.legal_custom }} ({{ include.doc_page.date | default: include.doc_page.year }})
+{% include placename.html doc_page=include.doc_page %} — {{ include.doc_page.legal_custom }} ({{ include.doc_page.date | date: "%b %-d, %Y" | default: include.doc_page.year }})
