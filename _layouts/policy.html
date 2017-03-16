@@ -29,6 +29,7 @@ title: ''
 {% endif %}
 
 <!-- Data portal(s) -->
+{% assign the_place = site.places | where: "place", page.place | first %}
 {% if the_place.portal_urls %}
   {% if the_place.portal_urls.size > 1 %}
     <p>View data portals: 
