@@ -1,0 +1,7 @@
+---
+layout: null
+---
+"place","year","date","legal_custom","policy_urls","note"
+{% for doc in site.documents %}
+{{ doc.place }},{{ doc.year }},{{ doc.date }},{{ doc.legal_custom }},{{ doc.policy_urls | default: doc.policy_url }},{{ doc.note }}
+{% endfor %}
