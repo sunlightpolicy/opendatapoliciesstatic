@@ -13,6 +13,13 @@ layout: default
       </div>
     </div>
   </div>--> <!-- // .nest -->
+  
+  <!-- redirect to Browse page, because it looks a lot better than the home page -->
+  <script>
+  window.onload = function () {
+    window.location = 'http://www.opendatapolicies.org/browse/';
+  }
+  </script>
   <section class="homepage" role="main" style="padding-left:30px">
     <div class="nest">
       <section class="feature-content">
