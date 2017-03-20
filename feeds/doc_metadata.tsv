@@ -1,0 +1,6 @@
+---
+layout: null
+---
+"place","year","date","legal_custom","policy_urls","note"
+{% for doc in site.documents %}{{ doc.place }}\t{{ doc.year }}\t{{ doc.date | date: "%Y-%m-%d"}}\t{{ doc.legal_custom }}\t{{ doc.policy_urls | default: doc.policy_url }}\t{{ doc.note | replace: "\n", "" }}
+{% endfor %}
