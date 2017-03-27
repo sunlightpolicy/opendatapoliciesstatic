@@ -8,7 +8,7 @@ layout: default
         <ul>
         {% assign place_docs = site.documents | where: "place", place.place %}
         {% for doc in place_docs %}
-            <li><a href="{{ doc.url }}">{{ doc.legal_custom }} ({{ doc.year }})</a></li>
+            <li><a href="{{ doc.url }}">{% include placedoc.html doc_page=doc %}</a></li>
         {% endfor %}
         </ul>
     {% endif %}
