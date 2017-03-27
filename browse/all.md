@@ -10,9 +10,8 @@ These are all the open-data policies we have on this site:
 <ul>
 {% assign docs = site.documents | sort: "place" %}
 {% for doc in docs %}
-  {% assign the_place = site.places | where: "place", doc.place | first %}
   <li>
-    <a href="{{ doc.url }}">{{ the_place.title }}, {{ the_place.states | join: '-' }} — {{ doc.legal_custom }} ({{ doc.year }})</a>
+    <a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a>
   </li>
 {% endfor %}
 </ul>
