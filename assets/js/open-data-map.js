@@ -31,6 +31,7 @@ var data = [];
         'title': '{{place.title}}',
         'states': '{{place.states | join: '-' }}',
         'docs': docs['{{place.place}}'],
+        'type' '{{place.type}}'
         // 'place_url': '{{place.url}}'
         // 'Year': '{{document.year}}',
         // 'Legal Means': '{{place.legal_custom}}',
@@ -98,7 +99,12 @@ function show_map(data) {
     }
 
     // Generate title and list of docs (and links) for this place's pop-up box
-    var pin_title = '<h1 class="map-pin-h1">' + locations[i].properties.title + ', ' + locations[i].properties.states + '</h1>';
+    if (locations[i].properties.type === 'state') {
+      var suffix = ' (state)';
+    } else {
+      var suffix = ', ' + locations[i].properties.states;  // not sure if will work for multiple states
+    }
+    var pin_title = '<h1 class="map-pin-h1">' + locations[i].properties.title + suffix + '</h1>';
     var pin_list = '';
     for (var j = 0; j < place_docs.length; j++) {
       var doc = place_docs[j];
