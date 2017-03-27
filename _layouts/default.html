@@ -86,7 +86,7 @@ inside
       <header>
         {% if page.layout == 'policy' %}
           <h1>{% include placename.html doc_page=page %}</h1>
-          <h2>{{ page.legal_custom }} ({{ page.year }})</h2>
+          <h2>{% include placedoc.html doc_page=page %}</h2>
         {% else %}
           <h1>{{ the_title }}</h1>
         {% endif %}
