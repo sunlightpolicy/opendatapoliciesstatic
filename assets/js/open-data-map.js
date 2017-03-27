@@ -11,7 +11,8 @@ var docs = {};
     docs['{{docplace}}'] = [];
   }
   var doc_vars = {
-    'year': '{{doc.year}}',
+    'date': '{{doc.date}}' || '{{doc.year}}',
+    'date_pretty': '{{doc.date | date: "%b %-d, %Y"}}' || '{{doc.year}}',
     'means': '{{doc.legal_custom}}',
     'doc_page_url': '{{doc.url}}',
     'external_url': '{{doc.policy_url}}'
@@ -92,7 +93,7 @@ function show_map(data) {
     var place_docs = locations[i].properties.docs || [];
     if (place_docs.length > 0) {
       place_docs.sort(function (a, b) {
-        return b.year - a.year;
+        return b.date - a.date;
       });
     }
 
@@ -101,7 +102,7 @@ function show_map(data) {
     var pin_list = '';
     for (var j = 0; j < place_docs.length; j++) {
       var doc = place_docs[j];
-      pin_list += ('<p><a href="' + doc.doc_page_url + '">' + doc.means + ' (' + doc.year + ')</a></p>');
+      pin_list += ('<p><a href="' + doc.doc_page_url + '">' + doc.means + ' (' + doc.date_pretty + ')</a></p>');
     }
     var pin_content = "<div class=\"map-pin-content\">" + pin_title + pin_list + "</div>";
 
