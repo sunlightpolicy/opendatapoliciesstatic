@@ -31,7 +31,7 @@ var data = [];
         'title': '{{place.title}}',
         'states': '{{place.states | join: '-' }}',
         'docs': docs['{{place.place}}'],
-        'type' '{{place.type}}'
+        'type': '{{place.type}}'
         // 'place_url': '{{place.url}}'
         // 'Year': '{{document.year}}',
         // 'Legal Means': '{{place.legal_custom}}',
