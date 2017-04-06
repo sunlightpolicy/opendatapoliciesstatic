@@ -8,9 +8,9 @@ title: Analytics
   {% assign doc.wwc = site.places | where: "place", doc.place | map: "wwc" | first %}
 {% endfor %}
 0:
-{{ docs_with_wwc[0] }}
+{{ docs_with_wwc[0] | first }}
 5:
-{{ docs_with_wwc[5] }}
+{{ docs_with_wwc[5] | stringify }}
 10:
 {{ docs_with_wwc[10] }}
 15:
