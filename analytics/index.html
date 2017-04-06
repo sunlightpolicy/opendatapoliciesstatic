@@ -7,9 +7,10 @@ title: Analytics
 {% assign wwc_no = site.places | where: "wwc", false | map: "place" %}
 {% assign wwc_unk = site.places | where: "wwc", nil | map: "place" %}
 
-{% assign wwc_yes_docs = site.documents | where_exp: "item", "wwc_yes contains item.place" %}
-{% assign wwc_no_docs = site.documents | where_exp: "item", "wwc_no contains item.place" %}
-{% assign wwc_unk_docs = site.documents | where_exp: "item", "wwc_unk contains item.place" %}
+{% assign docs = site.documents | sort: "place" %}
+{% assign wwc_yes_docs = site.docs | where_exp: "item", "wwc_yes contains item.place" %}
+{% assign wwc_no_docs = site.docs | where_exp: "item", "wwc_no contains item.place" %}
+{% assign wwc_unk_docs = site.docs | where_exp: "item", "wwc_unk contains item.place" %}
 
 <h2>WWC yes</h2>
 
