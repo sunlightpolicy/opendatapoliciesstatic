@@ -7,6 +7,9 @@ title: Analytics
 {% for doc in docs_with_wwc %}
   {% assign doc.wwc = site.places | where: "place", doc.place | map: "wwc" | first %}
 {% endfor %}
+
+{{ docs_with_wwc | json }}
+
 0:
 {{ docs_with_wwc[0] | first }}
 5:
