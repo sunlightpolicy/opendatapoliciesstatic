@@ -68,6 +68,7 @@ defaults:
     values:
       layout: policy
       comments: true
+      sunlight: nil
   - scope:
       path: ""
       type: states
@@ -80,6 +81,7 @@ defaults:
       layout: default
       type: local
       no_text: false
+      wwc: nil
 
 # Plugin settings
 gems:
