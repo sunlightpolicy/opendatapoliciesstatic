@@ -5,7 +5,7 @@ title: Analytics
 
 {% assign wwc_yes = site.places | where: "wwc", true | map: "place" %}
 {% assign wwc_no = site.places | where: "wwc", false | map: "place" %}
-{% assign wwc_unk = site.places | where: "wwc", nil | map: "place" %}
+{% assign wwc_unk = site.places | where_exp: "item", "unless item contains wwc" | map: "place" %}
 
 {% assign wwc_yes_docs = site.documents | where_exp: "item", "wwc_yes contains item.place" | sort: "place" %}
 {% assign wwc_no_docs = site.documents | where_exp: "item", "wwc_no contains item.place" | sort: "place" %}
