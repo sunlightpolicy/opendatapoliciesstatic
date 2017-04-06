@@ -3,5 +3,6 @@
   {% assign the_place = site.places | where: "place", doc.place | first %}
     {% if the_place.wwc == include.wwc %}
       <li><a href="{{ doc.url }}">{% include placedoc.html doc_page=doc %}</a></li>
+    {% endif %}
 {% endfor %}
 </ul>
