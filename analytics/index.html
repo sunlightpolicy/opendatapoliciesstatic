@@ -3,6 +3,26 @@ layout: default
 title: Analytics
 ---
 
+{% assign docs_with_wwc = site.documents %}
+{% for doc in docs_with_wwc %}
+  {% assign doc.wwc = site.places | where: "place", doc.place | map: "wwc" | first %}
+{% endfor %}
+0:
+{{ docs_with_wwc[0] }}
+5:
+{{ docs_with_wwc[5] }}
+10:
+{{ docs_with_wwc[10] }}
+15:
+{{ docs_with_wwc[15] }}
+0–3:
+{{ docs_with_wwc[0:3] }}
+
+{% assign wwc_yes = docs_with_wwc | where: "wwc", true %}
+{{ wwc_yes | size }}
+{% assign wwc_no = docs_with_wwc | where: "wwc", false %}
+{{ wwc_no | size }}
+
 <h2>WWC yes</h2>
 
 {% include sunlight_wwc_analytics.html wwc=true %}
