@@ -3,32 +3,23 @@ layout: default
 title: Analytics
 ---
 
-{% assign docs_with_wwc = site.documents %}
-{% for doc in docs_with_wwc %}
-  {% assign doc.wwc = site.places | where: "place", doc.place | map: "wwc" | first %}
-{% endfor %}
+{% assign wwc_yes = site.places | where: "wwc", true | map: "place" %}
+{% assign wwc_no = site.places | where: "wwc", false | map: "place" %}
+{% assign wwc_unk = site.places | where: "wwc", nil | map: "place" %}
 
-{{ docs_with_wwc | json }}
-
-0:
-{{ docs_with_wwc[0] | first }}
-5:
-{{ docs_with_wwc[5] | stringify }}
-10:
-{{ docs_with_wwc[10] }}
-15:
-{{ docs_with_wwc[15] }}
-0–3:
-{{ docs_with_wwc[0:3] }}
-
-{% assign wwc_yes = docs_with_wwc | where: "wwc", true %}
-{{ wwc_yes | size }}
-{% assign wwc_no = docs_with_wwc | where: "wwc", false %}
-{{ wwc_no | size }}
+{% assign wwc_yes_docs = site.documents | where_exp: "item", "wwc_yes contains item.place" %}
+{% assign wwc_no_docs = site.documents | where_exp: "item", "wwc_no contains item.place" %}
+{% assign wwc_unk_docs = site.documents | where_exp: "item", "wwc_unk contains item.place" %}
 
 <h2>WWC yes</h2>
 
 {% include sunlight_wwc_analytics.html wwc=true %}
+<br>
+<ul>
+{% for doc in wwc_yes_docs %}
+  <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
+{% endfor %}
+</ul>
 
 <h2>WWC no</h2>
 
