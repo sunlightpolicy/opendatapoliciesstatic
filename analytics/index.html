@@ -27,13 +27,16 @@ title: Analytics
 
 <h2>WWC yes</h2>
 
-<!-- {% include sunlight_wwc_analytics.html wwc=true %} -->
-{{ wwc_yes_docs | size }} policies, {{ wwc_yes_docs | map: "place" | uniq | size }} unique places
-<ul>
-{% for doc in wwc_yes_docs %}
-  <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
-{% endfor %}
-</ul>
+<p>{{ wwc_yes_docs | size }} policies, {{ wwc_yes_docs | map: "place" | uniq | size }} unique places</p>
+
+<h3>Sunlight yes</h3>
+{% include sunlight_wwc_analytics.html wwc_docs=wwc_yes_docs sunlight=true %}
+
+<h3>Sunlight no</h3>
+{% include sunlight_wwc_analytics.html wwc_docs=wwc_yes_docs sunlight=false %}
+
+<h3>Sunlight unknown</h3>
+{% include sunlight_wwc_analytics.html wwc_docs=wwc_yes_docs sunlight='unknown' %}
 
 <h2>WWC no</h2>
 
