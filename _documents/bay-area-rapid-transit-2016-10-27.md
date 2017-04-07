@@ -3,6 +3,7 @@ place: bay-area-rapid-transit-ca
 year: 2016
 date: 2016-10-27
 legal_custom: Board Policy
+sunlight: true
 policy_url: https://www.bart.gov/sites/default/files/docs/BART_OPEN_DATA_POLICY_FINAL.pdf
 press_url: https://www.bart.gov/news/articles/2016/news20161013-0
 ---
