@@ -25,6 +25,24 @@ title: Analytics
 {% assign wwc_no_docs = site.documents | where_exp: "item", "wwc_no contains item.place" | sort: "place" %}
 {% assign wwc_unk_docs = site.documents | where_exp: "item", "wwc_unk contains item.place" | sort: "place" %}
 
+<h2>Totals</h2>
+
+<p>{{ site.documents | size }} total policies</p>
+<p>{{ site.places | size }} total places</p>
+<br>
+
+<h2>Totals: Sunlight</h2>
+
+{% assign sunlight_docs = site.documents | where: "sunlight", true %}
+<p>{{ sunlight_docs | size }} total policies</p>
+<p>{{ sunlight_docs | map: "place" | uniq | size }} unique places</p>
+<br>
+{% assign sunlight_by_year = sunlight_docs | group_by: "year" %}
+{% for year in sunlight_by_year %}
+  <p>{{ year.items | size }}  in {{ year.name }}</p>
+{% endfor %}
+<br>
+
 <h2>Places that are What Works Cities</h2>
 
 {% include analytics_wwc.html wwc_docs=wwc_yes_docs %}
