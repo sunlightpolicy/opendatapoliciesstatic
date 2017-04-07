@@ -29,6 +29,9 @@ title: Analytics
 
 <p>{{ wwc_yes_docs | size }} policies, {{ wwc_yes_docs | map: "place" | uniq | size }} unique places</p>
 
+<h3>Sunlight yes</h3>
+{% include sunlight_wwc_analytics.html wwc_docs=wwc_yes_docs sunlight=true %}
+
 <h2>WWC no</h2>
 
 <!-- {% include sunlight_wwc_analytics.html wwc=false %} -->
