@@ -27,7 +27,7 @@ title: Analytics
 
 <h2>WWC yes</h2>
 
-<p>{{ wwc_yes_docs | size }} policies, {{ wwc_yes_docs | map: "place" | uniq | size }} unique places</p>
+{{ wwc_yes_docs | size }} policies, {{ wwc_yes_docs | map: "place" | uniq | size }} unique places
 
 <!-- <h3>Sunlight yes</h3>
 {% include sunlight_wwc_analytics.html wwc_docs=wwc_yes_docs sunlight=true %}
@@ -41,7 +41,7 @@ title: Analytics
 <h2>WWC no</h2>
 
 <!-- {% include sunlight_wwc_analytics.html wwc=false %} -->
-<p>{{ wwc_no_docs | size }} policies, {{ wwc_no_docs | map: "place" | uniq | size }} unique places</p>
+{{ wwc_no_docs | size }} policies, {{ wwc_no_docs | map: "place" | uniq | size }} unique places
 <ul>
 {% for doc in wwc_no_docs %}
   <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
@@ -50,7 +50,7 @@ title: Analytics
 
 <h2>WWC unknown</h2>
 
-<p>{{ wwc_unk_docs | size }} policies, {{ wwc_unk_docs | map: "place" | uniq | size }} unique places</p>
+{{ wwc_unk_docs | size }} policies, {{ wwc_unk_docs | map: "place" | uniq | size }} unique places
 <ul>
 {% for doc in wwc_unk_docs %}
   <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
