@@ -4,7 +4,7 @@
   {% assign sunlight_subset = include.wwc_docs | where: "sunlight", include.sunlight %}
 {% endif %}
 
-<p>{{ sunlight_subset | size }} policies, {{ sunlight_subset | map: "place" | uniq | size | pluralize: "unique place", "unique places" }}</p>
+<p>{{ sunlight_subset | size }} policies, {{ sunlight_subset | map: "place" | uniq | size }} unique places</p>
 <ul>
 {% for doc in sunlight_subset %}
   <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
