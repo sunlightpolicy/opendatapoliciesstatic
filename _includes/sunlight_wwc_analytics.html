@@ -1,8 +1,12 @@
+{% if include.sunlight == 'unknown' %}
+  {% assign sunlight_subset = include.wwc_docs | where_exp: "item", "item.sunlight != true and item.sunlight != false" %}
+{% else %}
+  {% assign sunlight_subset = include.wwc_docs | where: "sunlight", include.sunlight %}
+{% endif %}
+
+<p>{{ sunlight_subset | size }} policies, {{ sunlight_subset | map: "place" | uniq | size }} unique places</p>
 <ul>
-{% for doc in site.documents %}
-  {% assign the_place = site.places | where: "place", doc.place | first %}
-  {% if the_place.wwc == include.wwc %}
-    <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
-  {% endif %}
+{% for doc in sunlight_subset %}
+  <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
 {% endfor %}
 </ul>
