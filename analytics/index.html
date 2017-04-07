@@ -27,32 +27,12 @@ title: Analytics
 
 <h2>Places that are What Works Cities</h2>
 
-<p>{{ wwc_yes_docs | size }} policies, {{ wwc_yes_docs | map: "place" | uniq | size }} unique places</p>
-
-<h3>Policies that Sunlight provided assistance with</h3>
-{% include sunlight_wwc_analytics.html wwc_docs=wwc_yes_docs sunlight='true' %}
-
-<h3>Policies that Sunlight <em>did not</em> provide assistance with</h3>
-{% include sunlight_wwc_analytics.html wwc_docs=wwc_yes_docs sunlight='false' %}
-
-<h3>Policies whose Sunlight status is unknown</h3>
-Coming soon!
+{% include analytics_wwc.html wwc_docs=wwc_yes_docs %}
 
 <h2>Places that are <em>not</em> What Works Cities</h2>
 
-<!-- {% include sunlight_wwc_analytics.html wwc=false %} -->
-<p>{{ wwc_no_docs | size }} policies, {{ wwc_no_docs | map: "place" | uniq | size }} unique places</p>
-<ul>
-{% for doc in wwc_no_docs %}
-  <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
-{% endfor %}
-</ul>
+{% include analytics_wwc.html wwc_docs=wwc_no_docs %}
 
 <h2>Places whose WWC status is unknown</h2>
 
-<p>{{ wwc_unk_docs | size }} policies, {{ wwc_unk_docs | map: "place" | uniq | size }} unique places</p>
-<ul>
-{% for doc in wwc_unk_docs %}
-  <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
-{% endfor %}
-</ul>
+{% include analytics_wwc.html wwc_docs=wwc_unk_docs %}

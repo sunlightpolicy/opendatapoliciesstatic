@@ -1,0 +1,13 @@
+<p>{{ include.wwc_docs | map: "place" | uniq | size }} unique places, with {{ include.wwc_docs | size }} total policies</p>
+<p>Of these...</p>
+
+<h3><em>Policies that Sunlight provided assistance with</em></h3>
+{% include analytics_sunlight.html wwc_docs=include.wwc_docs sunlight='true' %}
+
+<h3><em>Policies that Sunlight did not provide assistance with</em></h3>
+{% include analytics_sunlight.html wwc_docs=include.wwc_docs sunlight='false' %}
+
+<h3><em>Policies whose Sunlight status is unknown</em></h3>
+Coming soon!
+
+<br>
