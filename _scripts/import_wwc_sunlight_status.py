@@ -8,8 +8,8 @@ def run_through_data(data):
     for filename in os.listdir('../_places/'):
         if filename[-3:] == '.md':  # if it's really one of the place files
             with open('../_places/' + filename, 'r+') as my_file:
-                place_pretty, place_id = get_place_names(my_file.read())
-                place_id = my_file
+                contents = my_file.read()
+                place_pretty, place_id = get_place_names(contents)
             if place_pretty in data['CityAndState'].values:
                 mark(filename, 'wwc', 'true')
                 place_info = data[data['CityAndState'] == place_pretty]
@@ -59,14 +59,15 @@ def mark(filename, sunlight_or_wwc, boolean_string):
             filename + ')')
 
     with open(folder + filename, 'r+') as my_file:
-        search = re.search(r'\n' + sunlight_or_wwc + r': ', my_file.read())
+        contents = my_file.read()
+        search = re.search(r'\n' + sunlight_or_wwc + r': ', contents)
         if search:
             print("Property '" + sunlight_or_wwc + "' found for " +
                 filename + ". Value left as-is.")
         else:
             re.sub(next_text,
                 '\n' + sunlight_or_wwc + ': ' + boolean_string + '\n',
-                my_file.read())
+                contents)
 
     return
 
