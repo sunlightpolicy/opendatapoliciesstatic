@@ -49,7 +49,7 @@ def mark(filename, sunlight_or_wwc, boolean_string):
 
     if sunlight_or_wwc == 'sunlight':
         folder = '../_documents/'
-        next_text = r'\n(?=portal_url)'
+        next_text = r'\n(?=policy_url)'
     elif sunlight_or_wwc == 'wwc':
         folder = '../_places/'
         next_text = r'\n(?=---)'
