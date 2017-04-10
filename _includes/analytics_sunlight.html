@@ -3,7 +3,7 @@
 {% elsif include.sunlight == 'false' %}
   {% assign sunlight_subset = include.wwc_docs | where: "sunlight", false %}
 {% elsif include.sunlight == 'unknown' %}
-  {% assign sunlight_subset = include.wwc_docs | where_exp: "item", "item.sunlight != true" | where_exp: "item.sunlight != false" %}
+  {% assign sunlight_subset = include.wwc_docs | where_exp: "item", "item.sunlight != true" %}
 {% endif %}
 
 <p>{{ sunlight_subset | size }} policies, {{ sunlight_subset | map: "place" | uniq | size }} unique places</p>
