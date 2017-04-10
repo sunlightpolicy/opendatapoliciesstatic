@@ -6,20 +6,8 @@ title: Analytics
 {% assign wwc_yes = site.places | where: "wwc", true | map: "place" %}
 {% assign wwc_no = site.places | where: "wwc", false | map: "place" %}
 
-<!-- Roundabout way of generating an array of places where WWC status is known -->
-{% assign wwc_unk_string = "" %}
-{% for place in site.places %}
-  {% unless wwc_yes contains place.place %}
-    {% unless wwc_no contains place.place %}
-      {% if wwc_unk_string == "" %}
-        {% assign wwc_unk_string = place.place %}
-      {% else %}
-        {% assign wwc_unk_string = wwc_unk_string | append: "$" | append: place.place %}
-      {% endif %}
-    {% endunless %}
-  {% endunless %}
-{% endfor %}
-{% assign wwc_unk = wwc_unk_string | split: "$" %}
+{% assign wwc_unk_0 = site.places | where_exp: "item", "item.wwc != true" %}
+{% assign wwc_unk = wwc_unk_0 | where_exp: "item", "item.wwc != false" | map: "place" %}
 
 {% assign wwc_yes_docs = site.documents | where_exp: "item", "wwc_yes contains item.place" | sort: "place" %}
 {% assign wwc_no_docs = site.documents | where_exp: "item", "wwc_no contains item.place" | sort: "place" %}
