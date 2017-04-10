@@ -3,12 +3,13 @@ layout: default
 title: Analytics
 ---
 
+<!-- Generate lists of WWCs, non-WWCs, and unknowns -->
 {% assign wwc_yes = site.places | where: "wwc", true | map: "place" %}
 {% assign wwc_no = site.places | where: "wwc", false | map: "place" %}
-
 {% assign wwc_unk_0 = site.places | where_exp: "item", "item.wwc != true" %}
 {% assign wwc_unk = wwc_unk_0 | where_exp: "item", "item.wwc != false" | map: "place" %}
 
+<!-- Generate lists of docs for each of the WWC groups from above -->
 {% assign wwc_yes_docs = site.documents | where_exp: "item", "wwc_yes contains item.place" | sort: "place" %}
 {% assign wwc_no_docs = site.documents | where_exp: "item", "wwc_no contains item.place" | sort: "place" %}
 {% assign wwc_unk_docs = site.documents | where_exp: "item", "wwc_unk contains item.place" | sort: "place" %}
@@ -21,10 +22,13 @@ title: Analytics
 
 <h2>Totals: Sunlight</h2>
 
+<!-- Sunlight totals -->
 {% assign sunlight_docs = site.documents | where: "sunlight", true %}
 <p>{{ sunlight_docs | size }} total policies</p>
 <p>{{ sunlight_docs | map: "place" | uniq | size }} unique places</p>
 <br>
+
+<!-- Sunlight policies by year -->
 {% assign sunlight_by_year = sunlight_docs | group_by: "year" %}
 {% for year in sunlight_by_year %}
   <p>{{ year.items | size }}  in {{ year.name }}</p>
