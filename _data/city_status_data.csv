@@ -1,0 +1,79 @@
+City,State,CityAndState,Status,Sunlight
+Albuquerque,NM,"Albuquerque, NM",Active,FALSE
+Anchorage,AK,"Anchorage, AK",Completed,TRUE
+Augusta,GA,"Augusta, GA",Active,FALSE
+Baltimore,MD,"Baltimore, MD",Completed,FALSE
+Bellevue,WA,"Bellevue, WA",Completed,TRUE
+Birmingham,AL,"Birmingham, AL",Active,TRUE
+Boise,ID,"Boise, ID",Active,FALSE
+Boston,MA,"Boston, MA",Active,FALSE
+Boulder,CO,"Boulder, CO",Active,TRUE
+Buffalo,NY,"Buffalo, NY",Active,TRUE
+Cambridge,MA,"Cambridge, MA",Completed,FALSE
+Cape Coral,FL,"Cape Coral, FL",Completed,TRUE
+Charlotte,NC,"Charlotte, NC",Completed,TRUE
+Chattanooga,TN,"Chattanooga, TN",Completed,FALSE
+Corona,CA,"Corona, CA",Active,FALSE
+Denton,TX,"Denton, TX",Completed,FALSE
+Denver,CO,"Denver, CO",Completed,TRUE
+Des Moines,IA,"Des Moines, IA",Completed,TRUE
+Downey,CA,"Downey, CA",Active,FALSE
+Durham,NC,"Durham, NC",Active,FALSE
+Fargo,ND,"Fargo, ND",Active,TRUE
+Fort Lauderdale,FL,"Fort Lauderdale, FL",Completed,TRUE
+Fort Worth,TX,"Fort Worth, TX",Active,TRUE
+Gilbert,AZ,"Gilbert, AZ",Active,TRUE
+Glendale,AZ,"Glendale, AZ",Active,TRUE
+Greensboro,NC,"Greensboro, NC",Completed,TRUE
+Gresham,OR,"Gresham, OR",Active,FALSE
+Hartford,CT,"Hartford, CT",Active,FALSE
+Independence,MO,"Independence, MO",Completed,TRUE
+Indianapolis,IN,"Indianapolis, IN",Active,FALSE
+Jackson,MS,"Jackson, MS",Completed,TRUE
+Kansas City,MO,"Kansas City, MO",Completed,TRUE
+Kansas City,KS,"Kansas City, KS",Completed,TRUE
+Knoxville,TN,"Knoxville, TN",Active,TRUE
+Laredo,TX,"Laredo, TX",Active,FALSE
+Las Vegas,NV,"Las Vegas, NV",Completed,TRUE
+Lewisville,TX,"Lewisville, TX",Active,TRUE
+Lexington,KY,"Lexington, KY",Completed,FALSE
+Lincoln,NE,"Lincoln, NE",Completed,TRUE
+Little Rock,AR,"Little Rock, AR",Completed,TRUE
+Louisville,KY,"Louisville, KY",Completed,FALSE
+Madison,WI,"Madison, WI",Active,TRUE
+Mesa,AZ,"Mesa, AZ",Completed,TRUE
+Miami,FL,"Miami, FL",Active,FALSE
+Milwaukee,WI,"Milwaukee, WI",Completed,TRUE
+Minneapolis,MN,"Minneapolis, MN",Active,FALSE
+Modesto,CA,"Modesto, CA",Active,TRUE
+Naperville,IL,"Naperville, IL",Active,TRUE
+Nashville,TN,"Nashville, TN",Active,FALSE
+New Orleans,LA,"New Orleans, LA",Completed,TRUE
+Norfolk,VA,"Norfolk, VA",Active,TRUE
+Oklahoma City,OK,"Oklahoma City, OK",Active,FALSE
+Olathe,KS,"Olathe, KS",Active,TRUE
+Orlando,FL,"Orlando, FL",Active,FALSE
+Portland,OR,"Portland, OR",Active,TRUE
+Providence,RI,"Providence, RI",Completed,TRUE
+Raleigh,NC,"Raleigh, NC",Completed,TRUE
+Riverside,CA,"Riverside, CA",Active,TRUE
+Saint Paul,MN,"Saint Paul, MN",Completed,TRUE
+Salinas,CA,"Salinas, CA",Active,TRUE
+Salt Lake City,UT,"Salt Lake City, UT",Active,FALSE
+San Francisco,CA,"San Francisco, CA",Completed,FALSE
+San Jose,CA,"San Jose, CA",Active,TRUE
+Scottsdale,AZ,"Scottsdale, AZ",Active,TRUE
+Seattle,WA,"Seattle, WA",Completed,TRUE
+South Bend,IN,"South Bend, IN",Active,FALSE
+Syracuse,NY,"Syracuse, NY",Active,TRUE
+Tacoma,WA,"Tacoma, WA",Completed,TRUE
+Tempe,AZ,"Tempe, AZ",Active,TRUE
+Topeka,KS,"Topeka, KS",Completed,TRUE
+Tulsa,OK,"Tulsa, OK",Completed,TRUE
+Tyler,TX,"Tyler, TX",Active,TRUE
+Victorville,CA,"Victorville, CA",Completed,TRUE
+Virginia Beach,VA,"Virginia Beach, VA",Completed,FALSE
+Waco,TX,"Waco, TX",Completed,TRUE
+Washington,DC,"Washington, DC",Active,FALSE
+West Palm Beach,FL,"West Palm Beach, FL",Active,TRUE
+Wichita,KS,"Wichita, KS",Completed,TRUE
