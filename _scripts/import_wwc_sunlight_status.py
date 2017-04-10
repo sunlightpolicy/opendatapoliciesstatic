@@ -3,7 +3,7 @@ import pandas
 import re
 
 
-def run_through_data(dataframe):
+def run_through_data(data):
 
     for filename in os.listdir('../_places/'):
         if filename[-3:] == '.md':  # if it's really one of the place files
