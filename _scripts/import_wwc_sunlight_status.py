@@ -64,6 +64,7 @@ def mark(filename, sunlight_or_wwc, boolean_string):
         if search:
             print("Property '" + sunlight_or_wwc + "' found for " +
                 filename + ". Value left as-is.")
+            new_contents = contents
         else:
             new_contents = re.sub(next_text,
                 '\n' + sunlight_or_wwc + ': ' + boolean_string + '\n',
