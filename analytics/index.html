@@ -29,7 +29,7 @@ title: Analytics
 <br>
 
 <!-- Sunlight policies by year -->
-{% assign sunlight_by_year = sunlight_docs | group_by: "year" %}
+{% assign sunlight_by_year = sunlight_docs | group_by: "year" | sort: "name" %}
 {% for year in sunlight_by_year %}
   <p>{{ year.items | size }}  in {{ year.name }}</p>
 {% endfor %}
