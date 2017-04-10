@@ -3,6 +3,7 @@ place: minneapolis-mn
 year: 2014
 date: 2014-08-01
 legal_custom: Legislation
+sunlight: false
 policy_urls:
   HTML: http://www.ci.minneapolis.mn.us/policies/opendata
   PDF: http://www.ci.minneapolis.mn.us/www/groups/public/@clerk/documents/webcontent/wcms1p-136342.pdf

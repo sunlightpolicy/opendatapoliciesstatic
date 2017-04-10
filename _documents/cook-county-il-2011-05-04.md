@@ -3,6 +3,7 @@ place: cook-county-il
 year: 2011
 date: 2011-05-04
 legal_custom: Ordinance
+sunlight: false
 policy_url: http://legacy.cookcountygov.com/secretary/NEW%20ITEMS%20and%20CONSENT/new%20items%2004-20-113.pdf
 note: |
   The original version of the policy (linked to above) was passed on May 4, 2011. (You can also find an annotated plain-text version <a href="http://genius.com/Cook-county-cook-county-open-government-ordinance-annotated">here</a>.) On Dec 4, 2013, that policy was modified to remove a single word. See amendment <a href="https://cook-county.legistar.com/LegislationDetail.aspx?ID=1526439&GUID=D6FA0EDA-DAEB-4FB4-8EFD-22DE71782D79&Options=&Search=&FullText=1">here</a>. The current version — with the modification but without the "Whereas" clauses — can be found <a href="https://www.municode.com/library/il/cook_county/codes/code_of_ordinances?nodeId=PTIGEOR_CH2AD_ARTIINGE_S2-5OPGOPL">here</a>.

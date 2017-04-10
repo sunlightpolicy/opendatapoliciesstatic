@@ -6,4 +6,5 @@ states:
 type: local
 x: -94.5785667
 y: 39.0997265
+wwc: true
 ---

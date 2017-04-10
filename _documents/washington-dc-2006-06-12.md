@@ -3,6 +3,7 @@ place: washington-dc
 year: 2006
 date: 2006-06-12
 legal_custom: Executive Memorandum
+sunlight: false
 policy_url: https://www.scribd.com/fullscreen/26442622?access_key=key-20rfsh26eu0ob66xlbmu
 ---
 

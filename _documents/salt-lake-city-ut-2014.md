@@ -2,6 +2,7 @@
 place: salt-lake-city-ut
 year: 2014
 legal_custom: Legislation
+sunlight: false
 policy_url: http://www.slcinfobase.com/PPAREO/#!WordDocuments/opendataportalprocedures.htm
 ---
 

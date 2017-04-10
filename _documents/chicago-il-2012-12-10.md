@@ -3,6 +3,7 @@ place: chicago-il
 year: 2012
 date: 2012-12-10
 legal_custom: Executive Order
+sunlight: false
 policy_url: http://www.cityofchicago.org/city/en/narr/foia/open_data_executiveorder.html
 press_url: https://www.cityofchicago.org/city/en/depts/mayor/press_room/press_releases/2012/december_2012/mayor_emanuel_expandsopendataoncityportalwithexecutiveorder.html
 ---

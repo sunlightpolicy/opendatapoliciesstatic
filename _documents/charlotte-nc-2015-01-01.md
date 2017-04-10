@@ -3,6 +3,7 @@ place: charlotte-nc
 year: 2015
 date: 2015-01-01
 legal_custom: IT Policy
+sunlight: true
 policy_url: http://charmeck.org/maps/Documents/OpenDataPolicy.pdf
 ---
 

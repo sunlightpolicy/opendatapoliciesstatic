@@ -3,6 +3,7 @@ place: baltimore-md
 year: 2016
 date: 2016-03-07
 legal_custom: Council Resolution
+sunlight: false
 policy_url: https://baltimore.legistar.com/LegislationDetail.aspx?ID=2547408&GUID=10605A37-B70C-4878-A829-21C7AB1067D2&Options=&Search=
 ---
 

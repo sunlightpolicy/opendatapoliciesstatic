@@ -3,6 +3,7 @@ place: scottsdale-az
 year: 2016
 date: 2016-08-31
 legal_custom: Resolution
+sunlight: true
 policy_url: http://www.scottsdaleaz.gov/Asset67096.aspx
 ---
 

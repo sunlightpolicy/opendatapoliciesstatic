@@ -3,6 +3,7 @@ place: new-york-ny
 year: 2016
 date: 2016-01-05
 legal_custom: Local Law
+sunlight: false
 policy_url: http://legistar.council.nyc.gov/LegislationDetail.aspx?ID=2460464&GUID=68225279-1D65-4326-A74A-900B5857623B
 ---
 

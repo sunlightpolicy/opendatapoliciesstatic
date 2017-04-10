@@ -3,6 +3,7 @@ place: kansas-city-mo
 year: 2015
 date: 2015-10-08
 legal_custom: Legislation
+sunlight: true
 policy_url: http://cityclerk.kcmo.org/liveweb/Documents/Document.aspx?q=E9Cfm7xN6VF9vtln7Z8UTV1w5GrHLLQF%2B%2BncFiTWYlJcv5LBEhECU2qiyvg2MMRR
 ---
 

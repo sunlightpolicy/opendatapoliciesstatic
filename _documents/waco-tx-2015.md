@@ -2,6 +2,7 @@
 place: waco-tx
 year: 2015
 legal_custom: Council Resolution
+sunlight: true
 policy_url: http://wacocitytx.iqm2.com/Citizens/FileOpen.aspx?Type=4=6970=1466
 ---
 

@@ -3,6 +3,7 @@ place: san-diego-ca
 year: 2014
 date: 2014-10-29
 legal_custom: Implementation Plan
+sunlight: false
 policy_url: https://www.sandiego.gov/sites/default/files/opendataimpplan.pdf
 ---
 

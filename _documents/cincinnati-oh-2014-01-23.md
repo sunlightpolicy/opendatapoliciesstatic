@@ -3,6 +3,7 @@ place: cincinnati-oh
 year: 2014
 date: 2014-01-23
 legal_custom: Council Motion
+sunlight: false
 policy_url: http://city-egov.cincinnati-oh.gov/Webtop/ws/council/public/child/Blob/39215.pdf?rpp=-10&m=1&w=doc_no%3D%27201400038%27
 ---
 

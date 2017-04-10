@@ -3,6 +3,7 @@ place: cape-coral-fl
 year: 2016
 date: 2016-11-02
 legal_custom: Administrative Regulation
+sunlight: true
 policy_url: http://www.capecoral.net/OpenGov/Docs/AR%2073%20Open%20Data%20Policy.pdf
 ---
 

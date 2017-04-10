@@ -2,6 +2,7 @@
 place: san-jose-ca
 year: 2016
 legal_custom: Resolution
+sunlight: true
 policy_url: http://sanjose.granicus.com/MetaViewer.php?view_id==2130=565140
 ---
 

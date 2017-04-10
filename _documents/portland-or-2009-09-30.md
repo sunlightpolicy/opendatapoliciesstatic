@@ -3,6 +3,7 @@ place: portland-or
 year: 2009
 date: 2009-09-30
 legal_custom: Legislation
+sunlight: true
 policy_urls:
   PDF: http://www.portlandonline.com/shared/cfm/image.cfm?id=275696
 ---

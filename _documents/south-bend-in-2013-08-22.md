@@ -3,6 +3,7 @@ place: south-bend-in
 year: 2013
 date: 2013-08-22
 legal_custom: Executive Order
+sunlight: false
 policy_url: https://gist.github.com/rebeccawilliams/6311204
 ---
 

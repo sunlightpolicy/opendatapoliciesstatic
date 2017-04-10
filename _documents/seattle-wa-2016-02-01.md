@@ -3,6 +3,7 @@ place: seattle-wa
 year: 2016
 date: 2016-02-01
 legal_custom: CTO Policy
+sunlight: true
 policy_url: http://www.seattle.gov/Documents/Departments/SeattleGovPortals/CityServices/OpenDataPolicyV1.pdf
 ---
 

@@ -3,6 +3,7 @@ place: philadelphia-pa
 year: 2012
 date: 2012-04-26
 legal_custom: Executive Order
+sunlight: false
 policy_urls:
   HTML: http://www.phila.gov/data/executive-order/
   PDF: http://www.phila.gov/ExecutiveOrders/Executive%20Orders/2012_EO01-12.pdf

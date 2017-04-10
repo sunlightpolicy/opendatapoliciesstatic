@@ -3,6 +3,7 @@ place: san-diego-ca
 year: 2014
 date: 2014-11-24
 legal_custom: Policy
+sunlight: false
 policy_url: http://dockets.sandiego.gov/sirepub/view.aspx?cabinet=published_meetings&fileid=757846
 ---
 

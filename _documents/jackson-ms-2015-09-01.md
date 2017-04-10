@@ -3,6 +3,7 @@ place: jackson-ms
 year: 2015
 date: 2015-09-01
 legal_custom: Executive Order
+sunlight: true
 policy_url: http://web.archive.org/web/20150910063345/http://www.jacksonms.gov/CivicAlerts.aspx?AID=443
 press_url: https://web.archive.org/web/20150910002459/http://www.jacksonms.gov/CivicAlerts.aspx?AID=442
 ---

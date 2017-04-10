@@ -2,6 +2,7 @@
 place: williamsville-ny
 year: 2014
 legal_custom: Legislation
+sunlight: false
 policy_url: http://nebula.wsimg.com/f3f47c94e13554f3b53e45220d02c783?AccessKeyId=EB836F96604CFAA85CBF=0=1
 ---
 

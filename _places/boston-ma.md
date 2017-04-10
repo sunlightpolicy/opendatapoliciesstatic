@@ -9,4 +9,5 @@ y: 42.3600825
 portal_urls:
   General: https://data.cityofboston.gov/
   GIS: http://bostonopendata-boston.opendata.arcgis.com/
+wwc: true
 ---

@@ -3,6 +3,7 @@ place: honolulu-hi
 year: 2013
 date: 2013-11-27
 legal_custom: Legislation
+sunlight: false
 policy_url: http://www.slideshare.net/Bytemarks/bill-53-fd1
 ---
 

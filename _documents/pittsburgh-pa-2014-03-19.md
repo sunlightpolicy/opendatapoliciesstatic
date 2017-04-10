@@ -3,6 +3,7 @@ place: pittsburgh-pa
 year: 2014
 date: 2014-03-19
 legal_custom: Legislation
+sunlight: false
 policy_urls:
   HTML: https://www.municode.com/library/pa/pittsburgh/codes/code_of_ordinances?nodeId=COOR_TITONEAD_ARTVIIPR_CH162OPDASE
   HTML (marked-up): https://pittsburgh.legistar.com/LegislationDetail.aspx?ID=1632976&GUID=C476BBD1-7CD9-4ED2-8A16-B7ECA89F4D40&Options=ID%7CText%7C&Search=open+data+sets&FullText=1

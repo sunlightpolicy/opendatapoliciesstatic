@@ -3,6 +3,7 @@ place: las-vegas-nv
 year: 2016
 date: 2016-04-12
 legal_custom: Legislation
+sunlight: true
 policy_url: http://www.lasvegasnevada.gov/cs/groups/public/documents/document/chjk/mda5/~edisp/prd009912.pdf
 ---
 

@@ -3,6 +3,7 @@ place: boulder-county-co
 year: 2016
 date: 2016-07-01
 legal_custom: Policy
+sunlight: false
 policy_url: http://www.bouldercounty.org/gov/data/pages/opendatapolicy.aspx
 ---
 
