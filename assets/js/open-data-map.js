@@ -13,7 +13,7 @@ var docs = {};
   var doc_vars = {
     'date': '{{doc.date}}' || '{{doc.year}}',
     'date_pretty': '{{doc.date | date: "%b %-d, %Y"}}' || '{{doc.year}}',
-    'means': '{{doc.legal_custom}}',
+    'means': "{{doc.legal_custom}}",  // double-quotes needed to deal with apostrophes in legal means
     'doc_page_url': '{{doc.url}}',
     'external_url': '{{doc.policy_url}}'
   };
