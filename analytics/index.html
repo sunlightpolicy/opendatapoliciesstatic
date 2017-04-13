@@ -16,16 +16,16 @@ title: Analytics
 
 <h2>Totals</h2>
 
-<p>{{ site.documents | size }} total policies</p>
-<p>{{ site.places | size }} total places</p>
+<p><span class="num-policies">{{ site.documents | size }}</span> total policies</p>
+<p><span class="num-places">{{ site.places | size }}</span> total places</p>
 <br>
 
 <h2>Totals: Sunlight</h2>
 
 <!-- Sunlight totals -->
 {% assign sunlight_docs = site.documents | where: "sunlight", true %}
-<p>{{ sunlight_docs | size }} total policies</p>
-<p>{{ sunlight_docs | map: "place" | uniq | size }} unique places</p>
+<p><span class="num-policies">{{ sunlight_docs | size }}</span> total policies</p>
+<p><span class="num-places">{{ sunlight_docs | map: "place" | uniq | size }}</span> unique places</p>
 <br>
 
 <!-- Sunlight policies by year -->
@@ -35,14 +35,17 @@ title: Analytics
 {% endfor %}
 <br>
 
+<div class="wwc-yes">
 <h2>Places that are What Works Cities</h2>
-
 {% include analytics_wwc.html wwc_docs=wwc_yes_docs %}
+</div>
 
+<div class="wwc-no">
 <h2>Places that are <em>not</em> What Works Cities</h2>
-
 {% include analytics_wwc.html wwc_docs=wwc_no_docs %}
+</div>
 
+<div class="wwc-unk">
 <h2>Places whose WWC status is unknown</h2>
-
 {% include analytics_wwc.html wwc_docs=wwc_unk_docs %}
+</div>
