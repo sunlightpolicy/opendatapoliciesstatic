@@ -1,5 +1,7 @@
-<p><span class="num-places">{{ include.wwc_docs | map: "place" | uniq | size }}</span> unique places, with <span class="num-policies">{{ include.wwc_docs | size }}</span> total policies</p>
-<p>Of these...</p>
+<div class="total">
+    <p><span class="num-places">{{ include.wwc_docs | map: "place" | uniq | size }}</span> unique places, with <span class="num-policies">{{ include.wwc_docs | size }}</span> total policies</p>
+    <p>Of these...</p>
+</div>
 
 <h3><em>Policies that Sunlight provided assistance with</em></h3>
 {% include analytics_sunlight.html wwc_docs=include.wwc_docs sunlight='true' %}
