@@ -5,7 +5,24 @@ title: Analytics
 
 <script>
 function makeTable() {
-	//
+    var divs = document.getElementsByTagName("div");
+    var wwc_classes = ["wwc-yes, wwc-no, wwc-unk"];
+    for (var i = 0, i < divs.length, i++) {
+        var this_div = divs[i];
+        if wwc_classes.includes(this_div.className) {
+            var wwc = this_div.className;
+            var values = {};
+            var nums = this_div.getElementsByClassName("num-policies");
+            for (j in nums) {
+                var sunlight = j.parentNode.parentNode.className;
+                var value = j.innerText;
+                document.getElementsByTagName("tr")
+                    .getElementsByClassName(sunlight)[0]
+                    .getElementsByClassName(wwc)[0]
+                    .innerText = value;
+            }
+        }
+    }
 }
 window.onload = makeTable;
 </script>
