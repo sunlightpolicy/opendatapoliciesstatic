@@ -7,9 +7,11 @@
   {% assign sunlight_subset = sunlight_subset_0 | where_exp: "item", "item.sunlight != false" %}
 {% endif %}
 
+<div class="sunlight-{{ include.sunlight }}">
 <p><span class="num-policies">{{ sunlight_subset | size }}</span> policies, <span class="num-places">{{ sunlight_subset | map: "place" | uniq | size }}</span> unique places</p>
-<ul class="sunlight-{{ include.sunlight }}-list">
+<ul>
 {% for doc in sunlight_subset %}
   <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
 {% endfor %}
 </ul>
+</div>
