@@ -6,7 +6,6 @@ legal_custom: Administrative Regulation
 sunlight: true
 policy_urls:
   PDF: https://drive.google.com/file/d/0B4SK5peGcfxzeHBzNDBVWjdRZUk/view
-press_url: http://www.scottsdaleaz.gov/news/city-council-commits-to-open-data_s4_p24496
 ---
 
 AR297 - OPEN DATA PROGRAM
