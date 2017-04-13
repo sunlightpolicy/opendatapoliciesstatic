@@ -3,6 +3,53 @@ layout: default
 title: Analytics
 ---
 
+<script>
+function makeTable() {
+	//
+}
+window.onload = makeTable;
+</script>
+
+<!-- Table -->
+<p>Summary table for policies:</p>
+<table>
+  <tr id="table-header">
+    <th></th>
+    <th>WWC yes</th>
+    <th>WWC no</th>
+    <th>WWC unknown</th>
+    <th>Total</th>
+  </tr>
+  <tr id="row-sunlight-yes">
+    <td>Sunlight yes</td>
+    <td class="wwc-yes"></td>
+    <td class="wwc-no"></td>
+    <td class="wwc-unk"></td>
+    <td class="total"></td>
+  </tr>
+  <tr id="row-sunlight-no">
+    <td>Sunlight no</td>
+    <td class="wwc-yes"></td>
+    <td class="wwc-no"></td>
+    <td class="wwc-unk"></td>
+    <td class="total"></td>
+  </tr>
+  <tr id="row-sunlight-unk">
+    <td>Sunlight unknown</td>
+    <td class="wwc-yes"></td>
+    <td class="wwc-no"></td>
+    <td class="wwc-unk"></td>
+    <td class="total"></td>
+  </tr>
+  <tr id="row-total">
+    <td>Total</td>
+    <td class="wwc-yes"></td>
+    <td class="wwc-no"></td>
+    <td class="wwc-unk"></td>
+    <td class="total"></td>
+  </tr>
+</table>
+
 <!-- Generate lists of WWCs, non-WWCs, and unknowns -->
 {% assign wwc_yes = site.places | where: "wwc", true | map: "place" %}
 {% assign wwc_no = site.places | where: "wwc", false | map: "place" %}
