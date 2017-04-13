@@ -7,7 +7,7 @@ title: Analytics
 function makeTable() {
     var divs = document.getElementsByTagName("div");
     var wwc_classes = ["wwc-yes, wwc-no, wwc-unk"];
-    for (i = 0, i < divs.length, i++) {
+    for (i = 0; i < divs.length; i++) {
         var this_div = divs[i];
         if wwc_classes.includes(this_div.className) {
             var wwc = this_div.className;
