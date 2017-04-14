@@ -16,9 +16,7 @@ function makeTable() {
             for (j in nums) {
                 var sunlight = j.parentNode.parentNode.className;
                 var value = j.innerText;
-                document.getElementsByTagName("tr")
-                    .getElementsByClassName(sunlight)[0]
-                    .getElementsByClassName(wwc)[0]
+                document.querySelector('tr.' + sunlight + ' td.' + wwc)
                     .innerText = value;
             }
         }
