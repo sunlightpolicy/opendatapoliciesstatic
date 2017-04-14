@@ -3,7 +3,7 @@ place: kansas-city-mo
 year: 2014
 date: 2014-06-19
 legal_custom: Ordinance
-sunlight: true
+sunlight: false
 policy_url: http://cityclerk.kcmo.org/LiveWeb/Documents/Document.aspx?q=ZbIEEaWPo6OIEpZdlWPeDYolPDlZVDM%2fobeKL6dsBwK1tuYkgMQbXlyBecUa6zWX
 ---
 
