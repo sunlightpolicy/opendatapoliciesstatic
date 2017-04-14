@@ -18,7 +18,7 @@ function makeTable() {
             console.log(nums);
             for (j = 0; j < nums.length; j++) {
                 var sunlight = nums[j].parentNode.parentNode.className;
-                var value = j.innerText;
+                var value = nums[j].innerText;
                 document.querySelector('tr.' + sunlight + ' td.' + wwc)
                     .innerText = value;
             }
