@@ -14,7 +14,7 @@ var docs = {};
     'date': '{{doc.date}}' || '{{doc.year}}',
     'date_pretty': '{{doc.date | date: "%b %-d, %Y"}}' || '{{doc.year}}',
     'means': "{{doc.legal_custom}}",  // double-quotes needed to deal with apostrophes in legal means
-    'doc_page_url': '{{doc.url}}',
+    'doc_page_url': '{{ site.baseurl }}{{doc.url}}',
     'external_url': '{{doc.policy_url}}'
   };
   docs['{{docplace}}'].push(doc_vars);
