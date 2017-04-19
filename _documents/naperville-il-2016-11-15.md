@@ -73,7 +73,7 @@ Inviting and engaging the community to use the data to unlock its potential.
 
 b. The City of Naperville is committed to providing the public with access to its data to allow the public to work collaboratively to generate new ideas to solve complex challenges. This action allows a more diverse body of expertise to develop new analyses, insights, and findings that allow the City to provide more efficient and effective government services. As such, the City commits to developing and implementing practices that will allow it to:
 
-Proactively release high quality, relevant data with documentation (metadata) and permanence, making it freely available via the City's open data portal, with no restrictions on use or reuse, and fully accessible to the broadest range of users for varying purposes.
+<span class="guideline-metadata">Proactively release high quality, relevant data with documentation (metadata) and permanence, making it freely available via the City's open data portal, with no restrictions on use or reuse, and fully accessible to the broadest range of users for varying purposes.</span>
 
 Provide or support access to free archives of released City data.
 
