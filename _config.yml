@@ -6,7 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Open Data Policies
+title: Open Data Policy
+subtitle: Collection
 
 description: >
   OpenDataPolicies.org provides the open-data policies for cities and states
