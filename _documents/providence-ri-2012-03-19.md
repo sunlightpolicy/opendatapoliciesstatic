@@ -3,7 +3,7 @@ place: providence-ri
 year: 2012
 date: 2012-03-19
 legal_custom: Resolution
-sunlight: true
+sunlight: false
 policy_url: http://www.gcpvd.org/2012/03/19/open-providence-commission-for-transparency-and-accountability-meeting-today-march-19/
 ---
 
