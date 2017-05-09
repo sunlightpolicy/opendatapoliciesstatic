@@ -8,6 +8,10 @@ policy_urls:
   HTML: https://www.phoenix.gov/opendata/policy
 ---
 
+<style type="text/css">
+    ol ol { list-style-type: lower-alpha; }
+</style>
+
 Open Data Policy
 
 ​​In order to expand the city of Phoenix' commitment to transparency in government, increased efficiencies enhanced economic opportunities and innovation, the City Manager recommends the adoption of an Open Data Policy (Policy).  The Policy communicates to the community, departments and staff that making non-confidential data freely available using open standards will make the operation of our government more efficient, effective and accountable to the public.  The Policy will achieve these goals while preserving the public trust in regards to the personal, sensitive and confidential data we possess.
