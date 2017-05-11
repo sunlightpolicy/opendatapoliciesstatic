@@ -42,9 +42,12 @@ The County of Riverside ("County") is committed to creating a high level of open
 1. To increase accountability and transparency, promote informed public participation, and Create economic development opportunities, each County agency or department shall expand access to information by making it proactively available online and in a format that can be retrieved, downloaded, indexed, sorted, Searched, and reused by Commonly used Software and Web search applications. Examples of open formats include HTML, XML, CSV, XLS, JSON, RDF or XHTML.
 
 2. *Open Data Web Portal.* Within 90 days from the date of this Policy, the CDO shall establish a central web portal that will serve as the source for County-wide activities related to this Open Data Policy. Each agency or department shall be responsible for ensuring that the information required to be published as a result of this policy is accessible from this Open Data Web Portal. Any dataset made accessible on the County of Riverside's Open Data Web Portal shall:
-    i. Use an open format that permits automated processing of such data in a form that can be retrieved via an open application programming interface (API), downloaded, indexed, searched and reused by Commonly used Web search applications and software;
-    ii. Subject to legal and practical restrictions, be made available to the public without restrictions that would impede re-use of the information.
-    iii. Be accessible to external search capabilities.
+
+> i. Use an open format that permits automated processing of such data in a form that can be retrieved via an open application programming interface (API), downloaded, indexed, searched and reused by Commonly used Web search applications and software;
+
+> ii. Subject to legal and practical restrictions, be made available to the public without restrictions that would impede re-use of the information.
+
+> iii. Be accessible to external search capabilities.
 
 1. *Department and Agency Open Data Publication.* In coordination with the Chief Data Officer, each County department and agency shall develop a schedule for making information available to the public and updating it on a regular basis. Agencies and departments shall publish information on the Open Data Web Portal (in addition to other planned or mandated publication methods), and in an open format.
 
