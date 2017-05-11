@@ -1,4 +1,3 @@
-
 ---
 place: montgomery-county-md
 title: Montgomery County
