@@ -82,15 +82,15 @@ Each Department Head shall have the responsibility to:
 
 2. Within 90 days of the effective date of this order, pursuant to the training provided to the Departmental Data Coordinator by ITS and the Office of Innovation, and using a template provided for this purpose, begin to create a Departmental Data Catalog of all available Datasets, excluding Protected Information.
 
-(a) Each Departmental Data Catalog, with Datasets noted as potential Open Data, shall be made available to ITS and the Office of Innovation. The determination of whether a particular Dataset shall be appropriate for inclusion in the Departmental Data Catalog shall be made by each Department Head in consultation with the Law Department, Office of Innovation and ITS as necessary, and shall be guided by the standards to be developed as described in part 3 of this section.
+    a. Each Departmental Data Catalog, with Datasets noted as potential Open Data, shall be made available to ITS and the Office of Innovation. The determination of whether a particular Dataset shall be appropriate for inclusion in the Departmental Data Catalog shall be made by each Department Head in consultation with the Law Department, Office of Innovation and ITS as necessary, and shall be guided by the standards to be developed as described in part 3 of this section.
 
-(b) A Departmental Data Catalog may initially consist of as many Datasets as it is feasible for the Department to identify as appropriate for posting in the Open Data Portal. Following the initial Dataset designation, the Departmental Data Coordinator shall continue to identify additional appropriate Datasets for inclusion in the Departmental Data Catalog on an ongoing basis. In so doing, the Data Coordinator shall be guided by the standards to be developed as described in part 3 of this section.
+    b. A Departmental Data Catalog may initially consist of as many Datasets as it is feasible for the Department to identify as appropriate for posting in the Open Data Portal. Following the initial Dataset designation, the Departmental Data Coordinator shall continue to identify additional appropriate Datasets for inclusion in the Departmental Data Catalog on an ongoing basis. In so doing, the Data Coordinator shall be guided by the standards to be developed as described in part 3 of this section.
 
 3. The Data Management Team will serve as a resource to help ITS and the Office of Innovation establish standards for publication of Open Data and the most effective process for making such Open Data available.
 
-(a) The Data Management Team shall make recommendations for the standards of publication, the Data Catalog template, and other related forms to ITS and the Office of Innovation, who, with the advice of the Department of Law, shall make the final determination.
+    a. The Data Management Team shall make recommendations for the standards of publication, the Data Catalog template, and other related forms to ITS and the Office of Innovation, who, with the advice of the Department of Law, shall make the final determination.
 
-(b) The criteria to be used in establishing publication standards may include whether a data set is particularly useful to Metropolitan departments or would be of significant public interest, for example, as indicated by frequent public requests for it.
+    b. The criteria to be used in establishing publication standards may include whether a data set is particularly useful to Metropolitan departments or would be of significant public interest, for example, as indicated by frequent public requests for it.
 
 ## V. Open Data Portal
 
@@ -122,9 +122,9 @@ Metadata shall be made available in a form to be determined by ITS and the Offic
 
 2. The Departments of the Metropolitan Government within the scope of this Executive Order will aspire to:
 
-(a) enhance and expand cooperation among Metropolitan Government departments and agencies, other governmental agencies, private and nonprofit entities, and the public,
+    a. enhance and expand cooperation among Metropolitan Government departments and agencies, other governmental agencies, private and nonprofit entities, and the public,
 
-(b) fulfill Metropolitan Government goals and obligations; including proposals to: (i) use technology platforms and links to appropriate websites, (ii) improve and inform the public about existing collaboration efforts, and (iii) increase use of innovative methods to obtain ideas from, and to increase collaboration with, those in the private sector, nonprofit and academic communities.
+    b. fulfill Metropolitan Government goals and obligations; including proposals to: (i) use technology platforms and links to appropriate websites, (ii) improve and inform the public about existing collaboration efforts, and (iii) increase use of innovative methods to obtain ideas from, and to increase collaboration with, those in the private sector, nonprofit and academic communities.
 
 ## IX. Secondary Use
 
