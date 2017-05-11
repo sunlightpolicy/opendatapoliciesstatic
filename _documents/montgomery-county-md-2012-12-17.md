@@ -4,7 +4,7 @@ year: 2012
 date: 2012-12-17
 legal_custom: Legislation
 sunlight: false
-policy_url:
+policy_urls:
   PDF: http://www.montgomerycountymd.gov/COUNCIL/Resources/Files/bill/2012/20121204_23-12A.pdf
   HTML: http://www.montgomerycountymd.gov/COUNCIL/Resources/Files/bill/2012/23-12.htm
 ---
