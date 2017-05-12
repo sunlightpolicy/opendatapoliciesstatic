@@ -3513,7 +3513,7 @@ only screen and (min-width: 768px) and (max-width: 1024px) {
 
 header#page_header nav#main_navigation {
     background-color: #105c80;
-    font-family: "proxima-nova", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "futura_md_btmedium", "proxima-nova", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 68.75%;
     height: 70px;
     letter-spacing: 0.1em;
