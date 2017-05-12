@@ -1,5 +1,7 @@
 ---
 layout: default
+redirect_to:
+- http://www.opendatapolicies.org/browse/
 ---
 
 <!-- UNCOMMENT TO DISPLAY AN INTRODUCTORY VIDEO HERE
