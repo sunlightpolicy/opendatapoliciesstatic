@@ -3442,7 +3442,7 @@ only screen and (min-width: 768px) and (max-width: 1024px) {
 }
 
 header#page_header #place_logo h1 {
-    font-family: "adobe-jenson-pro", Georgia, "Times New Roman", Times, serif;
+    font-family: "futura_md_btmedium", "adobe-jenson-pro", Georgia, "Times New Roman", Times, serif;
     font-size: 45px;
     line-height: 75px;
     font-weight: normal;
@@ -4277,7 +4277,7 @@ only screen and (min-width: 320px) and (max-width: 768px) {
 }
 
 .homepage #place_logo h1 {
-    font-family: "adobe-jenson-pro", Georgia, "Times New Roman", Times, serif;
+    font-family: "futura_md_btmedium", "adobe-jenson-pro", Georgia, "Times New Roman", Times, serif;
     font-size: 100%;
     font-weight: normal;
     line-height: 100%;
@@ -4285,7 +4285,7 @@ only screen and (min-width: 320px) and (max-width: 768px) {
 }
 
 .homepage #place_logo h2 {
-    font-family: "proxima-nova", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "futura_md_btmedium", "proxima-nova", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 87.5%;
     font-weight: normal;
     letter-spacing: 0.1em;
