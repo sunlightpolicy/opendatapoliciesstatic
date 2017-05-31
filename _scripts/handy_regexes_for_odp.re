@@ -12,9 +12,11 @@ Remove newlines before numbered sections
 \n(\d{1,2}\. )
 \1
 
+
 Remove newlines before lowercase-lettered sections
 \n([a-z]{1,2}\. )
 \1
+
 
 Put newline only before capital-lettered sections (not numbered)
 \n([A-Z]\.)
