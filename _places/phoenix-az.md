@@ -1,6 +1,6 @@
 ---
-place: phoneix-az
-title: Phoneix
+place: phoenix-az
+title: Phoenix
 states:
   - AZ
 x: -112.0740373
