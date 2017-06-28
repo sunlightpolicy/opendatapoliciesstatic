@@ -100,6 +100,7 @@ window.onload = makeTable;
 {% endfor %}
 <br>
 
+<!--
 <p>The following places had a preexisting policy:</p>
 {% assign docs_by_place = site.documents | group_by: "place" %}
 {% for place in docs_by_place %}
@@ -109,6 +110,7 @@ window.onload = makeTable;
     <p>{{ place.name }}i</p>
   {% endif %}
 {% endfor %}
+-->
 
 <div class="wwc-yes">
 <h2>Places that are What Works Cities</h2>
