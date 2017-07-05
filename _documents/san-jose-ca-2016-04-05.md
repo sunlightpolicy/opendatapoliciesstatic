@@ -2,7 +2,7 @@
 place: san-jose-ca
 year: 2016
 date: 2016-04-05
-legal_custom: Council Resolution
+legal_custom: Council Policy
 sunlight: true
 policy_urls:
   PDF: https://www.sanjoseca.gov/DocumentCenter/View/55954
@@ -12,43 +12,43 @@ City of San José, California
 
 COUNCIL POLICY
 
-TITLE Open Data Policy
+TITLE: Open Data Policy
 
-EFFECTIVE DATE April 5, 2016 REVISED DATE
+EFFECTIVE DATE: April 5, 2016
 
 APPROVED BY COUNCIL ACTION COUNCIL ACTION 4/5/16, Item 3.3
 
-PURPOSE
+## PURPOSE
 
 The purpose of this Open Data Policy (alternatively, the “Policy”) is to affirm the City’s commitment to open, honest, and effective government. The City strives to consistently meet the community’s expectations for excellent services in a positive and timely manner, and in full view of the public. With the advance of information technologies and the increasing ability to more easily share data across multiple platforms and online, the City Council recognizes that appropriate leveraging of these tools to make information accessible and usable by the public can help improve public service delivery and fuel entrepreneurship and innovation.
 
 Open Data is an important component of this commitment; through making its data publicly available and easily accessible, the City will empower the community to engage with government on a new level and stimulate new ideas, new services, and new economic opportunities. In addition, Open Data will provide a new platform to increase the sharing of information among City departments, improving the City’s ability to deliver services to the community efficiently and effectively. To help achieve these outcomes, this Open Data Policy incorporates best practices regarding open data from other governmental entities around the country and is informed by input received from San José residents, businesses, and non-profit organizations.
 
-POLICY
+## POLICY
 
-Definitions
+### Definitions
 
-City Council Appointee: The City officials appointed by the City Council to their respective offices, including, the City Manager, the City Attorney, the City Auditor, the City Clerk and the Independent Police Auditor.
+**City Council Appointee**: The City officials appointed by the City Council to their respective offices, including, the City Manager, the City Attorney, the City Auditor, the City Clerk and the Independent Police Auditor.
 
-Common Data Standards: Any set of data collection standards designed to promote interoperability across agencies and organizations and facilitate the efficient exchange and use of information collected in different systems.
+**Common Data Standards**: Any set of data collection standards designed to promote interoperability across agencies and organizations and facilitate the efficient exchange and use of information collected in different systems.
 
-Data: Structured information.
+**Data**: Structured information.
 
-Dataset: A collection of data presented in tabular or non-tabular form.
+**Dataset**: A collection of data presented in tabular or non-tabular form.
 
-Data Source: A system, database, or other information source that contains and reports raw data.
+**Data Source**: A system, database, or other information source that contains and reports raw data.
 
-Information Lifecycle: The stages through which information passes, typically characterized as creation or collection, processing, dissemination, use, storage, and disposition.
+**Information Lifecycle**: The stages through which information passes, typically characterized as creation or collection, processing, dissemination, use, storage, and disposition.
 
-Interoperability: The ability of different information technology systems, software and data applications to communicate and exchange data, and use the information that has been exchanged.
+**Interoperability**: The ability of different information technology systems, software and data applications to communicate and exchange data, and use the information that has been exchanged.
 
-Metadata: Data that describes a dataset. Metadata summarizes basic information about a dataset, such as the date range covered by a dataset, a description of the dataset, the manager or steward of the dataset, etc.
+**Metadata**: Data that describes a dataset. Metadata summarizes basic information about a dataset, such as the date range covered by a dataset, a description of the dataset, the manager or steward of the dataset, etc.
 
-Open Data: Data made open and freely available to the public to be republished, manipulated, or used in any other way without restriction.
+**Open Data**: Data made open and freely available to the public to be republished, manipulated, or used in any other way without restriction.
 
-Open Data Portal: A single web portal maintained by or on behalf of the City that will be the repository and public access point for the City’s Open Data and will include features that facilitate comments and questions from the public. The internet site is currently located at http://data.sanjoseca.gov.
+**Open Data Portal**: A single web portal maintained by or on behalf of the City that will be the repository and public access point for the City’s Open Data and will include features that facilitate comments and questions from the public. The internet site is currently located at http://data.sanjoseca.gov.
 
-Policy Objectives Summary
+### Policy Objectives Summary
 
 It is the policy of the City that the data it collects and generates will, subject to the limitations of this Policy, be open by default. Over time and to the extent practicable, the City will publish all appropriate datasets and associated metadata on the City’s Open Data Portal, except where the posting of such data would be in violation of the Open Data Standards set forth below. Every reasonable effort will be made to frequently update datasets on the Open Data Portal to the extent that the City regularly maintains or updates such data.
 
@@ -58,11 +58,11 @@ To facilitate the collection, opening, and analysis of additional data and infor
 
 In an effort to maximize the impact of this Policy, the City will endeavor to engage and share datasets with other local, regional, and national government entities, non-profit groups, businesses and community interest groups and stakeholders as appropriate with the goal of maximizing the flow of information to the community.
 
-Application
+### Application
 
 This Policy primarily applies to the departments and offices under the supervision of the City Manager. The City Manager will establish and maintain procedures to assist departments and offices under the City Manager’s purview in implementing this Policy. To the extent that the offices under the supervision of the other City Council Appointees generate or collect data that is subject to this Policy, the applicable Council Appointee will establish procedures implementing this Policy. As the management of the Open Data Portal is under the purview of the City Manager, the City Manager and the other City Council Appointees will work cooperatively on procedures for transmitting and posting data to the Open Data Portal.
 
-Open Data Standards
+### Open Data Standards
 
 To promote government efficiency and the social good that can be gained from opening government data to the public, the default state of new and updated information resources should, to the extent practicable, be open and machine readable. City information should be managed as an asset throughout its lifecycle to promote interoperability and openness, and, wherever possible, subject to the limitations of this Policy, to ensure that data is released to the public in ways that make the data easy to find, accessible, and usable by the public. This Policy excludes the posting of data to the Open Data Portal where the public release of such data would be in violation of the law, including laws governing privacy or privileged information, or would violate contractual or proprietary rights or would jeopardize the security of individuals or property.
 
@@ -70,55 +70,55 @@ When designing new information collection and creation efforts, the City should 
 
 Specifically, to the extent practicable, the City will strive to incorporate the following requirements into future information collection and creation efforts:
 
-Use machine-readable and open formats: The City should use machine-readable and open formats for information as it is collected or created. While information should be collected electronically by default, machine-readable and open formats must also be used in conjunction with electronic, telephone, or paper-based information collection efforts to promote public accessibility. Departments should prioritize the use of open formats that are non-proprietary, publicly available, and that place no restrictions upon their use.
+**Use machine-readable and open formats**: The City should use machine-readable and open formats for information as it is collected or created. While information should be collected electronically by default, machine-readable and open formats must also be used in conjunction with electronic, telephone, or paper-based information collection efforts to promote public accessibility. Departments should prioritize the use of open formats that are non-proprietary, publicly available, and that place no restrictions upon their use.
 
-Use data standards: Where common data standards are defined within and by the City the City should use such common data standards in the collection and creation of information to promote data interoperability and openness, regardless of format or purpose.
+**Use data standards**: Where common data standards are defined within and by the City the City should use such common data standards in the collection and creation of information to promote data interoperability and openness, regardless of format or purpose.
 
-Ensure information stewardship through the use of open licenses: The City should apply open licenses to information as it is collected or created to ensure that as data is made public, there are no restrictions on copying, publishing, distributing, transmitting, adapting, or otherwise using the information for non-commercial or commercial purposes. When information is acquired or accessed by the City through performance of an agreement, the agreement’s provisions should reflect these objectives while recognizing that contractors may have proprietary interests in such information, and that protection of such information may be necessary to encourage qualified contractors to participate in and apply innovative concepts to the City’s programs.
+**Ensure information stewardship through the use of open licenses**: The City should apply open licenses to information as it is collected or created to ensure that as data is made public, there are no restrictions on copying, publishing, distributing, transmitting, adapting, or otherwise using the information for non-commercial or commercial purposes. When information is acquired or accessed by the City through performance of an agreement, the agreement’s provisions should reflect these objectives while recognizing that contractors may have proprietary interests in such information, and that protection of such information may be necessary to encourage qualified contractors to participate in and apply innovative concepts to the City’s programs.
 
-Ensure frequent updates: The City should provide updates to data hosted on the Open Data Portal to the extent that the data is regularly maintained or updated.
+**Ensure frequent updates**: The City should provide updates to data hosted on the Open Data Portal to the extent that the data is regularly maintained or updated.
 
-Metadata requirements: The City should provide the following metadata for all datasets hosted on the Open Data Portal:
+**Metadata requirements**: The City should provide the following metadata for all datasets hosted on the Open Data Portal:
 
-• Name of primary department responsible for maintaining the dataset
+- Name of primary department responsible for maintaining the dataset
 
-• Name of the dataset owner in the Department where the dataset originates
+- Name of the dataset owner in the Department where the dataset originates
 
-• Frequency of data refresh
+- Frequency of data refresh
 
-• Date and time of last refresh
+- Date and time of last refresh
 
-• Clear data labels and explanations for each data field
+- Clear data labels and explanations for each data field
 
-• Additional information as necessary
+- Additional information as necessary
 
 Data posted to the Open Data Portal will meet the following criteria:
 
-• Readable, indexable, and electronically searchable by commonly used Internet search applications.
+- Readable, indexable, and electronically searchable by commonly used Internet search applications.
 
-• Platform independent and machine readable.
+- Platform independent and machine readable.
 
-• Available to the public free of charge.
+- Available to the public free of charge.
 
-• Retains the data definitions and structure present when the data was compiled, if applicable.
+- Retains the data definitions and structure present when the data was compiled, if applicable.
 
-Prioritization for Posting to the Open Data Portal
+### Prioritization for Posting to the Open Data Portal
 
 Given that the City collects and manages a wide array of data, and that it will take time and resources for the publishing of datasets on the Open Data Portal, each City Council Appointee will establish an internal process to prioritize the posting of data within each Council Appointee’s purview to the Open Data Portal. Amongst other criteria, the prioritization process should take into account interest in particular data sets expressed by the City Council and the community, each Council Appointee’s perspective as to what degree the posting of data would improve transparency and public service delivery, the relative accuracy of datasets, and any technical challenges in the transmittal of data to the Open Data Portal. A final ranking list will be developed based on the evaluation of each dataset against the criteria, subject to modification in the applicable Council Appointee’s discretion to modify the ranking as conditions change.
 
-Status Updates on Open Data Posting
+### Status Updates on Open Data Posting
 
 The City Manager will issue an annual report to the City Council regarding the state of the Open Data Portal, including the number, quality, and description of datasets and visualizations posted. The City Manager will also maintain an up-to-date performance dashboard, on the Open Data Portal or other similarly accessible website, to monitor progress toward specified goals around transparency, accessibility, and usability of data.
 
-Technology Standards
+### Technology Standards
 
 New information systems will, to the extent practicable, have the ability to report data in a manner consistent with the open data standards outlined in the Open Data Standards section of this Policy. When updating existing legacy computer systems, the City will endeavor to ensure that such systems have the ability to report data in a way that meets the open data standards as outlined in the Open Data Standards section of this Policy, unless to do so would be impracticable, result in extraordinary cost, loss of operational efficiency, or would otherwise significantly impede normal business operations.
 
-Procurement Incentives for the Acquisition of New Systems
+### Procurement Incentives for the Acquisition of New Systems
 
 On a case by case basis, to facilitate the acquisition of computer systems that meet the Open Data Standards of this Policy, the evaluation criteria developed for procuring such system will incorporate additional consideration for meeting these standards.
 
-Terms of Use
+### Terms of Use
 
 Data made available on the Open Data Portal is provided only to promote the general welfare. The City is not assuming, nor is it imposing on its officers or employees, an obligation for breach of which it is liable in money damages to any person who claims that such breach caused injury. Data on the Open Data Portal is provided on an “as is” basis, and for informational purposes only. The City reserves the right to discontinue availability of content on the Open Data Portal at any time and for any reason.
 
