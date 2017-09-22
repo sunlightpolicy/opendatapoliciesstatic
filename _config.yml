@@ -84,7 +84,7 @@ defaults:
       wwc: nil
 
 # Plugin settings
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
