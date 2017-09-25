@@ -200,7 +200,7 @@ The City of Fort Worth Departments are tasked with collecting and storing the da
 
 The Website and Open Data Governance committee will meet on a quarterly basis and follow the basic process flow below in Figure 1.
 
-![Figure 1](https://user-images.githubusercontent.com/3474451/30833783-733ee5c8-a21e-11e7-8117-329a289c020a.png)
+<img src="https://user-images.githubusercontent.com/3474451/30833783-733ee5c8-a21e-11e7-8117-329a289c020a.png" width="700"/>
 *FIGURE 1: QUARTERLY REVIEW OF OPEN DATA AND WEBSITE REQUESTS.*
 
 ### 5.3 GOVERNANCE COMMITTEE TEAM MEMBERS
