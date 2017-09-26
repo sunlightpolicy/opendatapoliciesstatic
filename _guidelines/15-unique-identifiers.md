@@ -5,11 +5,14 @@ name: Mandate the use of unique identifiers
 section: how-to-make-data-public
 examples: 
   - url: http://sunlightfoundation.com/blog/2014/03/20/a-little-math-could-make-identifiers-a-whole-lot-better/
-    title: Sunlight's "A little math could make identifiers a whole lot better"
+    title: >-
+      Sunlight's "A little math could make identifiers a whole lot better"
   - url: http://sunlightfoundation.com/sixdegrees/existing-identifiers/
-    title: Sunlight's Unique Corporate Identifier Roundup
+    title: >-
+      Sunlight's Unique Corporate Identifier Roundup
   - url: http://sunlightfoundation.com/blog/2013/11/19/whats-under-the-hood-of-googles-new-civic-information-offering/
-    title: Sunlight's Open Civic Identifier system
+    title: >-
+      Sunlight's Open Civic Identifier system
 ---
 
 <p>Unique identifiers are reference numbers used to identify unique individuals, entities or locations. The use of unique identifiers within and across data sets improves the quality and accuracy of data analysis. Without unique identifiers, some analyses can become difficult or impossible, since similar names may or may not refer to the same entities. Importantly, identifiers should be non-proprietary and public.</p>

@@ -128,7 +128,7 @@ def read_examples(guideline_id, html_doc=EXAMPLES):
             #     'text': link.string
             # })
             examples_list += ('\n  - url: ' + link.get('href') +
-                '\n    title: ' + link.string)
+                '\n    title: >-\n      ' + link.string)
 
     return examples_list
 

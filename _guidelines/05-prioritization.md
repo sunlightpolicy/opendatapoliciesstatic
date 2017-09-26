@@ -5,13 +5,17 @@ name: Specify methods of determining the prioritization of data release
 section: what-data-should-be-public
 examples: 
   - url: http://montgomerycountymd.gov/open/Resources/Files/OpenDataImplementationPlan_FY14.pdf
-    title: Montgomery County: Open Data Implementation Plan, Appendix B – Dataset Scoring Methodology and Outreach
+    title: >-
+      Montgomery County: Open Data Implementation Plan, Appendix B – Dataset Scoring Methodology and Outreach
   - url: http://nys-its.github.io/open-data-handbook/guidelines.html
-    title: New York: Open Data Handbook Guidelines Release Prioritization
+    title: >-
+      New York: Open Data Handbook Guidelines Release Prioritization
   - url: http://wiki.civiccommons.org/Open_Data_Priorities
-    title: Civic Commons' "Open Data Priorities"
+    title: >-
+      Civic Commons' "Open Data Priorities"
   - url: http://sunlightfoundation.com/blog/2014/03/24/the-chicken-or-the-egg-deciding-which-data-to-release-first/
-    title: Sunlight's "The chicken or the egg? Deciding which data to release first"
+    title: >-
+      Sunlight's "The chicken or the egg? Deciding which data to release first"
 ---
 
 <p>While open data policies ideally enable the online release of all public government information, the release of data may end up being a staggered process for practical reasons, such as insufficient funding or staffing. Governments should be clear about the range of potential methods that could be used in determining the priority-order of data release.</p>
