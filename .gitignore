@@ -4,3 +4,4 @@ _site
 .DS_Store
 .venv
 node_modules
+*.pyc
