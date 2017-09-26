@@ -10,6 +10,7 @@ with open('../_data/guideline_examples.html', 'r') as ex_file:
     ex_file_contents = ex_file.read()
     EXAMPLES = ex_file_contents.decode('utf-8')
 
+
 def read_all(guidelines=GUIDELINES):
     """Side effect: saves a YAML data file with section IDs and names"""
 
@@ -38,6 +39,8 @@ def read_section(li):
 
 def read_guideline(li, section_id):
     """Side effect: saves a file in _guidelines with this info"""
+
+    # Maybe should have stuck with BeautifulSoup, but whatever, it works
 
     # Strip out newlines
     contents = re.sub(u'\n *', u'', unicode(li))
