@@ -1,9 +1,11 @@
 import difflib
 import gfm
+import os
 import pandas as pd
 import re
 import regex
 import us
+import yaml
 
 # # pd.read_csv
 # # actually read excel
@@ -56,7 +58,9 @@ def find_place(converted_name):
     return
 
 
-def convert_name(name):
+def convert_place_name(name):
+
+    # TODO: strip off '.\d' and figure out WHICH policy
 
     if ',' in name:
         parts = re.search(
@@ -66,6 +70,20 @@ def convert_name(name):
     else:
         return us.states.lookup(unicode(name)).abbr.lower()
 
+def is_def_or_guide_col(name):
+
+    return (is_def_col(name) or is_guideline_col(name))
+
+def is_def_col(name):
+
+    return re.search(r'^".+"', name)
+
+def is_guideline_col(name):
+
+    return re.search(r'^\d{1,2}\.', name)
+
+    # if re.search(r'^\d{1,2}\.', column_name____):
+    #     num = int(re.search(r'(?<=^)(\d{1,2})(?=\.)', column_name____))
 
 def get_guideline_num(title):
 
@@ -110,19 +128,119 @@ def get_guideline_num(title):
 
 #     return
 
-def tag_items(orig_text_list, compare_text, tag):
-    """Go through a doc looking for matches for a single definition."""
+# Create a list of guidelines
+# Note: index numbers will be 1 less than the guideline numbers
+folder = os.path.join('..', '_guidelines')
+GUIDELINES = []
+for doc in os.listdir(folder):
+    # print doc
+    if doc[-3:] == '.md':
+        with open(os.path.join(folder, doc), 'r') as infile:
+            contents = infile.read().decode('utf-8')
+            fontmatter = re.search(
+                r'(?<=---\n).+(?=\n---\n)', contents, re.DOTALL).group(0)
+            GUIDELINES.append(yaml.load(fontmatter))
 
-    new_text_list = orig_text_list[:]
-    for x in range(len(new_text_list)):
-        line_matches = get_matches(new_text_list[x], compare_text)
-        new_text_list[x] = tag_all_matches(new_text_list[x], line_matches, tag)
+            #(?<=---\n)(.+)(?=---\n)
+
+# for file in ()
+#     with open('../_data/guideline_details.html', 'r') as guide_file:
+#         guide_file_contents = guide_file.read()
+#         GUIDELINES = guide_file_contents.decode('utf-8')
+
+
+DEFINITIONS = {
+  'data': 'Data',
+  'public': 'Public Data/Information',
+  'open': 'Open Data'
+}
+
+
+def run_all_docs():
+
+    return
+
+def load_comparison_sheet(
+    filename='../_data/Open Data Policy Comparison- Best Practices.xlsx'):
+
+    full_sheet = pd.read_excel(filename).drop(pd.np.NaN).transpose()
+
+    # Drop columns that we don't need
+    keep_cols = [col for col in full_sheet.columns if is_def_or_guide_col(col)]
+    sheet = full_sheet[keep_cols]
+
+    return sheet
+
+
+def run_one_doc(text, responses):
+
+    def print_warning(warning, for_what):
+
+        if warning:
+            print(warning + ' for ' + for_what)
+
+        return
+
+    # def get_response(question):
+
+    #     return responses[question]
+
+    print('Running: ' + responses.name)
+
+    for def_code in DEFINITIONS:
+        response = responses['"' + DEFINITIONS[def_code] + '"']
+        if response in ['', 'n/a']:
+            pass
+        else:
+            gt = get_and_tag(
+                text, response, 'def-' + def_code)
+            text = gt['text']
+            print_warning(gt['warning'], DEFINITIONS[def_code])
+    for guideline in GUIDELINES:
+        g_title = responses.index.str.startswith(str(guideline['number']) + '.')
+        response = responses[g_title][0]
+        if response in ['', 'n/a']:
+            pass
+        else:
+            gt = get_and_tag(
+                text, response, 'g-' + guideline['id'])
+            text = gt['text']
+            print_warning(gt['warning'], 'guideline ' + str(guideline['number']))
+
+    return text
+
+def get_and_tag(orig_text, compare_text, tag):
+    """Go through a doc looking for matches for a single definition,
+    then tags them as such."""
+
+    # Converts newlines to '@#~@#~@#~@#~', so tagged spans will never
+    # contain multiple paragraphs/list items.
+    new_text = orig_text.replace('\n', '@#~'*4)
+    matches = get_matches(new_text, compare_text)
+    if len(matches['output_list']) == 0:
+        warning = 'No matches were found'
+    elif matches['no_match_length'] >= 45:
+        warning = str(matches['no_match_length']) + ' characters didn\'t match'
+    else:
+        warning = None
+    new_text = tag_all_matches(new_text, matches['output_list'], tag)
+    # new_text_list = orig_text_list[:]
+    # for x in range(len(new_text_list)):
+    #     line_matches = get_matches(new_text_list[x], compare_text)
+    #     new_text_list[x] = tag_all_matches(new_text_list[x], line_matches, tag)
         # for match in line_matches:
         #     line_w_end_tag = insert_html(</, line, match[1])
         #     line_w_both_tags = insert_html(, match[0])
         # line = line_w_both_tags
 
-    return new_text_list
+    # Convert our long char strings back to newline characters
+    new_text = new_text.replace('@#~'*4, '\n')
+
+    # return new_text_list
+    return {
+        'text': new_text,
+        'warning': warning
+    }
 
 def tag_all_matches(text_line, matches, tag):
 
@@ -143,6 +261,7 @@ def tag_single_match(text_line, match, tag):
     return with_both_tags
 
 def insert_html(insertion, string, position):
+    """Insert an HTML tag into a certain position in a string."""
 
     return string[:position] + insertion + string[position:]
 
@@ -153,17 +272,22 @@ def get_matches(orig_text, compare_text, printout=False):
 
     sm = difflib.SequenceMatcher(None, a=orig_text,
         b=compare_text, autojunk=False)
-    output = simplify_match_list(sm.get_matching_blocks(), orig_text)
+    output_list = simplify_match_list(sm.get_matching_blocks(), orig_text)
     # ranges = simplify_match_list(sm.get_matching_blocks(), orig_text)
     # output = [orig_text[r[0]:r[1]] for r in ranges if (r[1]-r[0] > 20)]
+    total_match_length = reduce(
+        (lambda x, y: x + (y[1] - y[0])), output_list, 0)
 
     if printout:
         # for o in output:
         #     print(o + '\n\n')
-        for match_range in output:
+        for match_range in output_list:
             print orig_text[match_range[0]:match_range[1]] + '\n\n'
 
-    return output
+    return {
+        'output_list': output_list,
+        'no_match_length': (len(compare_text) - total_match_length)
+    }
 
 def simplify_match_list(matching_blocks, source):
     """Takes a list of Match objects and simplifies it to a more consise list
