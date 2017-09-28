@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% if page.examples != '' %}
+{% if page.examples.size > 0 %}
     <h3>Further reading</h3>
     <ul>
     {% for example in page.examples %}
