@@ -7,11 +7,11 @@ layout: default
 {{ content }}
 
 
-{% unless page.examples == blank %}
+{% if page.examples != '' %}
     <h3>Further reading</h3>
     <ul>
     {% for example in page.examples %}
         <li><a href="{{ example.url }}">{{ example.title }}</a></li>
     {% endfor %}
     </ul>
-{% endunless %}
+{% endif %}
