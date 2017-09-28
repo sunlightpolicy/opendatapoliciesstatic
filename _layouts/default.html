@@ -11,11 +11,13 @@
   <meta name="viewport" content="width=device-width">
   {% if page.layout == 'policy' %}
     {% capture the_title %}{% include docname.html doc_page=page %}{% endcapture %}
+  {% elsif page.layout == 'guideline' %}
+    {% capture the_title %}{{ page.number }}. {{ page.name }}{% endcapture %}
   {% else %}
     {% assign the_title = page.title %}
   {% endif %}
   <meta name="title" content="{{the_title}}">
-  <title>{{the_title}}</title>
+  <title>{{ the_title }}</title>
 
   <link rel="home" title="Home" href="{{base}}/" />
 
@@ -40,6 +42,7 @@ inside
     <div class="nest">
       <a href="{{base}}" class="noprint">
         <div id="place_logo">
+          {% if page.layout == 'guideline' %}<h3><a href="{{base}}/guidelines/">Open Data Policy Guidelines</a> > Guideline {{ page.number }}</h3>{% endif %}
           <h1>{{site.title}}</h1>
           <h2>{{site.subtitle}}</h2>
         </div>
