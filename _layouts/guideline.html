@@ -6,11 +6,12 @@ layout: default
 
 {{ content }}
 
-ABC{{ page.examples }}XYZ
 
-<h3>Further reading</h3>
-<ul>
-{% for example in page.examples %}
-    <a href="{{ example.url }}">{{ example.title }}</a>
-{% endfor %}
-</ul>
+{% unless page.examples == blank %}
+    <h3>Further reading</h3>
+    <ul>
+    {% for example in page.examples %}
+        <li><a href="{{ example.url }}">{{ example.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% endif %}
