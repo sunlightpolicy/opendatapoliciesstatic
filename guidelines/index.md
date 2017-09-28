@@ -22,8 +22,8 @@ Grouped:
   {{ section }}
 {% endfor %}
 {% for section in sections %}
-  <h2>{{ sections[section] }}</h2>
-  {% assign section_guidelines = site.guidelines | where: "section", section %}
+  <h2>{{ section[1] }}</h2>
+  {% assign section_guidelines = site.guidelines | where: "section", section[0] %}
   <ul>
   {% for guideline in section_guidelines %}
     <li><a href="{{ guideline.url }}">({{ guideline.number }}) {{ guideline.name }}</a></li>
