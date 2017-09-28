@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h2>({{ page.number }}) {{ page.name }}</h2>
+
+{{ content }}
+
+
+{% if page.examples == "" %}
+    <h3>Further reading</h3>
+    <ul>
+    {% for example in page.examples %}
+        <a href="{{ example.url }}">{{ example.title }}</a>
+    {% endfor %}
+    </ul>
+{% endif %}

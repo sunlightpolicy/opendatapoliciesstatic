@@ -59,6 +59,9 @@ collections:
   places:
     output: false
     permalink: /place/:path/
+  guidelines:
+    output: true
+    permalink: /guidelines/:path/
 
 # Default settings
 defaults:
@@ -82,6 +85,11 @@ defaults:
       type: local
       no_text: false
       wwc: nil
+  - scope:
+      path: ""
+      type: guidelines
+    values:
+      layout: guideline
 
 # Plugin settings
 plugins:
