@@ -42,7 +42,6 @@ inside
     <div class="nest">
       <a href="{{base}}" class="noprint">
         <div id="place_logo">
-          {% if page.layout == 'guideline' %}<h3><a href="{{base}}/guidelines/">Open Data Policy Guidelines</a> > Guideline {{ page.number }}</h3>{% endif %}
           <h1>{{site.title}}</h1>
           <h2>{{site.subtitle}}</h2>
         </div>
@@ -90,6 +89,9 @@ inside
         {% if page.layout == 'policy' %}
           <h1>{% include placename.html doc_page=page %}</h1>
           <h2>{% include placedoc.html doc_page=page %}</h2>
+        {% elsif page.layout == 'guideline' %}
+          <h3><a href="{{base}}/guidelines/">Open Data Policy Guidelines</a> » Guideline {{ page.number }}</h3>
+          <h1>{{ the_title }}</h1>
         {% else %}
           <h1>{{ the_title }}</h1>
         {% endif %}
