@@ -58,16 +58,17 @@ def find_place(converted_name):
     return
 
 
-def convert_place_name(name):
+def convert_place_name(raw_name):
 
     # TODO: strip off '.\d' and figure out WHICH policy
-
+    name = re.sub(r'\.\d', '', raw_name.strip())
     if ',' in name:
         parts = re.search(
             r'(.+?)((( and )|-|/)\w+ County)?, ([A-Z])\.?([A-Z])\.?', name)
         return (parts.group(1).lower().replace(' ', '-') + '-' +
             parts.group(5).lower() + parts.group(6).lower())
     else:
+        # print unicode(name)
         return us.states.lookup(unicode(name)).abbr.lower()
 
 def is_def_or_guide_col(name):
@@ -156,18 +157,79 @@ DEFINITIONS = {
 }
 
 
+# look through spreadsheet:
+# for each entry, look at city + year to try to figure out which policy it corresponds with
+    # if no match, print warning
+    # if miltiple matches, print warning and don't do anything
+    # if one match, proceed
+
+
 def run_all_docs():
 
-    return
+    folder = '../_documents/'
+    sheet = load_comparison_sheet()
+    for index, row in sheet.iterrows():
+        matching_docs = ([filename for filename in os.listdir(folder)
+            if filename.startswith(index)])
+        if len(matching_docs) == 0:
+            print("No matching policies found for " + index +
+                ". Ignored from tagging.")
+        elif len(matching_docs) > 1:
+            print("Multiple matching policies found for " + index +
+                ". Ignored from tagging.")
+        else:
+            # blah
+            with open(folder + matching_docs[0], 'r+') as file:
+                in_text = file.read().decode('utf-8')
+                # out_text = re.sub(r'(?<=^---.+\n---\n)(.+)',
+                #     run_one_doc(r'\1', row), in_text, re.M|re.DOTALL)
+                # file.truncate()
+                # file.write(out_text)
+                parts = re.search(r'(^---.+\n---\n)(.+)', in_text,
+                    re.M|re.DOTALL)
+                file.truncate()
+                try:
+                    tagged_text = run_one_doc(parts.group(2), row)
+                except AttributeError:
+                    print parts
+                    print parts.group(0)
+                    file.write(in_text)
+                else:
+                    file.write((parts.group(1) + tagged_text).encode('utf-8'))
+
+    return sheet
 
 def load_comparison_sheet(
     filename='../_data/Open Data Policy Comparison- Best Practices.xlsx'):
 
-    full_sheet = pd.read_excel(filename).drop(pd.np.NaN).transpose()
+    raw = pd.read_excel(filename).drop(pd.np.NaN).transpose()
+    # print full_sheet.index.map(convert_place_name)
+    # print full_sheet['Year Enacted']
+
+    # Drop rows that aren't actual policies
+    raw.drop(raw.index[raw.index.str.startswith('# ')], inplace=True)
+    raw.drop(raw.index[raw.index.str.startswith('Unnamed:')], inplace=True)
+    raw.drop(raw.index[raw.index.str.startswith('percentage')], inplace=True)
+
+    # Create place-year attribute, to be used to matching with policy files
+    raw['place-year'] = raw.apply(
+        lambda row: convert_place_name(row.name) + '-' +
+        str(row['Year Enacted']), axis=1)
+    # raw['place-year'] = (raw.index.map(convert_place_name) +
+    #     '-' + str(raw['Year Enacted']))
+
+    # Drop cases where multiple polices for place for one year (temporary!)
+    py_value_counts = raw['place-year'].value_counts()
+    for place_year in py_value_counts[py_value_counts > 1].index.tolist():
+        print("Multiple " + place_year + " entries found. Ignored from tagging.")
+    raw.drop_duplicates(subset='place-year', keep=False, inplace=True)
+
+    # Set place-year as the new index
+    raw.set_index('place-year', inplace=True)
 
     # Drop columns that we don't need
-    keep_cols = [col for col in full_sheet.columns if is_def_or_guide_col(col)]
-    sheet = full_sheet[keep_cols]
+    keep_cols = [col for col in raw.columns if is_def_or_guide_col(col)]
+    sheet = raw[keep_cols]
 
     return sheet
 
@@ -213,34 +275,44 @@ def get_and_tag(orig_text, compare_text, tag):
     """Go through a doc looking for matches for a single definition,
     then tags them as such."""
 
-    # Converts newlines to '@#~@#~@#~@#~', so tagged spans will never
+    # Converts newlines to long string of '@#~'s, so tagged spans will never
     # contain multiple paragraphs/list items.
-    new_text = orig_text.replace('\n', '@#~'*4)
-    matches = get_matches(new_text, compare_text)
-    if len(matches['output_list']) == 0:
-        warning = 'No matches were found'
-    elif matches['no_match_length'] >= 45:
-        warning = str(matches['no_match_length']) + ' characters didn\'t match'
+
+    if compare_text in ['n/a', 'N/A', pd.np.NaN]:
+
+        return {
+            'text': orig_text,
+            'warning': None
+        }
+
     else:
-        warning = None
-    new_text = tag_all_matches(new_text, matches['output_list'], tag)
-    # new_text_list = orig_text_list[:]
-    # for x in range(len(new_text_list)):
-    #     line_matches = get_matches(new_text_list[x], compare_text)
-    #     new_text_list[x] = tag_all_matches(new_text_list[x], line_matches, tag)
-        # for match in line_matches:
-        #     line_w_end_tag = insert_html(</, line, match[1])
-        #     line_w_both_tags = insert_html(, match[0])
-        # line = line_w_both_tags
 
-    # Convert our long char strings back to newline characters
-    new_text = new_text.replace('@#~'*4, '\n')
+        new_text = orig_text.replace('\n', '@#~'*10)
+        matches = get_matches(new_text, compare_text)
+        if len(matches['output_list']) == 0:
+            warning = 'No matches were found'
+        elif matches['no_match_length'] >= 45:
+            warning = str(matches['no_match_length']) + ' characters didn\'t match'
+        else:
+            warning = None
+        new_text = tag_all_matches(new_text, matches['output_list'], tag)
+        # new_text_list = orig_text_list[:]
+        # for x in range(len(new_text_list)):
+        #     line_matches = get_matches(new_text_list[x], compare_text)
+        #     new_text_list[x] = tag_all_matches(new_text_list[x], line_matches, tag)
+            # for match in line_matches:
+            #     line_w_end_tag = insert_html(</, line, match[1])
+            #     line_w_both_tags = insert_html(, match[0])
+            # line = line_w_both_tags
 
-    # return new_text_list
-    return {
-        'text': new_text,
-        'warning': warning
-    }
+        # Convert our long char strings back to newline characters
+        new_text = new_text.replace('@#~'*10, '\n')
+
+        # return new_text_list
+        return {
+            'text': new_text,
+            'warning': warning
+        }
 
 def tag_all_matches(text_line, matches, tag):
 
@@ -270,8 +342,10 @@ def get_matches(orig_text, compare_text, printout=False):
     Uses simplified matches as described in functions below.
     Prints out the matching text if printout is True."""
 
-    sm = difflib.SequenceMatcher(None, a=orig_text,
-        b=compare_text, autojunk=False)
+    # print orig_text
+    # print compare_text
+    sm = difflib.SequenceMatcher(None, a=unicode(orig_text),
+        b=unicode(compare_text), autojunk=False)
     output_list = simplify_match_list(sm.get_matching_blocks(), orig_text)
     # ranges = simplify_match_list(sm.get_matching_blocks(), orig_text)
     # output = [orig_text[r[0]:r[1]] for r in ranges if (r[1]-r[0] > 20)]
@@ -286,7 +360,7 @@ def get_matches(orig_text, compare_text, printout=False):
 
     return {
         'output_list': output_list,
-        'no_match_length': (len(compare_text) - total_match_length)
+        'no_match_length': (len(unicode(compare_text)) - total_match_length)
     }
 
 def simplify_match_list(matching_blocks, source):
@@ -295,7 +369,7 @@ def simplify_match_list(matching_blocks, source):
 
     match_positions = get_match_positions(matching_blocks)
     simple_list = reduce(simplify_sequence, match_positions, [(0,0)])
-    simple_list_stripped = [strip_left_junk(a, b, source) for (a, b) in simple_list]
+    simple_list_stripped = [strip_junk(a, b, source) for (a, b) in simple_list]
     # if (0,0) in simple_list_stripped:
     #     simple_list_stripped.remove((0,0),)
     # for i in simple_list_stripped:
@@ -310,7 +384,7 @@ def simplify_sequence(x, y):
     but [(0,25), (150,169)] -> [(0,25), (150,169)]
     Intended as a parameter for a reduce function."""
 
-    separation_threshold = 7
+    separation_threshold = 21
 
     if (y[0] - x[-1][1]) <= separation_threshold:
         x[-1] = (x[-1][0], y[1])
@@ -324,33 +398,72 @@ def get_match_positions(matching_blocks):
 
     return [(i[0], i[0]+i[2]) for i in matching_blocks if (i[2] > 5)]
 
-def strip_left_junk(start_pos, end_pos, source):
+def strip_junk(start_pos, end_pos, source):
     """Tells how many characters to offset the beginning of a string that
     starts with junk characters that we don't want to include.
     Some of these are literal junk, while others will mess with
     Markdown formatting."""
 
+    def expand_to_grab(list_of_snippets, char_num):
+        """Will expand the selection to grab a snippet of text."""
+
+        new_char_num = char_num
+        for snippet in list_of_snippets:
+            if source[new_char_num-len(snippet):new_char_num] == snippet:
+                new_char_num -= len(snippet)
+
+        return new_char_num
+
     text = source[start_pos:end_pos]
     # strip_length = len(text) - len(text.lstrip('.,; '))
     # print 'text'
     # print text
-    stripped = re.sub(r'^ {0,8}[-.,;*\w\d]{0,2}[-.,;*]\d? {0,4}', '', text,
+    stripped = re.sub(r'^ {0,8}[-.,;*#\w\d]{0,2}[-.,;*#]\d? {0,4}', '', text,
         count=1, flags=re.M)
+    stripped = stripped.lstrip() # Strip any whitespace still remaining
     # print 'stripped'
     # print stripped
     # re.compile(r'\n {0,8}[-.*,;\w\d]{0,2}[-.*,;]\d? {0,4}', re.M)
     strip_length = len(text) - len(stripped)
     new_start_pos = start_pos + strip_length
+    new_end_pos = end_pos
     # Don't mess up bold beginnings in Markdown:
-    if source[new_start_pos-2:new_start_pos] == '**':
-        new_start_pos -= 2
-    elif source[new_start_pos-1:new_start_pos] == '*':
+
+    # print type(source)
+    # print len(source)
+    # print source[new_start_pos:end_pos]
+    # print source[new_start_pos-1]
+    # print source[new_start_pos-1].isalpha()
+    while source[new_start_pos-1].isalpha():
         new_start_pos -= 1
+    # while source[new_end_pos].isalpha():
+    #     new_end_pos += 1
+    # while source[new_start_pos-1].isalpha():
+    #     if source[new_start_pos].isalpha():
+    #         new_start_pos -= 1
+
+    for snippet in ['**', '*', '<em>', '<strong>']:
+        if source[new_start_pos-len(snippet):new_start_pos] == snippet:
+            new_start_pos -= len(snippet)
+
+    # if source[new_start_pos-2:new_start_pos] == '**':
+    #     new_start_pos -= 2
+    # if source[new_start_pos-1:new_start_pos] == '*':
+    #     new_start_pos -= 1
+    # if source[new_start_pos-4:new_start_pos] == '<em>':
+    #     new_start_pos -= 4
+    # if source[new_start_pos-8:new_start_pos] == '<strong>':
+    #     new_start_pos -= 8
+
+    for snippet in ['**', '*', '</em>', '</strong>']:
+        if source[new_end_pos:new_end_pos+len(snippet)] == snippet:
+            new_end_pos += len(snippet)
+
 
     # add one or two asterisks back in
 
     # return (start_pos + strip_length, end_pos)
-    return (new_start_pos, end_pos)
+    return (new_start_pos, new_end_pos)
 
 
 # reduce(lambda x, y: if y[0] - x[-1][1] , seq, [(0,0)])
