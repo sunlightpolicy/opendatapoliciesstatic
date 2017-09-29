@@ -22,17 +22,19 @@ Here are examples of the language for this guideline as included in policies on 
 
 <script>
 var div = document.getElementById('sample-language');
-var tag = '<span class="g-' + '{{ page.id }}' + '">';
+// var tag = '<span class="g-' + '{{ page.id }}' + '">';
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
-    var doc_text = '{{ doc.content }}';
-    // console.log(doc_text);
-    if (doc_text.contains(tag)) {
+    var doc_text = $.parseHTML('{{ doc.content }}'.replace(/\n/g, ' '));
+    console.log(doc_text);
+    $(spans).find('span.g-' + '{{ page.id }}');
+    if (spans.length) {
+    // if (doc_text.contains(tag)) {
         var content = document.createTextNode('\n<h3>{% include docname.html doc_page=doc %}</h3>\n<p></p>');
-        var doc_text_html = $.parseHTML(doc_text);
-        console.log(doc_text_html);
+        // var doc_text_html = $.parseHTML(doc_text);
+        // console.log(doc_text_html);
         // var spans = doc_text_html.getElementsByClassName({{ page.id }});
-        var spans = doc_text.find('span').attr('class', {{ page.id }});
+        // var spans = doc_text.find('span').attr('class', {{ page.id }});
         // var spans = $('img.classname')
         // var re = new RegExp((tag += '([\s\S]*?)<\/span>'), 'g');
         // var match = re.exec(doc_text);
