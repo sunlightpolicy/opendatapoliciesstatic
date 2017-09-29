@@ -27,7 +27,8 @@ var div = document.getElementById('sample-language');
 {% for doc in site.documents %}
     var doc_text = $.parseHTML('{{ doc.content | strip_newlines}}');
     console.log(doc_text);
-    $(spans).find('span.g-' + '{{ page.id }}');
+    var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '')
+    $(spans).find('span.g-' + new_id);
     if (spans.length) {
     // if (doc_text.contains(tag)) {
         var content = document.createTextNode('\n<h3>{% include docname.html doc_page=doc %}</h3>\n<p></p>');
