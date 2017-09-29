@@ -25,7 +25,7 @@ var div = document.getElementById('sample-language');
 // var tag = '<span class="g-' + '{{ page.id }}' + '">';
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
-    var doc_text = $.parseHTML('{{ doc.content }}'.replace(/\n/g, ' '));
+    var doc_text = $.parseHTML('{{ doc.content | strip_newlines}}');
     console.log(doc_text);
     $(spans).find('span.g-' + '{{ page.id }}');
     if (spans.length) {
