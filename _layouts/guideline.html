@@ -5,10 +5,43 @@ layout: default
 {{ content }}
 
 {% if page.examples.size > 0 %}
-    <h3>Further reading</h3>
+    <h2>Further reading:</h2>
     <ul>
     {% for example in page.examples %}
         <li><a href="{{ example.url }}">{{ example.title }}</a></li>
     {% endfor %}
     </ul>
 {% endif %}
+
+<h2>Examples of language for this guideline:</h2>
+
+Here are examples of the language for this guideline as included in policies on this site. Please note that the selections of text below are imperfect, and you should check out their source policies to read them in context.
+
+<div id="sample-language">
+</div>
+
+<script>
+var div = document.getElementById('sample-language');
+var tag = '<span class="g-' + {{ page.id }} + '">';
+var tag_html = $.parseHTML(tag);
+{% for doc in site.documents %}
+    var doc_text = {{ doc.content }};
+    // console.log(doc_text);
+    if (doc_text.contains(tag)) {
+        var content = document.createTextNode('\n<h3>{% include docname.html doc_page=doc %}</h3>\n<p></p>');
+        var doc_text_html = $.parseHTML(doc_text);
+        var spans = doc_text_html.getElementsByClassName({{ page.id }});
+        // var re = new RegExp((tag += '([\s\S]*?)<\/span>'), 'g');
+        // var match = re.exec(doc_text);
+        // while (match != null) {
+        //     result +=  "match:"+RegExp.$1 + ',\n';
+        //     match = myregexp.exec(data);
+        // }
+        for (var i = 0; i < len(spans); i++) {
+            content += ('\n<p>' + $.trim(spans[i].innerText) + '</p>');
+        }
+        content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
+        div.appendChild(content);
+    }
+{% endfor %}
+</script>
