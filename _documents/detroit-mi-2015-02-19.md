@@ -10,9 +10,9 @@ press_url: http://www.detroitmi.gov/News/ArticleID/39/Mayor-Duggan-announces-new
 
 <p>City of Detroit Open Data Policy: Executive Order 2015-2</p>
 <p>Pursuant to the powers vested in me by the 1963 Michigan Constitution and the 2012 Detroit City Charter, I, Mike Duggan, Mayor of the City of Detroit, do hereby establish the City of Detroit Open Data Initiative through the creation of Detroit GO DATA (Government Open Data Access To All).</p>
-<h2>Detroit GO DATA Initiative</h2>
-<p>This Initiative, implemented through Detroit GO DATA, will foster and create a more transparent, open, collaborative, participatory and accountable relationship between the City government and the people it serves, fostering a creative culture and innovation-driven economy. In an effort to provide better customer service to the public, it is the purpose of this Executive Order to increase the accessibility and the availability of certain data collected or maintained by the City. Increasing the public’s access to high quality, accurate data and information is critical to this mission and will also improve business functions and prepare for future innovations in City operations.</p>
-<p>This open data philosophy will be coordinated and accomplished through Detroit GO DATA. The cornerstone of this major shift in City policy will be that data and information, unless exempt from disclosure under State or federal law, will be available to the public, starting with an open data portal.</p>
+<h2><span class="g-data-portals-and-websites">Detroit GO DATA Initiative</span></h2>
+<p><span class="g-data-portals-and-websites">This Initiative, implemented through Detroit GO DATA, will foster and create a more transparent, open, collaborative, participatory and accountable relationship between the City government and the people it serves, fostering a creative culture and innovation-driven economy. In an effort to provide better customer service to the public, it is the purpose of this Executive Order to increase the accessibility and the availability of certain data collected or maintained by the City. Increasing the public’s access to high quality, accurate data and information is critical to this mission and will also improve business functions and prepare for future innovations in City operations.</span></p>
+<p><span class="g-data-portals-and-websites">This open data philosophy will be coordinated and accomplished through Detroit GO DATA. The cornerstone of this major shift in City policy will be that data and information, unless exempt from disclosure under State or federal law, will be available to the public, starting with an open data portal.</span></p>
 <h2>Task Force and Advisory Commission</h2>
 <p>In order to accomplish the above-identified objectives, I am announcing the creation of a Task Force and an Advisory Commission, as more fully described below, to evaluate and determine the best methods for the design, implementation and monitoring of Detroit GO DATA.</p>
 <ol type="1">
@@ -21,7 +21,7 @@ press_url: http://www.detroitmi.gov/News/ArticleID/39/Mayor-Duggan-announces-new
     <li>The Task Force will be responsible for establishing the internal mechanisms relative to Detroit GO DATA and will be accountable to the Mayor, through the Chief Information Officer, for the operation of Detroit GO DATA.</li>
     <li>The Task Force, with assistance from the Law Department, will determine:</li>
     <ol type="i">
-      <li>How to structure access to public data and information to ensure public records and other data and information can be easily accessible to the public in an open data format that is readable by humans and processable by machines,</li>
+      <li><span class="g-open-formats">How to structure access to public data and information to ensure public records and other data and information can be easily accessible to the public in an open data format that is readable by humans and processable by machines,</span></li>
       <li>The schedule for such release.</li>
     </ol>
     <li>The Task Force will ensure the Advisory Commission has the opportunity to meet so that its input can be considered, as the Task Force will determine:</li>

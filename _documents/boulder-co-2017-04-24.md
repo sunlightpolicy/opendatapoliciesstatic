@@ -22,15 +22,15 @@ Jane Brautigam, City Manager
 
 ## I. POLICY
 
-This policy has been developed to support the City of Boulder's commitment to the principles of open government, including transparency, civic engagement and innovation through open and accessible data. For this purpose, the City of Boulder will freely share with constituents, businesses and other jurisdictions the greatest amount of data possible while addressing confidentiality, privacy, and security concerns. Open government is not a solitary initiative, but rather a philosophy to be adopted citywide and throughout all levels of government.
+<span class="g-build-on-precedent">This policy has been developed to support the City of Boulder's commitment to the principles of open government, including transparency, civic engagement and innovation through open and accessible data</span>. <span class="g-proactive-release">For this purpose, the City of Boulder will freely share with constituents, businesses and other jurisdictions the greatest amount of data possible</span> while addressing confidentiality, privacy, and security concerns. Open government is not a solitary initiative, but rather a philosophy to be adopted citywide and throughout all levels of government.
 
 ## II. PURPOSE
 
-Government belongs to the people and open government supports this by promoting the public’s right to understand and participate in government. Government has the responsibility to provide relevant and appropriate data and constituents have the opportunity to freely review and utilize the data.
+<span class="g-goals-and-values">Government belongs to the people and open government supports this by promoting the public’s right to understand and participate in government. Government has the responsibility to provide relevant and appropriate data and constituents have the opportunity to freely review and utilize the data.</span>
 
 ### A. Defining Open Data
 
-Open data is machine-readable data that is free of charge and anyone is free to use, reuse, and redistribute it. It is available online, in an open format, with no legal encumbrances on use or reuse, and is available for all to access and download in full without fees. “Legal encumbrance” as used here, includes federal copyright protections and other, non-statutory legal limitations on how or under what conditions data may be used. Attribution and sharing may be required, but open data is otherwise free of restrictions.
+<span class="def-open">Open data is machine-readable data that is free of charge and anyone is free to use, reuse, and redistribute it. It is available online, in an open format, with no legal encumbrances on use or reuse, and is available for all to access and download in full without fees. <span class="g-open-access">“Legal encumbrance” as used here, includes federal copyright protections and other, non-statutory legal limitations on how or under what conditions data may be used. Attribution and sharing may be required, but open data is otherwise free of restrictions.</span></span>
 
 ### B. Benefits of Open Data
 
@@ -40,11 +40,11 @@ Open data is beneficial to the City of Boulder and its constituents in the follo
 
 2. Open data allows the City of Boulder to use technology to foster open, transparent and accessible government.
 
-3. By sharing data freely, the City of Boulder seeks to develop opportunities for economic development, commerce and increased investment in Boulder and the surrounding region.
+3. <span class="g-goals-and-values">By sharing data freely, the City of Boulder seeks to develop opportunities for economic development, commerce and increased investment in Boulder and the surrounding region.</span>
 
-4. Publishing structured standardized data in machine-readable formats creates new opportunities for information from different sources to be combined and visualized in new and unexpected ways, for niche markets to be identified and developed, and for constituents to browse, interpret and draw attention to trends or issues with greater efficiency.
+4. <span class="g-open-formats">Publishing structured standardized data in machine-readable formats creates new opportunities for information from different sources to be combined and visualized in new and unexpected ways, for niche markets to be identified and developed, and for constituents to browse, interpret and draw attention to trends or issues with greater efficiency.</span>
 
-5. The adoption of open standards improves transparency, access to public information, and coordination and efficiencies among agencies and partner organizations across the public, non-profit and private sectors.
+5. <span class="g-goals-and-values">The adoption of open standards improves transparency, access to public information, and coordination and efficiencies among agencies and partner organizations across the public, non-profit and private sectors.</span>
 
 6. The City of Boulder seeks to encourage the local technology and startup communities to develop software applications and tools to collect, organize and share public data in new and innovative ways.
 
@@ -52,17 +52,17 @@ Open data is beneficial to the City of Boulder and its constituents in the follo
 
 All public data and datasets collected by the City of Boulder shall be open to the extent permitted by law. Access to all data shall be subject to and consistent with the city’s Access to Public Records policy, the City’s document retention policy, and governing state and federal law, including the Colorado Open Records Act, § 24-72-201, et. seq. All existing city data and datasets will be considered open unless the data or datasets are sensitive or protected information or otherwise exempt from disclosure pursuant to the City’s Access to Open Records Policy.
 
-This policy applies to public data generated, received, collected or stored by or on behalf of the City of Boulder that is non-proprietary, and which has been prepared for release to the public.
+<span class="g-proactive-release">This policy applies to public data generated, received, collected or stored by or on behalf of the City of Boulder that is non-proprietary, and which has been prepared for release to the public.</span>
 
-Nothing in this policy shall be deemed to prohibit a department from voluntarily disclosing information not otherwise defined as public data nor shall it be deemed to prohibit a department from making such voluntarily disclosed information accessible through the open data catalog. However, such information may not be made public if to do so would violate applicable laws or the City’s Access to Open Records Policy.
+<span class="g-sensitive-information">Nothing in this policy shall be deemed to prohibit a department from voluntarily disclosing information not otherwise defined as public data nor shall it be deemed to prohibit a department from making such voluntarily disclosed information accessible through the open data catalog. However, such information may not be made public if to do so would violate applicable laws or the City’s Access to Open Records Policy.</span>
 
-This policy applies to all City of Boulder departments, offices, administrative units, commissions, boards, advisory committees or other divisions of the City, including the records of third parties that create or acquire information, records, or data on behalf of the City if such records are identified as belonging to the City.
+<span class="g-outside-services">This policy applies to all City of Boulder departments, offices, administrative units, commissions, boards, advisory committees or other divisions of the City, including the records of third parties that create or acquire information, records, or data on behalf of the City if such records are identified as belonging to the City.</span>
 
 ## IV. DEFINITIONS
 
 *Constituent* – An individual who is represented in a government by officials for whom he or she votes.
 
-*Data* – Up-to-date statistical or factual information (1) in alphanumeric form reflected in a list, table, graph, chart or other non-narrative form, that can be digitally transmitted or processed; and (2) regularly created or maintained by, or on behalf of, and owned by a city department related to the mission of that department. Data in this context does not include Word documents, whether draft or final, emails, working papers, or documents with similar purpose.
+*Data* <span class="def-data">– Up-to-date statistical or factual information (1) in alphanumeric form reflected in a list, table, graph, chart or other non-narrative form, that can be digitally transmitted or processed; and (2) regularly created or maintained by, or on behalf of, and owned by a city department related to the mission of that department. Data in this context does not include Word documents, whether draft or final, emails, working papers, or documents with similar purpose.</span>
 
 *Data Catalog* – A central online repository where all open data is stored.
 
@@ -74,7 +74,7 @@ This policy applies to all City of Boulder departments, offices, administrative 
 
 *Protected Information* – Any dataset or portion thereof to which the City may deny access pursuant to established City policy, the Boulder Revised Municipal Code, City Charter, Federal or State law, privacy laws, copyright, patent, trademark, confidentiality agreement or any other law, rule, regulation or common law privilege. “Protected information” includes data that the City is prohibited from disclosing by operation of law.
 
-*Public Data* – All non-proprietary data generated or received by the City of Boulder which is not protected or sensitive and which has been prepared for release to the public.
+<span class="def-public">*Public Data* – All non-proprietary data generated or received by the City of Boulder which is not protected or sensitive and which has been prepared for release to the public.</span>
 
 *Sensitive Information* – Any data which, if published by the City online, could raise privacy, confidentiality, proprietary or security concerns or have the potential to jeopardize public health, safety, welfare, or cultural or natural resources to an extent that is greater than the potential public benefit of publishing that data.
 
@@ -96,17 +96,17 @@ The Open Data Team shall be composed of departmental representatives. The Open D
 
 ### D. Departmental Responsibilities
 
-Each department director will assign Data Stewards based on their open data administration needs and resource availability. Through the representation of their Data Stewards, each department will be responsible for:
+<span class="g-oversight-authority">Each department director will assign Data Stewards based on their open data administration needs and resource availability. Through the representation of their Data Stewards, each department will be responsible for:</span>
 
-1. Fostering an environment that encourages open data and collaboration with other city departments and government agencies.
+1. <span class="g-partnerships">Fostering an environment that encourages open data and collaboration with other city departments and government agencies.</span>
 
-2. Ensuring their public data inventory is updated as often as necessary, but at a minimum of twice yearly.
+2. <span class="g-citations"><span class="g-data-collection">Ensuring their public data inventory is updated as often as necessary, but at a minimum of twice yearly.</span></span>
 
-3. Ensuring their public data catalog is updated as often as is necessary to preserve the integrity and usefulness of the datasets to the extent that the department regularly maintains or updates the public dataset, but no less than once yearly.
+3. <span class="g-open-data-creation"><span class="g-permanent-access">Ensuring their public data catalog is updated as often as is necessary to preserve the integrity and usefulness of the datasets to the extent that the department regularly maintains or updates the public dataset, but no less than once yearly</span></span>.
 
 ### E. Data Steward Responsibilities
 
-Data Stewards are responsible for maintaining the department’s public data inventory, assisting with access to datasets targeted for publication to the open data catalog and for updating their department’s existing public data at a minimum of once yearly or more frequently when determined appropriate.
+<span class="g-real-time-updates"><span class="g-binding-regulations">Data Stewards are responsible for maintaining the department’s public data inventory, assisting with access to datasets targeted for publication to the open data catalog and for updating their department’s existing public data at a minimum of once yearly or more frequently when determined appropriate.</span></span>
 
 ## VI. OPEN DATA LEGAL POLICY
 
@@ -120,4 +120,4 @@ Employees who have questions concerning the interpretation or application of thi
 
 ## VIII. EXCEPTIONS/CHANGE
 
-This policy supersedes all previous policies covering the same or similar topics. Only the City Manager, Chief Innovation and Analytics Officer or the Information Technology Director may grant any exception to this policy. This policy may be reviewed and changed at any time.
+<span class="g-future-review">This policy supersedes all previous policies covering the same or similar topics. Only the City Manager, Chief Innovation and Analytics Officer or the Information Technology Director may grant any exception to this policy. This policy may be reviewed and changed at any time.</span>

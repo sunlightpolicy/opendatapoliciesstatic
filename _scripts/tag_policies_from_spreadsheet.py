@@ -179,23 +179,36 @@ def run_all_docs():
                 ". Ignored from tagging.")
         else:
             # blah
-            with open(folder + matching_docs[0], 'r+') as file:
-                in_text = file.read().decode('utf-8')
-                # out_text = re.sub(r'(?<=^---.+\n---\n)(.+)',
-                #     run_one_doc(r'\1', row), in_text, re.M|re.DOTALL)
-                # file.truncate()
-                # file.write(out_text)
+            in_file = open(folder + matching_docs[0], 'r')
+            in_text = in_file.read().decode('utf-8')
+            in_file.close()
+            if re.search('no_text: true', in_text):
+                print('\nNo text for ' + matching_docs[0] +
+                    '. Ignored from tagging.')
+            else:
                 parts = re.search(r'(^---.+\n---\n)(.+)', in_text,
                     re.M|re.DOTALL)
-                file.truncate()
-                try:
-                    tagged_text = run_one_doc(parts.group(2), row)
-                except AttributeError:
-                    print parts
-                    print parts.group(0)
-                    file.write(in_text)
-                else:
-                    file.write((parts.group(1) + tagged_text).encode('utf-8'))
+                tagged_text = run_one_doc(parts.group(2), row)
+                out_file = open(folder + matching_docs[0],'w')
+                out_file.write((parts.group(1) + tagged_text).encode('utf-8'))
+                out_file.close()
+            # with open(folder + matching_docs[0], 'r+') as file:
+            #     in_text = file.read().decode('utf-8')
+            #     # out_text = re.sub(r'(?<=^---.+\n---\n)(.+)',
+            #     #     run_one_doc(r'\1', row), in_text, re.M|re.DOTALL)
+            #     # file.truncate()
+            #     # file.write(out_text)
+            #     parts = re.search(r'(^---.+\n---\n)(.+)', in_text,
+            #         re.M|re.DOTALL)
+            #     file.truncate()
+            #     try:
+            #         tagged_text = run_one_doc(parts.group(2), row)
+            #     except AttributeError:
+            #         print parts
+            #         print parts.group(0)
+            #         file.write(in_text)
+            #     else:
+            #         file.write((parts.group(1) + tagged_text).encode('utf-8'))
 
     return sheet
 
@@ -247,7 +260,7 @@ def run_one_doc(text, responses):
 
     #     return responses[question]
 
-    print('Running: ' + responses.name)
+    print('\nRunning: ' + responses.name)
 
     for def_code in DEFINITIONS:
         response = responses['"' + DEFINITIONS[def_code] + '"']

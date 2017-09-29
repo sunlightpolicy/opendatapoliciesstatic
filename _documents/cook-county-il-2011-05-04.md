@@ -11,19 +11,19 @@ note: |
 
 ESTABLISHMENT OF THE COOK COUNTY OPEN GOVERNMENT PLAN
 
-WHEREAS, Cook County is committed to creating an unprecedented level of openness in County government; and
+<span class="g-goals-and-values">WHEREAS, Cook County is committed to creating an unprecedented level of openness in County government; and</span>
 
-WHEREAS, it is the desire and intention of the Cook County Board of Commissioners to have County officials work together with the public to ensure open and effective government; and
+<span class="g-goals-and-values">WHEREAS, it is the desire and intention of the Cook County Board of Commissioners to have County officials work together with the public to ensure open and effective government; and</span>
 
-WHEREAS, through the establishment of an Open Government Plan, Cook County will institute a system of transparency, public participation, collaboration and accountability; and
+<span class="g-goals-and-values">WHEREAS, through the establishment of an Open Government Plan, Cook County will institute a system of transparency, public participation, collaboration and accountability; and</span>
 
-WHEREAS, such public participation and involvement will engage more minds, which in turn shall generate dynamic feedback and innovative ideas; and
+<span class="g-goals-and-values">WHEREAS, such public participation and involvement will engage more minds, which in turn shall generate dynamic feedback and innovative ideas; and</span>
 
-WHEREAS, the online provision of public data in an accessible format would be instrumental in helping to encourage cooperation and technological advancement; and
+<span class="g-goals-and-values">WHEREAS, the online provision of public data in an accessible format would be instrumental in helping to encourage cooperation and technological advancement; and</span>
 
-WHEREAS, it is in the best interest of Cook County to pursue efficiency through the Open Government Plan so as to create economic opportunities, increase transparency, use new technologies to the County’s advantage, and eliminate wasteful redundancy; and
+<span class="g-goals-and-values">WHEREAS, it is in the best interest of Cook County to pursue efficiency through the Open Government Plan so as to create economic opportunities, increase transparency, use new technologies to the County’s advantage, and eliminate wasteful redundancy; and</span>
 
-WHEREAS, within 90 days, the County shall issue, through separate guidance or as part of, or in collaboration with, any planned comprehensive management guidance, a framework for how the County can use challenges, prizes, and other incentive-backed strategies to find innovative or cost-effective solutions to utilizing or improving open government; and
+<span class="g-binding-regulations">WHEREAS, within 90 days, the County shall issue, through separate guidance or as part of, or in collaboration with, any planned comprehensive management guidance, a framework for how the County can use challenges, prizes, and other incentive-backed strategies to find innovative or cost-effective solutions to utilizing or improving open government; and</span>
 
 WHEREAS, these objectives all work towards the overarching goal of ensuring that taxpayer dollars are spent efficiently and Cook County government fosters public trust.
 
@@ -31,31 +31,31 @@ NOW, THEREFORE, BE IT ORDAINED, by the Cook County Board of Commissioners, that 
 
 ## Sec. 2-5. Open Government Plan
 
-(a) Purpose. In order to increase transparency, accountability, and informed public participation, and to create economic development opportunities, Cook County ("County") departments and agencies, including the offices of the separately elected County officials ("County Officials" or "County Agency") shall expand access to information, by making certain information available online in a machine-readable, open format, that can be retrieved, downloaded, indexed, sorted, searched, and reused by commonly used Web search applications and commonly used open format software that facilitate access to, and the reuse of, such information.
+(a) <span class="g-open-formats">Purpose. In order to increase transparency, accountability, and informed public participation, and to create economic development opportunities, Cook County ("County") departments and agencies, including the offices of the separately elected County officials ("County Officials" or "County Agency") shall expand access to information, by making certain information available online in a machine-readable, open format, that can be retrieved, downloaded, indexed, sorted, searched, and reused by commonly used Web search applications and commonly used open format software that facilitate access to, and the reuse of, such information.</span>
 
-(b) Website. In not less than 90 days, the Cook County shall establish a common website that shall serve as the source for countywide and departmental activities related to this Open Cook County Initiative (the Website). County Officials shall use their best efforts to publish information to the Website, including, but not limited to: revenue, spending and procurement information; crime and health statistics; contracts with private firms; policies or procedures; and other data or information commonly requested pursuant to the Freedom of Information Act (FOIA) in a format consistent with the standards set forth herein.
+(b) <span class="g-data-portals-and-websites">Website. In not less than 90 days, the Cook County shall establish a common website that shall serve as the source for countywide and departmental activities related to this Open Cook County Initiative (the Website). County Officials shall use their best efforts to publish information to the Website, including, but not limited to: revenue, spending and procurement information; crime and health statistics; contracts with private firms; policies or procedures; and other data or information commonly requested pursuant to the Freedom of Information Act (FOIA) in a format consistent with the standards set forth herein.</span>
 
-(c) Schedule. Inasmuch as timely and consistent publication of information is an essential component of open government, the County shall develop schedules for making information available to the public and indicating when such information is updated.
+(c) <span class="g-timelines">Schedule. Inasmuch as timely and consistent publication of information is an essential component of open government, the County shall develop schedules for making information available to the public and indicating when such information is updated.</span>
 
-(d) With respect to County information and data, the presumption shall be in favor of openness, to the extent permitted by law and subject to valid privacy, confidentiality, security, or other restrictions and exemptions afforded under FOIA or other applicable federal, state or local laws. Where practicable, County Officials shall publish all data that is not subject to valid exemptions provided under FOIA as well as privacy, security, or privilege limitations or that is not otherwise made available by the County pursuant to other initiatives.
+(d) <span class="g-proactive-release"><span class="g-sensitive-information">With respect to County information and data, the presumption shall be in favor of openness, to the extent permitted by law and subject to valid privacy, confidentiality, security, or other restrictions and exemptions afforded under FOIA or other applicable federal, state or local laws. Where practicable, County Officials shall publish all data that is not subject to valid exemptions provided under FOIA as well as privacy, security, or privilege limitations or that is not otherwise made available by the County pursuant to other initiatives.</span></span>
 
 (e) Within 120 days, each County Agency shall create a catalog of its public information. The catalog shall be accessible through this Open Cook County Initiative Website.
 
-(f) The catalog shall indicate:
+(f) <span class="g-metadata">The catalog shall indicate:</span>
 
-1. If the information is publicly accessible; and
-2. The date of when the information was made publicly accessible; and
-3. The date the information was last updated; and
-4. If the information is from a primary source or has been aggregated or modified; and
-5. If the information is restricted by any license or privacy restrictions.
+1. <span class="g-metadata">If the information is publicly accessible; and</span>
+2. <span class="g-metadata">The date of when the information was made publicly accessible; and</span>
+3. <span class="g-metadata">The date the information was last updated; and</span>
+4. <span class="g-metadata">If the information is from a primary source or has been aggregated or modified; and</span>
+5. <span class="g-metadata">If the information is restricted by any license or privacy restrictions.</span>
 
-(g) Within 120 days, each County Agency shall identify and publish to the Website, in an open format, the data listed in its catalog of its public information that is readily available and that is available online, which shall in any event, consist of at least three high-value data sets or other types of previously nonpublicly accessible information.
+(g) <span class="g-open-formats">Within 120 days, each County Agency shall identify and publish to the Website, in an open format, the data listed in its catalog of its public information that is readily available and that is available online, which shall in any event, consist of at least three high-value data sets or other types of previously nonpublicly accessible information.</span>
 
 (h) The Website shall additionally include a mechanism that shall allow for the public to provide feedback to the County on, and assess the quality of, published information. This mechanism shall additionally allow for recommendations from the public to the County of other information to consider prioritizing for publication.
 
 (i) Each County Agency shall engage in its best efforts to respond to public feedback received via the Website on a regular, timely basis. Responses to such public feedback may include descriptions of actions taken, or reasons for not taking action, based on such public feedback received.
 
-(j) Each County Agency shall publish every FOIA request in an open format on the Website, unless a request is subject to valid privacy, security, or privilege limitations. If a request is subject to limitation, there shall be a redacted version of the request released that discloses the nature of the request, but not the specifics of the request. Each FOIA request shall be listed in conjunction with the status of the request and whether such request has been fulfilled.
+(j) <span class="g-build-on-precedent">Each County Agency shall publish every FOIA request in an open format on the Website, unless a request is subject to valid privacy, security, or privilege limitations. If a request is subject to limitation, there shall be a redacted version of the request released that discloses the nature of the request, but not the specifics of the request. Each FOIA request shall be listed in conjunction with the status of the request and whether such request has been fulfilled.</span>
 
 (k) Where deemed appropriate, the County may assert or establish any licensure or use restrictions for information provided on the Website.
 

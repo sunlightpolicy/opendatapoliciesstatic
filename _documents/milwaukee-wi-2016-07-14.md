@@ -11,34 +11,34 @@ Open Data Policy
 
 Purpose
 
-The City of Milwaukee is committed to proactively publish data in a structured standardized machine
-readable format to improve provision of services, increase transparency and access to public
-information, and enhance coordination and efficiencies among departments, partner organizations
+<span class="g-build-on-precedent"><span class="g-goals-and-values"><span class="g-open-formats">The City of Milwaukee is committed to proactively publish data in a structured standardized machine</span></span></span>
+<span class="g-build-on-precedent"><span class="g-goals-and-values"><span class="g-open-formats">readable format to improve provision of services, increase transparency and access to public</span></span></span>
+<span class="g-build-on-precedent"><span class="g-goals-and-values"><span class="g-open-formats">information, and enhance coordination and efficiencies among departments, partner organizations</span></span></span>
 and citizens.
 
 Scope
 
-Data and information collected by the City which would advance the City’s transparency and
-accountability through open data. Exceptions are provided for information that is Protected
-Information or Sensitive Information. Data will be prioritized for publication based on relevance,
-ease of access, and other criteria established by the Dept. of Administration-Information and
-Technology Management Division, with review and affirmation by the City Information
-Management Committee. While all eligible City data should be considered for publication,
-capacity and demand will dictate the size and growth of the open data library.
+<span class="g-build-on-precedent">Data and information collected by the City which would advance the City’s transparency and</span>
+<span class="g-build-on-precedent">accountability through open data. </span>Exceptions are provided for information that is Protected
+Information or Sensitive Information. <span class="g-prioritization">Data will be prioritized for publication based on relevance,</span>
+<span class="g-prioritization">ease of access, and other criteria established by the Dept. of Administration-Information and</span>
+<span class="g-prioritization">Technology Management Division, with review and affirmation by the City Information</span>
+<span class="g-prioritization">Management Committee. While all eligible City data should be considered for publication,</span>
+<span class="g-prioritization">capacity and demand will dictate the size and growth of the open data library.</span>
 
 Definitions
 
-a. “Data” means statistical, factual, quantitative, or qualitative information that is maintained or
-created by or on behalf of a City department. “Data” does not include information provided to a
-department or division by other governmental entities, nor does it include image files, such as
-designs, drawings, maps, photos or scanned copies of original documents. Nothing in this
-policy shall be deemed to prohibit the voluntary disclosure of information not otherwise defined
+a. <span class="def-data">“Data” means statistical, factual, quantitative, or qualitative information that is maintained or</span>
+<span class="def-data">created by or on behalf of a City department. “Data” does not include information provided to a</span>
+<span class="def-data">department or division by other governmental entities, nor does it include image files, such as</span>
+<span class="def-data">designs, drawings, maps, photos or scanned copies of original documents. Nothing in this</span>
+<span class="def-data">policy shall be deemed to prohibit the voluntary disclosure of information not otherwise defined</span>
 as “data.”
 
-b. “Open data” means data that is available online, in an open format, with no legal
-encumbrances on use or reuse, and is available for all to access and download in full without
-fees [or a requirement of registration]. “Legal encumbrance” includes federal copyright and
-privacy protections and other, non-statutory legal limitations on how or under what conditions a
+b. <span class="def-open">“Open data” means data that is available online, in an open format, with no legal</span>
+<span class="def-open">encumbrances on use or reuse, and is available for all to access and download in full without</span>
+<span class="def-open">fees [or a requirement of registration]. “Legal encumbrance” includes federal copyright and</span>
+<span class="def-open">privacy protections and other, non-statutory legal limitations on how or under what conditions a</span>
 dataset may be used.
 
 c. “Open format” means any widely accepted, nonproprietary, platform-independent, machinereadable
@@ -98,8 +98,8 @@ privacy, confidentiality or security concerns or have the potential to jeopardiz
 safety or welfare to an extent that is greater than the potential public benefit of publishing that
 data.
 
-h. ”Publishable data” means data which is not protected or sensitive and which has been
-prepared for release to the public.
+h. <span class="def-public">”Publishable data” means data which is not protected or sensitive and which has been</span>
+<span class="def-public">prepared for release to the public.</span>
 
 General Policy
 
@@ -107,30 +107,30 @@ Section 1: Open Data Program
 
 a. The city commits to develop and implement practices that will allow it to:
 
-1. Regularly release publishable city data, making it freely available in open formats, with
-no restrictions on use or reuse, and fully accessible to the broadest range of users;
+1. <span class="g-proactive-release"><span class="g-thoughtful-formats"><span class="g-open-access">Regularly release publishable city data, making it freely available in open formats, with</span></span></span>
+<span class="g-proactive-release"><span class="g-thoughtful-formats"><span class="g-open-access">no restrictions on use or reuse, and fully accessible to the broadest range of users;</span></span></span>
 
 2. Publish high quality, updated data with documentation (metadata) and permanence to
 encourage maximum use;
 
-3. Provide or support access to free, historical archives of released city data;
+3. <span class="g-archival-material">Provide or support access to free, historical archives of released city data;</span>
 
 4. Measure the effectiveness of datasets made available through the Open Data Program
 by connecting open data efforts to the city’s programmatic priorities;
 
-5. Minimize limitations on the disclosure of public information while appropriately
-safeguarding protected and sensitive information; and
+5. <span class="g-sensitive-information">Minimize limitations on the disclosure of public information while appropriately</span>
+<span class="g-sensitive-information">safeguarding protected and sensitive information; and</span>
 
-6. Support innovative uses of the city’s publishable data by agencies, the public, and other
+6. <span class="g-partnerships">Support innovative uses of the city’s publishable data by agencies, the public, and other</span>
 partners.
 
 b. The development and implementation of open data processes and practices shall be
 implemented by the Department of Administration - Information and Technology Management
 Division, overseen and affirmed by the City Information Management Committee.
 
-c. The requirements of this policy shall apply to general city departments or divisions.
+c. <span class="g-outside-services">The requirements of this policy shall apply to general city departments or divisions.</span>
 
-d. Appropriate funding requests shall be made by the Chief Information Officer to achieve the
+d. <span class="g-funding">Appropriate funding requests shall be made by the Chief Information Officer to achieve the</span>
 goals of this program.
 
 e. The Chief Information Officer shall work with the City Attorney and the Purchasing Director to
@@ -140,73 +140,73 @@ the city’s open data portal or to make data available through other means.
 
 Section 2: Governance
 
-a. Implementation of the Open Data Program will be overseen by the Chief Information Officer
-and the City Information Management Committee, who will work with the city’s departments and
+a. <span class="g-oversight-authority">Implementation of the Open Data Program will be overseen by the Chief Information Officer</span>
+<span class="g-oversight-authority">and the City Information Management Committee, who will work with the city’s departments and</span>
 divisions to:
 
 1. For each city department or division, identify appropriate contact information for a lead
 open data coordinator who will be responsible for managing that department’s or
 division’s participation in the Open Data Program;
 
-2. Oversee the creation of a comprehensive inventory of datasets held by each city
-department or division which is published to the central open data location and is
+2. <span class="g-data-portals-and-websites">Oversee the creation of a comprehensive inventory of datasets held by each city</span>
+<span class="g-data-portals-and-websites">department or division which is published to the central open data location and is</span>
 regularly updated;
 
-3. Develop and implement a process for determining the relative level of risk and public
-benefit associated with potentially sensitive, non-protected information so as to make a
-determination about whether and how to publish it;
+3. <span class="g-sensitive-information">Develop and implement a process for determining the relative level of risk and public</span>
+<span class="g-sensitive-information">benefit associated with potentially sensitive, non-protected information so as to make a</span>
+<span class="g-sensitive-information">determination about whether and how to publish it;</span>
 
-4. Develop and implement a process for prioritizing the release of datasets which takes into
-account new and existing signals of interest from the public (such as the frequency of
-public records requests), the city's programmatic priorities, existing opportunities for data
-use in the public interest, and cost;
+4. <span class="g-prioritization">Develop and implement a process for prioritizing the release of datasets which takes into</span>
+<span class="g-prioritization">account new and existing signals of interest from the public (such as the frequency of</span>
+<span class="g-prioritization">public records requests), the city's programmatic priorities, existing opportunities for data</span>
+<span class="g-prioritization">use in the public interest, and cost;</span>
 
-5. Proactively consult with members of the public, department staff, journalists,
-researchers, and other stakeholders to identify the datasets which will have the greatest
-benefit to city residents and civic improvement in Milwaukee if published in a high quality
+5. <span class="g-public-participation">Proactively consult with members of the public, department staff, journalists,</span>
+<span class="g-public-participation">researchers, and other stakeholders to identify the datasets which will have the greatest</span>
+<span class="g-public-participation">benefit to city residents and civic improvement in Milwaukee if published in a high quality</span>
 manner;
 
-6. Establish processes for publishing datasets to the central open data location, including
-processes for ensuring that datasets are high quality, up-to-date, are in use-appropriate
-formats, and exclude protected and sensitive information;
+6. <span class="g-data-quality">Establish processes for publishing datasets to the central open data location, including</span>
+<span class="g-data-quality">processes for ensuring that datasets are high quality, up-to-date, are in use-appropriate</span>
+<span class="g-data-quality">formats, and exclude protected and sensitive information;</span>
 
-7. Ensure that appropriate Metadata is provided for each dataset in order to facilitate its
+7. <span class="g-metadata">Ensure that appropriate Metadata is provided for each dataset in order to facilitate its</span>
 use;
 
-8. Develop and oversee a routinely updated, public timeline for new dataset publication;
+8. <span class="g-timelines">Develop and oversee a routinely updated, public timeline for new dataset publication;</span>
 and
 
-9. Ensure that published datasets are available for bulk download, to the extent practicable.
+9. <span class="g-bulk-data">Ensure that published datasets are available for bulk download, to the extent practicable.</span>
 
-b. In order to increase and improve use of the city’s open data, the Chief Information Officer and
-the City Information Management Committee will actively encourage department and public
-participation through providing regular opportunities for feedback and collaboration. The Chief
-Information Officer shall investigate establishing an online mechanism to solicit feedback from
+b. <span class="g-public-participation">In order to increase and improve use of the city’s open data, the Chief Information Officer and</span>
+<span class="g-public-participation">the City Information Management Committee will actively encourage department and public</span>
+<span class="g-public-participation">participation through providing regular opportunities for feedback and collaboration. The Chief</span>
+<span class="g-public-participation">Information Officer shall investigate establishing an online mechanism to solicit feedback from</span>
 the public.
 
 Section 3: Central Online Location for Published Data
 
-a. The city will create and maintain a publicly available location on the city's website or in
-another suitable online location where the city’s published data will be available for download.
+a. <span class="g-data-portals-and-websites">The city will create and maintain a publicly available location on the city's website or in</span>
+<span class="g-data-portals-and-websites">another suitable online location where the city’s published data will be available for download.</span>
 
-b. Published datasets shall be placed into the public domain. Dedicating datasets to the public
-domain means that there are no restrictions or requirements placed on use of these datasets.
+b. <span class="g-open-access">Published datasets shall be placed into the public domain. Dedicating datasets to the public</span>
+<span class="g-open-access">domain means that there are no restrictions or requirements placed on use of these datasets.</span>
 
-c. Each published dataset should be associated with contact information for the appropriate
-manager of that dataset as well as with a file layout or data dictionary that provides information
-about field labels and values.
+c. <span class="g-metadata">Each published dataset should be associated with contact information for the appropriate</span>
+<span class="g-metadata">manager of that dataset as well as with a file layout or data dictionary that provides information</span>
+<span class="g-metadata">about field labels and values.</span>
 
 Section 4: Open Data Report and Review
 
-a. Within one year of the effective date of this policy, and thereafter no later than June of each
-year, the City Information Management Committee shall publish an annual report which will
-include an assessment of progress towards achievement of the goals of the city’s Open Data
-policy. The goals will relate to the nine points in the governance in Section 2a.
+a. <span class="g-future-review">Within one year of the effective date of this policy, and thereafter no later than June of each</span>
+<span class="g-future-review">year, the City Information Management Committee shall publish an annual report which will</span>
+<span class="g-future-review">include an assessment of progress towards achievement of the goals of the city’s Open Data</span>
+<span class="g-future-review">policy. The goals will relate to the nine points in the governance in Section 2a.</span>
 
-b. During the review of the report and at regularly scheduled meetings, the City Information
-Management Committee should also make suggestions for improving the city’s open data
-management processes in order to ensure that the city continues to move towards the
-achievement of the policy’s goals.
+b. <span class="g-future-review">During the review of the report and at regularly scheduled meetings, the City Information</span>
+<span class="g-future-review">Management Committee should also make suggestions for improving the city’s open data</span>
+<span class="g-future-review">management processes in order to ensure that the city continues to move towards the</span>
+<span class="g-future-review">achievement of the policy’s goals.</span>
 
 Section 5: Open Data Legal Policy
 

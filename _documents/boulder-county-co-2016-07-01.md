@@ -15,25 +15,25 @@ As stewards of a transparent and open government, we are dedicated to providing 
 
 ## What Open Data Is
 
-Open Data are datasets, containing Public Records (as defined in Public Records Policy), produced by the county, provided in bulk, for download on the Internet, in machine-readable standard formats, and includes metadata (information about the data format and content). There are no restrictions on who can obtain the data or how the data is used. There is no royalty or fee to obtain the data.
+<span class="def-open"><span class="g-open-formats"><span class="g-metadata"><span class="g-bulk-data">Open Data are datasets, containing Public Records (as defined in Public Records Policy), produced by the county, provided in bulk, for download on the Internet, in machine-readable standard formats, and includes metadata (information about the data format and content).</span></span></span></span> <span class="g-open-access"><span class="g-license-free">There are no restrictions on who can obtain the data or how the data is used. There is no royalty or fee to obtain the data.</span></span>
 
-Open Data are not information that is designated as sensitive, private, confidential, or exempt from disclosure under local, state or federal law.
+<span class="g-sensitive-information">Open Data are not information that is designated as sensitive, private, confidential, or exempt from disclosure under local, state or federal law.</span>
 
 ## Benefits
 
-The county recognizes there are many benefits to Open Data including: demonstrating transparency, improving public service and participation, improving effectiveness, creating efficiencies, generating economic value, promoting innovation, providing authoritative data, and providing information to people where they most often access it.
+<span class="g-build-on-precedent"><span class="g-goals-and-values">The county recognizes there are many benefits to Open Data including: demonstrating transparency, improving public service and participation, improving effectiveness, creating efficiencies, generating economic value, promoting innovation, providing authoritative data, and providing information to people where they most often access it.</span></span>
 
 ## Release of Open Data
 
-As part of the county’s commitment to Open Data, Elected Officials, Department Heads and their representatives shall determine what datasets they make available and have final approval for the release of records produced and/or maintained within their department or office as Open Data.
+<span class="g-oversight-authority">As part of the county’s commitment to Open Data, Elected Officials, Department Heads and their representatives shall determine what datasets they make available and have final approval for the release of records produced and/or maintained within their department or office as Open Data.</span>
 
 ## Feedback Loop
 
-The county is open to public feedback regarding data accuracy, clarification on available data, and requests for additional datasets.
+<span class="g-prioritization"><span class="g-public-participation">The county is open to public feedback regarding data accuracy, clarification on available data, and requests for additional datasets.</span></span>
 
 ## Outreach
 
-The county encourages outreach and collaboration within the county offices and departments and the community to promote interest in and use of Open Data.
+<span class="g-goals-and-values">The county encourages outreach and collaboration within the county offices and departments and the community to promote interest in and use of Open Data.</span>
 
 ## Disclaimer
 

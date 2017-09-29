@@ -16,11 +16,11 @@ Subject: Open Data Requirements and Implementation Plan
 
 Number: 86-17
 
-WHEREAS, the adoption of an Open Data Policy improves the provision of services, increases transparency and access to public information, and enhances coordination and efficiencies among departments and partner organizations; and
+<span class="g-build-on-precedent">WHEREAS, the adoption of an Open Data Policy improves the provision of services, increases transparency and access to public information, and enhances coordination and efficiencies among departments and partner organizations; and</span>
 
-WHEREAS, much of the data collected by the City of Birmingham is not cataloged, impeding the ability to aggregate, analyze and synthesize it to better allocate public resources; and
+<span class="g-goals-and-values">WHEREAS, much of the data collected by the City of Birmingham is not cataloged, impeding the ability to aggregate, analyze and synthesize it to better allocate public resources; and</span>
 
-WHEREAS, adoption of an Open Data Policy will encourage the proactive provision of information currently sought through Public Records Law requests, saving the City time and money.
+<span class="g-proactive-release"><span class="g-prioritization">WHEREAS, adoption of an Open Data Policy will encourage the proactive provision of information currently sought through Public Records Law requests, saving the City time and money.</span></span>
 
 NOW THEREFORE, I, WILLIAM A BELL SR., by the authority vested in me as Mayor of the City of Birmingham, by the Constitution and laws of the State of Alabama and the Mayor Council Act, HEREBY ORDER AS FOLLOWS:
 
@@ -30,40 +30,40 @@ Purpose: The purpose of this Executive Order is the development and implementati
 
 ## OBJECTIVE
 
-The City of Birmingham recognizes that public access to local government information is fundamental to transparency and accountability, and that the proactive disclosure of certain data promotes citizen engagement with the potential benefit of civic development of new applications to improve service delivery. Therefore, the City of Birmingham will make select datasets publicly available for review, interpretation, analysis and research.
+<span class="g-build-on-precedent">The City of Birmingham recognizes that public access to local government information is fundamental to transparency and accountability, and that the proactive disclosure of certain data promotes citizen engagement with the potential benefit of civic development of new applications to improve service delivery. </span><span class="g-goals-and-values">Therefore, the City of Birmingham will make select datasets publicly available for review, interpretation, analysis and research.</span>
 
 ## DIRECTIVE
 
-City of Birmingham departments will work in cooperation with the Open Data Governance Team as outlined in this Executive Order to identify and make select datasets publicly available on the City of Birmingham Open Data Portal.
+<span class="g-oversight-authority">City of Birmingham departments will work in cooperation with the Open Data Governance Team as outlined in this Executive Order to identify and make select datasets publicly available on the City of Birmingham Open Data Portal.</span>
 
 ## DATA STANDARDS
 
-In an effort to promote the interoperability between information systems and the release of data to the public in a way that promotes maximal access to data, departments will strive to incorporate the following standards into data collection;
+<span class="g-open-access">In an effort to promote the interoperability between information systems and the release of data to the public in a way that promotes maximal access to data, departments will strive to incorporate the following standards into data collection</span>;
 
-Machine readability: Data shall be collected and released in machine readable, open formats based on common data standards, that allow for automated processing
+<span class="g-open-formats">Machine readability: Data shall be collected and released in machine readable, open formats based on common data standards, that allow for automated processing</span>
 
-Data quality: Datasets shall be complete and available in a timely manner (with the ultimate goal of real-time data release), and when possible should be available for bulk download.
+<span class="g-bulk-data"><span class="g-timelines"><span class="g-data-quality">Data quality: Datasets shall be complete and available in a timely manner (with the ultimate goal of real-time data release), and when possible should be available for bulk download.</span></span></span>
 
-License-free: When possible select Data will be made available at no cost and using an open license, with no restrictions on copying, publishing, distributing, transmitting, or adapting the information. Data will not be subject to copyright, patent, or trademark regulation.
+<span class="g-license-free">License-free: When possible select Data will be made available at no cost and using an open license, with no restrictions on copying, publishing, distributing, transmitting, or adapting the information. Data will not be subject to copyright, patent, or trademark regulation.</span>
 
-Metadata: For all datasets hosted on the City of Birmingham Open Data Portal, the following metadata requirements shall be provided: ● Name of department responsible for maintaining dataset ● Frequency of data update and date and time of most recent update ● Clear labels and explanations of data in each field
+<span class="g-metadata">Metadata: For all datasets hosted on the City of Birmingham Open Data Portal, the following metadata requirements shall be provided: ● Name of department responsible for maintaining dataset ● Frequency of data update and date and time of most recent update ● Clear labels and explanations of data in each field</span>
 
 ## GOVERNANCE AND OVERSIGHT
 
 The Open Data Governance Team shall be responsible for overseeing the implementation of the Open Data Program, working with City of Birmingham, Al departments to:
 
-1. Identify data owners to participate in the department’s involvement in the open data program
+1. <span class="g-partnerships">Identify data owners to participate in the department’s involvement in the open data program</span>
 2. Oversee the development of an inventory of datasets held by departments
-3. Develop a process for weighing risk against public benefit when determining whether to publish potentially sensitive datasets
+3. <span class="g-sensitive-information">Develop a process for weighing risk against public benefit when determining whether to publish potentially sensitive datasets</span>
 4. Work to procure an open data Portal
-5. Establish a process for publishing select datasets onto the City Of Birmingham Open Data Portal, including processes for ensuring datasets meet the standards laid out in Data Standards section and datasets that include information determined to be protected or sensitive are excluded from publication
-6. Develop a process for prioritizing datasets to be released onto the City Of Birmingham Open Data Portal.
+5. <span class="g-data-collection"><span class="g-binding-regulations">Establish a process for publishing select datasets onto the City Of Birmingham Open Data Portal, including processes for ensuring datasets meet the standards laid out in Data Standards section and datasets that include information determined to be protected or sensitive are excluded from publication</span></span>
+6. <span class="g-prioritization"><span class="g-data-portals-and-websites">Develop a process for prioritizing datasets to be released onto the City Of Birmingham Open Data Portal.</span></span>
 
 ## DEFINITIONS
 
 Common Data Standards: Any set of data collection standards designed to promote interoperability across agencies and organizations and facilitate the efficient exchange and use of information collected in different systems.
 
-Data: Statistical, factual, quantitative, or qualitative information that is maintained or created by or on behalf of the City of Birmingham Open Data Governance Team.
+<span class="def-data">Data: Statistical, factual, quantitative, or qualitative information that is maintained or created by or on behalf of the City of Birmingham Open Data Governance Team.</span>
 
 Dataset: A collection of data presented in tabular or non-tabular form.
 
@@ -71,7 +71,7 @@ Interoperability: The ability of different information technology systems, softw
 
 Metadata: Data that describes a dataset. Metadata summarizes basic information about a dataset, such as the date range covered by a dataset, a description of the dataset, the manager or steward of the dataset, etc.
 
-Open Data: Data selected to be made open and freely available online to the public to be republished, manipulated, or used in any other way without restriction.
+<span class="def-open">Open Data: Data selected to be made open and freely available online to the public to be republished, manipulated, or used in any other way without restriction.</span>
 
 Open Data Portal: A single web portal maintained by or on behalf of the City of Birmingham, Al that will be the repository and public access point for the City of Birmingham, Al’s Open Data and will include features that facilitate comments and questions from the public. The internet portal is currently located at:
 

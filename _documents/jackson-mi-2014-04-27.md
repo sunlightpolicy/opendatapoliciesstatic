@@ -18,17 +18,17 @@ Whereas the city creates and retains a large array of data; and
 
 Whereas the city council recognizes this information as a community asset and desires a more proactive stance regarding appropriate dissemination thereof; and
 
-Whereas by fostering civic engagement through data sharing between city agencies, citizens, businesses, and other community organizations, the city council hopes to use data to improve coordination, collaboration, and efficiency with public stakeholders; and
+<span class="g-goals-and-values">Whereas by fostering civic engagement through data sharing between city agencies, citizens, businesses, and other community organizations, the city council hopes to use data to improve coordination, collaboration, and efficiency with public stakeholders; and</span>
 
-Whereas data is a valuable asset to private entities, the city council wants to encourage businesses and other citizen enterprises to make use of government data in ways that will promote economic development and increased local investment; and
+<span class="g-goals-and-values">Whereas data is a valuable asset to private entities, the city council wants to encourage businesses and other citizen enterprises to make use of government data in ways that will promote economic development and increased local investment; and</span>
 
-Whereas governmental decisions are influenced by the analysis of specific data it is imperative that the city council offer enhanced access in order to improve transparency and efficiency of review; and
+<span class="g-goals-and-values">Whereas governmental decisions are influenced by the analysis of specific data it is imperative that the city council offer enhanced access in order to improve transparency and efficiency of review; and</span>
 
-Whereas no City in Michigan or any American city with a population under one hundred thousand (100,000) has an open data policy, the city council wishes to become a flagship for transparency and leader among peer cities in terms of data sharing; and
+<span class="g-goals-and-values">Whereas no City in Michigan or any American city with a population under </span>one hundred thousand (<span class="g-goals-and-values">100,000) has an open data policy, the city council wishes to become a flagship for transparency and leader among peer cities in terms of data sharing; and</span>
 
-Whereas the Freedom of Information Act (FOIA) affords citizens a way to request information from their government, the city council recognizes that proactively providing information potentially reduces administrative and financial costs associated with Freedom of Information Act (FOIA) compliance;
+<span class="g-goals-and-values">Whereas the Freedom of Information Act (FOIA) affords citizens a way to request information from their government, the city council recognizes that proactively providing information potentially reduces administrative and financial costs associated with Freedom of Information Act (FOIA) compliance;</span>
 
-The City of Jackson now finds that adopting an open data policy fosters greater transparency and accountability in city affairs. Data and records are collected and curated as described in the sections below.
+<span class="g-goals-and-values">The City of Jackson now finds that adopting an open data policy fosters greater transparency and accountability in city affairs. Data and records are collected and curated as described in the sections below.</span>
 
 (Ord. No. 2014-14, § 1, 5-27-14)
 
@@ -41,15 +41,15 @@ Creative Commons 0 [Zero] Waiver. The term "Creative Commons 0 [Zero] Waiver" sh
 
 Metadata. The word "metadata" is defined as "data about data," metadata refers to descriptions of the content or context of a given dataset. The fields of metadata are defined in the Federal Government's Common Core Standards (project-open-data.github.io/schema). Metadata may include but is not limited to title, description/summary, keyword tags, date of creation/modification, departmental origin, and contact point for the data asset.
 
-Open data. The word "open data" shall refer to structured data (i.e. Tabular or relational, such as spreadsheets and databases, and as opposed to solely textual documents) that is collected, created, or stored by the city that is a matter of public record or otherwise accessible by a FOIA request. This ordinance does not require or restrict posting public records outside of the open data portal. Open data shall include but not be limited to:
+Open data. The word "open data" <span class="def-open">shall refer to structured data (i.e. Tabular or relational, such as spreadsheets and databases, and as opposed to solely textual documents) that is collected, created, or stored by the city that is a matter of public record or otherwise accessible by a FOIA request. This ordinance does not require or restrict posting public records outside of the open data portal. Open data shall include but not be limited to:</span>
 
 1. Spatial (GIS).
-2. Tabular (.csv or spreadsheets).
+2. <span class="def-open">Tabular (.csv or spreadsheets)</span>.
 3. Live web feeds (RSS, XML).
-4. Budget, financial, and performance data.
-5. Data and figures contained in published documents such as finished reports, grant applications, etc.
+4. <span class="def-open">Budget, financial, and performance data</span>.
+5. <span class="def-open">Data and figures contained in published documents such as finished reports, grant applications, etc.</span>
 
-Open format. The term "open format" shall mean the format of data is platform-independent, non-proprietary, human- and machine-readable, and where appropriate made available to the public without restrictions that impede reuse of the data.
+Open format. The term "<span class="g-open-formats">open format" shall mean the format of data is platform-independent, non-proprietary, human- and machine-readable, and where appropriate made available to the public without restrictions that impede reuse of the data.</span>
 
 Record. The word "record," as used in this article, shall mean any proceeding, book, document, report, contract, receipt, voucher, correspondence or paper.
 
@@ -58,28 +58,28 @@ Record. The word "record," as used in this article, shall mean any proceeding, b
 
 ## Sec. 2-448. - Publication of open data.
 
-(a)     The city shall establish and maintain a publicly-accessible web portal linked to
-www.Cityofjackson.org or successor website maintained by or on behalf of the city that shall host selected government open data in a searchable and usable interface.
+(<span class="g-data-portals-and-websites"><span class="g-permanent-access">a)     The city shall establish and maintain a publicly-accessible web portal linked to</span></span>
+<span class="g-data-portals-and-websites"><span class="g-permanent-access">www.Cityofjackson.org or successor website maintained by or on behalf of the city that shall host selected government open data in a searchable and usable interface.</span></span>
 
-(b)     The city shall establish and enforce a policy requiring each department, board, commission, and agency ("department") to store selected data sets on the web portal and shall make additions and revisions to data sets on a reoccurring basis for public consumption when practicable. Any hosted data shall be compliant with established privacy laws.
+(b)     The <span class="g-real-time-updates">city shall establish and enforce a policy requiring each department, board, commission, and agency ("department") to store selected data sets on the web portal and shall make additions and revisions to data sets on a reoccurring basis for public consumption when practicable.</span> Any hosted data shall be compliant with established privacy laws.
 
-(c)     The city shall conduct a yearly review of its progress on providing access to data sets requested by the public through the designated web portal.
+(c)     The <span class="g-future-review">city shall conduct a yearly review of its progress on providing access to data sets requested by the public through the designated web portal.</span>
 
-(d)     The city claims no restrictions upon the public to retrieve, download, sort, search, and reuse the selected open data stored on the web portal.
+(d)     The <span class="g-open-access">city claims no restrictions upon the public to retrieve, download, sort, search, and reuse the selected open data stored on the web portal.</span>
 
 (Ord. No. 2014-14, § 1, 5-27-14)
 
 
 ## Sec. 2-449. - Process for publication of open data.
 
-(a)     Unless otherwise specified in this article, the city manager shall establish rules and standards to implement an open data policy, including developing standards to determine which data sets are appropriate for public disclosure. In making this determination, the city manager shall balance the benefits of open data sets with the need to protect from disclosure information that is proprietary, confidential, or protected by law or contract.
+(a)     <span class="g-proactive-release"><span class="g-sensitive-information"><span class="g-oversight-authority">Unless otherwise specified in this article, the city manager shall establish rules and standards to implement an open data policy, including developing standards to determine which data sets are appropriate for public disclosure.</span> In making this determination, the city manager shall balance the benefits of open data sets with the need to protect from disclosure information that is proprietary, confidential, or protected by law or contract.</span></span>
 
-(b)     Within one (1) year of the effective date of this ordinance, the city manager shall formulate an internal policy to create rules and standards to implement this article. The rules and standards shall include the following:
+(b)     <span class="g-binding-regulations"><span class="g-timelines">Within one (1) year of the effective date of this ordinance, the city manager shall formulate an internal policy to create rules and standards to implement this article.</span> The rules and standards shall include the following:</span>
 
-1. Procedural requirements for the publishing of open data sets by departments for the purpose of making open data available to the greatest number of users and for the greatest number of applications. These rules shall, whenever possible, use open formats with non-proprietary technical standards for web publishing and e-government; and
-2. Guidelines for departments to follow in developing their plans for implementing the open data policy consistent with the standards established by the city manager. Each plan shall include an accounting of public data sets under control of the department; and
-3. Rules for including open data requirements in applicable city contracts; and
-4. A timeline for disclosure goals by departments.
+1. <span class="g-binding-regulations">Procedural requirements for the publishing of open data sets by departments for the purpose of making open data available to the greatest number of users and for the greatest number of applications. </span><span class="g-open-formats"><span class="g-binding-regulations">These rules shall, whenever possible, use open formats with non-proprietary technical standards for web publishing and e-government</span></span>; and
+2. <span class="g-lists-of-holdings"><span class="g-binding-regulations">Guidelines for departments</span> to follow in developing their plans for implementing the open data policy consistent with the standards established by the city manager. Each </span><span class="g-lists-of-holdings"><span class="g-binding-regulations">plan shall include an accounting of public data sets under control of the </span>department; and</span>
+3. <span class="g-binding-regulations">Rules for including open data requirements in applicable city contracts; and</span>
+4. <span class="g-binding-regulations">A timeline for disclosure goals by departments.</span>
 
 (c)     Prior to issuing rules and standards, the city manager may solicit comments from the public, department heads and firms who have successfully developed open data sets.
 
@@ -283,27 +283,27 @@ m. Tree plantings.
 
 ## Sec. 2-453. - Licensing for public use.
 
-The open data shall be subject to a Creative Commons 0 Waiver (CC0). The purpose of this waiver is to ensure that users understand their rights and are thereby encouraged to use this community asset in novel and valuable ways. These include the constellation of abilities to retrieve, download, index, sort, search, and reuse data for novel purposes.
+<span class="g-license-free">The open data shall be subject to a Creative Commons 0 Waiver (CC0). The purpose of this waiver is to ensure that users understand their rights and are thereby encouraged to use this community asset in novel and valuable ways. These include the constellation of abilities to retrieve, download, index, sort, search, and reuse data for novel purposes.</span>
 
 (Ord. No. 2014-14, § 1, 5-27-14)
 
 
 ## Sec. 2-454. - Data curation and public input.
 
-(a)     Each dataset on the city's web portal shall have accompanying metadata to inform potential users of the dataset itself. Good metadata discipline ensures that the data assets are most useable, searchable, and accessible for the public and the government alike.
+(a)     <span class="g-metadata">Each dataset on the city's web portal shall have accompanying metadata to inform potential users of the dataset itself. Good metadata discipline ensures that the data assets are most useable, searchable, and accessible for the public and the government alike.</span>
 
-(b)     The web portal shall have an option (e.g. a button leading to online form) for collecting public interests in new datasets online. The public may also contact their city council members to give feedback and make requests for future releases of open data.
+(b)     <span class="g-public-participation">The web portal shall have an option (e.g. a button leading to online form) for collecting public interests in new datasets online. The public may also contact their city council members to give feedback and make requests for future releases of open data.</span>
 
-(c)     To facilitate transparency, understanding, and dialogue between the city and the public, the city manager may conduct a data census each year to evaluate the data its departments maintain and publish pursuant to section 2-448. The city manager shall make the results of any data census publicly available.
+(<span class="g-public-participation">c)     To facilitate transparency, understanding, and dialogue between the city and the public, the city manager may conduct a data census each year to evaluate the data its departments maintain and publish pursuant to section 2-448. The city manager shall make the results of any data census publicly available.</span>
 
 (Ord. No. 2014-14, § 1, 5-27-14)
 
 
-## Sec. 2-455. - Open data operability with Freedom of Information Act requests.
+## <span class="g-build-on-precedent">Sec. 2-455. - Open data operability with Freedom of Information Act requests.</span>
 
-(a)     The office of the city attorney shall provide for a form that standardizes FOIA Requests information and provide for a process by which data can be aggregated to aid in the identification of data sets that can be made available for public use.
+(<span class="g-build-on-precedent">a)     The office of the city attorney shall provide for a form that standardizes FOIA Requests information and provide for a process by which data can be aggregated to aid in the identification of data sets that can be made available for public use.</span>
 
-(b)     If the personnel servicing the FOIA request identifies that the data may have significant interest beyond the individual making the request, the city may choose to publish that data subsequently. Any publication online shall be done after the request has been fulfilled and not be charged to the individual's FOIA bill.
+(b)     <span class="g-build-on-precedent">If the personnel servicing the FOIA request identifies that the data may have significant interest beyond the individual making the request, the city may choose to publish that data subsequently. Any publication online shall be done after the request has been fulfilled and not be charged to the individual's FOIA bill.</span>
 
 (Ord. No. 2014-14, § 1, 5-27-14)
 

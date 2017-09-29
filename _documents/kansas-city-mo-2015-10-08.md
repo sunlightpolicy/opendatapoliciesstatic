@@ -64,7 +64,7 @@ is apparent from the context that a different meaning is intended:
 
 ## Sec. 2-2132. Procurement, processes and publishing of open data.
 
-(a) Whenever possible, technology shall be procured and efficient processes shall be used in a way that advances the policy of making public data and information open and available through the use of open data standards and formats.
+(a) <span class="g-outside-services">Whenever possible, technology shall be procured and efficient processes shall be used in a way that advances the policy of making public data and information open and available through the use of open data standards and formats.</span>
 
 (b) To the extent prudent and practical, the City shall:
 
@@ -77,7 +77,7 @@ is apparent from the context that a different meaning is intended:
 
 (c) The development and implementation of these practices shall be overseen by the Chief Data Officer, reporting to the City Manager.
 
-(d) The requirements of this Article shall apply to city department or agency and shall include data prepared on behalf of the City by outside parties.
+(d) <span class="g-outside-services">The requirements of this Article shall apply to city department or agency and shall include data prepared on behalf of the City by outside parties.</span>
 
 ## Section 2-2133. Governance
 

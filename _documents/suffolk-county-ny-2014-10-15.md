@@ -17,19 +17,19 @@ Introduced by Legislators Calarco and Hahn
 
 RESOLUTION NO. 811-2014, DIRECTING THE DEPARTMENT OF INFORMATION TECHNOLOGY TO DEVELOP POLICY AND PROGRAM TO FACILITATE OPENING DATA TO THE PUBLIC
 
-WHEREAS, the County of Suffolk operates departments and agencies to serve the needs of its 1.5 million residents; and
+WHEREAS, <span class="g-goals-and-values">the County of Suffolk operates departments and agencies to serve the needs of its 1.5 million residents; and</span>
 
-WHEREAS, the County generates large quantities of data in the process of its operation; and
+WHEREAS, <span class="g-goals-and-values">the County generates large quantities of data in the process of its operation; and</span>
 
-WHEREAS, an increasing number of local and state governments, including New York City and the State of New York, are providing their citizens with open access to the data they collect; and
+WHEREAS, <span class="g-goals-and-values">an increasing number of local and state governments, including New York City and the State of New York, are providing their citizens with open access to the data they collect; and</span>
 
-WHEREAS, providing open data improves government transparency and provides for increased accountability to the public; and
+WHEREAS, <span class="g-goals-and-values">providing open data improves government transparency and provides for increased accountability to the public; and</span>
 
-WHEREAS, Suffolk County should join the growing movement to provide open data to the public; and
+WHEREAS, <span class="g-goals-and-values">Suffolk County should join the growing movement to provide open data to the public; and</span>
 
-WHEREAS, the County should establish an Open Data Committee to set policy on providing open data sets and create a web site or portal where members of the public can access same; and
+WHEREAS, <span class="g-goals-and-values">the County should establish a</span>n Open Data Committee to set <span class="g-goals-and-values">policy on providing open data sets and create a web site or portal where members of the public can access same; and</span>
 
-WHEREAS, all County departments should work with Information Technology to publish data as part of a program directed by the Open Data Committee to determine the effectiveness of information sharing with the public; now, therefore be it
+WHEREAS, <span class="g-goals-and-values">all County departments should work with Information Technology to publish data as part of a program</span> directed by the Open Data Committee <span class="g-goals-and-values">to determine the effectiveness of information sharing with the public;</span> now, therefore be it
 
 1st RESOLVED, that the Open Data Committee (“the Committee”) is hereby established to develop the County’s open data policy, implement an open data program and guide future County data policy, as needed; and be it further
 
@@ -65,17 +65,17 @@ and be it further
 
 6th RESOLVED, that six (6) members of the Committee shall constitute a quorum for the purposes of convening meetings; and be it further
 
-7th RESOLVED, that, for the purposes of this resolution, the term “data” shall be defined as final versions of statistical or factual information in alphanumeric form which can be digitally transmitted and processed and is regularly created or maintained by a County agency or department and shall not include images or information protected by intellectual property laws; and be it further
+7th RESOLVED, <span class="def-data"><span class="g-sensitive-information">that, for the purposes of this resolution, the term “data” shall be defined as final versions of statistical or factual information in alphanumeric form which can be digitally transmitted and processed and is regularly created or maintained by a County agency or department and shall not include images or information protected by intellectual property laws;</span></span> and be it further
 
 8th RESOLVED, that, for the purposes of this resolution, the term “data set” shall be defined as a comprehensive collection of interrelated data that is available for inspection by the public and shall not include: data which an agency may deny access to pursuant to local, state or federal law, data that reflects internal deliberation or decision making, materials subject to intellectual property laws, proprietary materials or employment records or similar data; and be it further
 
-9th RESOLVED, that Information Technology is hereby authorized, empowered and directed to develop a website or web portal within 60 days of the establishment of the open data policy by the Committee that provides public access to data sets that are published pursuant to its established policy; and be it further
+9th RESOLVED, <span class="g-data-portals-and-websites">that Information Technology is </span>hereby authorized, empowered and <span class="g-data-portals-and-websites">directed to develop a website or web portal</span> within 60 days of the establishment of the open data policy by the Committee <span class="g-data-portals-and-websites">that provides public access to data sets that are published pursuant to its established policy;</span> and be it further
 
-10th RESOLVED, that the public web access called for herein shall be made available by Information Technology within one-year of the effective date of this resolution; and be it further
+10th RESOLVED, <span class="g-oversight-authority">that the public <span class="g-binding-regulations">web access called for herein shall be made available by Information Technology within one-year of the effective date of this resolution</span>; and be it further</span>
 
-11th RESOLVED, that all County departments and agencies shall work with Information Technology to provide data sets that can be made available to the public; and be it further
+11th RESOLVED, <span class="g-proactive-release"><span class="g-oversight-authority">that all County departments and agencies shall work with Information Technology to provide data sets that can be made available to the public;</span> and be it further</span>
 
-12th RESOLVED, that data sets provided by County departments and agencies to Information Technology shall be published on the open web system designed by Information Technology; and be it further
+12th RESOLVED, <span class="g-oversight-authority">that data sets provided by County departments and agencies to Information Technology shall be published on the open web system designed by Information Technology</span>; and be it further
 
 13th RESOLVED, that Information Technology shall monitor the use of the open data web system and issue a written report to the County Executive and each member of the County Legislature on the use of the site, a list and description of all open data available to the public, and its recommendations on the continued and/or expanded publication of data sets to the public one year after the effective date of this Resolution; and be it further
 

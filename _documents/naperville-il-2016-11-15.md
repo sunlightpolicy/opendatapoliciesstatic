@@ -31,7 +31,7 @@ Application Programming Interface (API) – An API permits machine readable proc
 
 Comma Separated Values (CSV) -- A CSV file stores data in plain text. Each line of file is a data record. Each record consists of one or more fields, separated by commas.
 
-Data - Statistical, factual, quantitative, or qualitative information that is regularly maintained or created by or on behalf of the City.
+<span class="def-data">Data - Statistical, factual, quantitative, or qualitative information that is regularly maintained or created by or on behalf of the City.</span>
 
 Dataset - A named collection of related records, with the collection containing data organized or formatted in a specific or prescribed way, often in tabular form.
 
@@ -41,7 +41,7 @@ Metadata - Data about data. Additional information provided along with a dataset
 
 Open Access - The principle that access to open data should be available with no legal restrictions on use, reuse, or redistribution.
 
-Open Data - Any data which does not contain protected information or sensitive information and which is made available online with minimal legal encumbrances on use or reuse.
+<span class="def-open">Open Data - Any data which does not contain protected information or sensitive information and which is made available online with minimal legal encumbrances on use or reuse.</span>
 
 Open Data Governance Committee - The committee tasked with overseeing the City of Naperville Open Data Policy, consisting of City employees and local community leaders designated by the City of Naperville City Manager.
 
@@ -53,7 +53,7 @@ Privacy - The right of individuals to not to have certain personal information a
 
 Protected Information - Any information to which the City may deny access as exempt from production or disclosure pursuant to any law, rule, or regulation.
 
-Publishable Data - Data which is not protected or sensitive and which has been prepared for release as open data.
+<span class="def-public">Publishable Data - Data which is not protected or sensitive and which has been prepared for release as open data.</span>
 
 Sensitive Information - Any data which, if published, could raise privacy, confidentiality, or security concerns or have the potential to jeopardize public health, safety, or welfare to an extent that is greater than the potential public benefit of publishing that data.
 
@@ -61,66 +61,66 @@ Transparency – An adjective used to describe governments and other organizatio
 
 ## Section 2: Open Data Program
 
-a. The sharing of City data will foster better decision-making and enhance service delivery and innovation. The City of Naperville commits to an open data program to share data by:
+a. The sharing of City data will foster better decision-making and enhance service delivery and innovation. <span class="g-sensitive-information"><span class="g-data-portals-and-websites"><span class="g-permanent-access">The City of Naperville commits to an open data program to share data by:</span></span></span>
 
-Establishing and maintaining an accessible open data portal that provides an online location for valuable City data.
+<span class="g-data-portals-and-websites"><span class="g-permanent-access">Establishing and maintaining an accessible open data portal that provides an online location for valuable City data.</span></span>
 
-Providing accurate, timely data while appropriately safeguarding protected and sensitive information.
+<span class="g-sensitive-information">Providing accurate, timely data while appropriately safeguarding protected and sensitive information.</span>
 
-Encouraging innovative uses of the City's publishable data by City staff, the public, and other partners.
+<span class="g-partnerships">Encouraging innovative uses of the City's publishable data by City staff, the public, and other partners.</span>
 
 Inviting and engaging the community to use the data to unlock its potential.
 
-b. The City of Naperville is committed to providing the public with access to its data to allow the public to work collaboratively to generate new ideas to solve complex challenges. This action allows a more diverse body of expertise to develop new analyses, insights, and findings that allow the City to provide more efficient and effective government services. As such, the City commits to developing and implementing practices that will allow it to:
+b. The City of Naperville is committed to providing the public with access to its data to allow the public to work collaboratively to generate new ideas to solve complex challenges. This action allows a more diverse body of expertise to develop new analyses, insights, and findings that allow the City to provide more efficient and effective government services. <span class="g-sensitive-information"><span class="g-open-access"><span class="g-metadata"><span class="g-archival-material">As such, the City commits to developing and implementing practices that will allow it to:</span></span></span></span>
 
-<span class="guideline-metadata">Proactively release high quality, relevant data with documentation (metadata) and permanence, making it freely available via the City's open data portal, with no restrictions on use or reuse, and fully accessible to the broadest range of users for varying purposes.</span>
+<span class="guideline-metadata"><span class="g-open-access"><span class="g-metadata">Proactively release high quality, relevant data with documentation (metadata) and permanence, making it freely available via the City's open data portal, with no restrictions on use or reuse, and fully accessible to the broadest range of users for varying purposes.</span></span></span>
 
-Provide or support access to free archives of released City data.
+<span class="g-archival-material">Provide or support access to free archives of released City data.</span>
 
 Measure effectiveness of available datasets by identifying key metrics and analyzing these metrics regularly as well as engaging directly with data consumers.
 
-Support innovative uses of the City's publishable data by City departments, boards and commissions, City Council, the public, and other partners.
+<span class="g-partnerships">Support innovative uses of the City's publishable data by City departments, boards and commissions, City Council, the public, and other partners.</span>
 
-Commit to the protection of privacy, confidentiality, and security as a paramount priority and to ensure public safety and security and the need to conduct City operations in an efficient and effective manner.
+<span class="g-sensitive-information">Commit to the protection of privacy, confidentiality, and security as a paramount priority and to ensure public safety and security and the need to conduct City operations in an efficient and effective manner.</span>
 
 c. Appropriate funding shall be made available to achieve the goals of this program.
 
 ## Section 3: Governance
 
-a. Implementation of the open data program will be overseen by the Open Data Governance Committee that will work with City departments, boards and commissions, and the City Council to:
+a. <span class="g-open-formats"><span class="g-thoughtful-formats"><span class="g-bulk-data"><span class="g-public-apis"><span class="g-real-time-updates"><span class="g-oversight-authority"><span class="g-binding-regulations">Implementation of the open data program will be overseen by the Open Data Governance Committee that will work with City departments, boards and commissions, and the City Council to:</span></span></span></span></span></span></span>
 
 Identify an open data champion for each City department who will be responsible for managing that department's participation in the open data program.
 
-Oversee the development of a prioritized inventory of datasets held by departments that can be published to the open data portal.
+<span class="g-lists-of-holdings">Oversee the development of a prioritized inventory of datasets held by departments that can be published to the open data portal.</span>
 
 Develop and implement a process for determining the relative level of risk and public benefit associated with potentially sensitive, non-protected information so as to make a determination about whether and how to publish it.
 
-Develop and implement a process for prioritizing the release of datasets which takes into account new and existing signals of interest from the public (such as the frequency of public records requests), the City's programmatic priorities, existing opportunities for data use in the public interest, and cost.
+<span class="g-prioritization">Develop and implement a process for prioritizing the release of datasets which takes into account new and existing signals of interest from the public (such as the frequency of public records requests), the City's programmatic priorities, existing opportunities for data use in the public interest, and cost.</span>
 
 Proactively consult with members of the public, City employees, boards and commissions, City Council, journalists, researchers, and other stakeholders to identify the datasets which will have the greatest benefit to City residents if published in a high-quality manner.
 
-Establish processes for publishing datasets to the open data portal, including processes for ensuring that datasets are high-quality, up-to-date, are in use-appropriate formats, and exclude protected and sensitive information.
+<span class="g-data-quality">Establish processes for publishing datasets to the open data portal, including processes for ensuring that datasets are </span>high-quality, up-to-date, are in use-<span class="g-data-quality">appropriate formats, and exclude protected and sensitive </span>information.
 
 Ensure that appropriate metadata is provided for each dataset in order to facilitate its use.
 
-Develop and oversee a routinely updated, public timeline for new dataset publication; and
+<span class="g-real-time-updates">Develop and oversee a routinely updated, public timeline for new dataset publication; and</span>
 
-Ensure that published datasets are available in machine readable formats that permit processing of the data for download through an API or for bulk download without legal limitation.
+<span class="g-open-formats"><span class="g-thoughtful-formats"><span class="g-bulk-data"><span class="g-public-apis">Ensure that published datasets are available in machine readable formats that permit processing of the data for download through an API or for bulk download without legal limitation.</span></span></span></span>
 
-Ensure that the open data portal and its datasets are implemented, updated, and utilized in accordance with the City's open data policies and procedures.
+<span class="g-real-time-updates">Ensure that the open data portal and its datasets are implemented, updated, and utilized in accordance with the City's open data policies and procedures.</span>
 
-b. In order to increase and improve use of the City's open data, the Open Data Governance Committee will actively encourage City department, board and commission, City Council and public participation through providing regular opportunities for feedback and collaboration.
+b. In order to increase and improve use of the City's open data, the Open Data Governance Committee will <span class="g-public-participation">actively encourage City department</span>, board and commission, City Council <span class="g-public-participation">and public participation through providing regular opportunities for feedback and collaboration</span>.
 
 ## Section 4: Open Data Portal
 
 a. The City will create and maintain a single publicly accessible open data portal, linked through the City's website, where all data published as part of this program will be made available for consumption.
 
-b. All published data will be placed into the public domain on an open license basis with no restrictions on publishing, copying, further distribution, or modification of said data.
+b. <span class="g-license-free">All published data will be placed into the public domain on an open license basis with no restrictions on publishing, copying, further distribution, or modification of said data.</span>
 
-c. In the event that data is published or presented, data users will be encouraged to use the clear, easy-to-use citation included in each dataset.
+c. <span class="g-citations">In the event that data is published or presented, data users will be encouraged to use the clear, easy-to-use citation included in each dataset.</span>
 
 ## Section 5: Open Data Report and Review
 
-The Open Data Governance Committee will publish an annual report detailing specific measurables from the open data program no later than February 15 of each year, beginning in 2018. This report will include an assessment of progress towards achievement of the City's open data program goals, an assessment of how the City's open data initiative has furthered or will further the City's mission, and a description and publication timeline for datasets envisioned to be published by the City.
+The Open Data Governance Committee will publish an annual report detailing specific measurables from the open data program no later than February 15 of each year, beginning in 2018. This report <span class="g-timelines">will include an assessment of progress towards achievement of the City's open data program</span> goals, an assessment of how the City's open data initiative has furthered or will further the City's mission, <span class="g-timelines">and a description and publication timeline for datasets envisioned to be published </span>by the City.
 
-At the conclusion of each reporting year, the Open Data Governance Committee will also issue a set of recommendations for the City's open data and data management practices to ensure that the City continues to move towards the achievement of its open data policy goals.
+<span class="g-future-review">At the conclusion of each reporting year, the Open Data Governance Committee will also issue a set of recommendations for the City's open data and data management practices to ensure that the City continues to move towards the achievement of its open data policy goals.</span>
