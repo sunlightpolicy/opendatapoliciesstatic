@@ -25,6 +25,7 @@ var div = document.getElementById('sample-language');
 // var tag = '<span class="g-' + '{{ page.id }}' + '">';
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
+    console.log(doc);
     var doc_text = $.parseHTML(escape('{{ doc.content | strip_newlines}}'));
     console.log(doc_text);
     var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '')
