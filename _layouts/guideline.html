@@ -25,7 +25,7 @@ var div = document.getElementById('sample-language');
 // var tag = '<span class="g-' + '{{ page.id }}' + '">';
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
-    var doc_text = $.parseHTML('{{ doc.content | strip_newlines}}');
+    var doc_text = $.parseHTML(escape('{{ doc.content | strip_newlines}}'));
     console.log(doc_text);
     var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '')
     $(spans).find('span.g-' + new_id);
@@ -49,7 +49,7 @@ var div = document.getElementById('sample-language');
             content += ('\n<p>' + $.trim(spans[i].innerText) + '</p>');
         }
         content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
-        div.appendChild(content);
+        div.appendChild(unescape(content));
     }
 {% endfor %}
 </script>
