@@ -31,7 +31,7 @@ var div = document.getElementById('sample-language');
     $(spans).find('span.g-' + new_id);
     if (spans.length) {
     // if (doc_text.contains(tag)) {
-        {% cature doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
+        {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
         var content = document.createTextNode(
             '\n<h3>{{ doc_name | strip_newlines }}</h3>\n<p></p>');
         // var doc_text_html = $.parseHTML(doc_text);
