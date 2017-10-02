@@ -27,7 +27,10 @@ var div = document.getElementById('sample-language');
 {% for doc in site.documents %}
     // var doc_object = doc;
     // console.log(doc);
-    var doc_text = $.parseHTML("{{ doc.content | xml_escape | strip_newlines }}".replace(/[\u{0080}-\u{FFFF}]/gu, ''));
+    var doc_raw = "{{ doc.content | xml_escape | strip_newlines }}";
+    var doc_replaced = doc_raw.replace(/[\u{0080}-\u{FFFF}]/gu, '');
+    var doc_text = $.parseHTML(doc_replaced);
+    
     console.log(doc_text);
     var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '')
     $(spans).find('span.g-' + new_id);
