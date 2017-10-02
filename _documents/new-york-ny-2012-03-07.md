@@ -8,7 +8,7 @@ policy_url: http://www1.nyc.gov/site/doitt/initiatives/open-data-law.page
 press_url: http://www1.nyc.gov/office-of-the-mayor/news/081-12/mayor-bloomberg-signs-legislation-creating-a-citywide-comprehensive-open-data-policy
 ---
 
-Local Law 11 of 2012 (previously Introduction 0029A-2010) By Council Members Brewer, Fidler, Gentile, Gonzalez, James, Lander, Palma, Nelson, Lappin, Dromm, Garodnick, Reyna, Mealy, Vann, Jackson, Levin, Cabrera, Gennaro, Williams, Van Bramer, Rodriguez, Halloran and the Public Advocate (Mr. de Blasio)
+Local Law 11 of 2012 (previously Introduction 0029A-2010)By Council Members Brewer, Fidler, Gentile, Gonzalez, James, Lander, Palma, Nelson, Lappin, Dromm, Garodnick, Reyna, Mealy, Vann, Jackson, Levin, Cabrera, Gennaro, Williams, Van Bramer, Rodriguez, Halloran and the Public Advocate (Mr. de Blasio)
 
 A Local Law to amend the administrative code of the city of New York, in relation to publishing open data.
 
@@ -24,19 +24,19 @@ Title 23 of the administrative code of the city of New York is amended by adding
 
 CHAPTER 5
 
-ACCESSIBILITY TO PUBLIC DATA SETS 
+ACCESSIBILITY TO PUBLIC DATA SETS
 
-23-501 <span class="g-sensitive-information">Definitions. 
+23-501 <span class="g-sensitive-information">Definitions.
 
 23-502 Public data sets</span> availability.
 
- 23-503 Web portal administration. 
+23-503 Web portal administration.
 
-23-504 Open data legal policy. 
+23-504 Open data legal policy.
 
 23-505 Internet data set policy and <span class="g-timelines">technical standards.
 
- 23-506 Agency compliance</span> plan
+23-506 Agency compliance</span> plan
 
 23-501 Definitions
 
