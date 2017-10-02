@@ -31,7 +31,7 @@ var div = document.getElementById('sample-language');
     var doc_raw = "{{ doc.content | replace: '"', '\"' | strip_newlines }}";
     // var doc_replaced = doc_raw.replace(/[\u{0080}-\u{FFFF}]/gu, '') | '&lt;p&gt;&lt;/p&gt;';
     // var doc_replaced = doc_raw | '&lt;p&gt;&lt;/p&gt;';
-    var doc_replaced = doc_raw | '<p></p>';
+    var doc_replaced = doc_raw || '<p></p>';
     var doc_html = $('<div></div>');
     doc_html.html(doc_replaced);
     // var doc_text = $.parseHTML(doc_replaced);
@@ -41,10 +41,10 @@ var div = document.getElementById('sample-language');
     // console.log(doc_text);
     
     if (doc_html.length) {
-        console.log(typeof(doc_html))
-        console.log(doc_html);
+        // console.log(typeof(doc_html))
+        // console.log(doc_html);
         var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
-        var spans = $(doc_html).find('span.g-' + new_id);
+        var spans = doc_html.find('span.g-' + new_id);
         if (spans.length) {
         // if (doc_text.contains(tag)) {
             {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
@@ -67,6 +67,8 @@ var div = document.getElementById('sample-language');
             content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
             div.appendChild(unescape(content));
         }
+    } else {
+        console.log('no_length');
     }
 {% endfor %}
 </script>
