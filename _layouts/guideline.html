@@ -61,7 +61,7 @@ var div = document.getElementById('sample-language');
             //     result +=  "match:"+RegExp.$1 + ',\n';
             //     match = myregexp.exec(data);
             // }
-            for (var i = 0; i < len(spans); i++) {
+            for (var i = 0; i < spans.length; i++) {
                 content += ('\n<p>' + $.trim(spans[i].innerText) + '</p>');
             }
             content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
