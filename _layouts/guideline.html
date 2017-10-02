@@ -27,8 +27,11 @@ var div = document.getElementById('sample-language');
 {% for doc in site.documents %}
     // var doc_object = doc;
     // console.log(doc);
-    var doc_raw = "{{ doc.content | xml_escape | strip_newlines }}";
-    var doc_replaced = doc_raw.replace(/[\u{0080}-\u{FFFF}]/gu, '') | '&lt;p&gt;&lt;/p&gt;';
+    // var doc_raw = "{{ doc.content | xml_escape | strip_newlines }}";
+    var doc_raw = "{{ doc.content | replace: '"', '\"' | strip_newlines }}";
+    // var doc_replaced = doc_raw.replace(/[\u{0080}-\u{FFFF}]/gu, '') | '&lt;p&gt;&lt;/p&gt;';
+    // var doc_replaced = doc_raw | '&lt;p&gt;&lt;/p&gt;';
+    var doc_replaced = doc_raw | '<p></p>';
     var doc_html = $('<div></div>');
     doc_html.html(doc_replaced);
     // var doc_text = $.parseHTML(doc_replaced);
