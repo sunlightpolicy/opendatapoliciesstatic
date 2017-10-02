@@ -27,7 +27,7 @@ var div = document.getElementById('sample-language');
 {% for doc in site.documents %}
     // var doc_object = doc;
     // console.log(doc);
-    var doc_text = $.parseHTML("{{ doc.content | escape | strip_newlines }}");
+    var doc_text = $.parseHTML("{{ doc.content | xml_escape | strip_newlines }}");
     console.log(doc_text);
     var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '')
     $(spans).find('span.g-' + new_id);
@@ -35,7 +35,7 @@ var div = document.getElementById('sample-language');
     // if (doc_text.contains(tag)) {
         {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
         var content = document.createTextNode(
-            '\n<h3>{{ doc_name | escape | strip_newlines }}</h3>\n<p></p>');
+            '\n<h3>{{ doc_name | xml_escape | strip_newlines }}</h3>\n<p></p>');
         // var doc_text_html = $.parseHTML(doc_text);
         // console.log(doc_text_html);
         // var spans = doc_text_html.getElementsByClassName({{ page.id }});
