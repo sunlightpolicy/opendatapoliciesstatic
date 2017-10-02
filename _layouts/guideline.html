@@ -50,7 +50,7 @@ var div = document.getElementById('sample-language');
             var doc_id = '{{ doc.id }}'.replace(/\/doc\//g, '');
             var content = $('<div class="g-example" id=' + doc_id + '></div>');
             {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
-            content.append('\n<h3>{{ doc_name | escape | strip_newlines }}</h3>');
+            $(content).append('\n<h3>{{ doc_name | escape | strip_newlines }}</h3>');
             // var content = document.createTextNode(
             //     '\n<h3>{{ doc_name | escape | strip_newlines }}</h3>\n<p></p>');
             // var doc_text_html = $.parseHTML(doc_text);
@@ -65,9 +65,11 @@ var div = document.getElementById('sample-language');
             //     match = myregexp.exec(data);
             // }
             for (var i = 0; i < spans.length; i++) {
-                content += ('\n<p>' + $.trim(spans[i].innerText) + '</p>');
+                // content += ('\n<p>' + $.trim(spans[i].innerText) + '</p>');
+                $(content).append('\n<p>' + $.trim(spans[i].innerText) + '</p>');
             }
-            content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
+            // content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
+            $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
             $(div).append(content);
             // div.appendChild(unescape(content));
         }
