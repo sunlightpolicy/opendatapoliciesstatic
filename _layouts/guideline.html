@@ -25,7 +25,7 @@ var div = document.getElementById('sample-language');
 // var tag = '<span class="g-' + '{{ page.id }}' + '">';
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
-    var doc_object = doc;
+    var doc_object = {{ doc | jsonify }};
     console.log(doc);
 {% endfor %}
 </script>
