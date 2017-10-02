@@ -2,7 +2,7 @@
 place: oakland-ca
 year: 2013
 date: 2013-10-15
-legal_custom: Legislation
+legal_custom: Council Resolution
 sunlight: false
 policy_urls:
   PDF: http://www.scribd.com/doc/171673962/Resolution-Establishing-An-Open-Data-Policy-For-The-City-Of-Oakland-For-Making-Public-Data-Available-In-Machine-Readable-Formats-Using-Open-Data-Stand
