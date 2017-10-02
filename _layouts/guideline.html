@@ -29,11 +29,11 @@ var div = document.getElementById('sample-language');
     // console.log(doc);
     var doc_raw = "{{ doc.content | xml_escape | strip_newlines }}";
     var doc_replaced = doc_raw.replace(/[\u{0080}-\u{FFFF}]/gu, '');
-    var doc_text = $.parseHTML(doc_replaced);
+    var doc_text = $.parseHTML(doc_replaced)[0];
     
     console.log(doc_text);
-    var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '')
-    $(spans).find('span.g-' + new_id);
+    var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
+    var spans = $(doc_text).find('span.g-' + new_id);
     if (spans.length) {
     // if (doc_text.contains(tag)) {
         {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
