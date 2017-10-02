@@ -26,6 +26,6 @@ var div = document.getElementById('sample-language');
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
     var doc_object = {{ doc | jsonify }};
-    console.log(doc);
+    console.log(doc_object);
 {% endfor %}
 </script>
