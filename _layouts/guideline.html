@@ -30,6 +30,9 @@ var div = document.getElementById('sample-language');
     var doc_raw = "{{ doc.content | xml_escape | strip_newlines }}";
     var doc_replaced = doc_raw.replace(/[\u{0080}-\u{FFFF}]/gu, '') | '&lt;p&gt;&lt;/p&gt;';
     var doc_text = $.parseHTML(doc_replaced);
+    console.log(Boolean(doc_text));
+    console.log(typeof(doc_text));
+    console.log(doc_text);
     
     if (doc_text.length) {
         console.log(typeof(doc_text))
