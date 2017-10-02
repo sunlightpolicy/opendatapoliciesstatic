@@ -37,11 +37,11 @@ var div = document.getElementById('sample-language');
     // console.log(typeof(doc_text));
     // console.log(doc_text);
     
-    if (doc_text.length) {
-        console.log(typeof(doc_text))
-        console.log(doc_text);
+    if (doc_html.length) {
+        console.log(typeof(doc_html))
+        console.log(doc_html);
         var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
-        var spans = $(doc_text).find('span.g-' + new_id);
+        var spans = $(doc_html).find('span.g-' + new_id);
         if (spans.length) {
         // if (doc_text.contains(tag)) {
             {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
