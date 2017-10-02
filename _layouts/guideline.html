@@ -39,7 +39,7 @@ var div = document.getElementById('sample-language');
     // console.log(Boolean(doc_text));
     // console.log(typeof(doc_text));
     // console.log(doc_text);
-    
+
     if (doc_html.length) {
         // console.log(typeof(doc_html))
         // console.log(doc_html);
@@ -47,9 +47,12 @@ var div = document.getElementById('sample-language');
         var spans = doc_html.find('span.g-' + new_id);
         if (spans.length) {
         // if (doc_text.contains(tag)) {
+            var doc_id = '{{ doc.id }}'.replace(/\/docs\//g, '');
+            var content = $('<div class="g-example" id=' + doc_id + '></div>');
             {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
-            var content = document.createTextNode(
-                '\n<h3>{{ doc_name | escape | strip_newlines }}</h3>\n<p></p>');
+            content.append('\n<h3>{{ doc_name | escape | strip_newlines }}</h3>');
+            // var content = document.createTextNode(
+            //     '\n<h3>{{ doc_name | escape | strip_newlines }}</h3>\n<p></p>');
             // var doc_text_html = $.parseHTML(doc_text);
             // console.log(doc_text_html);
             // var spans = doc_text_html.getElementsByClassName({{ page.id }});
