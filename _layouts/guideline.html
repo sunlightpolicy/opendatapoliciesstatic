@@ -25,7 +25,33 @@ var div = document.getElementById('sample-language');
 // var tag = '<span class="g-' + '{{ page.id }}' + '">';
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
-    var doc_object = {{ doc | jsonify }};
-    console.log(doc_object);
+    // var doc_object = doc;
+    // console.log(doc);
+    var doc_text = $.parseHTML("{{ doc.content | escape | strip_newlines }}");
+    console.log(doc_text);
+    var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '')
+    $(spans).find('span.g-' + new_id);
+    if (spans.length) {
+    // if (doc_text.contains(tag)) {
+        {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
+        var content = document.createTextNode(
+            '\n<h3>{{ doc_name | escape | strip_newlines }}</h3>\n<p></p>');
+        // var doc_text_html = $.parseHTML(doc_text);
+        // console.log(doc_text_html);
+        // var spans = doc_text_html.getElementsByClassName({{ page.id }});
+        // var spans = doc_text.find('span').attr('class', {{ page.id }});
+        // var spans = $('img.classname')
+        // var re = new RegExp((tag += '([\s\S]*?)<\/span>'), 'g');
+        // var match = re.exec(doc_text);
+        // while (match != null) {
+        //     result +=  "match:"+RegExp.$1 + ',\n';
+        //     match = myregexp.exec(data);
+        // }
+        for (var i = 0; i < len(spans); i++) {
+            content += ('\n<p>' + $.trim(spans[i].innerText) + '</p>');
+        }
+        content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
+        div.appendChild(unescape(content));
+    }
 {% endfor %}
 </script>
