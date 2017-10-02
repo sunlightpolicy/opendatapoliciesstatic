@@ -47,7 +47,7 @@ var div = document.getElementById('sample-language');
         var spans = doc_html.find('span.g-' + new_id);
         if (spans.length) {
         // if (doc_text.contains(tag)) {
-            var doc_id = '{{ doc.id }}'.replace(/\/docs\//g, '');
+            var doc_id = '{{ doc.id }}'.replace(/\/doc\//g, '');
             var content = $('<div class="g-example" id=' + doc_id + '></div>');
             {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
             content.append('\n<h3>{{ doc_name | escape | strip_newlines }}</h3>');
