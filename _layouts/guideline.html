@@ -70,7 +70,7 @@ var guideline_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
             }
             // content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
             $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}?' +
-                guideline_id + '">See these sections in context</a></p>');
+                guideline_id + '">See this text in context</a></p>');
             $(div).append(content);
             // div.appendChild(unescape(content));
         }

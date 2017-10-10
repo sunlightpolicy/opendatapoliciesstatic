@@ -54,6 +54,16 @@ title: ''
   <p>This city is part of the <a href="https://whatworkscities.bloomberg.org/">What Works Cities</a> program.</p>
 {% endif %}
 
+<!-- Select Open Data Policy Guideline to view highlighted -->
+<br>
+<div id="select-guideline">
+  <p>See which sections of this policy meet specific <a href="/guidelines/">Open Data Policy Guidelines</a>:</p>
+  <select id="select-guideline">
+    <option selected disabled>Select a guideline...</option>
+    <!-- We'll use JavaScript to add more options based on which guidelines this policy meets -->
+  </select>
+</div>
+
 <!-- Main section -->
 <br>
 <hr>
@@ -80,8 +90,34 @@ title: ''
   {% include disqus_comments.html %}
 {% endif %}
 
-<script>
-  // Highlight specific guideline text if in URL parameter
+
+<!-- Highlight specific guideline text if in URL parameter -->
+<script type="text/javascript">
   var guideline_id = location.search.replace('?', 'g-');
   $('span.' + guideline_id).css('background-color', '#FFFF00');
+</script>
+
+<!-- Create drop-down menu with guidelines in this policy -->
+<script type="text/javascript">
+  var guideline_names = {};
+  {% for guideline in site.guidelines %}
+    var g_id = '{{ guideline.id }}'.replace(/\/guidelines\/\d\d-/g, '');
+    guideline_names[g_id] = {
+      'id': g_id,
+      'number': {{ guideline.number }},
+      'prettyname': '{{ guideline.number }}. {{ guideline.name }}'
+    };
+  {% endfor %}
+  var g_ids = $('span')
+    .filter(function(s) { return this.className.startsWith('g-'); })
+    .map(function (s) { return this.className.replace('g-', ''); } );
+  var unique_g_ids = $.uniqueSort(g_ids);
+  var g_list = unique_g_ids
+    .map(function (g_id) { return guideline_names[g_id]; })
+    .sort(function (a, b) { return a.number - b.number; });
+    // .map(function (g_object) { return g_object.prettyname; });
+  for (var i = 0; i < g_list.length; i++) {
+    var option = new Option(g_list[i].prettyname, g_list[i].id);
+    $('select#select-guideline').append($(option));
+  }
 </script>
