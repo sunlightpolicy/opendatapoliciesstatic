@@ -22,6 +22,7 @@ Here are examples of the language for this guideline as included in policies on 
 
 <script>
 var div = document.getElementById('sample-language');
+var guideline_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
 // var tag = '<span class="g-' + '{{ page.id }}' + '">';
 // var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
@@ -43,8 +44,7 @@ var div = document.getElementById('sample-language');
     if (doc_html.length) {
         // console.log(typeof(doc_html))
         // console.log(doc_html);
-        var new_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
-        var spans = doc_html.find('span.g-' + new_id);
+        var spans = doc_html.find('span.g-' + guideline_id);
         if (spans.length) {
         // if (doc_text.contains(tag)) {
             var doc_id = '{{ doc.id }}'.replace(/\/doc\//g, '');
@@ -69,7 +69,8 @@ var div = document.getElementById('sample-language');
                 $(content).append('\n<p>' + $.trim(spans[i].innerText) + '</p>');
             }
             // content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
-            $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
+            $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}?' +
+                guideline_id + '">See these sections in context</a></p>');
             $(div).append(content);
             // div.appendChild(unescape(content));
         }

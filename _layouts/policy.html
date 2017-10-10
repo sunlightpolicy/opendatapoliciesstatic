@@ -79,3 +79,9 @@ title: ''
 {% if site.disqus_shortname %}
   {% include disqus_comments.html %}
 {% endif %}
+
+<script>
+  // Highlight specific guideline text if in URL parameter
+  var guideline_id = location.search.replace('?', 'g-');
+  $('span.' + guideline_id).css('background-color', '#FFFF00');
+</script>
