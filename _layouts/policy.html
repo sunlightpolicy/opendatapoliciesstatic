@@ -99,6 +99,13 @@ title: ''
 
 <!-- Create drop-down menu with guidelines in this policy -->
 <script type="text/javascript">
+
+  Array.prototype.uniq = function(){
+    return this.filter(
+        function(a){return !this[a] ? this[a] = true : false;}, {}
+    );
+  }
+
   var guideline_names = {};
   {% for guideline in site.guidelines %}
     var g_id = '{{ guideline.id }}'.replace(/\/guidelines\/\d\d-/g, '');
@@ -108,13 +115,45 @@ title: ''
       'prettyname': '{{ guideline.number }}. {{ guideline.name }}'
     };
   {% endfor %}
+  // var callbacks = $.Callbacks();
+
+  // function run(func) {
+  //     //some operations
+  //     return $.ajax()
+  // }
+
+  // main() {
+  //     //first call
+  //     func(param1).done(function(){
+  //        //wait for done and the run the second
+  //        func(param2);
+  //     });
+
+  // }
+
+  // callbacks.add();
   var g_ids = $('span')
     .filter(function(s) { return this.className.startsWith('g-'); })
-    .map(function (s) { return this.className.replace('g-', ''); } );
-  var unique_g_ids = $.uniqueSort(g_ids);
-  var g_list = unique_g_ids
+    .map(function (s) { return this.className.replace('g-', ''); })
+    .toArray();
+  // var unique_g_ids = $.unique(g_ids).toArray();
+  // console.log(unique_g_ids);
+  // var g_list = unique_g_ids
+
+  var g_list = g_ids.uniq()
     .map(function (g_id) { return guideline_names[g_id]; })
     .sort(function (a, b) { return a.number - b.number; });
+  // var g_list = $.map($.unique(g_ids).toArray(), function (g_id) { return guideline_names[g_id]; });
+
+
+    // .sort(function (a, b) { return a.number - b.number; });
+  // var g_list = $.unique(g_ids)
+  //   .toArray()
+  //   .map(function (g_id) { return guideline_names[g_id]; })
+  //   .sort(function (a, b) { return a.number - b.number; });
+
+    // .prevObject
+    // .toArray();
     // .map(function (g_object) { return g_object.prettyname; });
   for (var i = 0; i < g_list.length; i++) {
     var option = new Option(g_list[i].prettyname, g_list[i].id);
