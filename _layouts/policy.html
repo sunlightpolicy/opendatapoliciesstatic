@@ -119,10 +119,6 @@ title: ''
   console.log('gid ' + guideline_id);
   if (guideline_id !== '') {
     $('span.g-' + guideline_id).css('background-color', '#FFFF00');
-    // console.log(guideline_id);
-    // console.log($('select#select-guideline').val());
-    // $('select#select-guideline').val(guideline_id);
-    // console.log($('select#select-guideline').val());
     $('p#guideline-see-more').html('<a href="' +
       guideline_names[guideline_id].url + '">Read more about this guideline »</a>');
     $(function() {

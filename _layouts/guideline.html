@@ -20,59 +20,28 @@ Here are examples of the language for this guideline as included in policies on 
 <div id="sample-language">
 </div>
 
-<script>
+<script type="text/javascript">
 var div = document.getElementById('sample-language');
 var guideline_id = '{{ page.id }}'.replace(/\/guidelines\/\d\d-/g, '');
-// var tag = '<span class="g-' + '{{ page.id }}' + '">';
-// var tag_html = $.parseHTML(tag);
 {% for doc in site.documents %}
-    // var doc_object = doc;
-    // console.log(doc);
-    // var doc_raw = "{{ doc.content | xml_escape | strip_newlines }}";
     var doc_raw = "{{ doc.content | replace: '"', '\"' | strip_newlines }}";
-    // var doc_replaced = doc_raw.replace(/[\u{0080}-\u{FFFF}]/gu, '') | '&lt;p&gt;&lt;/p&gt;';
-    // var doc_replaced = doc_raw | '&lt;p&gt;&lt;/p&gt;';
     var doc_replaced = doc_raw || '<p></p>';
     var doc_html = $('<div></div>');
     doc_html.html(doc_replaced);
-    // var doc_text = $.parseHTML(doc_replaced);
-
-    // console.log(Boolean(doc_text));
-    // console.log(typeof(doc_text));
-    // console.log(doc_text);
-
     if (doc_html.length) {
-        // console.log(typeof(doc_html))
-        // console.log(doc_html);
         var spans = doc_html.find('span.g-' + guideline_id);
         if (spans.length) {
-        // if (doc_text.contains(tag)) {
             var doc_id = '{{ doc.id }}'.replace(/\/doc\//g, '');
             var content = $('<div class="g-example" id=' + doc_id + '></div>');
             {% capture doc_name %}{% include docname.html doc_page=doc %}{% endcapture %}
             $(content).append('\n<h3>{{ doc_name | escape | strip_newlines }}</h3>');
-            // var content = document.createTextNode(
-            //     '\n<h3>{{ doc_name | escape | strip_newlines }}</h3>\n<p></p>');
-            // var doc_text_html = $.parseHTML(doc_text);
-            // console.log(doc_text_html);
-            // var spans = doc_text_html.getElementsByClassName({{ page.id }});
-            // var spans = doc_text.find('span').attr('class', {{ page.id }});
-            // var spans = $('img.classname')
-            // var re = new RegExp((tag += '([\s\S]*?)<\/span>'), 'g');
-            // var match = re.exec(doc_text);
-            // while (match != null) {
-            //     result +=  "match:"+RegExp.$1 + ',\n';
-            //     match = myregexp.exec(data);
-            // }
+
             for (var i = 0; i < spans.length; i++) {
-                // content += ('\n<p>' + $.trim(spans[i].innerText) + '</p>');
                 $(content).append('\n<p>' + $.trim(spans[i].innerText) + '</p>');
             }
-            // content += ('\n<p><a href="{{ site.baseurl }}{{ doc.url }}">See this entire policy</a></p>');
             $(content).append('\n<p><a href="{{ site.baseurl }}{{ doc.url }}?' +
                 guideline_id + '">See this text in context »</a></p>');
             $(div).append(content);
-            // div.appendChild(unescape(content));
         }
     } else {
         console.log('no_length');
