@@ -3,6 +3,13 @@ layout: default
 title: ''
 ---
 
+<script type="text/javascript">
+  function updateUrl() {
+    var selection = $('select#select-guideline').val();
+    location.search = selection;
+  }
+</script>
+
 <!-- Original policy -->
 {% if page.policy_url %}
   <p><a href="{{ page.policy_url }}">View original policy</a></p>
@@ -57,11 +64,12 @@ title: ''
 <!-- Select Open Data Policy Guideline to view highlighted -->
 <br>
 <div id="select-guideline">
-  <p>See which sections of this policy meet specific <a href="/guidelines/">Open Data Policy Guidelines</a>:</p>
-  <select id="select-guideline">
+  <p>Highlight text matching an <a href="/guidelines/">Open Data Policy Guideline</a>:</p>
+  <select id="select-guideline" onchange="updateUrl()">
     <option selected disabled>Select a guideline...</option>
     <!-- We'll use JavaScript to add more options based on which guidelines this policy meets -->
   </select>
+  <p id="guideline-see-more"></p>
 </div>
 
 <!-- Main section -->
@@ -91,70 +99,58 @@ title: ''
 {% endif %}
 
 
-<!-- Highlight specific guideline text if in URL parameter -->
+<!-- Compile a hash containing guideline names, numbers, and ids (key = id) -->
 <script type="text/javascript">
-  var guideline_id = location.search.replace('?', 'g-');
-  $('span.' + guideline_id).css('background-color', '#FFFF00');
-</script>
-
-<!-- Create drop-down menu with guidelines in this policy -->
-<script type="text/javascript">
-
-  Array.prototype.uniq = function(){
-    return this.filter(
-        function(a){return !this[a] ? this[a] = true : false;}, {}
-    );
-  }
-
   var guideline_names = {};
   {% for guideline in site.guidelines %}
     var g_id = '{{ guideline.id }}'.replace(/\/guidelines\/\d\d-/g, '');
     guideline_names[g_id] = {
       'id': g_id,
       'number': {{ guideline.number }},
-      'prettyname': '{{ guideline.number }}. {{ guideline.name }}'
+      'prettyname': '{{ guideline.number }}. {{ guideline.name }}',
+      'url': '{{ guideline.url }}'
     };
   {% endfor %}
-  // var callbacks = $.Callbacks();
+</script>
 
-  // function run(func) {
-  //     //some operations
-  //     return $.ajax()
-  // }
+<!-- If URL parameter: highlight matching text, set drop-down selection, link to guideline -->
+<script type="text/javascript">
+  var guideline_id = location.search.replace('?', '');
+  console.log('gid ' + guideline_id);
+  if (guideline_id !== '') {
+    $('span.g-' + guideline_id).css('background-color', '#FFFF00');
+    // console.log(guideline_id);
+    // console.log($('select#select-guideline').val());
+    // $('select#select-guideline').val(guideline_id);
+    // console.log($('select#select-guideline').val());
+    $('p#guideline-see-more').html('<a href="' +
+      guideline_names[guideline_id].url + '">Read more about this guideline</a>');
+    $(function() {
+      $('select#select-guideline').val(guideline_id);
+    });
+  }
+</script>
 
-  // main() {
-  //     //first call
-  //     func(param1).done(function(){
-  //        //wait for done and the run the second
-  //        func(param2);
-  //     });
+<!-- Create drop-down menu with guidelines in this policy -->
+<script type="text/javascript">
 
-  // }
+  // Define function to keep only unique elements of a list
+  Array.prototype.uniq = function(){
+    return this.filter(
+        function(a){return !this[a] ? this[a] = true : false;}, {}
+    );
+  }
 
-  // callbacks.add();
+  // Find unique guidelines in this policy
   var g_ids = $('span')
     .filter(function(s) { return this.className.startsWith('g-'); })
     .map(function (s) { return this.className.replace('g-', ''); })
     .toArray();
-  // var unique_g_ids = $.unique(g_ids).toArray();
-  // console.log(unique_g_ids);
-  // var g_list = unique_g_ids
-
   var g_list = g_ids.uniq()
     .map(function (g_id) { return guideline_names[g_id]; })
     .sort(function (a, b) { return a.number - b.number; });
-  // var g_list = $.map($.unique(g_ids).toArray(), function (g_id) { return guideline_names[g_id]; });
 
-
-    // .sort(function (a, b) { return a.number - b.number; });
-  // var g_list = $.unique(g_ids)
-  //   .toArray()
-  //   .map(function (g_id) { return guideline_names[g_id]; })
-  //   .sort(function (a, b) { return a.number - b.number; });
-
-    // .prevObject
-    // .toArray();
-    // .map(function (g_object) { return g_object.prettyname; });
+  // Add this document's guidelines as options in the drop-down menu
   for (var i = 0; i < g_list.length; i++) {
     var option = new Option(g_list[i].prettyname, g_list[i].id);
     $('select#select-guideline').append($(option));
