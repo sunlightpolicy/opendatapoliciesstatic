@@ -116,7 +116,6 @@ title: ''
 <!-- If URL parameter: highlight matching text, set drop-down selection, link to guideline -->
 <script type="text/javascript">
   var guideline_id = location.search.replace('?', '');
-  console.log('gid ' + guideline_id);
   if (guideline_id !== '') {
     $('span.g-' + guideline_id).css('background-color', '#FFFF00');
     $('p#guideline-see-more').html('<a href="' +
