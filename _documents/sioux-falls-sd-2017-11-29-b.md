@@ -2,7 +2,7 @@
 place: sioux-falls-sd
 year: 2017
 date: 2017-11-29
-legal_custom: Administrative policy
+legal_custom: Administrative Policy
 sunlight: true
 policy_urls:
   PDF: https://drive.google.com/file/d/1S6YRGDu4pxDNw9SILET9hbzO4oex2jhw/view?usp=sharing
