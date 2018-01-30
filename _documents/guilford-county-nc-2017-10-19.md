@@ -3,7 +3,7 @@ place: guilford-county-nc
 year: 2017
 date: 2017-10-19
 legal_custom: Council Resolution
-sunlight: false
+sunlight: true
 policy_urls:
   PDF: https://guilford.legistar.com/View.ashx?M=F&ID=5503085&GUID=95168185-22C6-4F0B-B44D-3923D5238C01
 ---
