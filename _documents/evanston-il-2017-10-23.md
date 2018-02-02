@@ -3,7 +3,7 @@ place: evanston-il
 year: 2017
 date: 2017-10-23
 legal_custom: Council Resolution
-sunlight: true
+sunlight: false
 policy_urls:
   PDF: https://www.cityofevanston.org/home/showdocument?id=29378
 ---
