@@ -3,7 +3,7 @@ place: memphis-tn
 year: 2009
 date: 2009-10-10
 legal_custom: Executive Order
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: http://www.memphistn.gov/portals/0/pdf_forms/MayorsTransparencyExecutiveOrder.pdf
 ---
@@ -16,7 +16,7 @@ No. 01-2009
 
 AN ORDER ESTABLISHING STANDARDS OF PERFORMANCE FOR A TRANSPARENT AND OPEN MEMPHIS CITY GOVERNMENT
 
-<span class="g-goals-and-values">WHEREAS, the people's defense from government corruption is reasonable and timely access to the public's records</span> and direct contact with public officials; and</span>
+<span class="g-goals-and-values">WHEREAS, the people's defense from government corruption is reasonable and timely access to the public's records and direct contact with public officials; and</span>
 
 <span class="g-goals-and-values">WHEREAS, existing policies and practices of Memphis City Government and the actions of city officials and employees should necessarily adhere to high standards which fend off the appearance of impropriety while instilling trust and confidence of citizens in local government; and</span>
 
