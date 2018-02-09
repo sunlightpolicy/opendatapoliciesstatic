@@ -12,9 +12,9 @@ Version 1.0 – August 2016
 
 ## Bellevue Open Data Principles
 
-1.      We develop and grow an accessible and usable data portal- We provide non-discriminatory access to data on a central portal in open formats that make it easy to find, access, understand and use the data. Implement to the extent possible, open standards related to data formats, interoperability, structure, and common identifiers when collecting and publishing data.
-2.      We focus on publishing high quality and high value data sets – We release high quality, high value data sets which are accurate, timely, up to date, and adequately documented following internationally agreed upon standards, metadata and classifiers.
-3.      We administer the open data program with a bias for open – We encourage government data is made open by default, while recognizing that there are legitimate reasons why some data cannot be released.
+1.      **We develop and grow an accessible and usable data portal** — We provide non-discriminatory access to data on a central portal in open formats that make it easy to find, access, understand and use the data. Implement to the extent possible, open standards related to data formats, interoperability, structure, and common identifiers when collecting and publishing data.
+2.      **We focus on publishing high quality and high value data sets** — We release high quality, high value data sets which are accurate, timely, up to date, and adequately documented following internationally agreed upon standards, metadata and classifiers.
+3.      **We administer the open data program with a bias for open** — We encourage government data is made open by default, while recognizing that there are legitimate reasons why some data cannot be released.
 
 These principles have been inspired by the Sunlight Foundation and by the G8 Summit, including the U.S., hosted by the United Kingdom in July 2013. The “Open Data Charter” was agreed to during the Summit, based on the principles that government data should be open by default, of high quality and increasing quantity, openly licensed and provided in open formats with the purpose of improving governance and spurring innovation.
 
