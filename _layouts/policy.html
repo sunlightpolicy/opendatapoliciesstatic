@@ -54,8 +54,9 @@ title: ''
 {% endif %}
 
 <!-- Sunlight and WWC status -->
-{% if page.sunlight %}
-  <p><a href="https://sunlightfoundation.com/policy/local/">Sunlight</a> provided assistance with the development of this policy.</p>
+{% assign sunlight_assist_types = 'wwc,nonwwc,prewwc' | split: ',' %}
+{% if sunlight_assist_types contains page.sunlight %}
+  <p><a href="https://sunlightfoundation.com/policy/open-cities/">Sunlight</a> provided assistance with the development of this policy.</p>
 {% endif %}
 {% if the_place.wwc %}
   <p>This city is part of the <a href="https://whatworkscities.bloomberg.org/">What Works Cities</a> program.</p>
