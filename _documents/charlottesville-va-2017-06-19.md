@@ -3,7 +3,7 @@ place: charlottesville-va
 year: 2017
 date: 2017-06-19
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wizard
 policy_urls:
   PDF: http://www.charlottesville.org/home/showdocument?id=55829
 ---

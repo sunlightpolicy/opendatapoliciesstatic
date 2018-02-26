@@ -3,7 +3,7 @@ place: independence-mo
 year: 2016
 date: 2016-03-15
 legal_custom: Administrative Policy
-sunlight: true
+sunlight: wwc
 policy_url: https://drive.google.com/file/d/0B_ILuYKPbN3qSDBnM2lTRkxRN0Y2SFFXaDNCMVdKUGxIbzhV/view
 ---
 

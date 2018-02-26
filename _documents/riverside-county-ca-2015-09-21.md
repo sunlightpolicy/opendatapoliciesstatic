@@ -3,7 +3,7 @@ place: riverside-county-ca
 year: 2015
 date: 2015-09-21
 legal_custom: Administrative Policy
-sunlight: false
+sunlight: didnt
 policy_url: https://data.countyofriverside.us/Administrative-and-Fiscal-Services/Riverside-County-Open-Data-Policy/hzxb-t3uc
 ---
 

@@ -3,7 +3,7 @@ place: fort-worth-tx
 year: 2016
 date: 2016-10-14
 legal_custom: Administrative Policy
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: http://fortworthtexas.gov/open-data-policy.pdf
 ---

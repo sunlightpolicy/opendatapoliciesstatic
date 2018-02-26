@@ -3,7 +3,7 @@ place: baton-rouge-la
 year: 2017
 date: 2017-12-13
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: http://hdlegisuite.brgov.com/attachments/2017/legislation_2BC5EEE8.pdf
 ---

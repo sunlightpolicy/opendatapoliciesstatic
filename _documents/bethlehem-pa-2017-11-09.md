@@ -3,7 +3,7 @@ place: bethlehem-pa
 year: 2017
 date: 2017-11-09
 legal_custom: Ordinance
-sunlight: true
+sunlight: wizard
 policy_urls:
   PDF: https://www.bethlehem-pa.gov/ordinance/pdf/2017-34%20Open%20Data%20Ord.pdf
   HTML: https://www.bethlehem-pa.gov/ordinance/articles/opendata.html

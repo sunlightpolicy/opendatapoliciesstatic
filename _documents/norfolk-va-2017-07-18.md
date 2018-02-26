@@ -3,7 +3,7 @@ place: norfolk-va
 year: 2017
 date: 2017-07-18
 legal_custom: Ordinance
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://www.norfolk.gov/DocumentCenter/View/31558
 press_url: https://www.norfolk.gov/DocumentCenter/View/31746

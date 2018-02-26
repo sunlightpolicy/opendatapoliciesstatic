@@ -3,7 +3,7 @@ place: new-york-ny
 year: 2012
 date: 2012-03-17
 legal_custom: Local Law
-sunlight: false
+sunlight: didnt
 policy_url: http://www1.nyc.gov/site/doitt/initiatives/open-data-law.page
 press_url: http://www1.nyc.gov/office-of-the-mayor/news/081-12/mayor-bloomberg-signs-legislation-creating-a-citywide-comprehensive-open-data-policy
 ---

@@ -3,7 +3,7 @@ place: suffolk-county-ny
 year: 2014
 date: 2014-10-15
 legal_custom: Resolution No. 811-2014
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: http://suffolkcountyny.gov/portals/0/geographicinfosys/i1717-14.pdf
 press_url: http://www.suffolkcountyny.gov/Portals/21/press/2014/Open%20Data%20Press%20Release.pdf

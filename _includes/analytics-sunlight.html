@@ -1,0 +1,23 @@
+{% if include.sunlight == "wwc" %}
+  {% assign sunlight_subset = include.wwc_docs | where: "sunlight", "wwc" %}
+{% elsif include.sunlight == "nonwwc" %}
+  {% assign sunlight_subset = include.wwc_docs | where: "sunlight", "nonwwc" %}
+{% elsif include.sunlight == "prewwc" %}
+  {% assign sunlight_subset = include.wwc_docs | where: "sunlight", "prewwc" %}
+{% elsif include.sunlight == "didnt" %}
+  {% assign sunlight_subset = include.wwc_docs | where: "sunlight", "didnt" %}
+{% elsif include.sunlight == "unknown" %}
+  {% assign sunlight_subset_0 = include.wwc_docs | where_exp: "item", "item.sunlight != 'wwc'" %}
+  {% assign sunlight_subset_1 = sunlight_subset_0 | where_exp: "item", "item.sunlight != 'nonwwc'" %}
+  {% assign sunlight_subset_2 = sunlight_subset_1 | where_exp: "item", "item.sunlight != 'prewwc'" %}
+  {% assign sunlight_subset = sunlight_subset_2 | where_exp: "item", "item.sunlight != 'didnt'" %}
+{% endif %}
+
+<div class="sunlight-{{ include.sunlight }}">
+<p><span class="num-places">{{ sunlight_subset | map: "place" | uniq | size }}</span> places, with <span class="num-policies">{{ sunlight_subset | size }}</span> policies</p>
+<ul>
+{% for doc in sunlight_subset %}
+  <li><a href="{{ doc.url }}">{% include docname.html doc_page=doc %}</a></li>
+{% endfor %}
+</ul>
+</div>

@@ -3,7 +3,7 @@ place: naperville-il
 year: 2016
 date: 2016-11-15
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_url: https://docs.google.com/document/d/1kyR_jiEnXY1gmHlwCajV-ERxKAPH7ynsGxXi2PXIwLo/edit?usp=sharing
 ---
 

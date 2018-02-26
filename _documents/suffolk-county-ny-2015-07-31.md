@@ -3,7 +3,7 @@ place: suffolk-county-ny
 year: 2015
 date: 2015-07-31
 legal_custom: Administrative Policy
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: http://suffolkcountyny.gov/portals/0/geographicinfosys/OpenData%20PolicySuffolkCountyV9.pdf
 ---

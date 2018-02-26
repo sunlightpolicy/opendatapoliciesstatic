@@ -3,7 +3,7 @@ place: birmingham-al
 year: 2017
 date: 2017-04-18
 legal_custom: Executive Order
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://assets.documentcloud.org/documents/3673595/Simsbh35017041116370.pdf
   DOC: https://docs.google.com/document/d/1Ac-2p0yB8XzTDnm18VnUmAHc_Tg66elixwAc-wO109c/edit?usp=sharing

@@ -3,7 +3,7 @@ place: nashville-tn
 year: 2014
 date: 2014-05-12
 legal_custom: Executive Order
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: http://www.nashville.gov/Portals/0/SiteContent/MayorsOffice/docs/news/140512_OpenDataExecutiveOrder.pdf
   HTML: https://www.nashville.gov/Metro-Clerk/Legal-Resources/Executive-Orders/Mayor-Karl-Dean/kd043.aspx

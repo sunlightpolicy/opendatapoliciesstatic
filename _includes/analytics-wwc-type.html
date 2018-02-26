@@ -1,0 +1,36 @@
+{% if include.wwc == "wwc" %}
+    {% assign wwc_type_places = site.places | where: "wwc", true %}
+{% elsif include.wwc == "non-wwc-local" %}
+    {% assign wwc_type_places = site.places | where: "wwc", false | where: "type": "local" %}
+{% elsif include.wwc == "state" %}
+    {% assign wwc_type_places = site.places | where: "wwc", false | where: "type": "state" %}
+{% endif %}
+
+<div class="{{ include.wwc }}">
+
+{% assign wwc_type_place_ids = wwc_type_places | map: "place" %}
+{% assign docs_subset = site.documents | where_exp: "item", "wwc_type_place_ids contains item.place" %}
+<div class="total">
+<p><span class="num-places">{{ wwc_type_places | size }}</span> places, with <span class="num-policies">{{ docs_subset | size }}</span> policies</p>
+<p>Of these...</p>
+</div>
+
+<h3><em>Sunlight provided assistance as part of What Works Cities</em></h3>
+{% include analytics-sunlight.html wwc_docs=docs_subset sunlight="wwc" %}
+
+<h3><em>Sunlight provided assistance informally during WWC but not as a direct engagement</em></h3>
+{% include analytics-sunlight.html wwc_docs=docs_subset sunlight="nonwwc" %}
+
+<h3><em>Sunlight provided assistance prior to the WWC program</em></h3>
+{% include analytics-sunlight.html wwc_docs=docs_subset sunlight="prewwc" %}
+
+<h3><em>Sunlight did not provide assistance</em></h3>
+{% include analytics-sunlight.html wwc_docs=docs_subset sunlight="didnt" %}
+
+<h3><em>Sunlight unknown</em></h3>
+{% include analytics-sunlight.html wwc_docs=docs_subset sunlight="unknown" %}
+
+</div>
+
+
+

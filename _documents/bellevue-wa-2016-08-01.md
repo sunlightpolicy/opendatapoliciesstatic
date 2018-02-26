@@ -3,7 +3,7 @@ place: bellevue-wa
 year: 2016
 date: 2016-08-01
 legal_custom: Management Policy
-sunlight: true
+sunlight: wwc
 policy_url: https://docs.google.com/document/d/10sTJS_QroAf8gZalnVFw4VrxQFHyUKEVmKpeyEEl8Kg/edit?usp=sharing
 note: Exact date within Aug 2016 unknown.
 ---

@@ -3,7 +3,7 @@ place: salinas-ca
 year: 2017
 date: 2017-06-06
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://salinas.legistar.com/LegislationDetail.aspx?ID=3062679&GUID=5C4A098B-B9AB-4479-86F5-0A69BA7EAAEC&Options=&Search=
 press_url: https://www.cityofsalinas.org/our-city-services/public-works/news/salinas-adopts-open-data-policy

@@ -3,7 +3,7 @@ place: anchorage-ak
 year: 2016
 date: 2016-04-20
 legal_custom: Operating Procedure
-sunlight: true
+sunlight: wwc
 policy_url: https://www.muni.org/Departments/Mayor/Documents/Open%20Data%20Policy.pdf
 press_url: http://www.muni.org/Departments/Mayor/PressReleases/Pages/20160427MunicipalityofAnchorageAdoptsOpenDataPolicy.aspx
 ---

@@ -3,7 +3,7 @@ place: lincoln-ne
 year: 2016
 date: 2016-08-08
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_url: https://lincoln.ne.gov/city/council/agenda/2016/080816/16r180.pdf
 ---
 

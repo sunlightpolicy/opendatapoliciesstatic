@@ -3,7 +3,7 @@ place: syracuse-ny
 year: 2017
 date: 2017-07-26
 legal_custom: Executive Order
-sunlight: true
+sunlight: wwc
 policy_url: http://data.syrgov.net/pages/open-data-policy
 press_url: http://www.syrgov.net/uploadedFiles/A_Content/2017-07-26%20DataCuse.pdf
 ---

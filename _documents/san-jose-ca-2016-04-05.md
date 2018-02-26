@@ -3,7 +3,7 @@ place: san-jose-ca
 year: 2016
 date: 2016-04-05
 legal_custom: Council Policy
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://www.sanjoseca.gov/DocumentCenter/View/55954
 ---

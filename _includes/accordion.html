@@ -1,0 +1,14 @@
+{% assign docs_size = include.docs | size %}
+{% if docs_size == 0 %}
+<button class="accordion">{{ include.title }} (0)</button>
+<div class="panel"><ul></ul></div>
+{% else %}
+{% assign docs_byplace = include.docs | group_by: "place" | sort: "name" %}
+<button class="accordion">{{ include.title }} ({{ docs_byplace | size }})</button>
+<div class="panel"><ul>
+{% for p in docs_byplace %}
+  {% assign place_page = site.places | where: "place", p.name | first %}
+  <li>{% include placename.html doc_page=place_page %} — {% for pi in p.items %}{% if forloop.first == false %}, {% endif %}{% include place-doc-link.html doc_page=pi%}{% endfor %}</li>
+{% endfor %}
+</ul></div>
+{% endif %}

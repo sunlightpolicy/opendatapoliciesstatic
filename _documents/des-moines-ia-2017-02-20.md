@@ -3,7 +3,7 @@ place: des-moines-ia
 year: 2017
 date: 2017-02-20
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: http://www.dmgov.org/government/citycouncil/rollcalls/2017/17-0298.pdf
 ---

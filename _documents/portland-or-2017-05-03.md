@@ -3,7 +3,7 @@ place: portland-or
 year: 2017
 date: 2017-05-03
 legal_custom: Council Ordinance
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: http://efiles.portlandoregon.gov/Record/10879908/
 press_url: https://www.portlandoregon.gov/wheeler/article/639535

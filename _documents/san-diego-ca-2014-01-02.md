@@ -3,7 +3,7 @@ place: san-diego-ca
 year: 2014
 date: 2014-01-02
 legal_custom: Council Resolution
-sunlight: false
+sunlight: didnt
 policy_url: http://docs.sandiego.gov/council_reso_ordinance/rao2013/R-308684.pdf
 ---
 

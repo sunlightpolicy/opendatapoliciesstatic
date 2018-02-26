@@ -3,7 +3,7 @@ place: raleigh-nc
 year: 2012
 date: 2012-02-07
 legal_custom: Legislation
-sunlight: true
+sunlight: didnt
 policy_url: http://www.raleighnc.gov/content/ITechAdmin/Documents/OpenSourceSystemsResolution.pdf
 ---
 

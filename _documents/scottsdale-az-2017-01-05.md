@@ -3,7 +3,7 @@ place: scottsdale-az
 year: 2017
 date: 2017-01-05
 legal_custom: Administrative Regulation
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://drive.google.com/file/d/0B4SK5peGcfxzeHBzNDBVWjdRZUk/view
 ---

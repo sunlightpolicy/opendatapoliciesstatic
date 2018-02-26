@@ -3,7 +3,7 @@ place: riverside-ca
 year: 2017
 date: 2017-03-07
 legal_custom: Proclamation
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://drive.google.com/file/d/0B2UpixjDuVyvVHh3cFRmWXhCN1o3RzhsZ3hvd29lYzVXYTY4/view?usp=sharing
 ---

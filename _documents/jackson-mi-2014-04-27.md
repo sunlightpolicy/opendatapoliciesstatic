@@ -3,7 +3,7 @@ place: jackson-mi
 year: 2014
 date: 2014-04-27
 legal_custom: Legislation
-sunlight: false
+sunlight: didnt
 policy_url: https://www.municode.com/library/mi/jackson/codes/code_of_ordinances?nodeId=PTIICOOR_CH2AD_ARTIVOPDAPUREPO
 ---
 

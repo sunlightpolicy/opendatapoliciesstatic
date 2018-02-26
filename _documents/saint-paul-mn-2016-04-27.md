@@ -3,7 +3,7 @@ place: saint-paul-mn
 year: 2016
 date: 2016-04-27
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_urls:
   HTML: https://stpaul.legistar.com/LegislationDetail.aspx?ID=2694471&GUID=B20D0CAD-629F-432E-8396-250E17D0A04B&Options=ID%7CText%7C&Search=open+data&FullText=1
 ---

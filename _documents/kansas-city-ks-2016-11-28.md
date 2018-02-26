@@ -3,7 +3,7 @@ place: kansas-city-ks
 year: 2016
 date: 2016-11-28
 legal_custom: Administrative Order
-sunlight: true
+sunlight: wwc
 policy_url: https://ago-item-storage.s3-external-1.amazonaws.com/ad51020991e34ce5bc5dd1b02d68a088/Open_Data_Admin_Policy.pdf?X-Amz-Security-Token=FQoDYXdzEPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDLIo0KmDvccc54eZ9CKcA5thjQ7330ZI5eR0FTIBylN7%2FW6DtFCT%2FIr9d%2B2A804CdP%2FeAQp02nRxLvB8eTXmJUj4wUIPYOmhucp91pQpM7QBY%2F06MmMSZwcIsGPQqmKVGTyh4BYhPY0vqBqpCfpGh3%2FJwzRMoDPgohlXjoON69mirJp32CkzCmgzRv9Y5qoYxloERYEqStVon8ysadNB9R6J5m2r8o90bsBstZV35zvAR8jof7Ux2qvgqsOK8iYmYkCXdEWVWMF2qFBzR2k9Skd1B4nLRcl2S4tm0mOK8gkwC7xUklvmK4AYNqIDMM84dlkLHgcUrb9K%2Byw9NBno9uXCu%2FwY0KYjtDRfTfmkTkAQl0%2BsUF66BoJFQeOf5t1YClgY9D2nuebOU0%2BJKuocNmi12u5h6WhJFRFiIEQnu%2B23yQ%2FOfYrBQYOLZCrnyKUbQZMaG6wL2vgjvHdss5qtDuhh3G6wAsxKTHSM49y7uNtTQhOAzwp9b3Sfs2vO%2FbQAMr%2FvEs6eeLgvLtXL4ysLaYIE06LJzEiQsHKlLaXNS2yt7Xwztoh18sKNjXco1dbQwgU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20161216T183808Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAIEUBQN7RMIQ5L7RA%2F20161216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=99028cb38cdb933cda4f6d06be01be78db7560f0f5f852a95eeb0f2f2504e14e
 ---
 

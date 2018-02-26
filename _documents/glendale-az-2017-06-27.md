@@ -3,7 +3,7 @@ place: glendale-az
 year: 2017
 date: 2017-06-27
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://glendale-az.legistar.com/View.ashx?M=F&ID=5275871&GUID=6E83D2B2-C7EB-48B8-9288-49C33EB7977F
 ---

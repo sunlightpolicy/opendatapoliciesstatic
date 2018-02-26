@@ -1,0 +1,29 @@
+---
+layout: default
+title: Analytics (potential new)
+---
+
+<h2>What Works Cities</h2>
+
+{% include analytics-wwc-type.html wwc="wwc" %}
+
+<h2>Non-WWC local governments</h2>
+
+{% include analytics-wwc-type.html wwc="non-wwc-local" %}
+
+<h2>State governments</h2>
+
+{% include analytics-wwc-type.html wwc="state" %}
+
+{% assign wwc_unknown_0 = site.places | where_exp: "item", "item.wwc != true" %}
+{% assign wwc_unknown = wwc_unknown_0 | where_exp: "item", "item.wwc != false" %}
+{% assign wwc_unknown_size = wwc_unknown | size %}
+{% if wwc_unknown_size != 0 %}
+<h2>Places whose WWC status unknown</h2>
+<p>There are some places whose WWC status is unknown!</p>
+<ul>
+  {% for p in wwc_unknown %}
+  <li>{{ p.place }}</li>
+  {% endfor %}
+</ul>
+{% endif %}

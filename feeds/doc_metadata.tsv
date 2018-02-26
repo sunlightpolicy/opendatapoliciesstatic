@@ -1,6 +1,6 @@
 ---
 layout: null
 ---
-place	year	date	legal_custom	policy_urls	note	doc_url
-{% for doc in site.documents %}{{ doc.place }}	{{ doc.year }}	{{ doc.date | date: "%Y-%m-%d"}}	{{ doc.legal_custom }}	{{ doc.policy_urls | default: doc.policy_url }}	{{ doc.note | rstrip }}	{{ doc.url }}
+place	type	year	date	legal_custom	policy_urls	note	doc_url
+{% for doc in site.documents %}{{ doc.place }}	{{ doc.type }}	{{ doc.year }}	{{ doc.date | date: "%Y-%m-%d"}}	{{ doc.legal_custom }}	{{ doc.policy_urls | default: doc.policy_url }}	{{ doc.note | rstrip }}	{{ doc.url }}
 {% endfor %}

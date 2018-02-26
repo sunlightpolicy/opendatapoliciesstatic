@@ -3,7 +3,7 @@ place: san-mateo-county-ca
 year: 2013
 date: 2013-03-07
 legal_custom: Administrative Memo F-5
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: https://data.smcgov.org/Government/San-Mateo-County-Open-Data-Policy/pebe-j2ye
   HTML: http://elr-smcgov.org/open-data-policy-and-reporting-process/

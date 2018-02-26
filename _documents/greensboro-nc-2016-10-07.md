@@ -3,7 +3,7 @@ place: greensboro-nc
 year: 2016
 date: 2016-10-07
 legal_custom: Administrative Policy
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://drive.google.com/file/d/0B9H1dwV8kJaGVlQtZUdfc3dfZUU/view?usp=sharing
 ---

@@ -3,7 +3,7 @@ place: gilbert-az
 year: 2018
 date: 2018-01-17
 legal_custom: Administrative Procedure
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://drive.google.com/file/d/10fzRSVLzeOURXQmNq6FmlGpxgcG3PInz/view?usp=sharing
 ---

@@ -3,7 +3,7 @@ place: cambridge-ma
 year: 2015
 date: 2015-09-21
 legal_custom: Legislation
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: https://data.cambridgema.gov/General-Government/Cambridge-Open-Data-Ordinance-092115/tf4d-q3qs
 ---

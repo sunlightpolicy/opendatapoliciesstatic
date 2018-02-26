@@ -3,7 +3,7 @@ place: arlington-tx
 year: 2017
 date: 2017-10-17
 legal_custom: Council Resolution
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/112365/Attachment_-_Open_Data_Policy.pdf
 ---

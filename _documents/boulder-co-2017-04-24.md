@@ -3,7 +3,7 @@ place: boulder-co
 year: 2017
 date: 2017-04-24
 legal_custom: City Manager's Policy
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: https://www-static.bouldercolorado.gov/docs/Open_Data_Policy_Final-1-201705011604.pdf
 ---

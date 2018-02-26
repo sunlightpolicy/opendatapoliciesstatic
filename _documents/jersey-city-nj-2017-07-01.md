@@ -3,7 +3,7 @@ place: jersey-city-nj
 year: 2017
 date: 2017-07-01
 legal_custom: Administrative Policy
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: http://data.jerseycitynj.gov/dataset/jersey-city-open-data-policy/resource/6510ee7c-d667-4fb8-8c46-ee2ee0dc76ea
 ---

@@ -3,7 +3,7 @@ place: washington-dc
 year: 2014
 date: 2014-07-21
 legal_custom: Executive Directive
-sunlight: false
+sunlight: didnt
 policy_url: http://dc.gov/page/transparency-open-government-and-open-data-directive
 ---
 

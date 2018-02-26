@@ -3,7 +3,7 @@ place: knoxville-tn
 year: 2017
 date: 2017-05-02
 legal_custom: Executive Order
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: http://www.knoxvilletn.gov/UserFiles/Servers/Server_109478/File/OpenData/OpenDataPolicy.pdf
 ---

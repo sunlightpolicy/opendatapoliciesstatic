@@ -3,7 +3,7 @@ place: oakland-ca
 year: 2013
 date: 2013-10-15
 legal_custom: Council Resolution
-sunlight: false
+sunlight: prewwc
 policy_urls:
   PDF: http://www.scribd.com/doc/171673962/Resolution-Establishing-An-Open-Data-Policy-For-The-City-Of-Oakland-For-Making-Public-Data-Available-In-Machine-Readable-Formats-Using-Open-Data-Stand
 ---
@@ -38,7 +38,7 @@ WHEREAS, on April 30, 2012, the City Council approved Resolution No. 83824 direc
 
 WHEREAS, on January 31, 2013 the City of Oakland launched an Open Data portal at data.oaklandnet.com. as the central repository for the City of Oakland's public data; and</span>
 
-WHEREAS, the City of Oakland was one of ten cities awarded a partnership with Code for America in 2013, providing the opportunity to share and expand technology with other jurisdictions across the nation; 
+WHEREAS, the City of Oakland was one of ten cities awarded a partnership with Code for America in 2013, providing the opportunity to share and expand technology with other jurisdictions across the nation;
 
 now therefore be it <span class="def-open"><span class="g-open-formats">RESOLVED, that the City of Oakland hereby establishes an Open Data Policy that the City shall make every reasonable effort to ensure that City Data is published in machine readable formats using prevailing open standards for data, documents, maps, and other formats of media for the purpose of making City Data available to the greatest number of users and for the greatest number of applications in a manner that is open and accessible to the public to be maintained in a catalog on a single City website ("Open Data"); and be it</span></span>
 
@@ -46,11 +46,11 @@ now therefore be it <span class="def-open"><span class="g-open-formats">RESOLVED
 
 Ensure that the City provides sufficient knowledgeable support for Oakland's Open Data Policy to every organizational unit of the City regarding that unit's data to ensure each unit's successful compliance with and implementation of this Open Data Policy, such as by designating a person or persons to be responsible for providing such support for each organizational unit;
 
-Include clear guidelines for identifying "high value" and "high interest City Data sets and a policy for prioritizing its publication as Open Data; 
+Include clear guidelines for identifying "high value" and "high interest City Data sets and a policy for prioritizing its publication as Open Data;
 
 Include a public engagement strategy to ensure on-going feedback and collaboration with citizens and data users;</span></span>
 
-<span class="g-sensitive-information"><span class="g-oversight-authority"><span class="g-public-participation">Include City guidelines for maintaining consistency with applicable laws and best practices, including those related to privacy and security;</span> 
+<span class="g-sensitive-information"><span class="g-oversight-authority"><span class="g-public-participation">Include City guidelines for maintaining consistency with applicable laws and best practices, including those related to privacy and security;</span>
 
 Provide a process by which the City Administrator receives regular ongoing input from those City employees responsible for data collection in their respective organizational units. City employees in the Department of Information </span></span> Technology, employees working in citizen engagement, as well as members of the community who are users of Open Data, such as an Open Data Advisory Committee; and be it
 

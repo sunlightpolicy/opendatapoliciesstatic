@@ -3,7 +3,7 @@ place: washington-dc
 year: 2011
 date: 2011-01-03
 legal_custom: Mayor's Memorandum
-sunlight: false
+sunlight: didnt
 policy_url: http://www.dcregs.dc.gov/Gateway/NoticeHome.aspx?noticeid=673973
 ---
 

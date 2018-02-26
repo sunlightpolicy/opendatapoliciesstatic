@@ -3,7 +3,7 @@ place: fort-collins-co
 year: 2017
 date: 2017-02-07
 legal_custom: Council Resolution
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: http://citydocs.fcgov.com/?cmd=convert&vid=72&docid=2873946&dt=AGENDA+ITEM&doc_download_date=FEB-07-2017&ITEM_NUMBER=17
 ---

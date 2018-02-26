@@ -2,7 +2,7 @@
 place: sacramento-ca
 year: 2013
 legal_custom: Internal policy
-sunlight: false
+sunlight: didnt
 policy_url: http://web.archive.org/web/20140214033915/http://portal.cityofsacramento.org/OpenData
 ---
 

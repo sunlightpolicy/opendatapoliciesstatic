@@ -3,7 +3,7 @@ place: san-francisco-ca
 year: 2010
 date: 2010-10-29
 legal_custom: Legislation
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: https://law.resource.org/pub/us/code/city/ca/SanFrancisco/Administrative%20Code/chapter22d.pdf
 ---

@@ -3,7 +3,7 @@ place: west-sacramento-ca
 year: 2013
 date: 2013-10-16
 legal_custom: Internal policy
-sunlight: false
+sunlight: didnt
 policy_url: http://www.cityofwestsacramento.org/civica/filebank/blobdload.asp?BlobID=9779
 ---
 

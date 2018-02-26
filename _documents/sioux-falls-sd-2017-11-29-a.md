@@ -3,7 +3,7 @@ place: sioux-falls-sd
 year: 2017
 date: 2017-11-29
 legal_custom: Executive Order
-sunlight: true
+sunlight: wwc
 policy_url: https://drive.google.com/file/d/12d15SH0mG9cFdXFoXMFy4qsoiF5nWlDT/view?usp=sharing
 ---
 

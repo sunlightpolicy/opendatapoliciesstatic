@@ -3,7 +3,7 @@ place: seattle-wa
 year: 2016
 date: 2016-02-26
 legal_custom: Executive Order
-sunlight: true
+sunlight: wwc
 policy_url: http://murray.seattle.gov/wp-content/uploads/2016/02/2.26-EO.pdf
 press_url: http://murray.seattle.gov/mayor-murray-signs-historic-open-data-executive-order/
 ---

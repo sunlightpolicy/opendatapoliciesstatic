@@ -3,7 +3,7 @@ place: hennepin-county-mn
 year: 2013
 date: 2013-10-23
 legal_custom: MetroGIS Policy Board Resolution of Support
-sunlight: false
+sunlight: didnt
 policy_urls:
   PDF: https://www.metrogis.org/MetroGIS/media/gis-documents/projects/003_MetroGISPolicyBoard_ResolutionOfSupport.pdf
 wwc: false

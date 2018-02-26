@@ -3,7 +3,7 @@ place: louisville-ky
 year: 2013
 date: 2013-10-11
 legal_custom: Executive Order
-sunlight: false
+sunlight: didnt
 policy_url: http://louisvilleky.gov/government/mayor-greg-fischer/read-open-data-executive-order
 ---
 

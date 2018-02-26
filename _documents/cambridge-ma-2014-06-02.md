@@ -3,7 +3,7 @@ place: cambridge-ma
 year: 2014
 date: 2014-06-02
 legal_custom: Administrative Order
-sunlight: false
+sunlight: didnt
 policy_url: https://www.cambridgema.gov/itd/opendata/opendatainitative
 ---
 

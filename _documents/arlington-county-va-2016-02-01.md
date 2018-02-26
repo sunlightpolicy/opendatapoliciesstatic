@@ -3,7 +3,7 @@ place: arlington-county-va
 year: 2016
 date: 2016-02-01
 legal_custom: Internal Policy
-sunlight: true
+sunlight: nonwwc
 policy_url: https://topics.arlingtonva.us/open-government-resources/policy/
 note: Exact date within Feb 2016 unknown.
 ---

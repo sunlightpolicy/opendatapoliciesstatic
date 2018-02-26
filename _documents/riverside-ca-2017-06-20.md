@@ -3,7 +3,7 @@ place: riverside-ca
 year: 2017
 date: 2017-06-20
 legal_custom: Administrative Policy
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: http://riversideca.gov/manager/admin-manual/interdepartmental-services/03.016.00.pdf
 ---

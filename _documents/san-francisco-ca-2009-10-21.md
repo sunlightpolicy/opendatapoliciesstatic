@@ -3,7 +3,7 @@ place: san-francisco-ca
 year: 2009
 date: 2009-10-21
 legal_custom: "Executive Directive 09-06: Open Data"
-sunlight: false
+sunlight: didnt
 policy_url: https://www.scribd.com/document/23617489/City-of-San-Francisco-Executive-Directive-09-06-Open-Data
 ---
  

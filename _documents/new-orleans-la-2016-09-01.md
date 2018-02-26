@@ -3,7 +3,7 @@ place: new-orleans-la
 year: 2016
 date: 2016-09-01
 legal_custom: Executive Order
-sunlight: true
+sunlight: wwc
 policy_url: http://www.nola.gov/mayor/press-releases/2016/20160801-pr-mayor-signs-executive-order-on-open-da/
 ---
 

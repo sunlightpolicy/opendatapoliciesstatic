@@ -1,0 +1,44 @@
+<h2>{{ include.title }} ({{ include.places_subset | size }})</h2>
+
+{% assign place_ids = include.places_subset | map: "place" %}
+{% assign place_docs = site.documents | where_exp: "item", "place_ids contains item.place" %}
+{% assign grouped_docs = place_docs | group_by: "sunlight" %}
+
+<!-- Add a total alphabetical list? -->
+
+{% include accordion.html docs=place_docs title='ALL' %}
+
+{% include analytics-docs-section.html type="wwc" grouped_docs=grouped_docs %}
+{% include analytics-docs-section.html type="wizard" grouped_docs=grouped_docs %}
+{% include analytics-docs-section.html type="nonwwc" grouped_docs=grouped_docs %}
+{% include analytics-docs-section.html type="prewwc" grouped_docs=grouped_docs %}
+{% include analytics-docs-section.html type="didnt" grouped_docs=grouped_docs %}
+
+<!-- Only if there are unknowns -->
+<!-- include analytics-docs-section.html type="____" title="f. Unknown type of assistance" grouped_docs=grouped_docs  -->
+
+<!-- If there's overlap in the categories, have a special accordion section here that explains -->
+{% assign overlaps = '' | split: '' %}
+{% assign docs_by_place = place_docs | group_by: "place" %}
+{% for place_group in docs_by_place %}
+  {% assign num_sunlight_types = place_group.items | map: "sunlight" | uniq | size %}
+  {% if num_sunlight_types > 1 %}
+    {% assign overlaps = overlaps | push: place_group %}
+  {% endif %}
+{% endfor %}
+{% assign overlaps = overlaps | sort: "name" %}
+{% assign num_overlaps = overlaps | size %}
+{% if num_overlaps > 0 %}
+<button class="accordion">OVERLAPS ({{ num_overlaps }})</button>
+<div class="panel">
+  {% for overlap in overlaps %}
+  {% assign place_page = site.places | where: "place", overlap.name | first %}
+  <p>{% include placename.html doc_page=place_page %}</p>
+  <ul>
+  {% for doc in overlap.items %}
+    <li>{% include place-doc-link.html doc_page=doc%} — {{ site.data.sunlight-assist-types[doc.sunlight] }}</li>
+  {% endfor %}
+  </ul>
+  {% endfor %}
+</div>
+{% endif %}

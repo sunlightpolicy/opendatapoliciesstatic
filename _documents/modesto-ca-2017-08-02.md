@@ -3,7 +3,7 @@ place: modesto-ca
 year: 2017
 date: 2017-08-02
 legal_custom: Administrative policy
-sunlight: true
+sunlight: wwc
 policy_urls:
   PDF: http://atg.modestogov.com/sirepubcouncil/agdocs.aspx?doctype=minutes&itemid=24552
 ---

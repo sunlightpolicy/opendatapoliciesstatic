@@ -1,0 +1,3 @@
+{% assign docs_subset = include.grouped_docs | where: "name", include.type | map: "items" | first %}
+{% assign subset_title = site.data.sunlight-assist-types[include.type] %}
+{% include accordion.html docs=docs_subset title=subset_title %}

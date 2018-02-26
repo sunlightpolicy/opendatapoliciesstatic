@@ -3,7 +3,7 @@ place: scottsdale-az
 year: 2016
 date: 2016-08-31
 legal_custom: Resolution
-sunlight: true
+sunlight: wwc
 policy_url: http://www.scottsdaleaz.gov/Asset67096.aspx
 press_url: http://www.scottsdaleaz.gov/news/city-council-commits-to-open-data_s4_p24496
 ---

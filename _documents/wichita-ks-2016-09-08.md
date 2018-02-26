@@ -3,7 +3,7 @@ place: wichita-ks
 year: 2016
 date: 2016-09-08
 legal_custom: Administrative Regulation
-sunlight: true
+sunlight: wwc
 policy_url: https://www.wichita.gov/Government/Departments/IT/ITDocuments/AR%208.4%20IT%20Open%20Data%20Policy.pdf
 ---
 

@@ -3,7 +3,7 @@ place: phoenix-az
 year: 2014
 date: 2014-06-18
 legal_custom: Administrative Policy
-sunlight: false
+sunlight: didnt
 policy_urls:
   HTML: https://www.phoenix.gov/opendata/policy
 ---
