@@ -4,7 +4,7 @@ number: 7
 name: Appropriately safeguard sensitive information
 section: what-data-should-be-public
 examples: 
-  - url: http://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf
+  - url: http://web.archive.org/web/20141107032833/https://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf
     title: >-
       United States: National/Homeland Security and Privacy/Confidentiality Checklist and Guidance
   - url: http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf
