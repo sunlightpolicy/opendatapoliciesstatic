@@ -3,7 +3,11 @@ Add extra newline after likely line endings
 \1\n\n
 
 
-Combine adjacent lines from the above output
+Also separate adjacent lines that start with numbers
+(.)\n([\d\w]{1,2})\.
+\1\n\n\2.
+
+Combine adjacent lines from the above outputs
 (?<!\n)\n(?!\n)
 <space>
 
