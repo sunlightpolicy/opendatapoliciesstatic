@@ -53,14 +53,9 @@ import yaml
 #         # handle complicated situations
 
 
-def find_place(converted_name):
-
-    return
-
-
 def convert_place_name(raw_name):
 
-    # TODO: strip off '.\d' and figure out WHICH policy
+    # TODO: figure out WHICH policy if multiple in one year
     name = re.sub(r'\.\d', '', raw_name.strip())
     if ',' in name:
         parts = re.search(
@@ -68,7 +63,6 @@ def convert_place_name(raw_name):
         return (parts.group(1).lower().replace(' ', '-') + '-' +
             parts.group(5).lower() + parts.group(6).lower())
     else:
-        # print unicode(name)
         return us.states.lookup(unicode(name)).abbr.lower()
 
 def is_def_or_guide_col(name):
@@ -83,51 +77,13 @@ def is_guideline_col(name):
 
     return re.search(r'^\d{1,2}\.', name)
 
-    # if re.search(r'^\d{1,2}\.', column_name____):
-    #     num = int(re.search(r'(?<=^)(\d{1,2})(?=\.)', column_name____))
-
 def get_guideline_num(title):
 
     return title.split('. ')[0]
 
-# loop through all attributes to see if they are guidelines, and if so, check them out
 
-# need definitions for Data, Public Data/Information, Open Data
+# TODO (probably manually): deal with 'Does the opposite' and 'close fit'
 
-
-# r'(<.+>)*_____(<.+>)*'
-
-# html = gfm.markdown(content)
-
-
-
-# NEW!!!!!!!
-# for line in file:
-#     get_matches(orig_text, compare_text)
-
-
-
-# MD -> HTML
-# For each element:
-# for each p, heading, li:
-#     look for matches
-
-# Go from beginning to end, stripping out HTML, and adding those tags to a dict that knows the beginning character position
-# Compare strings and get matches
-
-# deal with 'Does the opposite' and 'close fit'
-
-
-
-# def do_an_entire_doc__all_questions(___):
-
-#     # with file open
-
-#     text_list = ___.split('\n')
-#     # do stuff
-
-
-#     return
 
 # Create a list of guidelines
 # Note: index numbers will be 1 less than the guideline numbers
@@ -142,27 +98,11 @@ for doc in os.listdir(folder):
                 r'(?<=---\n).+(?=\n---\n)', contents, re.DOTALL).group(0)
             GUIDELINES.append(yaml.load(fontmatter))
 
-            #(?<=---\n)(.+)(?=---\n)
-
-# for file in ()
-#     with open('../_data/guideline_details.html', 'r') as guide_file:
-#         guide_file_contents = guide_file.read()
-#         GUIDELINES = guide_file_contents.decode('utf-8')
-
-
 DEFINITIONS = {
   'data': 'Data',
   'public': 'Public Data/Information',
   'open': 'Open Data'
 }
-
-
-# look through spreadsheet:
-# for each entry, look at city + year to try to figure out which policy it corresponds with
-    # if no match, print warning
-    # if miltiple matches, print warning and don't do anything
-    # if one match, proceed
-
 
 def run_all_docs():
 
@@ -178,7 +118,6 @@ def run_all_docs():
             print("Multiple matching policies found for " + index +
                 ". Ignored from tagging.")
         else:
-            # blah
             in_file = open(folder + matching_docs[0], 'r')
             in_text = in_file.read().decode('utf-8')
             in_file.close()
@@ -192,23 +131,6 @@ def run_all_docs():
                 out_file = open(folder + matching_docs[0],'w')
                 out_file.write((parts.group(1) + tagged_text).encode('utf-8'))
                 out_file.close()
-            # with open(folder + matching_docs[0], 'r+') as file:
-            #     in_text = file.read().decode('utf-8')
-            #     # out_text = re.sub(r'(?<=^---.+\n---\n)(.+)',
-            #     #     run_one_doc(r'\1', row), in_text, re.M|re.DOTALL)
-            #     # file.truncate()
-            #     # file.write(out_text)
-            #     parts = re.search(r'(^---.+\n---\n)(.+)', in_text,
-            #         re.M|re.DOTALL)
-            #     file.truncate()
-            #     try:
-            #         tagged_text = run_one_doc(parts.group(2), row)
-            #     except AttributeError:
-            #         print parts
-            #         print parts.group(0)
-            #         file.write(in_text)
-            #     else:
-            #         file.write((parts.group(1) + tagged_text).encode('utf-8'))
 
     return sheet
 
@@ -216,8 +138,6 @@ def load_comparison_sheet(
     filename='../_data/Open Data Policy Comparison- Best Practices.xlsx'):
 
     raw = pd.read_excel(filename).drop(pd.np.NaN).transpose()
-    # print full_sheet.index.map(convert_place_name)
-    # print full_sheet['Year Enacted']
 
     # Drop rows that aren't actual policies
     raw.drop(raw.index[raw.index.str.startswith('# ')], inplace=True)
@@ -228,8 +148,6 @@ def load_comparison_sheet(
     raw['place-year'] = raw.apply(
         lambda row: convert_place_name(row.name) + '-' +
         str(row['Year Enacted']), axis=1)
-    # raw['place-year'] = (raw.index.map(convert_place_name) +
-    #     '-' + str(raw['Year Enacted']))
 
     # Drop cases where multiple polices for place for one year (temporary!)
     py_value_counts = raw['place-year'].value_counts()
@@ -255,10 +173,6 @@ def run_one_doc(text, responses):
             print(warning + ' for ' + for_what)
 
         return
-
-    # def get_response(question):
-
-    #     return responses[question]
 
     print('\nRunning: ' + responses.name)
 
@@ -288,9 +202,6 @@ def get_and_tag(orig_text, compare_text, tag):
     """Go through a doc looking for matches for a single definition,
     then tags them as such."""
 
-    # Converts newlines to long string of '@#~'s, so tagged spans will never
-    # contain multiple paragraphs/list items.
-
     if compare_text in ['n/a', 'N/A', pd.np.NaN]:
 
         return {
@@ -300,6 +211,8 @@ def get_and_tag(orig_text, compare_text, tag):
 
     else:
 
+        # Converts newlines to long string of '@#~'s, so tagged spans will never
+        # contain multiple paragraphs/list items.
         new_text = orig_text.replace('\n', '@#~'*10)
         matches = get_matches(new_text, compare_text)
         if len(matches['output_list']) == 0:
@@ -309,14 +222,6 @@ def get_and_tag(orig_text, compare_text, tag):
         else:
             warning = None
         new_text = tag_all_matches(new_text, matches['output_list'], tag)
-        # new_text_list = orig_text_list[:]
-        # for x in range(len(new_text_list)):
-        #     line_matches = get_matches(new_text_list[x], compare_text)
-        #     new_text_list[x] = tag_all_matches(new_text_list[x], line_matches, tag)
-            # for match in line_matches:
-            #     line_w_end_tag = insert_html(</, line, match[1])
-            #     line_w_both_tags = insert_html(, match[0])
-            # line = line_w_both_tags
 
         # Convert our long char strings back to newline characters
         new_text = new_text.replace('@#~'*10, '\n')
@@ -330,7 +235,7 @@ def get_and_tag(orig_text, compare_text, tag):
 def tag_all_matches(text_line, matches, tag):
 
     new_text_line = text_line
-    # list sorted in reverse order so that HTML is inserted from right to left,
+    # List sorted in reverse order so that HTML is inserted from right to left,
     # so that insertion doesn't mess up character position numbers
     for match in sorted(matches, reverse=True):
         new_text_line = tag_single_match(new_text_line, match, tag)
@@ -355,19 +260,13 @@ def get_matches(orig_text, compare_text, printout=False):
     Uses simplified matches as described in functions below.
     Prints out the matching text if printout is True."""
 
-    # print orig_text
-    # print compare_text
     sm = difflib.SequenceMatcher(None, a=unicode(orig_text),
         b=unicode(compare_text), autojunk=False)
     output_list = simplify_match_list(sm.get_matching_blocks(), orig_text)
-    # ranges = simplify_match_list(sm.get_matching_blocks(), orig_text)
-    # output = [orig_text[r[0]:r[1]] for r in ranges if (r[1]-r[0] > 20)]
     total_match_length = reduce(
         (lambda x, y: x + (y[1] - y[0])), output_list, 0)
 
     if printout:
-        # for o in output:
-        #     print(o + '\n\n')
         for match_range in output_list:
             print orig_text[match_range[0]:match_range[1]] + '\n\n'
 
@@ -383,12 +282,7 @@ def simplify_match_list(matching_blocks, source):
     match_positions = get_match_positions(matching_blocks)
     simple_list = reduce(simplify_sequence, match_positions, [(0,0)])
     simple_list_stripped = [strip_junk(a, b, source) for (a, b) in simple_list]
-    # if (0,0) in simple_list_stripped:
-    #     simple_list_stripped.remove((0,0),)
-    # for i in simple_list_stripped:
-    #     if i[0] == i[1]
 
-    # return simple_list_stripped
     return [i for i in simple_list_stripped if (i[1] - i[0] > 25)]
 
 def simplify_sequence(x, y):
@@ -428,56 +322,23 @@ def strip_junk(start_pos, end_pos, source):
         return new_char_num
 
     text = source[start_pos:end_pos]
-    # strip_length = len(text) - len(text.lstrip('.,; '))
-    # print 'text'
-    # print text
     stripped = re.sub(r'^ {0,8}[-.,;*#\w\d]{0,2}[-.,;*#]\d? {0,4}', '', text,
         count=1, flags=re.M)
     stripped = stripped.lstrip() # Strip any whitespace still remaining
-    # print 'stripped'
-    # print stripped
-    # re.compile(r'\n {0,8}[-.*,;\w\d]{0,2}[-.*,;]\d? {0,4}', re.M)
     strip_length = len(text) - len(stripped)
     new_start_pos = start_pos + strip_length
     new_end_pos = end_pos
-    # Don't mess up bold beginnings in Markdown:
 
-    # print type(source)
-    # print len(source)
-    # print source[new_start_pos:end_pos]
-    # print source[new_start_pos-1]
-    # print source[new_start_pos-1].isalpha()
+    # Don't clip off the beginning of words:
     while source[new_start_pos-1].isalpha():
         new_start_pos -= 1
-    # while source[new_end_pos].isalpha():
-    #     new_end_pos += 1
-    # while source[new_start_pos-1].isalpha():
-    #     if source[new_start_pos].isalpha():
-    #         new_start_pos -= 1
 
+    # Don't clip off bold and italic tags:
     for snippet in ['**', '*', '<em>', '<strong>']:
         if source[new_start_pos-len(snippet):new_start_pos] == snippet:
             new_start_pos -= len(snippet)
-
-    # if source[new_start_pos-2:new_start_pos] == '**':
-    #     new_start_pos -= 2
-    # if source[new_start_pos-1:new_start_pos] == '*':
-    #     new_start_pos -= 1
-    # if source[new_start_pos-4:new_start_pos] == '<em>':
-    #     new_start_pos -= 4
-    # if source[new_start_pos-8:new_start_pos] == '<strong>':
-    #     new_start_pos -= 8
-
     for snippet in ['**', '*', '</em>', '</strong>']:
         if source[new_end_pos:new_end_pos+len(snippet)] == snippet:
             new_end_pos += len(snippet)
 
-
-    # add one or two asterisks back in
-
-    # return (start_pos + strip_length, end_pos)
     return (new_start_pos, new_end_pos)
-
-
-# reduce(lambda x, y: if y[0] - x[-1][1] , seq, [(0,0)])
-# reduce(simplify_sequence, seq, [(0,0)])
