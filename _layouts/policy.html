@@ -63,6 +63,7 @@ title: ''
 {% endif %}
 
 <!-- Select Open Data Policy Guideline to view highlighted -->
+{% if content contains '<span class="g-' %}
 <br>
 <div id="select-guideline">
   <p>Highlight text matching an <a href="/guidelines/">Open Data Policy Guideline</a>:</p>
@@ -72,6 +73,7 @@ title: ''
   </select>
   <p id="guideline-see-more"></p>
 </div>
+{% endif %}
 
 <!-- Main section -->
 <br>
