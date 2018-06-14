@@ -2,5 +2,5 @@
 layout: null
 ---
 City	State	Date	Type	Link
-{% assign acceptable = "wwc,nonwwc" | split: "," %}{% assign sunlight_docs = site.documents | where_exp: "item", "acceptable contains item.sunlight" | sort: "date" %}{% for doc in sunlight_docs %}{% assign the_place = site.places | where: "place", doc.place | first %}{{ the_place.title }}	{{ the_place.states | join: '-' }}	{{ doc.date | date: "%Y-%m-%d"}}	{{ doc.legal_custom }}	{{ doc.url | prepend: site.url }}
+{% assign acceptable = "wwc,nonwwc,wizard,prewwc" | split: "," %}{% assign sunlight_docs = site.documents | where_exp: "item", "acceptable contains item.sunlight" | sort: "date" %}{% for doc in sunlight_docs %}{% assign the_place = site.places | where: "place", doc.place | first %}{{ the_place.title }}	{{ the_place.states | join: '-' }}	{{ doc.date | date: "%Y-%m-%d"}}	{{ doc.legal_custom }}	{{ doc.url | prepend: site.url }}
 {% endfor %}
