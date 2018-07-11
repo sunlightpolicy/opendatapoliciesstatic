@@ -1,9 +1,9 @@
 ---
-id: public-participation
+code: public-participation
 number: 26
 name: Incorporate public perspectives into policy implementation
 section: how-to-implement-policy
-examples: 
+examples:
   - url: http://www6.montgomerycountymd.gov/apps/News/press/PR_details.asp?PrID=13107
     title: >-
       Montgomery County: Open Data Town Hall

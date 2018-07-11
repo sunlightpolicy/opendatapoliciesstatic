@@ -1,9 +1,9 @@
 ---
-id: license-free
+code: license-free
 number: 11
 name: Mandate data be explicitly license-free
 section: how-to-make-data-public
-examples: 
+examples:
   - url: http://theunitedstates.io/licensing/
     title: >-
       Sunlight's "Open Government Data Best-Practices Language for Making Data 'License-Free'"

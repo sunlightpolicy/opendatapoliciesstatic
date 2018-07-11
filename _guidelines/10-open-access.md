@@ -1,9 +1,9 @@
 ---
-id: open-access
+code: open-access
 number: 10
 name: Remove restrictions for accessing information
 section: how-to-make-data-public
-examples: 
+examples:
   - url: https://open.fda.gov/terms/
     title: >-
       United States: FDA Terms of Service

@@ -1,9 +1,9 @@
 ---
-id: prioritization
+code: prioritization
 number: 5
 name: Specify methods of determining the prioritization of data release
 section: what-data-should-be-public
-examples: 
+examples:
   - url: http://montgomerycountymd.gov/open/Resources/Files/OpenDataImplementationPlan_FY14.pdf
     title: >-
       Montgomery County: Open Data Implementation Plan, Appendix B – Dataset Scoring Methodology and Outreach

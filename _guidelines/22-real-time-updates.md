@@ -1,9 +1,9 @@
 ---
-id: real-time-updates
+code: real-time-updates
 number: 22
 name: Mandate ongoing data publication and updates
 section: how-to-make-data-public
-examples: 
+examples:
 ---
 
 <p>The ideal of online data is “real time” access: data should be made available as close as possible to the time that it is collected. It is not enough to mandate the one-time release of a data set, because it becomes incomplete as soon as additional data is created but not published. In order to ensure that the information published is as accurate and useful as possible, specific requirements should be put in place to make sure government data is released as close as possible to the time that it is gathered and collected.</p>

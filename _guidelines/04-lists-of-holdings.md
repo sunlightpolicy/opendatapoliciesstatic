@@ -1,9 +1,9 @@
 ---
-id: lists-of-holdings
+code: lists-of-holdings
 number: 4
 name: Create a public, comprehensive list of all information holdings
 section: what-data-should-be-public
-examples: 
+examples:
   - url: https://project-open-data.github.io/transportation-case-study/
     title: >-
       Department of Transportation Enterprise Data Inventory Case Study

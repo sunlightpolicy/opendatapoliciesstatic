@@ -1,9 +1,9 @@
 ---
-id: archival-material
+code: archival-material
 number: 17
 name: Require digitization and distribution of archival materials
 section: how-to-make-data-public
-examples: 
+examples:
 ---
 
 <p>Open data policies can address not only information currently or soon to be available in an electronic format, but also undigitized archival material. Examples include everything from old budgets or meeting minutes to photos and maps.</p>

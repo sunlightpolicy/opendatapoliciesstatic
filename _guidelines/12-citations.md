@@ -1,9 +1,9 @@
 ---
-id: citations
+code: citations
 number: 12
 name: Charge data-creating agencies with recommending an appropriate citation form
 section: how-to-make-data-public
-examples: 
+examples:
   - url: http://sunlightfoundation.com/blog/2014/03/26/dont-attribute-open-data-cite-it/
     title: >-
       Sunlight's "Don't attribute open data — cite it!"

@@ -1,9 +1,9 @@
 ---
-id: partnerships
+code: partnerships
 number: 30
 name: Create or explore potential partnerships
 section: how-to-implement-policy
-examples: 
+examples:
   - url: http://opengovhacknight.org/resources.html
     title: >-
       Regional — Open Gov Hacknight Resources

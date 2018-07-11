@@ -1,9 +1,9 @@
 ---
-id: public-apis
+code: public-apis
 number: 20
 name: Create public APIs for accessing information
 section: how-to-make-data-public
-examples: 
+examples:
   - url: http://18f.github.io/API-All-the-X/
     title: >-
       United States: API Resources for Federal Agencies

@@ -1,9 +1,9 @@
 ---
-id: data-quality
+code: data-quality
 number: 28
 name: Create processes to ensure data quality
 section: how-to-implement-policy
-examples: 
+examples:
   - url: https://data.ny.gov/dataset/Open-NY-One-Year-Report-March-2014/smp8-sauy
     title: >-
       New York: Open NY One Year Report, 2014

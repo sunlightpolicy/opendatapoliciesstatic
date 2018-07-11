@@ -1,9 +1,9 @@
 ---
-id: sensitive-information
+code: sensitive-information
 number: 7
 name: Appropriately safeguard sensitive information
 section: what-data-should-be-public
-examples: 
+examples:
   - url: http://web.archive.org/web/20141107032833/https://www.data.gov/sites/default/files/attachments/Privacy%20and%20Security%20Checklist.pdf
     title: >-
       United States: National/Homeland Security and Privacy/Confidentiality Checklist and Guidance

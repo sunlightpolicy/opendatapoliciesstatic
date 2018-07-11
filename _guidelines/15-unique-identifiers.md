@@ -1,9 +1,9 @@
 ---
-id: unique-identifiers
+code: unique-identifiers
 number: 15
 name: Mandate the use of unique identifiers
 section: how-to-make-data-public
-examples: 
+examples:
   - url: http://sunlightfoundation.com/blog/2014/03/20/a-little-math-could-make-identifiers-a-whole-lot-better/
     title: >-
       Sunlight's "A little math could make identifiers a whole lot better"

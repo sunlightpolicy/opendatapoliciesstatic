@@ -1,9 +1,9 @@
 ---
-id: build-on-precedent
+code: build-on-precedent
 number: 2
 name: Reference and build on existing public accountability and access policies
 section: what-data-should-be-public
-examples: 
+examples:
 ---
 
 <p>Open data policies should be informed by existing provisions ensuring access to government information. Strong open data policies build upon the principles embodied by existing laws and policies that defend and establish public access, often defining standards for information quality, disclosure and publishing. Examples of accountability policies include open meetings acts, open records acts, ethics standards, campaign finance regulation and lobbying disclosure laws, to name a few. Building on precedent from these policies and others can help strengthen new open data requirements and inform where policy updates or revisions are necessary that an open data policy can address.</p>

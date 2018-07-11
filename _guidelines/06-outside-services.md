@@ -1,9 +1,9 @@
 ---
-id: outside-services
+code: outside-services
 number: 6
 name: Stipulate that provisions apply to contractors or quasi-governmental agencies
 section: what-data-should-be-public
-examples: 
+examples:
   - url: http://playbook.cio.gov/#play13
     title: >-
       United States: Digital Services Playbook

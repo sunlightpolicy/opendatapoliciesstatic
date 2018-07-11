@@ -1,9 +1,9 @@
 ---
-id: open-formats
+code: open-formats
 number: 8
 name: Mandate data formats for maximal technical access
 section: how-to-make-data-public
-examples: 
+examples:
   - url: http://cityofnewyork.github.io/opendatatsm/publicstandards.html
     title: >-
       New York City: Technical Standards Manual — Public Standards

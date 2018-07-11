@@ -1,9 +1,9 @@
 ---
-id: oversight-authority
+code: oversight-authority
 number: 24
 name: Create or appoint oversight authority
 section: how-to-implement-policy
-examples: 
+examples:
   - url: http://sunlightfoundation.com/blog/2014/03/28/an-open-data-ombudsman-and-rethinking-oversight-authorities/
     title: >-
       Sunlight's "An Open Data Ombudsman and rethinking oversight authorities"

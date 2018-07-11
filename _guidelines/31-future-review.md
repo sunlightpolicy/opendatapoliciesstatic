@@ -1,9 +1,9 @@
 ---
-id: future-review
+code: future-review
 number: 31
 name: Mandate future review for potential changes to this policy
 section: how-to-implement-policy
-examples: 
+examples:
 ---
 
 <p>Just as publishing open data is an ongoing process that requires attention to its quality and upkeep (see <a href="http://sunlightfoundation.com/opendataguidelines/#data-quality">Provision 28</a>), so too does the policy that establishes it. In order to keep up with current best practices and feedback from existing policy oversight, open data policies should mandate future review of the policy itself as well as of any guidance created by the policy or other implementation processes.</p>

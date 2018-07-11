@@ -1,9 +1,9 @@
 ---
-id: metadata
+code: metadata
 number: 13
 name: Require publishing metadata
 section: how-to-make-data-public
-examples: 
+examples:
   - url: https://docs.google.com/document/d/1dz_-yWePLvfNPX8KZRn2SiP1SCpFcojZeO-8U8SPXgE/edit
     title: >-
       DataSF's "Metadata: Existing Practices and Survey"

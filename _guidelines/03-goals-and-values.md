@@ -1,9 +1,9 @@
 ---
-id: goals-and-values
+code: goals-and-values
 number: 3
 name: Build on the values, goals and mission of the community and government
 section: what-data-should-be-public
-examples: 
+examples:
   - url: http://sunlightfoundation.com/blog/2013/03/05/greetings-from-opendata-land/
     title: >-
       Sunlight's "Whereas, Open Data" Roundup

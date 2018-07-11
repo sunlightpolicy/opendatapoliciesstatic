@@ -1,9 +1,9 @@
 ---
-id: timelines
+code: timelines
 number: 27
 name: Set appropriately ambitious timelines for implementation
 section: how-to-implement-policy
-examples: 
+examples:
   - url: https://data.montgomerycountymd.gov/Community/dataMontgomery-Dataset-Publishing-Plan/c3dr-fnib
     title: >-
       Montgomery County: 2014 Dataset Publishing Plan
