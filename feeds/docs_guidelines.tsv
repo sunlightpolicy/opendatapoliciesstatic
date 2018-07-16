@@ -1,6 +1,6 @@
 ---
 layout: null
 ---
-Doc ID  City  State Place ID  Date Legal means  URL{% for guideline in site.guidelines %} {{ guideline.number }}{% endfor %}
-{% for doc in site.documents %}{{ doc.id | remove: "/doc/" }} {% assign the_place = site.places | where: "place", doc.place | first %}{{ the_place.title }}  {{ the_place.states | join: '-' }}  {{ doc.place }} {{ doc.date | date: "%Y-%m-%d"}}  {{ doc.legal_custom }}  {{ doc.url | prepend: site.url }}{% for guideline in site.guidelines %}  {% assign guideline_string = '<span class="g-' | append: guideline.code | append: '">' %}{% if doc.content contains guideline_string %}1{% else %}0{% endif %}{% endfor %}
+Doc ID	City	State	Place ID	Date	Legal means	URL{% for guideline in site.guidelines %}	{{ guideline.number }}{% endfor %}
+{% for doc in site.documents %}{{ doc.id | remove: "/doc/" }}	{% assign the_place = site.places | where: "place", doc.place | first %}{{ the_place.title }}	{{ the_place.states | join: '-' }}	{{ doc.place }}	{{ doc.date | date: "%Y-%m-%d"}}	{{ doc.legal_custom }}	{{ doc.url | prepend: site.url }}{% for guideline in site.guidelines %}	{% assign guideline_string = '<span class="g-' | append: guideline.code | append: '">' %}{% if doc.content contains guideline_string %}1{% else %}0{% endif %}{% endfor %}
 {% endfor %}
