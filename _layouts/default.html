@@ -19,7 +19,7 @@
   <meta name="title" content="{{the_title}}">
   <title>{{ the_title }}</title>
 
-  <link rel="home" title="Home" href="{{base}}/" />
+  <link rel="home" title="Home" href="{{ site.baseurl }}/" />
 
   {% include head.html %}
 
@@ -40,14 +40,14 @@ inside
   <div id="container"><!-- Hack for footer lock -->
   <header id="page_header">
     <div class="nest">
-      <a href="{{base}}" class="noprint">
+      <a href="{{ site.baseurl }}" class="noprint">
         <div id="place_logo">
           <h1>{{site.title}}</h1>
           <h2>{{site.subtitle}}</h2>
         </div>
       </a>
       <section id="search-form" class="search">
-        <form id="search_form" method="get" action="{{base}}/search/">
+        <form id="search_form" method="get" action="{{ site.baseurl }}/search/">
           <div class="form_field text_field_container">
             <label for="search">Search the code by keyword, phrase, or title</label>
             <input type="search" name="q" value="{{search_terms}}" id="search" placeholder="Search the policies">
@@ -66,13 +66,13 @@ inside
       <div class="nest">
         <ul>
           <li>
-            <a href="{{base}}/browse/" id="browse">Browse</a>
+            <a href="{{ site.baseurl }}/browse/" id="browse">Browse</a>
           </li>
           <li>
-            <a href="{{base}}/about/" id="about">About Us</a>
+            <a href="{{ site.baseurl }}/about/" id="about">About Us</a>
           </li>
           <li>
-            <a href="{{base}}/downloads/" id="downloads">Downloads</a>
+            <a href="{{ site.baseurl }}/downloads/" id="downloads">Downloads</a>
           </li>
         </ul>
       </div> <!-- // .nest -->
@@ -90,7 +90,7 @@ inside
           <h1>{% include placename.html doc_page=page %}</h1>
           <h2>{% include placedoc.html doc_page=page %}</h2>
         {% elsif page.layout == 'guideline' %}
-          <h3><a href="{{base}}/guidelines/">Open Data Policy Guidelines</a> » Guideline {{ page.number }}</h3>
+          <h3><a href="{{ site.baseurl }}/guidelines/">Open Data Policy Guidelines</a> » Guideline {{ page.number }}</h3>
           <h1>{{ the_title }}</h1>
         {% else %}
           <h1>{{ the_title }}</h1>
