@@ -4,7 +4,7 @@ title: Browse our collection of open-data policies
 ---
 
 <div style="padding:0 25px;"><div id="mapid" style="border:1px solid #fff; width:100%; height:500px;"></div></div>
-<script type="text/javascript" src="../../assets/js/open-data-map.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/open-data-map.js"></script>
 
 *Red markers indicate [What Works Cities](https://whatworkscities.bloomberg.org/cities/).*
 
