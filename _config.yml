@@ -23,7 +23,7 @@ credits: >
   This work by the Sunlight Foundation, unless otherwise noted, is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a>.
   <br>Design by <a href="http://www.meticulous.com">Meticulous</a>.
 
-baseurl: ""
+baseurl: "/opendatapoliciesstatic"
 permalink: ":title/"
 
 # Markdown settings
