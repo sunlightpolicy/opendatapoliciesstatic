@@ -1,7 +1,7 @@
 ---
 layout: default
 redirect_to:
-- /browse/
+- https://sunlightpolicy.github.io/opendatapoliciesstatic/browse/
 ---
 
 <!-- UNCOMMENT TO DISPLAY AN INTRODUCTORY VIDEO HERE
@@ -15,7 +15,7 @@ redirect_to:
       </div>
     </div>
   </div>--> <!-- // .nest -->
-  
+
 <!-- redirect to Browse page, because it looks a lot better than the home page -->
 <script>
 window.onload = function () {
@@ -29,15 +29,15 @@ window.onload = function () {
         <h1 style="margin-left:20px">Discover open-data policies</h1>
       </hgroup>
       <p>{{ site.description }}</p>
-      <p>We are continuously improving this site. 
+      <p>We are continuously improving this site.
       Check out this project <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic">on GitHub</a> and
       feel free to <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/issues">
       open an issue</a> or <a href="https://github.com/sunlightpolicy/opendatapoliciesstatic/pulls">
       submit a pull request</a>!</p>
-      <img src="/assets/images/wwc-resource-stamp.png" align="left" alt="What Works Cities resource stamp" width="100" 
+      <img src="/assets/images/wwc-resource-stamp.png" align="left" alt="What Works Cities resource stamp" width="100"
       style="margin-left:20px;margin-right:20px">
-      <p>This site was developed by the <a href="http://www.sunlightfoundation.com">Sunlight Foundation</a> with support 
-      from the <a href="http://whatworkscities.bloomberg.org/">What Works Cities</a> project of 
+      <p>This site was developed by the <a href="http://www.sunlightfoundation.com">Sunlight Foundation</a> with support
+      from the <a href="http://whatworkscities.bloomberg.org/">What Works Cities</a> project of
       <a href="http://www.bloomberg.org/">Bloomberg Philanthropies</a>.</p>
     </section> <!-- // .feature -->
     <section class="secondary-content">
